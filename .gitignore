@@ -1,0 +1,35 @@
+# Secrets & credentials
+client_secret*.json
+*.dev.vars
+.dev.vars
+**/.dev.vars
+
+# Claude local settings
+**/.claude/settings.local.json
+.claude/settings.local.json
+
+# Codex hooks (local tooling)
+**/.codex/
+
+# Python venv
+.graphify-venv/
+
+# Node
+**/node_modules/
+node_modules/
+
+# Generated outputs
+**/graphify-out/
+graphify-out/
+
+# Internal docs (not for public repo)
+AGENTS.md
+**/AGENTS.md
+Security.md
+REBUILD_PLAN.md
+CHANGES.md
+
+# Build artifacts
+**/dist/
+dist/
+**/.wrangler/

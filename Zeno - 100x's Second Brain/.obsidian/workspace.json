@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "7e9cc1a567f1b0fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "31dc60056ae340fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1cd8f88f2ad35b8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ba9f2530ab75531",
+    "type": "split",
+    "children": [
+      {
+        "id": "c688559477951472",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b511ebe1de46e6a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3296e65c98750535",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e359bb0eab14d913",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 479.5
+  },
+  "right": {
+    "id": "19b07a288fc09879",
+    "type": "split",
+    "children": [
+      {
+        "id": "466170277c2f81e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29bc551ddd904106",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "80cfd08bf7c47aae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "fc746f8de77654e3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d2ddc58f46dc917f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a9513dcad5716fc5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a1cd8f88f2ad35b8",
+  "lastOpenFiles": [
+    "wiki/entities/andrej-karpathy.md",
+    "wiki/entities/sridev.md",
+    "wiki/entities/siddhant.md",
+    "wiki/entities/100x-engineers.md",
+    "templates/synthesis.md",
+    "templates/source.md",
+    "templates/entity.md",
+    "templates/concept.md",
+    "wiki/synthesis/full-cohort-decision-framework.md",
+    "wiki/synthesis/llm-optimization-decision-tree.md",
+    "wiki/entities/cursor-ai.md",
+    "100x knowledge base/Zeno-Second-Brain-Setup-Doc.md",
+    "wiki/concepts/replicate-deployment.md",
+    "wiki/concepts/llm-cost-economics.md",
+    "wiki/concepts/tool-calling-architecture.md",
+    "wiki/synthesis/agent-vs-workflow-economics.md",
+    "wiki/synthesis/production-failure-analysis.md",
+    "wiki/synthesis/module2-architecture-philosophy.md",
+    "wiki/synthesis/ai-knowledge-management.md",
+    "wiki/concepts/ppt-framework.md",
+    "wiki/concepts/opt-framework.md",
+    "wiki/entities/langflow.md",
+    "wiki/entities/cognition-devin.md",
+    "wiki/entities/autogen-microsoft.md",
+    "wiki/entities/openai-swarm.md",
+    "wiki/entities/llama-guard.md",
+    "wiki/index.md.tmp.21048.1775916542205",
+    "raw/courses/Six Easy Pieces for Full-Stack LLM Applications_mod 2.txt",
+    "raw/courses/Connecting the LLM Dots with First Principles_mod 2.txt",
+    "image.png",
+    "raw/course",
+    "raw/clippings",
+    "raw/Clippings",
+    "raw/courses/100x-cohort7-data-doc.txt",
+    "templates",
+    "wiki/synthesis",
+    "wiki/sources",
+    "100x knowledge base/Untitled.canvas"
+  ]
+}

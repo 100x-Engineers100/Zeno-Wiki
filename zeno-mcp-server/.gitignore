@@ -1,0 +1,6 @@
+node_modules/
+dist/
+bulk-upload.json
+worker-configuration.d.ts
+.wrangler/
+.dev.vars

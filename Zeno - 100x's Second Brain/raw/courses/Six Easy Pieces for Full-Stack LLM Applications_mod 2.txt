@@ -1,0 +1,252 @@
+﻿Six Easy Pieces for Full-Stack LLM Applications
+A first-principles guide to building complete applications that talk to AI
+________________
+
+
+A Note to the Reader
+This document covers the same ground as a traditional full-stack development course, but it follows a different path. Instead of listing technologies and showing you how to use them, we ask a series of simple questions. Each answer reveals why a particular concept exists, and why it must exist, before we ever name it.
+By the end, you will understand how to build a complete application where a user types a question, an AI answers it, and the conversation is remembered. More importantly, you will understand why every piece is shaped the way it is.
+The six pieces are:
+1. The Screen and the Machine — What a user interface is and why it must be separate from everything else
+2. The Conversation — How two programs talk to each other across the internet
+3. The Contract — What an API is, how it differs from HTTP, and what makes a REST API
+4. The Memory — Why applications need databases and how data gets structured
+5. The Connections — How all these pieces wire together into a working system
+6. The Whole Thing — Building the complete application, end to end
+________________
+
+
+Piece 1: The Screen and the Machine
+The simplest possible application
+Imagine you want to build something very simple: a box where someone types a question, and an answer appears below it.
+If you were building it for yourself, running on your own computer, you could write a simple function that takes text in and gives text back. Done.
+But the moment you want someone else to use it, something changes. That other person does not have your computer. They do not have your software installed. They might be on a phone. They need to reach your program through a web browser.
+This is where a single program must become at least two. One draws the box and the button on the screen, running inside the user's browser. The other does the actual thinking, running on your machine or on a server somewhere on the internet.
+This split is not a design choice. It is a consequence of the physical fact that the user and the machine are in different places.
+Why this matters more than it seems
+Once you accept this split, everything else follows. The screen-drawing program needs to send the user's question somewhere. The thinking program needs to receive that question, do something with it, and send an answer back. They communicate over the internet, which means they need an agreed-upon way to package and send messages.
+We have just discovered, from a single practical constraint, the fundamental architecture of every web application:
+* Something that handles what the user sees and touches (the interface)
+* Something that processes the request (the server)
+* A way for them to communicate (explored in Piece 2)
+There is a third piece we have not discovered yet. It will emerge naturally in Piece 4 when we ask: what happens when the user closes the browser and comes back tomorrow?
+The interface and the logic are deliberately separate
+A tool like Gradio lets you build an entire chat interface without designing it from scratch. You describe what your function does, and it generates the text box, the button, the response area, and all the visual styling automatically.
+The deeper point here is not the tool. It is the principle: by separating the interface from the logic, you can build and test each piece independently. You can get the screen looking exactly right with a placeholder function, then swap in real intelligence later. The interface stays the same. Only what happens inside changes.
+A note about "memory in the browser"
+When a chat interface keeps track of what you said earlier in a session, that history lives in the browser tab. Close the tab or refresh the page, and it vanishes. This is not real memory. It is temporary bookkeeping. We will solve this properly in Piece 4 with a database.
+Making it available to others
+Right now your application runs on your computer. If you close the program, it disappears. To let other people use it, you need to put it on a computer that is always running and connected to the internet. Platforms like Hugging Face Spaces do this for you: you upload your application, it installs everything needed to run it, and gives you a public address that anyone can visit.
+What we have built so far
+We have one piece of the system: the interface. It can take input from a user and display output. It does not yet connect to any AI model, and it does not remember anything once you close the page. Both of those limitations will become the motivation for the next pieces.
+________________
+
+
+Piece 2: The Conversation
+The problem of distance
+Your chat interface is running. A user types a question. Now that question needs to reach an AI model that can answer it. But the AI model is not inside your application. It lives on a server run by Anthropic, or OpenAI, or Google, somewhere else on the internet.
+So your program needs to send a message to another program across the internet and get a message back.
+This is not unique to AI. When you open a weather app, your phone sends a request to a weather service's server and gets forecast data back. When you pay for something online, your browser sends payment details to Stripe's server and gets a confirmation back. When Google Maps shows you traffic, it is requesting data from another server. The entire internet is programs sending messages to other programs.
+HTTP: the postal system of the internet
+Imagine you want to send a physical letter. You need an envelope, the recipient's address, the letter inside, and a postal system to carry it.
+HTTP is the postal system of the internet. It is the set of rules governing how any two programs send messages to each other over the web. Just as the postal system does not care whether your envelope contains a love letter or a tax return, HTTP does not care what your programs are talking about. It just defines the envelope format and how delivery works.
+An HTTP message has three parts:
+The address (URL). Every service on the internet has an address. When you want to ask an AI model to generate a response, you send your message to a specific URL. The address tells the internet's routing system exactly which computer, and which program on that computer, should receive your message.
+The method. You need to tell the receiving program what kind of action you want. HTTP defines a handful of standard actions:
+* GET — "Give me some information." Your browser does this every time you visit a website. A weather app does this to fetch the forecast.
+* POST — "Here is some new information, please process it." Submitting a sign-up form. Sending a message to a chatbot. Making a payment.
+* PUT — "Replace this information entirely." Overwriting your entire profile with a new version.
+* PATCH — "Update part of this information." Changing just your email address while leaving everything else untouched.
+* DELETE — "Remove this information." Deleting a post. Canceling a subscription.
+The body. The actual information you are sending. If you are asking an AI model to answer a question, the body is the question itself. If you are creating a new user account, the body is the user's name and email.
+This body needs a format that both programs understand. The format almost everyone uses is called JSON. Think of it as a structured way to write labeled information, like a very organized form. It uses labels paired with values, grouped together in a consistent way that any programming language in the world can read and write. This is why it became the universal format.
+The response
+When the receiving program processes your message, it sends one back, containing two things:
+A status code that tells you what happened. Numbers in the 200s mean success. Numbers in the 400s mean you made a mistake (bad format, wrong address, missing permission). Numbers in the 500s mean something went wrong on their end. The most important ones to know: 200 means everything worked, 404 means the address does not exist, 429 means you sent too many requests too quickly, and 500 means their system had a problem.
+The data itself, also formatted as JSON.
+The complete round trip
+The full cycle:
+1. Your program constructs a message: a destination (URL), an action type (method), and content (body)
+2. It sends the message over the internet
+3. The receiving program processes it
+4. The receiving program sends back a status code and response data
+5. Your program acts on the response, like displaying the AI's answer
+This is HTTP. Every interaction between programs on the internet rides on top of it.
+But HTTP alone only tells you how to send the envelope. It does not tell you what to put inside. Send a letter to the wrong department with the wrong form filled out, and HTTP will carry it faithfully. You will just get back an error saying they have no idea what you are talking about.
+You need an agreement about what goes inside the envelope.
+________________
+
+
+Piece 3: The Contract
+From delivery to agreement
+HTTP gives you the ability to send messages between programs. But having a postal system does not mean you know how to fill out someone else's forms.
+When you send a letter to a friend, you can write whatever you want. But when you fill out a government form, the format is strict: specific fields, specific types of information, specific rules. Put your phone number where your name should go, and the form gets rejected.
+Programs talking to each other are like government forms, not letters to friends. The receiving program can only process messages structured in exactly the way it expects. There must be an explicit agreement: what information to include, what type each field must be, which fields are required, and what comes back.
+This agreement is called an API (Application Programming Interface). The word "interface" is key: it is the surface where two programs touch, the point of contact, the contract.
+HTTP vs. API: the critical distinction
+This is where many beginners get confused, so let us be precise.
+HTTP is the delivery mechanism. It defines how to send a message over the internet. HTTP is general-purpose. It does not know or care what your application does.
+An API is the contract for a specific service. It defines what messages that service accepts, what they mean, and what you get back.
+HTTP is the postal system. An API is the set of forms a specific organization accepts. The postal system carries any envelope. The tax office only processes tax forms. HTTP carries any message. OpenAI's API only processes messages structured according to OpenAI's rules.
+A concrete example: both Stripe (payments) and OpenAI (AI) use HTTP. But their APIs are completely different. To charge a customer on Stripe, you use different fields than you would to ask an AI a question. Same postal system, completely different forms.
+Every web API uses HTTP as its delivery mechanism. But knowing HTTP does not tell you how to use any particular API, just as knowing how the postal system works does not tell you how to fill out a tax return.
+What a contract looks like
+An API contract specifies, for each action you can take:
+* The address (which URL to send the message to)
+* The method (GET, POST, PUT, PATCH, or DELETE)
+* The request format (what fields to include, which are required, what type of information each field expects)
+* The response format (what the answer will look like when it comes back)
+* Authentication (how to prove you are allowed to use this service)
+When you send a message to an AI model's API, for instance, the contract tells you: send a POST request to this address, include a field specifying which model you want to use, include a list of messages with each message labeled as either "user" or "assistant", and the response will come back in this structure with the answer inside a specific nested field. Omit a required field or send the wrong type of data, and you get an error back.
+REST: a style of designing APIs
+When you build your own application, you need to design your own API contracts. You could structure them however you want, but most developers follow a set of conventions called REST (Representational State Transfer).
+REST is not a different technology from HTTP or APIs. It is a design style for APIs. HTTP is the postal system, an API is the set of forms a service accepts, and REST is a set of best practices for designing those forms so they are consistent and intuitive.
+The core principle: think about the things (resources) in your application, use URLs to name them, and use HTTP methods to describe what you want to do with them.
+Consider a note-taking app. The main resource is a "note." You would design the API so that:
+* Getting all notes uses GET at the notes address
+* Creating a new note uses POST at the notes address
+* Getting one specific note uses GET at the notes address followed by that note's identifier
+* Replacing a specific note uses PUT
+* Updating part of a specific note uses PATCH
+* Deleting a specific note uses DELETE
+The pattern is: addresses are nouns (the things), HTTP methods are verbs (the actions). This is the core REST convention.
+When someone says "REST API," they mean an API that follows these conventions. The OpenAI API is a REST API. So is Stripe's, GitHub's, Twitter's, and Spotify's. Most APIs you will encounter follow this pattern.
+The three layers, summarized
+Concept
+	What it is
+	Analogy
+	HTTP
+	The delivery mechanism. Rules for sending messages between programs over the internet.
+	The postal system
+	API
+	The contract for a specific service. What messages it accepts, what they mean, what it returns.
+	The forms a specific office accepts
+	REST
+	A style of designing APIs. Conventions for making contracts predictable and consistent.
+	Best practices for how to design those forms
+	HTTP is universal (the same for every service). An API is specific (different for every service). REST is a design philosophy (a set of conventions most APIs follow).
+Why contracts matter so much
+Contracts are what make it possible for programs to work together reliably. When you publish your API contract, any program in the world can communicate with your application without the developers ever meeting each other. Stripe does not know who you are, but your application can charge credit cards through their API because the contract is public and precise.
+For AI applications specifically, contracts let you swap out components. If your interface talks to your server through a well-defined API, you can switch the AI model without touching the interface, build a mobile app that reuses the same server, or let other developers build on your service. The contract is the boundary that gives you freedom on both sides.
+Documentation: the contract made readable
+Every good API comes with documentation that explains the contract in human-readable form. The documentation is not supplementary material. It is the primary artifact. The code implements the contract, but the documentation is the contract itself.
+________________
+
+
+Piece 4: The Memory
+The problem of forgetting
+Your application can now talk to an AI model through an API. A user types a question, gets an answer. This works.
+But now the user closes the browser. The next day, they come back. Everything is gone.
+This is the same problem every application faces. Think about what a chat application would be like if it forgot every conversation the moment you closed the tab. Or what a music platform would be like if it lost your playlists overnight. Or what an online store would be like if it forgot your cart every time you left the page.
+Without memory:
+* The chatbot cannot recall previous sessions
+* You cannot tell one user from another
+* You cannot save preferences
+* You have no record of what happened — no debugging, no analytics, no improvement
+You need information that persists when the server restarts, when the browser closes, when the power goes out. You need a database.
+What a database actually is
+A database is a program whose sole job is storing and retrieving data reliably. You send it data, it saves it. You ask for data, it gives it back. It guarantees that what you stored is what you get back, even if the power fails in between.
+The most common kind organizes data into tables, which look exactly like spreadsheets. Each table has columns (what kind of information) and rows (one record each).
+A table for users might have columns for a unique identifier, a name, an email address, and the date they created their account. Each row is one user.
+A table for conversations might have columns for a unique identifier, which user this conversation belongs to, and when the conversation started. Each row is one conversation.
+A table for messages might have columns for a unique identifier, which conversation this message belongs to, the content of the message, whether it was sent by the user or by the AI, and when it was sent. Each row is one message.
+Why structure matters
+You might wonder: why not just save everything in a text file?
+Because structure gives you power. With a structured database, you can ask: "Show me all conversations by this particular user," "How many new users signed up this month?", or "What was the last message in this conversation?" A text file cannot answer these efficiently. A database can, because it knows the shape of your data and can index and search it accordingly.
+Figuring out what to store
+Before creating tables, you need to figure out what the "things" in your application are. This is similar to what we did when designing API contracts: identify the nouns.
+For a chatbot application, the things are:
+* Users (people who use the app)
+* Conversations (a session between a user and the AI)
+* Messages (individual messages within a conversation)
+Each thing becomes a table. For each table, you decide what information to store (the columns). And then you figure out how the tables connect to each other.
+How tables connect to each other
+The connections between tables follow a simple logic:
+One user has many conversations. A single user might have started five different chats over the course of a week. This means the conversations table needs a column that points back to the users table, indicating which user this conversation belongs to.
+One conversation has many messages. A single chat session contains many messages back and forth. So the messages table needs a column that points back to the conversations table.
+These connections are called relationships. The column that points to another table is called a foreign key, because it is a key that refers to a different (foreign) table.
+There are three types of relationships you will encounter:
+* One-to-many: One user has many conversations. This is by far the most common.
+* One-to-one: One user has one profile. Less common, but straightforward.
+* Many-to-many: Many students enroll in many courses. One student can be in multiple courses, and one course can have multiple students. This requires a third table to track which students are in which courses. You may not need this in a chatbot, but you will encounter it in other applications.
+Talking to the database
+You communicate with a relational database using a language called SQL (Structured Query Language). SQL reads almost like English:
+* To store a new user, you INSERT their name and email into the users table
+* To find all of a particular user's conversations, you SELECT from the conversations table WHERE the user identifier matches
+* To update a user's name, you UPDATE the users table SET the name field WHERE the identifier matches
+* To remove a conversation, you DELETE from the conversations table WHERE the identifier matches
+Notice that these four operations — create, read, update, delete — are the same four operations we saw with APIs: POST, GET, PUT, DELETE. This is not a coincidence. The pattern of "create, read, update, delete" applies to almost everything in software. It is the complete set of things you can do with stored information.
+Keeping data safe: Row Level Security
+There is a critical concern the moment you store user data: who can see what?
+One user's conversations and another user's conversations live in the same table. Without rules, any query to that table could return everyone's data. In a traditional setup, your server code would need to manually filter results every single time: "only return rows where the user matches the logged-in user." But if you forget that filter in even one place, or a bug skips it, you have a data leak.
+Row Level Security (RLS) solves this by moving the access control from your application into the database itself. Instead of hoping every query includes the right filter, you tell the database once: "Users can only see rows that belong to them." The database enforces this on every query automatically. Even if your application forgets to filter, the database will not return someone else's data.
+You define rules like: "When someone reads from the messages table, only show them messages where the user identifier matches the currently logged-in user." The database checks this rule invisibly on every single read, with no extra effort from you.
+You can create separate rules for different operations: one rule for reading data, another for creating data, another for deleting. This means a user cannot insert a message that claims to belong to someone else, cannot read someone else's messages, and cannot delete someone else's conversations, all enforced at the database level rather than scattered throughout your application code.
+This matters enormously in practice. Think about a business software product where many companies share the same database but must never see each other's data. RLS is what makes that possible at the foundation, rather than relying on every developer to remember the right filter in every query.
+________________
+
+
+Piece 5: The Connections
+Seeing the whole picture
+We now have all the pieces. Let us trace a single user action through the entire system to see how they connect.
+Step 1. The user types "What is photosynthesis?" and presses send.
+Step 2. The interface captures the text and sends a POST request to your server. The request contains the message and proof of who the user is.
+Step 3. Your server receives the request and does three things: verifies the user's identity, saves the message to the database so it persists, then forwards the question to the AI model by making a POST request to the AI provider's API.
+Step 4. The AI model processes the question and returns a response.
+Step 5. Your server receives the AI's response, saves it to the database so the conversation history is complete, and sends the response back to the interface.
+Step 6. The interface displays the AI's answer to the user.
+If the user closes the browser and comes back tomorrow, they click on their conversation, and the interface asks the server for the history. The server queries the database, gets all the messages, and sends them back. The conversation is restored exactly as they left it.
+That is the entire system. Everything else is detail.
+The architecture, in plain terms
+Picture it like a relay:
+The user's browser contains the interface. It only knows how to display things and send messages. It never talks directly to the AI model or the database.
+Your server sits in the middle. It receives requests from the interface, authenticates the user, talks to the AI model, and talks to the database. It is the only part that holds all the connections together.
+The AI model (hosted by Anthropic, OpenAI, or another provider) receives questions from your server and returns answers. It does not know who the user is, what interface they are using, or that a database exists.
+The database stores everything that needs to persist. Your server reads from and writes to it. The interface never touches it directly.
+Every connection between these pieces is a structured conversation: a request goes out, a response comes back, in an agreed-upon format. The interface talks to your server through your API. Your server talks to the AI model through the provider's API. Your server talks to the database through a database client. Different protocols, same pattern: structured request in, structured response out.
+Why this structure gives you power
+This architecture lets you change pieces independently.
+Want to switch from one AI provider to another? Change the API call in your server. The interface and database are untouched.
+Want to replace the chat interface with a mobile app? Build it against the same server API. The server and database stay the same.
+Want to move to a different database? Change the database calls in your server. Everything else is unchanged.
+Each piece connects through contracts, and contracts are boundaries. As long as the contract stays the same, either side can change however it wants. This is the same reason USB works: your computer does not care what brand of keyboard you plug in, because both sides follow the same contract.
+Choosing the right level of complexity
+You do not need all of these pieces on day one. Build in layers:
+Interface only. Start with a placeholder that just repeats back what you type. Make sure the interface feels right.
+Add the AI. Replace the placeholder with a real API call. Now your chatbot answers questions, but forgets everything.
+Add the database. Store conversations, add user accounts, implement memory. Now the application is complete.
+Each step reveals the need for the next. You do not add a database because someone told you to. You add it because your application cannot remember things and you need it to.
+________________
+
+
+Piece 6: The Whole Thing
+What you now know
+You understand:
+* The interface must be separate from the logic because the user and the machine are in different places
+* Programs communicate via HTTP: structured messages with a destination, an action type, and content — and structured responses with a status code and data
+* APIs are contracts that define what a specific service accepts and returns; REST is the most common style for designing these contracts
+* Databases provide persistent storage so applications remember things across sessions
+* Tables, relationships, and Row Level Security organize and protect data
+* The entire system is programs sending messages to other programs through well-defined contracts
+This is the complete mental model. Everything else you encounter — caching layers, load balancers, message queues — is a variation on these themes.
+How all the pieces connect in one flow
+Let us trace the complete journey one final time, naming every piece:
+1. A user opens the application in their browser. The interface loads.
+2. They type a question and press send. The interface packages it as a POST request (HTTP) and sends it to your server's address (API contract).
+3. Your server receives it, checks the user's identity, and saves the message to the database (using SQL, with Row Level Security ensuring only the right user can access their data).
+4. The server then sends its own POST request to the AI provider's API (another HTTP call, another contract), this time including the conversation history it retrieved from the database.
+5. The AI model processes everything and returns a response.
+6. The server saves the AI's response to the database, then sends it back to the interface.
+7. The interface displays the answer. The conversation is visible, and tomorrow it will still be there.
+Every piece we explored — the interface, HTTP, the API contract, the database, the relationships, the security — is present in that seven-step flow.
+________________
+
+
+The Deepest Lesson
+The most important thing in this document is not any specific technology. It is the method of thinking.
+When you encounter a new technology, do not start by learning its features. Start by asking: what problem does this solve?
+Interfaces exist because users cannot run your code directly. APIs exist because programs on different machines need a standardized way to talk. Databases exist because information needs to survive beyond a single session. Row Level Security exists because not everyone should see everything.
+Every technology is an answer to a question. Find the question first.
+When you build your own applications, follow the same principle. Do not start with "I need a database." Start with "my application needs to remember things." Do not start with "I need an API." Start with "my interface needs to talk to my server." The problems will lead you to the right solutions, and you will understand those solutions deeply because you arrived at them yourself.
+This is how you move from someone who uses tools to someone who understands systems.
+________________

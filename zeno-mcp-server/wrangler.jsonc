@@ -1,0 +1,49 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zeno-wiki-mcp",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-03-10",
+  "compatibility_flags": ["nodejs_compat"],
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["ZenoWikiMCP"]
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "MCP_OBJECT",
+        "class_name": "ZenoWikiMCP"
+      }
+    ]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "ZENO_WIKI",
+      "id": "559614e018b841f499f573e3908977d4",
+      "preview_id": "14aa8478c352401e820fe9bd0c3ccbb5"
+    },
+    {
+      // Required by workers-oauth-provider — stores tokens, grants, client registrations
+      "binding": "OAUTH_KV",
+      "id": "047a7ddb68c448ad9a039db9b9650578"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  // 30 requests per 60s per IP — generous for normal use, blocks runaway loops
+  "ratelimits": [
+    {
+      "name": "MCP_RATE_LIMITER",
+      "namespace_id": "1001",
+      "simple": {
+        "limit": 30,
+        "period": 60
+      }
+    }
+  ]
+  // POSTHOG_API_KEY is a Cloudflare secret — set with: wrangler secret put POSTHOG_API_KEY
+  // For local dev it is read from .dev.vars (gitignored)
+}

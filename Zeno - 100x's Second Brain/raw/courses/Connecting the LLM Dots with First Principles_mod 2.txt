@@ -1,0 +1,320 @@
+﻿Connecting the LLM Dots with First Principles
+The Core Truth
+The job of an LLM is to predict the most likely next word based on patterns in training data. LLMs are not trained to verify the truth in real time. This creates three fundamental constraints:
+1. LLMs have incomplete information (training data is a frozen snapshot)
+2. They have no live access to reality (no APIs, no databases, no senses)
+3. They must always generate a response (the architecture demands a next token)
+When an LLM doesn't know the answer, it predicts factually incorrect answers. We call this hallucination.
+Hallucination = f(Uncertainty, Forced Response)
+This happens for two reasons:
+1. The model lacks the right context. It doesn't have access to the facts it needs at inference time.
+2. The model has the wrong behaviour. It has the facts but still generates the wrong output, because its learned distribution doesn't match the desired output pattern.
+This gives us two optimization levers:
+Lever
+	Problem
+	Goal
+	Context Optimization
+	Reduce Uncertainty: The model doesn't have the correct information
+	Get the right facts into the context window at the right time
+	Behaviour Optimization
+	The model has the information but responds incorrectly
+	Change how the model behaves
+	Everything that follows is one of these two levers.
+Note: The System vs. The Model
+AI Assistants like ChatGPT, Gemini, Claude are not just models. They are systems built around models with frontend, backend, database and APIs.
+When people say "LLMs hallucinate," what they actually mean is: the system built around the LLM produced an unreliable output. That's a problem of a system not being able to meet the user's expectations.
+________________
+
+
+Lever 1: Context Optimization
+1.1 In-Context Learning (The Starting Point)
+The simplest form of context optimization: put the information directly in the prompt. LLMs can learn from the data provided in the context window and this process is known as in-context learning.
+* Zero-shot: Instruction, context, input and output. The model uses only its pre-trained knowledge.
+* Few-shot: Provide examples of input-output pairs. The model learns from these examples.
+This works remarkably well for static knowledge. But it breaks while accessing real-time or frequently updated information. 
+Example: "What's the weather in Bengaluru right now?", "Summarise last 5 emails I received today" cannot be answered from a static prompt.
+Problem: In-context learning is limited to what you can manually place in the prompt at design time. If you need the model to reach out and get information at inference time, you need the ability to connect it to a live data source.
+1.2 Tool Calling (Reaching Beyond the Static Prompt)
+Tool calling solves the "live data" problem by giving the LLM the ability to invoke external functions.
+But a raw LLM cannot execute code, access the internet, or make API calls. Even if it writes perfect Python, it cannot run it. It lacks an execution environment and network access.
+The Three-Layer Architecture
+We introduce a third layer between the LLM and the outside world:
+Layer 1: LLM                     → Determines whether and which tool to call with what inputs
+Layer 2: Execution Env     → Runs code and executes the tool call
+Layer 3: Tool                     → "Live data source" returns accurate data
+The flow:
+1. User asks a question
+2. LLM decides whether a tool call is needed at all
+3. If yes, LLM determines which tool to call with what inputs
+4. Execution environment executes the tool call (deterministic code)
+5. Tool returns accurate data
+6. Data is injected back into the prompt along with the user's question
+7. LLM generates the final answer grounded in reality
+Scaling Tool Calling: From Bespoke to Standard
+Tool calling works brilliantly for one tool. But what happens when you have ten tools? Fifty? What happens when your tool needs to work not just with your system, but with Claude, GPT, Gemini, and every other client?
+If every AI application builds bespoke connections to every data source, you get an N×M integration problem: N clients × M tools = chaos. This is the exact problem the web faced before REST APIs. REST standardized the interface: uniform resource identifiers, standard HTTP methods, consistent request/response formats. Suddenly, any client could talk to any server.
+The Model Context Protocol (MCP) does the same for tool calling. It standardizes how tools describe themselves (capabilities, parameters, schemas), how clients discover and invoke them, and how results are returned. A tool built once works with any MCP-compatible client. Write once, run everywhere.
+MCP is not a separate concept from tool calling. It's Tool Calling grown up. The same three-layer architecture (LLM → execution environment → tool) now has a standard contract at each boundary. This is what turns individual tools into an ecosystem.
+Note: MCP goes beyond just standardizing interfaces. It also introduces resource primitives (structured data the server can expose for the client to read), sampling (allowing the server to request LLM completions from the client), Generative UI and a bidirectional protocol where communication flows both ways, not just client-to-server.
+Problem: Tool calling and MCPs work beautifully when APIs return small outputs. But what if someone asks for 50 years of weather data and the response exceeds the context window? You can't stuff all of it into the context window. You need a way to find the relevant pieces first.
+1.3 RAG: Retrieval-Augmented Generation
+RAG is not a new paradigm. It uses the exact same three-layer architecture as tool calling. The only difference is that the "tool" is now a retrieval system.
+┌──────────────────────────────────────────┐
+│   LLM (Brain)       │  Generates query / processes retrieved context
+├──────────────────────────────────────────┤
+│   Execution Layer   │  Orchestrates retrieval pipeline
+├──────────────────────────────────────────┤
+│   Retrieval System  │  Index + Search over your document corpus
+└──────────────────────────────────────────┘
+
+
+Two reasons when to use RAG:
+1. Context window limit: Incoming data from the source exceeds the size of the context window
+2. Cost limit: Passing everything in the context is economically unsustainable
+The Index Analogy: How Retrieval Already Works
+Let's understand how retrieval works from a system humans have built centuries ago: the book.
+Suppose there is a 600-page physics textbook lying in front of you. The teacher asks: "What is the second law of thermodynamics?" You don't read all 600 pages. You go to the index, find "thermodynamics," jump to the page, and read the relevant section.
+That's indexing + keyword search. It's also the first step of building RAG.
+But here's what happened before you opened the index. You already knew this was a physics textbook. You knew the question was about thermodynamics, not quantum mechanics. You had a mental model of what kind of information lives where. Without that, even the best index is useless, because you wouldn't know which book to pick up in the first place.
+This is the problem most people skip while learning RAG. You can only build a useful index for your data, if you understand the domain, how to model it into an index and how your entities are related to each other.
+The First Principle of RAG Design is Domain Modeling
+Most RAG pipelines fail not because the retrieval algorithm is wrong, but because no one thought carefully about what data exists, how it's structured, and what kinds of questions users will actually ask.
+The core truth: Before you retrieve, you must understand your data. This is domain modeling, and it is the foundation of every reliable RAG system.
+The process:
+1. Input/Output mapping: List example queries (inputs) and their expected answers (outputs). This tells you what your system actually needs to do.
+2. Data collection: Identify and collect the data sources needed to answer those queries.
+3. Entity and relationship modeling: Define the entities in your domain and how they relate (an ER diagram). For a support bot, your entities might be: Students, Cohorts, Courses, Lessons, Assignments, Instructors, Tickets, FAQs.
+4. Schema design: Structure your data so it's retrievable in the right format.
+5. Query-to-retrieval mapping: Decide which retrieval technique fits each query type.
+This last step is the key insight. Different questions demand different retrieval strategies. An admin asking "how many students enrolled?" needs SQL. A student asking about a concept without mentioning the name needs semantic search over vector embeddings. The domain model tells you where each query should go.
+Build a router:
+Incoming Query
+    ├── Can the LLM answer directly? → Answer (no retrieval)
+    ├── Is it a structured lookup? → SQL / Keyword Search
+    ├── Is it a semantic question? → Vector Search
+    ├── Does it need document navigation? → Hierarchical Retrieval (PageIndex)
+    ├── Does it need conditional logic across different entities? → Knowledge Graph
+    ├── Does it require multi-step planning and autonomous decision-making? → Agentic Architecture
+    └── Is it unbounded/complex? → Code-Augmented Retrieval
+
+
+The Retrieval Spectrum
+Not all retrieval is the same. There is a spectrum, and choosing the wrong point on it is the most common RAG mistake.
+Level 1: Keyword Search Match exact tokens. Works for known queries, SQL lookups, structured data. Fails when the user's language doesn't match the stored content.
+Level 2: Semantic Search with Vector Embeddings Text is converted into high-dimensional vectors. Similar meanings cluster together. "Man – Woman + Uncle ≈ Aunt." This finds relevant content even when keywords don't match. But it finds semantically proximate content, which may or may not contain the actual answer to the question. Semantic proximity is not the same as correctness or logical entailment.
+Level 3: Hierarchical Retrieval (PageIndex) Instead of matching meaning, the LLM navigates a structured index (Table of Contents), selects sections, extracts information, and loops until it has enough. This is what we call PageIndex, our framework for structured document navigation. Think of it as hierarchical or structured retrieval: rather than searching across flat chunks, the system uses the document's own organizational structure (headings, sections, page numbers) as a navigation map. This works for structured domains like financial docs, legal docs, curricula but fails for unstructured and dynamic data.
+Level 4: Knowledge Graphs When you need conditional, multi-step logic: "I rode a bike without a helmet in Bangalore. What is my fine?" This requires traversing entities and rules: vehicle type → helmet law → state → penalty. Vector search can't traverse chains. A knowledge graph can.
+Level 5: Code-Augmented Retrieval Instead of cramming data into the context window, let the LLM write code that processes data in an execution environment. Data analysts don't memorize datasets; they write queries. Code-augmented retrieval applies this logic to the retrieval problem. The LLM decomposes the query into sub-queries, writes scripts, the execution environment runs them, results accumulate outside the context window. This approach is sometimes called agentic retrieval or, in research contexts, Recursive Language Models (note: distinct from recursive neural network architectures in NLP; here it refers to the pattern of an LLM recursively decomposing and solving retrieval sub-problems through code generation).
+Level 6: Agentic Architectures When the task requires multi-step planning, autonomous decision-making, and dynamic tool selection. An agent doesn't just retrieve; it reasons about what to do next, executes a step, observes the result, and plans the next action. Agents are built on top of the same primitives (tool calling, RAG, memory) but add a planning and decision loop. Example: "Research the top 5 competitors in our space, compare their pricing models, and draft a recommendation." No single retrieval call answers this. The system must plan a sequence of searches, synthesize across results, and make judgment calls about what to investigate further.
+Evaluating RAG: How Do You Know It's Working?
+You've built the retrieval pipeline. But how do you know if the system is actually retrieving the right information and generating faithful answers? Without systematic evaluation, you're flying blind.
+Problem: RAG systems can fail silently. The model generates a confident, fluent answer, but the retrieved context was irrelevant, or the model ignored the context and hallucinated anyway. You need metrics that catch these failures.
+RAGAS (Retrieval-Augmented Generation Assessment) provides four core metrics:
+Metric
+	What It Measures
+	What It Catches
+	Faithfulness
+	Is the generated answer supported by the retrieved context?
+	Model hallucinating beyond what the documents say
+	Answer Relevancy
+	Does the answer actually address the user's question?
+	Correct retrieval but off-topic generation
+	Context Precision
+	Are the retrieved chunks relevant to the question?
+	Noisy retrieval (too many irrelevant chunks)
+	Context Recall
+	Did retrieval capture all the information needed to answer?
+	Incomplete retrieval (missing key chunks)
+	Think of it as two checkpoints:
+1. Did you retrieve the right information? (Context Precision + Context Recall)
+2. Did you use it correctly? (Faithfulness + Answer Relevancy)
+
+
+* If precision is low, your retrieval is noisy: tighten chunking, improve embeddings, add metadata filters. 
+* If recall is low, your retrieval is incomplete: broaden search, add hybrid retrieval, check if the information exists in your corpus at all. 
+* If faithfulness is low, the model is ignoring or hallucinating beyond the context: shorten context, re-rank, or adjust the prompt. 
+* If answer relevancy is low, the model understood the context but missed the question: improve query reformulation or routing.
+Evaluation is not a one-time step. It's a continuous loop: build, measure, diagnose, improve.
+Problem: You've built a system that can ground itself in real-time data, retrieve from massive datasets, and evaluate its own retrieval quality. But then the session ends. The context window is wiped. The next conversation starts from zero. The LLM has no idea what happened five minutes ago.
+1.4 Memory: Persistence Across Time
+The LLM has no built-in mechanism to carry knowledge from one conversation to the next. Every interaction starts from scratch. Memory solves this by doing RAG across time.
+Note: Memory is RAG across time.
+Instead of retrieving from a static document corpus, you retrieve from a growing store of past conversations, extracted facts, and learned preferences.
+Memory Type
+	What It Stores
+	Mechanism
+	Short-term
+	Current conversation turns
+	The context window itself
+	Semantic (Long-term)
+	Extracted facts, user preferences, prior decisions
+	Vector store + retrieval (RAG over conversation history)
+	Episodic
+	Information tied to key events or time
+	Condensed conversation logs with timestamps
+	Procedural
+	Repeatable workflows, skills, and processes
+	Stored procedures, learned tool-use patterns, API call sequences, workflow templates, and skills systems
+	The Limits of Lever 1
+You've now seen the full arc of context optimization: in-context learning, tool calling, RAG, and memory. Each technique gets better information into the model's context window at the right time.
+But notice what all of these techniques share: they change the input, not the model. The base model's reasoning patterns, tone, format, and decision-making logic remain exactly as they were after pre-training. You're giving a more capable assistant better materials to work with, but you haven't changed the assistant itself.
+This works until it doesn't. Consider these failure modes:
+* You give a model perfect medical context, but it responds in casual, imprecise language instead of clinical terminology.
+* You provide a legal document, but the model summarizes it in a format that doesn't match your firm's brief structure, no matter how you prompt it.
+* You design a customer service bot with ideal retrieval, but the model's default tone is too verbose, too hedging, too generic for your brand.
+In each case, the context is right. The behaviour is wrong. You can fight this with longer and more elaborate system prompts, but you're patching symptoms. The underlying problem is that the model's learned distribution, the patterns it absorbed during pre-training, doesn't match the output distribution you need.
+No amount of better input can fix a model that transforms input the wrong way.
+This is where Lever 2 begins.
+________________
+
+
+Lever 2: Behaviour Optimization
+Fine-Tuning: Changing How the Model Responds
+Context optimization assumes the base model's reasoning and response patterns are adequate, and it just needs better input. Fine-tuning changes that assumption. Instead of changing what goes into the model, you change how the model transforms input into output.
+When you need Lever 2:
+* Domain-specific tone or formatting (medical reports, legal briefs)
+* Consistent adherence to a response schema
+* Task-specific reasoning patterns the base model doesn't exhibit
+* Reducing the need for long, complex system prompts
+The spectrum of fine-tuning approaches:
+Method
+	What Changes
+	Cost
+	When to Use
+	LoRA (Low-Rank Adaptation)
+	Small adapter matrices attached to frozen weights
+	Low
+	Most practical starting point. Good results with limited data and compute.
+	QLoRA
+	LoRA on a quantized (4-bit) base model
+	Very low
+	When GPU memory is the constraint
+	Full Parameter
+	All model weights
+	Very high
+	When you need maximum capability shift and have abundant data + compute
+	DPO (Direct Preference Optimization)
+	Learns from human preference pairs (chosen vs. rejected)
+	Medium
+	Aligning outputs with human judgement. Implicitly defines a reward function through the preference pairs, but without training a separate reward model explicitly.
+	RLHF / Reinforcement Learning
+	Trains a reward model, then optimizes the LLM against it
+	High
+	Maximum alignment control. Uses an explicit, separately trained reward model. How frontier models are fine-tuned after pre-training.
+	Note: Fine-tuning is not a replacement for RAG. It changes the model's behaviour, not its knowledge. A fine-tuned model will still hallucinate about facts it hasn't seen. The two levers are complementary.
+________________
+
+
+The Complete Architecture: Both Levers as a Single System
+The entire system is one connected machine. Context flows in through Lever 1. Behaviour is shaped by Lever 2.
+       
+
+
+________________
+
+
+Decision Framework: Choosing the Right Technique
+When your LLM is underperforming, diagnose the failure mode first, then select the intervention.
+Step 1: Start with Prompt Engineering Always begin here. Zero-shot, then few-shot. Many problems can be solved without any complex techniques.
+Step 2: Diagnose the Failure
+* Is the model generating plausible but factually wrong content? → Context problem (Lever 1). The model lacks the right information.
+* Does the model have the right context but produce poorly formatted, off-tone, or structurally wrong outputs even when prompted explicitly? → Behaviour problem (Lever 2). Consider fine-tuning.
+Step 3: Context Optimization Path (Lever 1)
+Follow this escalation ladder. Start simple. Add complexity only when the simpler approach fails.
+START: Ground from trusted sources
+  │
+  ├─ Data is live/external? ──────────────► Tool Calling
+  │
+  ├─ Data exceeds context window? ────────► RAG (chunking + metadata + keyword search)
+  │    │
+  │    ├─ Phrasing mismatch between ──────► Add vector embeddings (semantic search)
+  │    │   query and documents?
+  │    │
+  │    ├─ Need to evaluate retrieval ─────► Use RAGAS
+  │    │   quality systematically?           (Faithfulness, Answer Relevancy,
+  │    │                                                  Context Precision, Context Recall)
+  │    │
+  │    ├─ Reasoning over document ─────────► Add Hierarchical Retrieval (PageIndex)
+  │    │   structure needed?
+  │    │
+  │    ├─ Answer requires connecting ──────► Knowledge Graphs
+  │    │   entities across documents?
+  │    │
+  │    ├─ Information is in visual ────────► ColPali / ColVision + OCR
+  │    │   layout, not extractable text?
+  │    │
+  │    └─ Corpus too large for any ────────► Code-Augmented Retrieval
+  │        single context window?             (multi-hop research across sources,
+  │        Multi-hop reasoning needed?        LLM-generated scripts for retrieval)
+  │
+  ├─ Task requires multi-step planning ──► Agentic Architecture
+  │   and autonomous decision-making?        (planning loop + tool calling + RAG + memory)
+  │
+  └─ Need persistence across sessions? ──► LLM Memory
+
+
+Step 4: Behaviour Optimization Path (Lever 2)
+START: Prompt engineering insufficient for behaviour change
+  │
+  ├─ Limited data + compute? ─────────────► LoRA / QLoRA
+  │
+  ├─ Need preference alignment? ──────────► DPO
+  │
+  └─ Maximum control over alignment? ─────► RLHF / Full-Parameter Fine-tuning
+
+
+Step 5: Combine Both Levers
+Production systems use both. A fine-tuned model (Lever 2) with RAG grounding (Lever 1) and memory (Lever 1, persistence).
+________________
+
+
+Summary
+#
+	Concept
+	Problem It Solves
+	Key Insight
+	1
+	Hallucination Formula
+	Why do LLMs fail?
+	Three root causes: wrong context, wrong behaviour.
+	2
+	In-Context Learning
+	How to ground with known information
+	Works until information is live, private, or too large
+	3
+	Tool Calling
+	How to access live/external data
+	Three-layer architecture: LLM → Execution → Tool. First decision: whether to call at all.
+	4
+	MCP
+	How to standardize tool calling at scale
+	Standardized contracts + resource primitives + bidirectional protocol
+	5
+	RAG
+	How to handle data that exceeds the context window
+	Same three-layer architecture; the "tool" is a retrieval system
+	6
+	RAG Evaluation
+	How to know if retrieval is working
+	RAGAS: Faithfulness, Relevancy, Precision, Recall
+	7
+	Agentic Architectures
+	How to handle multi-step, autonomous tasks
+	Planning loop over tool calling + RAG + memory primitives
+	8
+	Memory
+	How to persist context across sessions
+	RAG across time. Short-term, semantic, episodic, procedural
+	9
+	Fine-Tuning
+	How to change the model's behaviour
+	Lever 2. LoRA / QLoRA, Full-Param, DPO, RLHF
+	10
+	Complete Architecture
+	How everything connects
+	Both levers as one system
+	11
+	Decision Framework
+	How to choose the right technique
+	Diagnose first (context vs. behaviour), then escalate within the lever
+	Each dot connects with the previous ones and builds the stack of first principles for Module 3.
