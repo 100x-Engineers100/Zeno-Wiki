@@ -248,6 +248,68 @@ The `sync.js` script reads all files from `wiki/` and pushes them to Cloudflare 
 
 ---
 
+## Authentication — Why Google OAuth?
+
+The MCP server is public but not open. Anyone can find the URL, but no one can query the wiki without logging in with Google first.
+
+**Why this matters:**
+- You know exactly who is using the server — name, email, Google user ID
+- Every tool call is tied to a verified identity — no anonymous abuse
+- Tokens expire (24h access, 30d refresh) — stale sessions auto-invalidate
+- If someone misuses it, you can identify and block them
+
+**How it works:**
+1. User adds the MCP URL to their Claude config
+2. Claude opens the auth flow — user logs in with Google
+3. Server issues a short-lived access token
+4. All subsequent tool calls carry that token — server verifies it on every request
+
+For your own deployment, you need a Google Cloud project with OAuth 2.0 credentials. Set `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` as Cloudflare secrets. The redirect URI to register in Google Cloud Console is `https://your-worker.workers.dev/callback`.
+
+---
+
+## Analytics — What You Can Track with PostHog
+
+Every tool call fires a PostHog event. This gives you a real-time window into how the wiki is being used — what people search for, which pages get read, which queries fail, and who is using it.
+
+**What gets tracked automatically:**
+
+| Event | What it tells you |
+|---|---|
+| `tool_called` | Which tool, which user, how long it took, success or fail |
+| `tool_error` | What broke and for which user |
+| `rate_limit_hit` | Who is hammering the server |
+| `input_rejected` | Bad path or oversized query attempts |
+
+Every event includes:
+- `distinct_id` — Google user ID (permanent, stable across sessions and devices)
+- `user_email` and `user_name` — shows up in PostHog People tab
+- `tool` — which MCP tool was called
+- `duration_ms` — how long the call took
+- `success` — true/false
+
+**What you can build in PostHog:**
+
+- **Which tool is called most** — are users searching or browsing by page?
+- **Most searched queries** — what knowledge gaps exist? What topics keep coming up?
+- **Most read pages** — which concepts are highest value?
+- **User-level history** — click any user in PostHog People → see every query they've run
+- **Error rate** — is the server healthy? Are pages missing from KV?
+- **Usage over time** — is the wiki growing in adoption after new content is added?
+
+**Setup:**
+
+1. Create a free PostHog account at [posthog.com](https://posthog.com)
+2. Get your project API key
+3. Set it as a Cloudflare secret:
+```bash
+wrangler secret put POSTHOG_API_KEY
+```
+
+PostHog is optional — if the secret is missing the server still works, analytics just won't fire. But if you're running this for a team or community, it's worth having from day one so you know what knowledge people actually need.
+
+---
+
 ## Obsidian Setup
 
 The wiki lives in Obsidian — a markdown-based knowledge base app. You can use any text editor, but Obsidian's graph view shows wiki health: highly-connected pages are your most valuable knowledge hubs; isolated pages are orphans to fix.
