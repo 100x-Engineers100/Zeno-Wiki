@@ -318,31 +318,70 @@ Add the MCP URL to Claude, Cursor, your voice agent, or whatever AI you're build
 
 ---
 
+## Use the Live Server
+
+The Zeno Wiki MCP server is publicly accessible. Add it to any MCP-compatible AI client and start querying the knowledge base directly — no setup required.
+
+**MCP Server URL:** `https://zeno-wiki-mcp.cohort-c62.workers.dev/mcp`
+
+Authentication is Google OAuth — you'll be prompted to log in with your Google account on first use.
+
+**Claude Desktop** (`claude_desktop_config.json`):
+```json
+{
+  "mcpServers": {
+    "zeno-wiki": {
+      "url": "https://zeno-wiki-mcp.cohort-c62.workers.dev/mcp"
+    }
+  }
+}
+```
+
+**Claude Code** (`.claude/settings.json`):
+```json
+{
+  "mcpServers": {
+    "zeno-wiki": {
+      "type": "url",
+      "url": "https://zeno-wiki-mcp.cohort-c62.workers.dev/mcp"
+    }
+  }
+}
+```
+
+Once connected, Claude can call `get_index`, `search_wiki`, `get_page`, and `visualize` directly in your conversation — no copy-paste, no file uploads.
+
+---
+
 ## How to Contribute
 
-### Contributing New Knowledge Sources
+There are three ways to contribute to Zeno Wiki:
 
-1. Fork the repo and clone it
-2. Add your source file to the right `raw/` subfolder
-3. Open Claude Code in the vault root: `claude`
-4. Run: `"Read CLAUDE.md. Then ingest raw/[your-path]. Follow the ingest workflow."`
-5. Let Claude create/update wiki pages
-6. Run `cd zeno-mcp-server && npm run sync`
-7. Submit a PR with the new `raw/` file and updated `wiki/` pages
+### 1. Add a Concept or Wiki Page
 
-Good sources to contribute:
-- AI/ML research summaries
-- Framework comparisons
-- Production architecture case studies
-- Tool deep-dives
+If you know something that belongs in this knowledge base — a framework, a technique, a tool, a case study — you can contribute it directly as a wiki page.
 
-### Contributing to the MCP Server
+1. Fork the repo
+2. Write your page following the templates in `Zeno - 100x's Second Brain/templates/`
+   - Concept → `wiki/concepts/your-concept-name.md`
+   - Entity (tool/person/company) → `wiki/entities/your-entity-name.md`
+   - Synthesis (cross-concept analysis) → `wiki/synthesis/your-topic.md`
+3. Add an entry for it in `wiki/index.md`
+4. Submit a PR — describe what the concept is and why it belongs here
 
-The server is `zeno-mcp-server/src/index.ts`. Good contribution areas:
-- New tools (e.g., `create_page` for write access)
-- Semantic search via embeddings
+Good things to add:
+- AI/ML frameworks and techniques not yet covered
+- Production architecture patterns
+- Tool comparisons and decision frameworks
+- Case studies from real deployments
+
+### 2. Improve the MCP Server
+
+The server is `zeno-mcp-server/src/index.ts`. Good areas:
+- New tools (e.g., `create_page` for community write access)
+- Semantic/embedding-based search to replace full-text
 - Support for other OAuth providers
-- Performance improvements
+- Performance or caching improvements
 
 ```bash
 cd zeno-mcp-server
@@ -350,16 +389,17 @@ npm install
 npm run dev     # local wrangler dev server
 ```
 
-### Contributing to the Schema
+Open a PR with your change and a short description of why it improves the server.
 
-`CLAUDE.md` is the contract between user and LLM. If you find better page formats, naming conventions, or operation workflows — open a PR explaining why the change produces better wiki output.
+### 3. Improve the Schema
+
+`CLAUDE.md` is the operating contract for the LLM — it defines page formats, naming conventions, and all three operations (ingest/query/lint). If you find a better format that produces cleaner wiki output, open a PR with the change and a before/after example.
 
 ### Reporting Issues
 
 Open a GitHub issue with:
 - Which tool or operation the issue is with
 - What you expected vs. what happened
-- Claude version if relevant
 
 ---
 
