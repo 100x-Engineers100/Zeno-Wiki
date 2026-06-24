@@ -28,6 +28,10 @@ AGENTS.md
 Security.md
 REBUILD_PLAN.md
 CHANGES.md
+granola.md
+multi-agent-systems.md
+Knowledge graph setup guide.md
+zeno-mcp-server/.graphifyignore
 
 # Build artifacts
 **/dist/
