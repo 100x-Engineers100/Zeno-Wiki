@@ -2,7 +2,7 @@
 title: "Programmatic Tool Calling"
 type: concept
 tags: [ai, agents, tool-calling, architecture, execution-layer, 100x-cohort7]
-source_count: 1
+source_count: 2
 ---
 
 ## Definition
@@ -52,6 +52,16 @@ Instead of pre-loading all tool descriptions, the agent has a meta-tool: "search
 - Systems with large tool libraries (20+ tools)
 - When you can pre-classify the majority of query types
 
+## L22 Detail: The Recursive LLM Architecture
+Siddhant referenced the "recursive language models paper" in L22:
+"The same first-principles diagram — LLM layer, code execution layer, API layer — but rearranged so Claude generates code instead of making direct calls."
+
+**Alternative description of what Claude does in this mode:**
+"Claude is just the coder. The execution environment handles all the tool calls. User sends request → Claude writes Python code → code runs in execution environment → only final result comes back to Claude's context window. Intermediate data never pollutes the context."
+
+This is directly how Claude Skills work:
+"Claude compresses each skill.md into a 1-2 line schema — similar to a tool call definition. That schema goes in the context window, not the full .md file. When a relevant task is triggered, Claude calls the skill, just like it makes a tool call."
+
 ## Connections
-Related concepts: [[tool-calling-architecture]], [[context-economy]], [[guardrails-architecture]], [[agent-production-pillars]], [[agentic-patterns]]
-Introduced by: [[100x-cohort7-module3-agents]]
+Related concepts: [[tool-calling-architecture]], [[context-economy]], [[guardrails-architecture]], [[agent-production-pillars]], [[agentic-patterns]], [[mcp-model-context-protocol]]
+Introduced by: [[100x-cohort7-module3-agents]], [[100x-l18-22-llm-finetuning]]

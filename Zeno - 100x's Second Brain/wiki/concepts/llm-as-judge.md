@@ -2,7 +2,7 @@
 title: "LLM-as-Judge (Evaluation Pattern)"
 type: concept
 tags: [ai, agents, evaluation, evals, llm, quality, 100x-cohort7]
-source_count: 1
+source_count: 4
 ---
 
 ## Definition
@@ -44,6 +44,22 @@ When the base model has little training data on the domain, provide more few-sho
 
 **Evaluation is continuous, not a one-time step.** Build → measure → diagnose → improve. RAGAS for RAG-specific metrics (Faithfulness, Answer Relevancy, Context Precision, Context Recall).
 
+## Fine-Tuning Eval Context (added from L21)
+When evaluating a fine-tuned model specifically, LLM-as-Judge is the practical auto-eval layer in the human-verified loop:
+1. Create 10–20 gold standard pairs with edge cases (NOT from training data)
+2. Run fine-tuned model on eval set
+3. LLM-as-Judge scores outputs using your rubric
+4. Human spot-checks a subset to correct bias
+5. Identify failure patterns → fix data → retrain
+
+**Known biases in fine-tuning eval context:**
+- Prefers longer outputs over concise correct ones
+- Distillation bias: GPT judge favors models trained on GPT outputs
+- Can't reliably differentiate 4.0 from 4.5 on 1–5 scale
+- Misses domain-specific nuance (e.g., your exact brand voice)
+
+See [[llm-evaluation-methods]] for the full four-method evaluation framework.
+
 ## Connections
-Related concepts: [[agent-production-pillars]], [[guardrails-architecture]], [[retrieval-augmented-generation]], [[hallucination-formula]]
-Introduced by: [[100x-cohort7-module3-agents]]
+Related concepts: [[agent-production-pillars]], [[guardrails-architecture]], [[retrieval-augmented-generation]], [[hallucination-formula]], [[llm-evaluation-methods]], [[fine-tuning-data-prep]], [[llm-fine-tuning]]
+Introduced by: [[100x-cohort7-module3-agents]], [[100x-l18-22-llm-finetuning]], [[100x-cohort7-module2-llm]], [[100x-cohort7-module2-l07-l10]]

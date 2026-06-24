@@ -2,7 +2,7 @@
 title: "OPT Framework (Operating Model → Processes → Tasks)"
 type: concept
 tags: [productivity, automation, llm, 100x-cohort7, workflow, business]
-source_count: 2
+source_count: 3
 ---
 
 ## Definition
@@ -58,8 +58,14 @@ User Input (UI) → API → Backend/LLM → Response → Display (UI)
 - Design Lead at Apple: mapped design review process → automated majority of routine review tasks
 
 ## Connections
-Related concepts: [[ppt-framework]], [[full-stack-llm-architecture]], [[vibe-coding]], [[llm-decision-tree]]
-Introduced by: [[100x-cohort7-module2-llm]], [[100x-cohort7-module1-diffusion]]
+Related concepts: [[ppt-framework]], [[full-stack-llm-architecture]], [[vibe-coding]], [[llm-decision-tree]], [[idea2app-v2]], [[fde-forward-deployed-engineer]]
+Introduced by: [[100x-cohort7-module2-llm]], [[100x-cohort7-module1-diffusion]], [[100x-cohort7-module2-l01-l03]]
+
+## C7 Extension: OPT Coach
+
+In Cohort 7 L01, Siddhant released an "OPT Coach" Claude skill — fallback entry point for students without a problem statement. Asks 5 questions about current role, outputs 3 candidate automatable tasks ranked by impact.
+
+C7 also makes explicit: OPT is how FDEs diagnose workflows at client organizations. Operating model / process / task decomposition maps directly to FDE Skill 1 (workflow diagnosis). See [[fde-forward-deployed-engineer]].
 
 ## Open Questions / Unknowns
 - What is the right granularity for "task" — too broad and it becomes a process; too narrow and it's trivial?

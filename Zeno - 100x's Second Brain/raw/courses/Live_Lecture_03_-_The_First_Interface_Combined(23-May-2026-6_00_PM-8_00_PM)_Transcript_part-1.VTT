@@ -1,0 +1,3954 @@
+WEBVTT
+
+1
+00:13:45.780 --> 00:13:59.500
+Audio shared by 100xEngineers: I'm at a party I don't wanna be at, and I don't ever wear a suit and tie, wondering if I can sneak out the back. Nobody's even looking
+
+2
+00:13:59.540 --> 00:14:08.929
+Audio shared by 100xEngineers: Can you take my hand, finish my drink, see, shall we dance? Hell yeah. You know I love you, did I ever tell you? You make it better like that.
+
+3
+00:14:09.170 --> 00:14:10.900
+Audio shared by 100xEngineers: Don't think I fit in
+
+4
+00:14:14.890 --> 00:14:18.430
+Audio shared by 100xEngineers: He's got so much to say.
+
+5
+00:14:18.580 --> 00:14:28.680
+Audio shared by 100xEngineers: I always feel like I'm nobody Who wants to fit in anyway? Cause I don't care
+
+6
+00:14:29.010 --> 00:14:44.460
+Audio shared by 100xEngineers: All the bad things disappear But you're making me feel that maybe I am somebody I can deal with the bad nights When I'm with my baby,
+
+7
+00:14:44.990 --> 00:14:46.870
+Audio shared by 100xEngineers: Cause I don't care.
+
+8
+00:14:47.330 --> 00:14:52.259
+Audio shared by 100xEngineers: As long as you just hold me in You can take me anywhere
+
+9
+00:14:52.510 --> 00:15:01.659
+Audio shared by 100xEngineers: You're making me feel like I'm lung by somebody. I can deal with the bad nights When I'm with my baby,
+
+10
+00:15:06.110 --> 00:15:08.459
+Audio shared by 100xEngineers: We at a party we don't wanna be at.
+
+11
+00:15:08.650 --> 00:15:14.829
+Audio shared by 100xEngineers: Turn the top, but we can't hear ourselves, speechless, I'd rather kiss them right back. With all these people all around.
+
+12
+00:15:14.940 --> 00:15:25.220
+Audio shared by 100xEngineers: crippled with anxiety, but I'm slow to swear I'm supposed to be. You know what? It's kinda crazy, cause I really don't mind. Can you make it better like that?
+
+13
+00:15:29.130 --> 00:15:29.920
+Audio shared by 100xEngineers: Every day!
+
+14
+00:15:30.290 --> 00:15:30.989
+Audio shared by 100xEngineers: I got so much.
+
+15
+00:15:31.470 --> 00:15:38.190
+Audio shared by 100xEngineers: Oh, yeah, yeah. When we walked in, I said, I'm sorry.
+
+16
+00:15:38.540 --> 00:15:42.189
+Audio shared by 100xEngineers: But now I think that we should stay.
+
+17
+00:15:42.370 --> 00:15:43.620
+Audio shared by 100xEngineers: Cause I don't care.
+
+18
+00:15:43.870 --> 00:15:48.119
+Audio shared by 100xEngineers: When I'm with my baby, yeah, all the bad things disappear.
+
+19
+00:15:55.330 --> 00:16:01.149
+100xEngineers: Hi folks, how are you guys doing? Can you guys hear me? If you can, let me know in the chat, and…
+
+20
+00:16:01.330 --> 00:16:04.579
+100xEngineers: Also, let's start with a quick wipes, wipes both.
+
+21
+00:16:05.440 --> 00:16:07.669
+100xEngineers: Are you feeling on a scale of 1 to 10?
+
+22
+00:16:09.210 --> 00:16:13.950
+100xEngineers: fix… 8, 10. Awesome.
+
+23
+00:16:15.790 --> 00:16:18.300
+100xEngineers: Brother did mic testing with Edge sharing, yes.
+
+24
+00:16:20.770 --> 00:16:23.420
+100xEngineers: 100x, whoa. Awesome, Nikki.
+
+25
+00:16:23.920 --> 00:16:26.850
+100xEngineers: I think I'm getting motivated by Nikhil.
+
+26
+00:16:27.140 --> 00:16:37.290
+100xEngineers: My wife score is moving up. That's the best hack. If you are somebody who has a lower VIP score, start hanging out with people who have 9 or 10.
+
+27
+00:16:37.770 --> 00:16:40.869
+100xEngineers: And maybe, like, 100x. Fahim is higher than 100X.
+
+28
+00:16:41.190 --> 00:16:45.259
+100xEngineers: Yeah, as long as it is legal in your country, I think I'm okay with that.
+
+29
+00:16:45.650 --> 00:16:47.000
+100xEngineers: But,
+
+30
+00:16:47.240 --> 00:16:58.469
+100xEngineers: let me… let me share my screen, and I want to start this session without, like, wasting too much time, because I have a lot of things which I have planned, and I'll set the…
+
+31
+00:16:58.740 --> 00:17:00.740
+100xEngineers: agenda, accordingly.
+
+32
+00:17:01.000 --> 00:17:05.180
+100xEngineers: Let me know if you guys can see my screen.
+
+33
+00:17:09.980 --> 00:17:16.510
+100xEngineers: Yes, my wife's score was 9, but right now it's going up 9.5.
+
+34
+00:17:18.180 --> 00:17:25.579
+100xEngineers: The session, title is the first interface, and… It's also the opening of…
+
+35
+00:17:27.050 --> 00:17:30.379
+100xEngineers: Our understanding of what deterministic systems are.
+
+36
+00:17:30.510 --> 00:17:39.310
+100xEngineers: If somebody has not attended the last lecture, which I have conducted, I would highly recommend you to check that, and we ended the loop yesterday.
+
+37
+00:17:40.060 --> 00:17:58.439
+100xEngineers: to understand, like, where is the gap in the market and where is the next trillion dollar opportunity for all of us. And one of the key things which we can learn together here is building these AI systems and understanding how these systems work. And there are, like, 3 major components, what we discussed yesterday. One was
+
+38
+00:17:58.830 --> 00:18:18.260
+100xEngineers: the deterministic world, which is… which understands zeros and ones. This is the machine, this is what we have built as a software in the last 50 to 60 years. Then we have a probabilistic world, which is slightly new. This is where the LLMs and AI comes in, systems which use probability.
+
+39
+00:18:18.300 --> 00:18:23.519
+100xEngineers: And then the last component is the human in the loop. And the reason why
+
+40
+00:18:24.740 --> 00:18:43.509
+100xEngineers: this role, and the job of deploying AI to make it successful and useful for real-world use cases and impact, you need to, like, orchestrate and also understand first all these three different systems, like, what the deterministic system is all about, what is the probabilistic system.
+
+41
+00:18:43.510 --> 00:18:55.460
+100xEngineers: And also how human works. So, although I will not take a lecture on psychology, but I would recommend you to check out some courses. There's one of my favorite courses from Yale. This is taught by Professor Bloom.
+
+42
+00:18:55.460 --> 00:19:09.830
+100xEngineers: I will, send the link to all of you if anyone is interested, but I would recommend you to learn about all these three systems. In this course, I will teach you the first two, the deterministic and probabilistic one. Humans, you might need to figure out yourselves.
+
+43
+00:19:10.170 --> 00:19:13.369
+100xEngineers: Coming back to the…
+
+44
+00:19:13.750 --> 00:19:27.720
+100xEngineers: the session agenda. I will actually open this session with a quick exercise before we begin, and I want all of your attention for the next 5 minutes on this exercise.
+
+45
+00:19:31.170 --> 00:19:41.710
+100xEngineers: what my belief is that you've been using interfaces for your life, and but you have not… you have never been taught to see them. This exercise is designed in such a way so that you will
+
+46
+00:19:41.820 --> 00:19:48.880
+100xEngineers: Understand, and you will start, like, noticing interfaces Like, everywhere in your life.
+
+47
+00:19:49.170 --> 00:19:51.460
+100xEngineers: And you'll be able to derive
+
+48
+00:19:51.610 --> 00:19:58.140
+100xEngineers: every single interface that we're gonna build in the next 2 months, and that's the goal of the exercise.
+
+49
+00:19:58.320 --> 00:20:00.159
+100xEngineers: So, exercise starts like this.
+
+50
+00:20:03.400 --> 00:20:07.700
+100xEngineers: for this exercise particularly, I'm going to become a machine.
+
+51
+00:20:07.900 --> 00:20:10.799
+100xEngineers: You give me inputs, I give you outputs.
+
+52
+00:20:12.540 --> 00:20:21.689
+100xEngineers: Now, Sridev has been telling me for the last 3 years, who's my co-founder, that this is not an exercise, this is just how I… it feels to work with Siddharth.
+
+53
+00:20:25.280 --> 00:20:28.050
+100xEngineers: Just a quick story with Sridev here,
+
+54
+00:20:28.390 --> 00:20:30.500
+100xEngineers: So, there was a time when…
+
+55
+00:20:30.730 --> 00:20:34.309
+100xEngineers: He once asked me to show more emotions on camera, and we were shooting this.
+
+56
+00:20:34.940 --> 00:20:36.469
+100xEngineers: So I blinked twice.
+
+57
+00:20:37.090 --> 00:20:40.619
+100xEngineers: And, I think that was my first and last YouTube video.
+
+58
+00:20:42.730 --> 00:21:01.379
+100xEngineers: But coming back to the exercise, are you guys ready? We have a very simple exercise, and the goal of this exercise is you need to get me draw a smiley face on a paper. So I'm holding a paper. I will stop my screen share after this, but for people who can see.
+
+59
+00:21:01.590 --> 00:21:04.029
+100xEngineers: I'm holding a paper and a pen.
+
+60
+00:21:04.570 --> 00:21:08.159
+100xEngineers: And I'll be acting like a machine, machine that works.
+
+61
+00:21:09.550 --> 00:21:15.659
+100xEngineers: But it takes instructions, and I will take instructions only from the Zoom chat.
+
+62
+00:21:22.560 --> 00:21:25.279
+100xEngineers: These are some of the rules of engagement.
+
+63
+00:21:25.870 --> 00:21:28.719
+100xEngineers: Machine understands one action at a time.
+
+64
+00:21:30.360 --> 00:21:32.610
+100xEngineers: Physical and specific instructions.
+
+65
+00:21:33.110 --> 00:21:35.210
+100xEngineers: A clear order of operations.
+
+66
+00:21:36.080 --> 00:21:42.470
+100xEngineers: I will execute all the instructions in the same order, the way I'm receiving it in the chat.
+
+67
+00:21:42.800 --> 00:21:56.910
+100xEngineers: So you have… you have to also collaborate as a group here, because if somebody is, like, typing too fast and somebody is typing too slow, then it can create chaos and machine won't do any task. So you need to be…
+
+68
+00:21:57.320 --> 00:22:02.589
+100xEngineers: Also, this is a test for the coordination skill of all of you guys.
+
+69
+00:22:03.550 --> 00:22:11.329
+100xEngineers: Machine does not understand compound actions. If you just write a whole sentence which has, like, multiple things, machine will not do that.
+
+70
+00:22:11.470 --> 00:22:15.219
+100xEngineers: Machine cannot read your intent or interpretations.
+
+71
+00:22:16.060 --> 00:22:19.510
+100xEngineers: Anything that requires guessing, because machines cannot guess.
+
+72
+00:22:19.730 --> 00:22:24.579
+100xEngineers: I'm just gonna act like a proper machine without AI, just like how your computer acts.
+
+73
+00:22:30.790 --> 00:22:33.720
+100xEngineers: Cool, all of you ready? Any questions before we start?
+
+74
+00:22:33.840 --> 00:22:40.120
+100xEngineers: I'll give you exactly 3 minutes to run this exercise. It should not be that hard. Your job is to
+
+75
+00:22:40.330 --> 00:22:55.199
+100xEngineers: make me draw a smiley face, which is… I'm acting as a machine on a paper that I have on my desk right now, so that I will show up. And you also need to make sure that you guys can see this smiley on my paper, so that
+
+76
+00:22:55.350 --> 00:23:01.189
+100xEngineers: I, I, you need to, like, tell me to hold it up against the camera,
+
+77
+00:23:01.330 --> 00:23:03.189
+100xEngineers: So that's the… that's the goal, just…
+
+78
+00:23:03.780 --> 00:23:05.650
+100xEngineers: You can take a screenshot of this.
+
+79
+00:23:06.000 --> 00:23:09.129
+100xEngineers: As a goal, if you want to, but
+
+80
+00:23:09.830 --> 00:23:14.350
+100xEngineers: I'll give you, like, 3 minutes to start the exercise. Are you guys ready? Excited?
+
+81
+00:23:16.890 --> 00:23:22.279
+100xEngineers: I'm pretty excited, as finally I get to be myself today. I don't need to pretend.
+
+82
+00:23:22.460 --> 00:23:23.820
+100xEngineers: I have emotions.
+
+83
+00:23:26.990 --> 00:23:30.359
+100xEngineers: Awesome. Let me start my timer.
+
+84
+00:23:31.610 --> 00:23:34.549
+100xEngineers: And I will also, like, stop my screen share.
+
+85
+00:23:34.860 --> 00:23:38.010
+100xEngineers: First, I'll start a timer, and then I'll start my screen share.
+
+86
+00:23:38.420 --> 00:23:40.380
+100xEngineers: Your time starts now.
+
+87
+00:23:40.510 --> 00:23:41.780
+100xEngineers: Blink twice.
+
+88
+00:23:48.210 --> 00:23:51.109
+100xEngineers: Machine will take the instruction from Zubair first.
+
+89
+00:23:53.630 --> 00:23:56.720
+100xEngineers: Instruction is kindly first draw a big circle.
+
+90
+00:24:05.490 --> 00:24:09.950
+100xEngineers: Draw a circle with a radius of 50 pixels, centered on the paper.
+
+91
+00:24:10.460 --> 00:24:12.020
+100xEngineers: Filled with red.
+
+92
+00:24:12.410 --> 00:24:14.160
+100xEngineers: On a white background.
+
+93
+00:24:18.840 --> 00:24:21.480
+100xEngineers: machine is executing the instruction of Envol.
+
+94
+00:24:32.960 --> 00:24:36.070
+100xEngineers: Machine is executing the instruction of SID.
+
+95
+00:24:36.760 --> 00:24:37.940
+100xEngineers: Bit twin.
+
+96
+00:24:38.230 --> 00:24:41.759
+100xEngineers: Machine is executing the instruction of Ceph, I'm holding the pin.
+
+97
+00:24:44.980 --> 00:24:47.820
+100xEngineers: machine is executing the instruction of Purneema.
+
+98
+00:25:29.660 --> 00:25:34.200
+100xEngineers: Your machine is executing the information and the instruction of Purneema start talking.
+
+99
+00:25:39.430 --> 00:25:42.960
+100xEngineers: Machine is executing the instruction from Dave, log everything.
+
+100
+00:25:43.100 --> 00:25:44.600
+100xEngineers: I'll start logging.
+
+101
+00:25:46.730 --> 00:25:49.600
+100xEngineers: Machine is executing the instruction of Russian.
+
+102
+00:25:50.110 --> 00:25:52.329
+100xEngineers: Step 1, draw main circle.
+
+103
+00:25:57.260 --> 00:25:59.220
+100xEngineers: Position center of paper.
+
+104
+00:25:59.670 --> 00:26:04.040
+100xEngineers: starting point, marker point at center of paper, call it point O.
+
+105
+00:26:09.430 --> 00:26:11.489
+100xEngineers: use compass or trace.
+
+106
+00:26:12.280 --> 00:26:18.930
+100xEngineers: Object, draw complete circle with pen, draw left eye, The right time.
+
+107
+00:26:40.100 --> 00:26:44.360
+100xEngineers: Okay, time's up, guys. I'm stepping out of the character.
+
+108
+00:26:44.550 --> 00:26:46.560
+100xEngineers: And, for…
+
+109
+00:26:48.850 --> 00:26:53.189
+100xEngineers: The exercise is done, and you guys can stop yelling at me in the chat right now.
+
+110
+00:26:54.040 --> 00:26:58.030
+100xEngineers: Because for the last 5 minutes, all of you are collectively trying to make
+
+111
+00:26:58.370 --> 00:27:03.709
+100xEngineers: One human draw a smiley face, and it took you almost 3 minutes to figure out how.
+
+112
+00:27:06.390 --> 00:27:17.029
+100xEngineers: There's an interesting lesson in this exercise, and I want you to sit with that, because somewhere in the world right now, there's a developer trying to explain something to a computer.
+
+113
+00:27:17.180 --> 00:27:19.410
+100xEngineers: And they have been doing it since last night.
+
+114
+00:27:20.050 --> 00:27:26.530
+100xEngineers: And I think now you guys can understand the pain and maybe feel empathy towards developers who work with these machines.
+
+115
+00:27:34.110 --> 00:27:36.190
+100xEngineers: Okay, I think we can close the…
+
+116
+00:27:39.100 --> 00:27:44.690
+100xEngineers: Part, but let me come back to… my screen.
+
+117
+00:27:47.360 --> 00:27:54.119
+100xEngineers: By the way, I'll show you, like, what I have drawn on my paper, because I did execute some instructions. This is what I have drawn.
+
+118
+00:27:56.830 --> 00:28:01.280
+100xEngineers: But I think the instructions was… chaotic.
+
+119
+00:28:01.600 --> 00:28:05.670
+100xEngineers: I think you guys all together are very terrible at programming.
+
+120
+00:28:06.020 --> 00:28:09.499
+100xEngineers: Maybe you guys are individually really good at programming, but…
+
+121
+00:28:09.710 --> 00:28:11.889
+100xEngineers: Together, it was, like, a chaos.
+
+122
+00:28:13.910 --> 00:28:19.770
+100xEngineers: Yes, let me come back.
+
+123
+00:28:20.760 --> 00:28:23.070
+100xEngineers: To my desktop, number two.
+
+124
+00:28:25.660 --> 00:28:29.749
+100xEngineers: For some reason, I can't share this. I can't share it right now.
+
+125
+00:28:33.400 --> 00:28:37.799
+100xEngineers: Okay, I have a couple of questions. Let's unpack what happened in this exercise.
+
+126
+00:28:37.900 --> 00:28:42.139
+100xEngineers: And, one thing which I'll give you as a feedback is.
+
+127
+00:28:42.570 --> 00:28:48.839
+100xEngineers: everybody started writing instructions without making the coordination system, so I think that is the…
+
+128
+00:28:49.380 --> 00:28:55.839
+100xEngineers: the feedback, and that's where you guys went slightly off. If somebody would have taken time to
+
+129
+00:28:57.260 --> 00:29:06.139
+100xEngineers: Coordinate with everybody and tell them that this is how we're gonna operate, or at least appoint one person from the team, that only one person will allow to do it.
+
+130
+00:29:06.140 --> 00:29:19.450
+100xEngineers: this has been, like, a very simple task. Only one person can just write the message, and I would have followed the instruction. And then people were also, like, guessing things. Somebody told me to stop talking, and then I paused myself, and I was not, like.
+
+131
+00:29:19.600 --> 00:29:37.539
+100xEngineers: talking anything, so I know, like, that created some confusion. And, then there's, like, a lot of things. Somebody said, initially, draw a circle. So I drew a circle, but I didn't know exactly where, because I was acting as a machine. I didn't know exactly where to draw the circle, so I drew, like, anywhere. I drew in the air.
+
+132
+00:29:37.750 --> 00:29:44.820
+100xEngineers: So this is also, like, a lesson, right? We need to be really precise with machines, and this is also a pain.
+
+133
+00:29:45.080 --> 00:29:47.349
+100xEngineers: You guys are gonna experience this pain.
+
+134
+00:29:47.750 --> 00:29:51.049
+100xEngineers: Almost every single week from this week onwards.
+
+135
+00:29:51.700 --> 00:29:58.879
+100xEngineers: And this is one of the exercises which I've done, so that you guys will start familiar this, or being familiar with this pain, because
+
+136
+00:29:59.210 --> 00:30:08.319
+100xEngineers: When you start building anything, you will be working at least for the next few weeks with the deterministic system, a machine, just like me.
+
+137
+00:30:09.460 --> 00:30:18.840
+100xEngineers: who do not have, any expression, cannot, like, read your intent and mind. You'll just follow the instructions. And sometimes, we get frustrated.
+
+138
+00:30:19.080 --> 00:30:20.990
+100xEngineers: When you might hear people, like.
+
+139
+00:30:21.140 --> 00:30:24.440
+100xEngineers: Okay, debugging is one of the hardest things. It is, actually, because
+
+140
+00:30:25.330 --> 00:30:32.030
+100xEngineers: you cannot explain things, and you cannot articulate, and that's on you. And it's difficult for a machine to understand what you are trying to do.
+
+141
+00:30:32.220 --> 00:30:39.190
+100xEngineers: But coming back to the exercise, and I'll try to, like, ask these three questions, and let's discuss it one by one.
+
+142
+00:30:40.460 --> 00:30:45.570
+100xEngineers: How many of you thought I was being annoying by not just drawing these smiley? Anyone thought that?
+
+143
+00:30:46.520 --> 00:30:51.890
+100xEngineers: If anyone thought that, then I think you need to… Okay, good, good.
+
+144
+00:30:53.920 --> 00:30:56.949
+100xEngineers: Some, some point, Aditi mentioned that, yeah.
+
+145
+00:30:57.130 --> 00:31:01.030
+100xEngineers: And I think it was not… I'm not being annoying purposefully, but…
+
+146
+00:31:01.990 --> 00:31:06.099
+100xEngineers: I'm just trying to execute all the instructions, acting like a machine.
+
+147
+00:31:06.240 --> 00:31:16.579
+100xEngineers: And this is the exact same feeling you guys will face in the next week when you start working with deterministic systems, when you write the instruction, and sometimes you will say that
+
+148
+00:31:16.800 --> 00:31:24.879
+100xEngineers: why this machine is not understanding, why this program is not running, why my workflow is not giving me the output which I want.
+
+149
+00:31:25.070 --> 00:31:31.260
+100xEngineers: So, just be familiar with this feeling, because you're gonna face this a lot. This is just a warm-up for all of you.
+
+150
+00:31:31.400 --> 00:31:34.270
+100xEngineers: Now, second question is between minute 1 and minute 3.
+
+151
+00:31:34.390 --> 00:31:53.500
+100xEngineers: the chat changed, and especially, like, after getting, like, few messages, the instructions got more precise, and I started, like, noticing that people were giving me one set of instructions in one single message, without, like, doing it, I would say, in a multiple message format.
+
+152
+00:31:53.900 --> 00:31:55.639
+100xEngineers: Nobody told you to do that.
+
+153
+00:31:56.320 --> 00:32:10.420
+100xEngineers: Why did you decide to do that? Especially people who gave me that instruction, especially the precise ones. Like, somebody mentioned that pick up the pen, hold the pen, draw the circle on the notebook, and then you've written it in a
+
+154
+00:32:10.540 --> 00:32:12.040
+100xEngineers: Like, one single message.
+
+155
+00:32:28.650 --> 00:32:36.320
+100xEngineers: Because of your response, yes. So, some of you learned, Nikir said, because of the response, he learned how to interact with this machine.
+
+156
+00:32:43.940 --> 00:32:48.460
+100xEngineers: Do you know what you guys have built in the last 3 minutes?
+
+157
+00:32:56.500 --> 00:33:01.609
+100xEngineers: You guys have built an interface. Now, you guys didn't build a machine, I had a machine.
+
+158
+00:33:02.270 --> 00:33:08.240
+100xEngineers: I, like, I was a machine, I was acting as a machine, and you guys were acting as the end user.
+
+159
+00:33:12.550 --> 00:33:13.650
+100xEngineers: If I…
+
+160
+00:33:13.940 --> 00:33:21.700
+100xEngineers: come back and just, like, paint a picture on this whiteboard. Let me get my whiteboard on… onto here.
+
+161
+00:33:33.610 --> 00:33:39.710
+100xEngineers: So, I'm just painting a picture what happened, and just, like, we'll try to transition into the next part.
+
+162
+00:33:40.030 --> 00:33:43.299
+100xEngineers: Because I need to conduct a lecture as well, and
+
+163
+00:33:44.600 --> 00:33:51.709
+100xEngineers: You guys were acting as your… as a user, so this is… what I experienced.
+
+164
+00:33:53.610 --> 00:33:58.980
+100xEngineers: And you guys were trying to give instructions to a machine, and I was acting as a machine.
+
+165
+00:33:59.800 --> 00:34:02.630
+100xEngineers: So the instructions were coming from a Zoom chat.
+
+166
+00:34:03.290 --> 00:34:06.850
+100xEngineers: And then I was executing those instructions.
+
+167
+00:34:07.080 --> 00:34:13.169
+100xEngineers: Now, there's a fundamental difference between these two things. There are two components in this system. One.
+
+168
+00:34:13.600 --> 00:34:20.940
+100xEngineers: which are human beings giving messages via Zoom, so I'll consider these are your humans…
+
+169
+00:34:21.510 --> 00:34:26.510
+100xEngineers: This is one part of the system. And then… The machines.
+
+170
+00:34:26.630 --> 00:34:32.990
+100xEngineers: Which is, like, another… part of the system. So, part one, part two.
+
+171
+00:34:33.600 --> 00:34:46.100
+100xEngineers: machines do not understand human language. It cannot… I gave you the instructions, it cannot read your mind, it cannot do, like, a lot of those things. It can only understand very precise instructions if you tell it.
+
+172
+00:34:46.199 --> 00:34:48.970
+100xEngineers: although I made the exercise slightly simpler.
+
+173
+00:34:49.010 --> 00:34:57.079
+100xEngineers: I could have told you guys that I only understand 3 letters, or 5 letters, and you have to, like, figure it out, and that becomes, like, a slightly another…
+
+174
+00:34:57.080 --> 00:35:20.709
+100xEngineers: advanced level of the same exercise. You can try this out, by the way. It's a fun exercise. It also teaches you how to design the interface boundaries, and it's a very, like, interesting psychological experiment as well. There are multiple studies about it, like, people, like, who design the interfaces, they try to, like, learn systems, different systems, and then create a shared boundary and a shared contract.
+
+175
+00:35:20.780 --> 00:35:22.860
+100xEngineers: Between these two different things.
+
+176
+00:35:23.180 --> 00:35:40.439
+100xEngineers: systems do not… who do not understand each other. So machine do not understand human beings, and human beings do not understand machines really well. So we need to first establish a common channel. In this channel, I gave you the commands, so there were some commands which you could use, which you can tell me.
+
+177
+00:35:40.520 --> 00:35:43.690
+100xEngineers: Without, like, being…
+
+178
+00:35:44.740 --> 00:35:53.159
+100xEngineers: over-descriptive, and then I can execute these commands. This was the common language. So, step number one is to establish
+
+179
+00:35:56.200 --> 00:35:57.680
+100xEngineers: A common language.
+
+180
+00:35:57.830 --> 00:36:06.339
+100xEngineers: Which was a prerequisite already given to all of you guys. And, step number two here was to then…
+
+181
+00:36:09.060 --> 00:36:12.530
+100xEngineers: establish… Set of rules.
+
+182
+00:36:12.930 --> 00:36:21.819
+100xEngineers: Set of rules has a very popular keyword in the computer science world, which is known as protocols.
+
+183
+00:36:23.260 --> 00:36:30.970
+100xEngineers: also used in military computer science, took this from military, by the way. Establishing set of rules.
+
+184
+00:36:31.450 --> 00:36:36.250
+100xEngineers: This is the second part, and the question which I asked you.
+
+185
+00:36:36.680 --> 00:36:43.710
+100xEngineers: Right after the first minute, when the answers were becoming vague, The instructions got more precise.
+
+186
+00:36:44.070 --> 00:36:50.739
+100xEngineers: And that led me to, like, start writing something on my paper, and it actually, like.
+
+187
+00:36:50.870 --> 00:36:53.940
+100xEngineers: started, like, building a… I would say, like, a…
+
+188
+00:36:54.720 --> 00:36:58.990
+100xEngineers: A much more cleaner way to work with the machine.
+
+189
+00:37:00.610 --> 00:37:08.430
+100xEngineers: Now, the next time onwards, if I do the same activity, I know a lot of you won't repeat the same mistakes. Hopefully, like.
+
+190
+00:37:08.510 --> 00:37:23.990
+100xEngineers: If you understand the whole activity better. But, what you can do is, now you have established a set of protocols. If you're talking to a machine who understands these commands, this is how we should talk to it, one person should recommend and write all the instructions.
+
+191
+00:37:24.260 --> 00:37:27.829
+100xEngineers: This is what you define as set of rules.
+
+192
+00:37:28.160 --> 00:37:33.840
+100xEngineers: And, once you have these set of rules, the contracts.
+
+193
+00:37:34.190 --> 00:37:39.219
+100xEngineers: All of this becomes… the interface
+
+194
+00:37:41.350 --> 00:37:55.260
+100xEngineers: And this interface lets you connect two different systems together. This is the whole thesis. For the next 3 months, what we're gonna do is trying to understand what kind of systems we are working with.
+
+195
+00:37:55.260 --> 00:37:59.809
+100xEngineers: And every time I will introduce a new system in this cohort in a lecture.
+
+196
+00:37:59.810 --> 00:38:19.930
+100xEngineers: The goal for us is to understand what kind of language it speaks, what is the interface that we can build, or we can use, what kind of set of rules we need to follow, and how we can design our system. That is a step one of designing a deterministic system. It's gonna be continued for even non-deterministic system, and with humans as well, because
+
+197
+00:38:19.930 --> 00:38:25.630
+100xEngineers: I have now, like, told you, interface is not limited to with humans and machine.
+
+198
+00:38:25.720 --> 00:38:30.010
+100xEngineers: interface, as a definition, what I discussed with you.
+
+199
+00:38:31.570 --> 00:38:43.090
+100xEngineers: is a shared agreement between two systems about how they will talk to each other when neither of them natively shares a language with others. A more professional definition of interface
+
+200
+00:38:44.040 --> 00:38:45.800
+100xEngineers: It's something like this.
+
+201
+00:38:46.220 --> 00:38:54.919
+100xEngineers: It's the boundary or bridge or point of interaction where two separate systems or components or entities meet and communicate.
+
+202
+00:38:59.510 --> 00:39:07.850
+100xEngineers: Now, I'll show you some pictures, and you need to tell me… this is the activity number 2. You need to tell me, like, whether it is an interface or not.
+
+203
+00:39:08.020 --> 00:39:13.850
+100xEngineers: And if yes, then you need to point out what is the interface, In that picture.
+
+204
+00:39:14.080 --> 00:39:15.209
+100xEngineers: Are you clear?
+
+205
+00:39:15.370 --> 00:39:26.590
+100xEngineers: I'll show you one picture right now, and you need to tell me if this is an interface, and if yes, then what kind of interface is this? Or what is the interface in this picture, to be precise.
+
+206
+00:39:34.150 --> 00:39:35.709
+100xEngineers: Is this an interface?
+
+207
+00:39:39.850 --> 00:39:43.889
+100xEngineers: I think some people are saying no because of a card.
+
+208
+00:39:45.560 --> 00:39:50.910
+100xEngineers: Just imagine this is definitely connected by… Something, right?
+
+209
+00:39:51.340 --> 00:39:55.010
+100xEngineers: So I know that you don't need to work in the technicalities, but…
+
+210
+00:39:55.950 --> 00:40:15.759
+100xEngineers: there's a cord which is connecting two people. By the way, you can do this experiment with a cup. I don't know how many of you have seen those science experiments in your childhood, where one person can attach a string inside a paper cup, and the other person can hold that string… the string, and if the string is tight enough, you can say something in this cup, and the other person can hear.
+
+211
+00:40:17.710 --> 00:40:20.059
+100xEngineers: But what do you think? What's the common consensus?
+
+212
+00:40:21.510 --> 00:40:29.050
+100xEngineers: Yes, some… most of the people said yes, and some people said phone is the interface, but I can't see phone here.
+
+213
+00:40:29.530 --> 00:40:30.540
+100xEngineers: So…
+
+214
+00:40:32.490 --> 00:40:40.089
+100xEngineers: Do you mean, like, this device? What do you call this? I think this… this is gonna be a handheld receiver, I'll call that receiver and…
+
+215
+00:40:40.200 --> 00:40:42.370
+100xEngineers: Transmitter handset here.
+
+216
+00:40:42.700 --> 00:40:43.969
+100xEngineers: Maybe a cord?
+
+217
+00:40:46.760 --> 00:40:48.050
+100xEngineers: Yeah, handset.
+
+218
+00:40:48.220 --> 00:40:52.930
+100xEngineers: I think let's establish, because otherwise people will just keep guessing what to call.
+
+219
+00:40:53.310 --> 00:40:55.739
+100xEngineers: Let's say we'll call this handset.
+
+220
+00:40:55.970 --> 00:40:57.700
+100xEngineers: And we have a cord.
+
+221
+00:40:57.830 --> 00:41:02.459
+100xEngineers: So these are the two things which we have in this picture, and… There are two entities.
+
+222
+00:41:02.660 --> 00:41:08.260
+100xEngineers: Now, both of them are human beings, by the way, right? So, we have two human beings.
+
+223
+00:41:08.850 --> 00:41:20.889
+100xEngineers: I don't know whether these two human beings share the same language, but definitely, we need to… we need to first, like, know that, because otherwise they can't talk to each other, even if they have the interface. So…
+
+224
+00:41:21.620 --> 00:41:23.080
+100xEngineers: There's a language.
+
+225
+00:41:25.080 --> 00:41:28.269
+100xEngineers: And, then there's this handset and cord.
+
+226
+00:41:30.060 --> 00:41:33.470
+100xEngineers: what is… the interface.
+
+227
+00:41:34.390 --> 00:41:36.390
+100xEngineers: Is handset the interface?
+
+228
+00:41:37.810 --> 00:41:41.369
+100xEngineers: Along with the code, power is language, the interface.
+
+229
+00:41:44.530 --> 00:41:46.320
+100xEngineers: And now we are describing.
+
+230
+00:41:47.100 --> 00:41:49.700
+100xEngineers: human… too human.
+
+231
+00:41:50.510 --> 00:41:58.229
+100xEngineers: So the broader question I'm trying to ask to all of you guys, what is the interface between human-to-human interaction?
+
+232
+00:42:20.580 --> 00:42:22.839
+100xEngineers: Think about it one more time.
+
+233
+00:42:28.100 --> 00:42:30.940
+100xEngineers: The invisible telephone exchange, the language.
+
+234
+00:42:34.230 --> 00:42:37.769
+100xEngineers: I think the answer is… All of them.
+
+235
+00:42:38.200 --> 00:42:56.800
+100xEngineers: Language is an interface, handset and cord is also an interface. Both of them are interface. But there are, like, different type of interfaces, and the universal interface between human to human is always gonna be language, because without language, I cannot express my emotions, and if I again come back to the same definition of
+
+236
+00:42:57.250 --> 00:43:08.859
+100xEngineers: interface is a boundary bridge of interaction where two systems or two separate components, entities, meet and communicate. So meet and communicate is the key word here.
+
+237
+00:43:09.390 --> 00:43:13.739
+100xEngineers: If I cannot use language, even if I have a device.
+
+238
+00:43:13.940 --> 00:43:24.120
+100xEngineers: a handheld device with me, which can maybe help me to transfer my voice to the other person. I won't be able to communicate anything if the other person won't understand.
+
+239
+00:43:24.480 --> 00:43:32.420
+100xEngineers: So I need both the language and the device. Language becomes a universal interface between human-to-human interaction.
+
+240
+00:43:32.560 --> 00:43:45.020
+100xEngineers: That is a very key point, and this will help you to design the interface for a lot of interesting applications later on. Handset is another type of interface. It's the interface which…
+
+241
+00:43:45.410 --> 00:43:56.350
+100xEngineers: uses the mechanical input and the output, and both of them are the right answers, like, we have two interfaces in this picture. Okay, now I'll show you a different picture.
+
+242
+00:43:57.410 --> 00:43:59.560
+100xEngineers: What is the interface in this picture?
+
+243
+00:44:07.250 --> 00:44:20.820
+100xEngineers: Yes, I agree with Dave to your answer. You can always, like, apply this, and you can maybe go nuanced, but I'll come back to it after answering this. Let's see, like, if you guys can guess what is the interface in this picture.
+
+244
+00:44:26.580 --> 00:44:31.739
+100xEngineers: The paper, words, message, the whole delivery, the post office, the letters.
+
+245
+00:44:32.090 --> 00:44:34.449
+100xEngineers: Just write all the interfaces, what you can think.
+
+246
+00:44:40.960 --> 00:44:46.290
+100xEngineers: Do you think Kush Envelope as itself.
+
+247
+00:44:46.420 --> 00:44:49.190
+100xEngineers: If you again compare the definition of interface.
+
+248
+00:44:49.690 --> 00:44:54.330
+100xEngineers: satisfy the definition. Actually, let me put this definition on the same
+
+249
+00:44:57.460 --> 00:44:58.460
+100xEngineers: System.
+
+250
+00:45:05.330 --> 00:45:09.050
+100xEngineers: Look at the definition, and then try to give the answer.
+
+251
+00:45:10.020 --> 00:45:17.819
+100xEngineers: What is that one thing which becomes… which is becoming a boundary, bridge, or a point of interaction between two separate systems? First.
+
+252
+00:45:18.330 --> 00:45:23.469
+100xEngineers: The rule of this exercise is to understand what two systems are we talking about.
+
+253
+00:45:23.810 --> 00:45:25.519
+100xEngineers: It has to be minimum 2.
+
+254
+00:45:25.710 --> 00:45:31.499
+100xEngineers: It could be more than two as well, but first, identify two systems here.
+
+255
+00:45:31.620 --> 00:45:33.310
+100xEngineers: Then…
+
+256
+00:45:34.060 --> 00:45:41.210
+100xEngineers: Is this thing, or whatever we are calling interface, can help these two systems to meet and communicate.
+
+257
+00:45:53.790 --> 00:45:57.630
+100xEngineers: The paper format systems, where is the second system?
+
+258
+00:46:04.770 --> 00:46:11.720
+100xEngineers: Envelope, address, poster system, Actually, I like the sun, so I'll put this on the screen.
+
+259
+00:46:11.940 --> 00:46:13.689
+100xEngineers: This is what Srimat said.
+
+260
+00:46:15.750 --> 00:46:18.260
+100xEngineers: Envelope address postal system.
+
+261
+00:46:18.940 --> 00:46:29.559
+100xEngineers: There are a few things which are invisible here, but you can also see, because there are stamps, and we can, like, figure out that this must be coming from some type of postal system.
+
+262
+00:46:29.680 --> 00:46:38.089
+100xEngineers: And there are some addresses. So, this… there are some things which are invisible, but things which are visible here, the envelopes, this is…
+
+263
+00:46:38.200 --> 00:46:42.479
+100xEngineers: a part of the interface. Yes, because it helps us to,
+
+264
+00:46:43.610 --> 00:46:56.670
+100xEngineers: creates the medium which can communicate via these letters. I would say envelope itself won't be an interface. It needs to be a whole system with envelopes, letters, stamps.
+
+265
+00:46:56.850 --> 00:46:59.480
+100xEngineers: And we have a name for this system, which…
+
+266
+00:47:00.220 --> 00:47:03.270
+100xEngineers: I have already mentioned, this is the postal service.
+
+267
+00:47:05.880 --> 00:47:11.229
+100xEngineers: Now, address… somebody told me address is the interface. I will…
+
+268
+00:47:11.600 --> 00:47:24.650
+100xEngineers: I will argue in this case, address can become an interface, maybe, like, if you talk about it separately, but right now, address in this case is not an interface, this is
+
+269
+00:47:24.800 --> 00:47:25.900
+100xEngineers: an input.
+
+270
+00:47:31.100 --> 00:47:33.320
+100xEngineers: Do you understand why address is an input?
+
+271
+00:47:34.290 --> 00:47:39.309
+100xEngineers: Because… A postal system needs an input.
+
+272
+00:47:39.570 --> 00:47:41.110
+100xEngineers: Only then it can…
+
+273
+00:47:41.340 --> 00:47:46.329
+100xEngineers: Transfer this data from, like, one place to another, or this letter from one place to another.
+
+274
+00:47:46.830 --> 00:47:51.130
+100xEngineers: So, addresses and input here is not an interface for this context.
+
+275
+00:47:51.600 --> 00:48:06.389
+100xEngineers: And if I have to, like, pick one word, postal service, which is doing the job of taking these envelopes, putting them into, taking these letters, putting them into envelopes, putting stamps on them.
+
+276
+00:48:06.840 --> 00:48:21.750
+100xEngineers: having a postman be delivering from one address to another. That entire system is a whole interface. Because this system is, again, doing the interaction between two human beings, similar to this, but instead of using a phone, they are doing it via
+
+277
+00:48:21.940 --> 00:48:23.010
+100xEngineers: letters.
+
+278
+00:48:25.030 --> 00:48:32.370
+100xEngineers: Language still plays an important role here, because language is also the interface. So I'll… I'll put, apart from postal service.
+
+279
+00:48:32.740 --> 00:48:38.920
+100xEngineers: language as the interface, and I'll remove the address here, this is gonna be the input.
+
+280
+00:48:39.420 --> 00:48:43.740
+100xEngineers: So I have to compress it down, these two interfaces from here.
+
+281
+00:48:46.020 --> 00:48:49.860
+100xEngineers: I'll give you… One more. This is the last one.
+
+282
+00:48:50.500 --> 00:48:51.959
+100xEngineers: Actually, second, last one.
+
+283
+00:48:52.320 --> 00:48:54.360
+100xEngineers: What do you think? What is this?
+
+284
+00:48:55.620 --> 00:48:57.210
+100xEngineers: Is it an interface?
+
+285
+00:48:57.570 --> 00:48:59.700
+100xEngineers: If yes, what is an interface in this?
+
+286
+00:49:17.610 --> 00:49:19.180
+100xEngineers: Image is an interface?
+
+287
+00:49:21.680 --> 00:49:22.889
+100xEngineers: Think about it.
+
+288
+00:49:23.230 --> 00:49:25.929
+100xEngineers: Movie references the interface, Sagar said.
+
+289
+00:49:26.210 --> 00:49:27.200
+100xEngineers: Could be.
+
+290
+00:49:27.690 --> 00:49:33.800
+100xEngineers: A dialogue is an interface. This is an interesting one, by the way. Just the language. Language could be an interface as well.
+
+291
+00:49:34.120 --> 00:49:52.270
+100xEngineers: Language is by default an interface in everything, because we have established it, and that's also a thing which I will try to establish, that because once you establish, like, one type of interface, whenever there are two systems, like, especially humans, language is going to be a common, interface. Apart from language, what do you think?
+
+292
+00:49:52.270 --> 00:49:54.510
+100xEngineers: What could be an interface on this?
+
+293
+00:49:56.300 --> 00:49:58.489
+100xEngineers: No, Irvine, there is no voice here.
+
+294
+00:49:59.790 --> 00:50:02.900
+100xEngineers: Rakesh said emotions. Emotions could be an interface.
+
+295
+00:50:08.110 --> 00:50:12.189
+100xEngineers: Manish said meme could be an interface. A lot of people said meme could be an interface.
+
+296
+00:50:13.650 --> 00:50:18.080
+100xEngineers: the model context, the language…
+
+297
+00:50:22.390 --> 00:50:24.930
+100xEngineers: Expressions, storyline, characters.
+
+298
+00:50:27.630 --> 00:50:32.789
+100xEngineers: But if I have to, like, extract it out, maybe, like, zoom out a little bit, this entire picture
+
+299
+00:50:33.400 --> 00:50:35.269
+100xEngineers: Has a name, it's called Meme.
+
+300
+00:50:37.190 --> 00:50:43.449
+100xEngineers: Now… On a very technical level, it might not be very obvious that… how this can be an interface.
+
+301
+00:50:43.720 --> 00:50:46.250
+100xEngineers: But actually, meme is…
+
+302
+00:50:46.740 --> 00:50:56.680
+100xEngineers: the interface, which consists of language, story, context, emotions, everything. Whatever you're telling me in the chat, the intelligence.
+
+303
+00:50:56.810 --> 00:51:00.800
+100xEngineers: memory… Between whom? Let me explain you how.
+
+304
+00:51:01.520 --> 00:51:05.870
+100xEngineers: A meme is an interface between an idea and a human mind.
+
+305
+00:51:06.320 --> 00:51:11.710
+100xEngineers: Between a culture and a cognition, between, these two things
+
+306
+00:51:12.150 --> 00:51:30.319
+100xEngineers: Meme is a compressed meaning and a social transmission. A meme is a high-bandwidth cognitive interface. Meme reduces cognitive load. You do not need a 2,000-word essay when a meme activates an already shared latent representation in a collective mind.
+
+307
+00:51:30.520 --> 00:51:47.480
+100xEngineers: If I have to explain this meme, I have to tell you a lot of these things. I have to give you the context of the film, I have to give you the context of the story, the characters, also the dialogues, the emotion, and that's why maybe you have sometimes… I don't know if you have felt this, it's very difficult to explain memes verbally.
+
+308
+00:51:47.920 --> 00:51:52.890
+100xEngineers: Because the kind of emotion and the kind of response they trigger when you look at it, it's, like, very different.
+
+309
+00:51:54.440 --> 00:52:05.650
+100xEngineers: Meme is one of the most compressed form of interface humankind has ever invented, I believe. Like, this is my opinion, not a subjective truth, because I believe meme packages
+
+310
+00:52:06.360 --> 00:52:15.010
+100xEngineers: Context, emotion, status, ideology, humor, tribal alignment, narrative, into something which is transmissible in seconds.
+
+311
+00:52:15.010 --> 00:52:28.039
+100xEngineers: It is the highest form of compression what we can do. And this is also why I believe memes became central to the internet-native politics, marketing, startups, AI culture. Whoever controls the meme layer often controls
+
+312
+00:52:28.040 --> 00:52:34.399
+100xEngineers: We have seen this again and again, attention, framing, emotional momentum, perceived truth, social coordination.
+
+313
+00:52:34.460 --> 00:52:36.359
+100xEngineers: So memes are not just jokes.
+
+314
+00:52:36.490 --> 00:52:44.860
+100xEngineers: They are executable, cultural, cognitive interfaces. One of the recent memes, if you are in India, I think…
+
+315
+00:52:45.080 --> 00:52:59.160
+100xEngineers: We have a cockroach as a meme. CJP, yeah. If you see the entire burst of this, I don't know if everyone has a context of this, but you can search. There's a very interesting thing happening in India, slightly off-topic, but
+
+316
+00:52:59.270 --> 00:53:08.560
+100xEngineers: Just a reference to the… Thing… this… This entire party… is…
+
+317
+00:53:08.650 --> 00:53:29.439
+100xEngineers: It's basically a meme, started as a meme, now has 22 million followers on Instagram, surpassed the most followed, political party in India, and I think in the world, I don't know, like, if it has, but, it's like 22 million people following this party, and which happened, like, over less than a couple of days.
+
+318
+00:53:29.440 --> 00:53:31.420
+100xEngineers: I think 15 may…
+
+319
+00:53:31.420 --> 00:53:38.369
+100xEngineers: it started, I think 16 May, it went live, and from 16 May to now, it's, like, less than one week.
+
+320
+00:53:38.400 --> 00:53:45.489
+100xEngineers: It surpassed, like, the official ruling party of India under 5 days.
+
+321
+00:53:45.850 --> 00:53:47.879
+100xEngineers: Now, some of you might think that
+
+322
+00:53:48.050 --> 00:53:58.920
+100xEngineers: why I'm sharing the context of, like, political system in this world, because just to give you an idea that this is also one of the type of interfaces, right? And that's why, like, it…
+
+323
+00:53:58.940 --> 00:54:14.459
+100xEngineers: it signified that entire thing which acted as a meme became a cultural movement, because it compressed a lot of things. It compressed whatever people are feeling about the current set of, like, political system. This is another interface.
+
+324
+00:54:15.390 --> 00:54:29.070
+100xEngineers: Now, coming back to the lecture, because I don't wanna, as I said, like, I'll talk about different interfaces, but in this lecture, we'll try to restrict ourselves to the interfaces that we can build, although I would say a lot of you have the potential to build memes.
+
+325
+00:54:29.070 --> 00:54:37.550
+100xEngineers: And as well as political parties, but unfortunately, that is not the cohort we have signed up for. I have, like, the last one. What do you think?
+
+326
+00:54:37.860 --> 00:54:41.099
+100xEngineers: Is this an interface? If yes, then…
+
+327
+00:54:41.960 --> 00:54:44.149
+100xEngineers: This question has changed right now. What…
+
+328
+00:54:49.320 --> 00:54:50.749
+100xEngineers: is the interface.
+
+329
+00:55:08.510 --> 00:55:10.469
+100xEngineers: Xbox, the whole screen?
+
+330
+00:55:10.720 --> 00:55:11.860
+100xEngineers: Language?
+
+331
+00:55:12.640 --> 00:55:16.240
+100xEngineers: Yeah, I think language we should now consider as a standard interface.
+
+332
+00:55:18.390 --> 00:55:20.310
+100xEngineers: We have a lot of things here, by the way.
+
+333
+00:55:20.820 --> 00:55:22.709
+100xEngineers: This is ChatGPT's window.
+
+334
+00:55:26.960 --> 00:55:37.390
+100xEngineers: For some reason, My accelerator is, like, giving… Not-so-high definition Version of this image.
+
+335
+00:55:45.980 --> 00:55:47.300
+100xEngineers: Is it UR?
+
+336
+00:55:50.450 --> 00:55:53.500
+100xEngineers: I'll give you, like, one more picture of this.
+
+337
+00:55:57.290 --> 00:56:03.840
+100xEngineers: This is another one where we gave some information. Now you need to help me with two things before I answer this, what is…
+
+338
+00:56:03.980 --> 00:56:09.920
+100xEngineers: this interface, and whether this is an interface. The answer is yes, definitely it's an interface, but
+
+339
+00:56:10.160 --> 00:56:14.109
+100xEngineers: Let's try to understand the systems here.
+
+340
+00:56:14.590 --> 00:56:26.959
+100xEngineers: So we need to find two systems who will be operating this, because it's an interface, so interface means it's connecting two different systems anymore. So what is a system number one or two? Actually, let's mention both those systems.
+
+341
+00:56:31.520 --> 00:56:36.100
+100xEngineers: Hunt said human and LM. These are the two different systems we are connecting.
+
+342
+00:56:49.330 --> 00:56:50.710
+100xEngineers: Front and back-end?
+
+343
+00:56:51.010 --> 00:56:52.090
+100xEngineers: model.
+
+344
+00:56:52.830 --> 00:56:58.260
+100xEngineers: Internet… the approach with human is a UI. Yes, the internet
+
+345
+00:56:58.600 --> 00:57:03.260
+100xEngineers: A lot of things are there. People are mentioning different systems, and…
+
+346
+00:57:04.000 --> 00:57:11.150
+100xEngineers: And the answer is, like, all of you are correct, like, most of you are correct, in the sense. I don't want to just, like, encourage everyone, but most of you are correct.
+
+347
+00:57:11.280 --> 00:57:18.429
+100xEngineers: There are different systems. Actually, there are more than two systems in this place. We have human beings, we have LLMs, we have internet.
+
+348
+00:57:18.940 --> 00:57:22.160
+100xEngineers: We have, language.
+
+349
+00:57:23.150 --> 00:57:27.160
+100xEngineers: But again, language is an interface, so I won't put language as a system.
+
+350
+00:57:27.480 --> 00:57:31.740
+100xEngineers: computer itself?
+
+351
+00:57:32.970 --> 00:57:36.090
+100xEngineers: Because somebody might be running this entire thing on a computer.
+
+352
+00:57:36.720 --> 00:57:40.400
+100xEngineers: what all systems we have. Just write down all the systems.
+
+353
+00:57:42.350 --> 00:57:49.809
+100xEngineers: Human is not the interface, I'm talking about the systems, Yasir, just listing down all the systems. So, human is not the interface, human is a system.
+
+354
+00:57:50.620 --> 00:57:56.020
+100xEngineers: ALM is a system, internet is a system, computer is a system, browser is a system. Yes, Munish.
+
+355
+00:57:56.600 --> 00:57:58.590
+100xEngineers: Thank you for mentioning that.
+
+356
+00:58:05.110 --> 00:58:07.710
+100xEngineers: the text box, what Shefari said.
+
+357
+00:58:07.970 --> 00:58:15.910
+100xEngineers: If actually I'll zoom in, text box in itself is also now an interface. The button is an interface.
+
+358
+00:58:16.010 --> 00:58:20.979
+100xEngineers: But these are not systems. I'll… Pull this out.
+
+359
+00:58:22.280 --> 00:58:23.260
+100xEngineers: Or no.
+
+360
+00:58:25.050 --> 00:58:27.029
+100xEngineers: But these could be, like, interfaces.
+
+361
+00:58:27.180 --> 00:58:31.930
+100xEngineers: First we'll be talking about systems. There are, like, multiple systems out there.
+
+362
+00:58:32.240 --> 00:58:35.650
+100xEngineers: I can also list down… there's, like…
+
+363
+00:58:35.890 --> 00:58:40.799
+100xEngineers: a lot more things, which I'll share with you guys, which is happening here,
+
+364
+00:58:42.560 --> 00:58:48.670
+100xEngineers: But let's pick, like, one thing, which… which is, like, how we start having the conversation.
+
+365
+00:58:48.790 --> 00:58:51.430
+100xEngineers: Let's say if I'm going to ChatGPT right now.
+
+366
+00:58:52.220 --> 00:58:59.310
+100xEngineers: the first thing which I'm doing, is… Writing something on my browser.
+
+367
+00:58:59.520 --> 00:59:01.230
+100xEngineers: thechargevy.com.
+
+368
+00:59:01.430 --> 00:59:07.200
+100xEngineers: So I, as a human being, first… my first interaction is typing.
+
+369
+00:59:07.350 --> 00:59:11.199
+100xEngineers: And when I type, There are two things.
+
+370
+00:59:11.310 --> 00:59:14.719
+100xEngineers: One is, I need also a keyboard.
+
+371
+00:59:16.680 --> 00:59:24.959
+100xEngineers: So, keyboard is also a system, right? I need… I'm actually, like… I don't know, like, what do you think? What is keyboard? Keyboard is a system or an interface?
+
+372
+00:59:26.420 --> 00:59:33.369
+100xEngineers: this could be slightly difficult to understand in first go, and it's completely fine if you're getting confused. I'll come back to it, because
+
+373
+00:59:33.910 --> 00:59:39.070
+100xEngineers: I'm trying to understand, like, how you guys are thinking first, and later I'll give you the explanation.
+
+374
+00:59:40.150 --> 00:59:45.820
+100xEngineers: But I'm trying to, like, show you the process. If I go to ChartGPT, I write something, I first press
+
+375
+00:59:46.030 --> 00:59:48.240
+100xEngineers: Seek key on my keyboard.
+
+376
+00:59:48.360 --> 00:59:57.290
+100xEngineers: That keyboard is connected to my computer system, which is a system. That computer system also has an operating system.
+
+377
+00:59:57.650 --> 00:59:59.010
+100xEngineers: Which is a system.
+
+378
+00:59:59.830 --> 01:00:04.720
+100xEngineers: In this case, could be an interface as well? A good question. Like…
+
+379
+01:00:04.960 --> 01:00:12.269
+100xEngineers: I think now you guys might think about, like, I'm really annoying right now, but I'm trying to, like, give you…
+
+380
+01:00:12.800 --> 01:00:14.320
+100xEngineers: A perspective here.
+
+381
+01:00:14.730 --> 01:00:22.290
+100xEngineers: So… coming back to this, I open my browser, I press
+
+382
+01:00:22.550 --> 01:00:26.739
+100xEngineers: the C on my keyboard. Keyboard is connected to my…
+
+383
+01:00:27.300 --> 01:00:33.079
+100xEngineers: computer system. Computer system has an operating system. Operating system understands this
+
+384
+01:00:33.210 --> 01:00:36.250
+100xEngineers: key press, it triggers a process.
+
+385
+01:00:36.480 --> 01:00:42.669
+100xEngineers: After triggering the process, it understands there is a browser app which is running on my machine, which is another system.
+
+386
+01:00:42.690 --> 01:00:49.700
+100xEngineers: this browser app takes this information, sends it to someone, somewhere else, because ChatGPT doesn't…
+
+387
+01:00:49.720 --> 01:01:01.650
+100xEngineers: stay on my local machine. It is somewhere installed in someone's computer, on a server, on cloud. So it's going somewhere, taking the data from that place.
+
+388
+01:01:01.650 --> 01:01:15.409
+100xEngineers: That also is a system. Getting that data from that place, putting it in front of me, and then displaying all of this thing is the whole journey. And this is a journey of how web works. I have a very interesting resource for all of you.
+
+389
+01:01:15.440 --> 01:01:20.240
+100xEngineers: This is… I'll share it, actually, with a…
+
+390
+01:01:29.430 --> 01:01:32.000
+100xEngineers: I… I think this is…
+
+391
+01:01:37.390 --> 01:01:38.810
+100xEngineers: Let me…
+
+392
+01:01:45.430 --> 01:02:01.770
+100xEngineers: how web works, this was the resource. I'll share all of this, by the way, and upload it on the LMS, but this is one of the resources which I'll share you, and I have, like, a lot of these things, the videos which I have mentioned, and this is, like, one of my favorite websites to refer to.
+
+393
+01:02:02.220 --> 01:02:08.020
+100xEngineers: It will teach you, like, exactly what happens when you type something on your keyboard.
+
+394
+01:02:08.340 --> 01:02:25.390
+100xEngineers: to the browser, it goes to DNS. This is how the internet works today. Internet is built on top of a lot of these systems. This is not magic when somebody types something and you get the information right in front of you. It's the hard work, blood, sweat, tears of, like, 50 years of engineering.
+
+395
+01:02:25.930 --> 01:02:37.520
+100xEngineers: and the collective, human intelligence who have gone into building these deterministic systems. And very interesting, because a lot of us try now, like, I would say.
+
+396
+01:02:37.810 --> 01:02:47.540
+100xEngineers: Just take things for granted, but there's a whole beautiful engineering behind it, like, somebody has thought about, like, what will happen, and there's, like, multiple series of systems connected
+
+397
+01:02:47.540 --> 01:03:01.120
+100xEngineers: together with multiple interfaces. Now, I'll not go into the deep level of how everything works, but I'll give you this entire resource, and you can just check out this at the end of the lecture.
+
+398
+01:03:01.310 --> 01:03:03.760
+100xEngineers: But I'll come back to it, and I'll…
+
+399
+01:03:04.270 --> 01:03:09.000
+100xEngineers: I'll pick only two systems for now, because I told you, like, the entire action point.
+
+400
+01:03:09.260 --> 01:03:26.279
+100xEngineers: Just to give you a perspective of what all different systems you are interacting with. But first and foremost thing, in this case, if I'm… if I have to, like, pick between a human being and this computer system where the browser is installed, there is…
+
+401
+01:03:27.450 --> 01:03:30.510
+100xEngineers: Let me now draw so that it'll be easier.
+
+402
+01:03:30.880 --> 01:03:38.390
+100xEngineers: This is a human, and this is a computer. In this computer, there's a browser, So
+
+403
+01:03:47.220 --> 01:03:50.040
+100xEngineers: This human being can write something in this browser.
+
+404
+01:03:50.210 --> 01:03:52.909
+100xEngineers: Definitely via computer as well, so…
+
+405
+01:03:53.280 --> 01:04:03.110
+100xEngineers: from that lens, now you can think whether it's acting as a… as an interface or not. Definitely, keyboard is acting as an interface, because I'm using keyboard, and I'm connecting, like.
+
+406
+01:04:03.300 --> 01:04:08.100
+100xEngineers: hardware and software, I'm instructing this, but,
+
+407
+01:04:09.170 --> 01:04:22.580
+100xEngineers: I'm not… I'm not going into the deep end of, like, all the interfaces in all the systems. If I pick, like, the first and foremost thing which I need between a human and a browser, is some… some kind of system,
+
+408
+01:04:23.090 --> 01:04:27.850
+100xEngineers: Which can first… Understand my intent.
+
+409
+01:04:28.700 --> 01:04:42.300
+100xEngineers: Like, if I have to, like, go to ChatGPT, then maybe I need to, like, write something. And once I, like, write those things, it needs to display the app in my browser. So the app which you guys see, the chat app.
+
+410
+01:04:42.560 --> 01:04:44.110
+100xEngineers: This entire thing.
+
+411
+01:04:44.730 --> 01:04:50.679
+100xEngineers: is the… front-end app of the ChatGPT. It's not the complete app.
+
+412
+01:04:50.890 --> 01:04:54.169
+100xEngineers: Some people mentioned that we have the LLM.
+
+413
+01:04:54.340 --> 01:05:01.010
+100xEngineers: If I'm talking to ChatGPT through my browser, what I get on my browser is not the LLM.
+
+414
+01:05:01.670 --> 01:05:08.580
+100xEngineers: But the front-end app of the LLM, of the chat GPT as a system, Now…
+
+415
+01:05:09.860 --> 01:05:13.460
+100xEngineers: In order for me to now interact with this front-end system.
+
+416
+01:05:14.560 --> 01:05:20.270
+100xEngineers: I… I'm a human being, and in the computer science world, we refer human beings
+
+417
+01:05:20.550 --> 01:05:31.680
+100xEngineers: as users. By the way, there are only two industries. A quick, interesting insight for all of you. Only two industries in the world who call their customers as users.
+
+418
+01:05:31.800 --> 01:05:35.390
+100xEngineers: One is… Software, another one is drugs.
+
+419
+01:05:35.600 --> 01:05:40.319
+100xEngineers: So… Which is, I find, like, ironic, because…
+
+420
+01:05:41.010 --> 01:05:43.560
+100xEngineers: Humans are building addictive softwares as well.
+
+421
+01:05:43.740 --> 01:05:48.780
+100xEngineers: The interface…
+
+422
+01:05:49.410 --> 01:06:05.659
+100xEngineers: we… if you have to pick, like, hyper-focus on… on two things, because there's, like, multiple things which are coming in between, but if you have to hyper-focus on the user and the front-end app, or the front-end itself, which, is basically one of the system of ChatGPT,
+
+423
+01:06:06.450 --> 01:06:08.349
+100xEngineers: This is an interface.
+
+424
+01:06:09.100 --> 01:06:11.840
+100xEngineers: And I think now you guys can guess
+
+425
+01:06:12.050 --> 01:06:19.209
+100xEngineers: What is the name of this interface? Can somebody guess the name of this interface? Which is sitting between the user and the front-end system.
+
+426
+01:06:20.940 --> 01:06:25.399
+100xEngineers: Yes, this is known as UI, which is very obvious and very straightforward.
+
+427
+01:06:26.220 --> 01:06:43.520
+100xEngineers: people didn't use any creativity here, they just called it user interface. So, from a first principle lens, this is why I broke it down and derived everything in front of you, so that you learn, this is what the user interface is all about. User interface is the system
+
+428
+01:06:43.970 --> 01:06:55.240
+100xEngineers: It's a boundary in the bridge point of interaction where two systems, which are human being and a front-end system of a larger app, meet and communicate.
+
+429
+01:06:56.040 --> 01:07:03.070
+100xEngineers: Now, there's a quick question here, is that why front-end is different than user interface? Anyone can answer this question?
+
+430
+01:07:03.830 --> 01:07:07.149
+100xEngineers: Especially people who are already familiar with these terms.
+
+431
+01:07:07.500 --> 01:07:18.020
+100xEngineers: Why do you think… what is the differentiation between front-end and user interface? Why I'm not calling frontend is equals to user interface? Why it's a separate
+
+432
+01:07:18.150 --> 01:07:21.580
+100xEngineers: Thing, or why front-end is not the interface itself.
+
+433
+01:07:28.030 --> 01:07:29.280
+100xEngineers: Different layers?
+
+434
+01:07:37.880 --> 01:07:39.700
+100xEngineers: Content is a machine language.
+
+435
+01:07:40.050 --> 01:07:43.710
+100xEngineers: Front-end is not a machine language, front-end is just a system.
+
+436
+01:07:43.950 --> 01:07:46.209
+100xEngineers: Just like browser, just like computer.
+
+437
+01:08:01.550 --> 01:08:03.620
+100xEngineers: Yes, so TJS…
+
+438
+01:08:04.120 --> 01:08:26.599
+100xEngineers: pointed front end is much bigger than the UI. UI is a subset. Very, very well-defined thing. I like, when people, like, start going into the deep end, because this is also what tells you that who has done the most work, in terms of thinking, and who also has the most amount of time to overthink about these small details. But, coming back to it, yeah, this is… both of these things are important.
+
+439
+01:08:27.450 --> 01:08:40.200
+100xEngineers: Front-end is a whole system, and as what TJ mentioned, UI is a subset of it, like, it's only doing a part which is helping our user to interact
+
+440
+01:08:40.420 --> 01:08:44.220
+100xEngineers: And communicate between these two things.
+
+441
+01:08:44.380 --> 01:08:52.799
+100xEngineers: Along with that, there's a lot of things which front-end is doing. Front-end is also running processes. It's… it's basically doing things in background.
+
+442
+01:08:54.260 --> 01:08:56.270
+100xEngineers: If you want to, like, know
+
+443
+01:08:56.590 --> 01:09:00.960
+100xEngineers: what exactly your front-end app is doing, and what ChatGPT's app is doing.
+
+444
+01:09:02.399 --> 01:09:18.009
+100xEngineers: You can right-click on inspect. This is an exercise for all of you, especially people who have not used the Inspect. If you're on a Chrome tab, or using a Chrome as a browser, you can right-click and click on inspect, and you can click on the Network tab, and if I click on this
+
+445
+01:09:18.120 --> 01:09:25.020
+100xEngineers: or select the All button, and if I refresh the entire page, You can see, like.
+
+446
+01:09:25.850 --> 01:09:33.099
+100xEngineers: This bunch of things, this… app is doing. All of these things are requests.
+
+447
+01:09:33.609 --> 01:09:44.400
+100xEngineers: Which is made by this front-end system to ChatGPT's server. So first is definitely chatgpt.com. This is to get the whole webpage.
+
+448
+01:09:45.670 --> 01:09:57.110
+100xEngineers: Which makes sense, but it also installed this… something called Manifest, and then the client HRDNWN, there's, like, conversations.
+
+449
+01:09:57.310 --> 01:10:01.240
+100xEngineers: There is, a font.
+
+450
+01:10:01.890 --> 01:10:13.200
+100xEngineers: the whole lot of things it's doing. And if you want to also get some interesting insights about how these guys are, like, working, and want to reverse engineer
+
+451
+01:10:14.140 --> 01:10:16.710
+100xEngineers: You can go to…
+
+452
+01:10:18.150 --> 01:10:23.330
+100xEngineers: any of your favorite LLM, let's say I'll… I'll use Claude because I'm already logged in here.
+
+453
+01:10:23.740 --> 01:10:29.339
+100xEngineers: And, I'll… right-click and… the inspect button.
+
+454
+01:10:29.710 --> 01:10:34.180
+100xEngineers: In the network tab, if I… send one…
+
+455
+01:10:35.260 --> 01:10:41.050
+100xEngineers: prompt right now. Just observe what's happening. Look at this part, I'll zoom in a little bit.
+
+456
+01:10:41.220 --> 01:10:44.330
+100xEngineers: So you can observe what's happening. Right now, it's completely empty.
+
+457
+01:10:44.550 --> 01:10:59.729
+100xEngineers: And, I'm just, like, not selecting all. I'm trying to only fetch the XHR requests, which are type of the request. But if you see, like, even when I was not doing anything, so my hands are, like, up and I'm not typing anything, but
+
+458
+01:10:59.730 --> 01:11:08.000
+100xEngineers: automatically, after some millisecond, it's running things. So these are things which it is running in background. Now…
+
+459
+01:11:08.070 --> 01:11:19.280
+100xEngineers: there could be multiple reasons for it. Maybe it's just, like, checking the connection with the server, maybe it's just checking, like, whether we are logged in, maybe it's running some… I don't know, like.
+
+460
+01:11:19.700 --> 01:11:26.779
+100xEngineers: something… Which is confidential. Let me now send a message
+
+461
+01:11:27.480 --> 01:11:43.910
+100xEngineers: And if I send a message, you can see it doesn't only do the one call, so completion is one call, which actually starts the whole completion part, which tells the Haiku model that, hey, this is the prompt, and then you need to send a message back.
+
+462
+01:11:44.170 --> 01:12:00.859
+100xEngineers: So this is where all the data is coming in. But along with completion, which makes sense, because I wrote something, and it is… it should go to the server, which is a different system, by the way, because it's not sitting the… the cloud cannot sit on my local machine. So…
+
+463
+01:12:01.000 --> 01:12:07.090
+100xEngineers: This makes sense, but what… is about this. There's a settings… request.
+
+464
+01:12:07.260 --> 01:12:12.520
+100xEngineers: Which is, like… enabling saffron. I don't know whether they also…
+
+465
+01:12:12.640 --> 01:12:16.250
+100xEngineers: Are preparing for another political party, but
+
+466
+01:12:17.880 --> 01:12:20.380
+100xEngineers: There's another one which is memory.
+
+467
+01:12:20.600 --> 01:12:35.690
+100xEngineers: And this is interesting, because I have mentioned a few things that never use mdash. I hate mdash. So, never use this, and it is taking things from my memory, which I have already mentioned clearly to Claude, that is using that.
+
+468
+01:12:35.870 --> 01:12:44.379
+100xEngineers: In a way, it's good, and I mentioned about, like, I have one co-founder, and my discovery to MVP coach skill.
+
+469
+01:12:45.330 --> 01:12:47.660
+100xEngineers: So it's going, like, multiple things.
+
+470
+01:12:48.450 --> 01:12:52.530
+100xEngineers: And all of this is, again, done by your front-end system. So…
+
+471
+01:12:52.660 --> 01:13:08.879
+100xEngineers: the goal of, like, showing you how it works is your front-end system is more than the pretty UI which you see, and there's a lot of things which are happening in the background. There are processes running, there are things going on. We're gonna learn a lot of these things. I'll go deep dive with the
+
+472
+01:13:09.000 --> 01:13:26.290
+100xEngineers: with the code exercises. It would be available for both no-code and code as well, so you guys can, like, still watch it, like, irrespective of whatever track you have. But I'll be, like, doing these live exercises with code, because it requires you to, like, go through and do a slightly deep type. But the goal here is to, like.
+
+473
+01:13:26.780 --> 01:13:28.010
+100xEngineers: understand
+
+474
+01:13:28.130 --> 01:13:40.439
+100xEngineers: what all things your system… the front-end system can do, because only then you can design a better front-end system. Because if your understanding today is that front-end is equal to UI which shows a text and button.
+
+475
+01:13:40.600 --> 01:13:49.579
+100xEngineers: you will only be able to design text and buttons. But when you know that it can do, like, much more than that, then you can think about it, and this is what gives you
+
+476
+01:13:49.580 --> 01:14:05.790
+100xEngineers: the pieces which you can use to design a better front-end system. We'll learn more about frontend starting from next week. We will target front-end as our first interface. This is also the name of this lecture, why it kept in a way, because frontend is also the first interface, like.
+
+477
+01:14:05.790 --> 01:14:16.689
+100xEngineers: Actually, being specific, user interface UI is the first interface, or the first layer where your user interacts with your application, the application you built.
+
+478
+01:14:17.120 --> 01:14:25.270
+100xEngineers: Now… There's something which is happening, and we all saw right now. I have a quick question.
+
+479
+01:14:26.100 --> 01:14:27.440
+100xEngineers: Connecting to that.
+
+480
+01:14:28.750 --> 01:14:32.910
+100xEngineers: We know that this front-end has sent a message.
+
+481
+01:14:33.900 --> 01:14:38.549
+100xEngineers: just to… Revise your memory.
+
+482
+01:14:40.830 --> 01:14:42.470
+100xEngineers: I'll send one more time.
+
+483
+01:14:46.640 --> 01:14:50.290
+100xEngineers: This is the… completion request.
+
+484
+01:14:50.520 --> 01:14:54.030
+100xEngineers: This is the message which is sent to somewhere.
+
+485
+01:14:54.220 --> 01:14:58.080
+100xEngineers: Not on our machine. This is the exact Address.
+
+486
+01:14:58.530 --> 01:15:12.449
+100xEngineers: Just like how you have seen the address on those letters, this is the address equivalent for internet websites, internet apps. So somebody has sent a message to this address on the internet.
+
+487
+01:15:12.660 --> 01:15:18.210
+100xEngineers: Which will, like, translate into an IP address, which is the actual remote address. Looks like something this.
+
+488
+01:15:18.610 --> 01:15:21.119
+100xEngineers: And, you'll be able to…
+
+489
+01:15:23.200 --> 01:15:25.820
+100xEngineers: See that it gives you some response.
+
+490
+01:15:27.130 --> 01:15:35.100
+100xEngineers: So all of this response is coming from the LLM, definitely, but we know that this LLM is… cannot run on our machine right now.
+
+491
+01:15:36.230 --> 01:15:39.660
+100xEngineers: So the question here is, First of all.
+
+492
+01:15:40.950 --> 01:15:45.829
+100xEngineers: By our empirical evidence, we know there is a separate system.
+
+493
+01:15:46.660 --> 01:15:49.310
+100xEngineers: Some of us think that this is LLM.
+
+494
+01:15:50.270 --> 01:15:52.899
+100xEngineers: Is it an LLM? That's also a question.
+
+495
+01:15:53.840 --> 01:15:55.110
+100xEngineers: But if it is…
+
+496
+01:15:55.440 --> 01:16:01.350
+100xEngineers: an LLM, and if it is a different system, I'll come to that question once again.
+
+497
+01:16:02.240 --> 01:16:07.700
+100xEngineers: What is the interface, the medium, where we can connect our front-end app
+
+498
+01:16:07.830 --> 01:16:25.459
+100xEngineers: with this system, that is sending the message from the user, taking it via the text box, which we have designed as part of the user interface, not we, but the ChatGBT or the cloud itself. And once it takes the prompt, let's say in this case, the prompt was, hey.
+
+499
+01:16:25.590 --> 01:16:27.649
+100xEngineers: And I'll kick the end mode on.
+
+500
+01:16:28.070 --> 01:16:34.479
+100xEngineers: So it took the prompt, Process it here, send it as a message to another system.
+
+501
+01:16:36.440 --> 01:16:38.809
+100xEngineers: We realized this is what we designed
+
+502
+01:16:39.060 --> 01:16:42.750
+100xEngineers: Initially for user interface between two different systems.
+
+503
+01:16:43.640 --> 01:16:46.040
+100xEngineers: What do you think the interface for this?
+
+504
+01:16:57.660 --> 01:17:05.680
+100xEngineers: Yes, I think I love the answers, I'll keep it, like, quick. API is the right answer, and API stands for Application
+
+505
+01:17:06.440 --> 01:17:09.460
+100xEngineers: programming, interface.
+
+506
+01:17:10.440 --> 01:17:18.170
+100xEngineers: This has been, like, one of the most confused keywords among non-techies, so I hope, like, you get some clarity right now that
+
+507
+01:17:18.410 --> 01:17:22.259
+100xEngineers: where API fits into the whole picture, because
+
+508
+01:17:22.420 --> 01:17:29.050
+100xEngineers: API is going to be, like, a very key part of the interface that you will be designing again and again, entire cohort.
+
+509
+01:17:29.580 --> 01:17:33.400
+100xEngineers: But you're right, this… this interface, which connects
+
+510
+01:17:33.640 --> 01:17:49.159
+100xEngineers: these two different systems together is known as API, and stands for Application Programming Interface, which is as straightforward, saying that if there are two apps or different softwares together, they want to communicate with each other.
+
+511
+01:17:49.260 --> 01:17:56.710
+100xEngineers: We will use APIs. If there is a human being, which is a user, so just to do human to…
+
+512
+01:17:57.510 --> 01:17:59.669
+100xEngineers: Machine or human to app.
+
+513
+01:17:59.890 --> 01:18:05.189
+100xEngineers: I'll pick machine first, because it comprises everything here, computer, browser, and front-end.
+
+514
+01:18:05.360 --> 01:18:06.800
+100xEngineers: human to machine.
+
+515
+01:18:07.140 --> 01:18:08.850
+100xEngineers: interfaces UI?
+
+516
+01:18:10.220 --> 01:18:14.980
+100xEngineers: Now, this machine, as I was saying, it needs to talk to another machine.
+
+517
+01:18:16.370 --> 01:18:19.629
+100xEngineers: the interface's API, because it's definitely not…
+
+518
+01:18:19.970 --> 01:18:33.919
+100xEngineers: processing everything on our machine, sending data somewhere we have also located the address of that machine. Maybe it's sitting in the AWS cloud, or maybe, like, somewhere in the NVIDIA cloud in, in America.
+
+519
+01:18:34.050 --> 01:18:42.310
+100xEngineers: By the way, somebody who's interested, this is the AWS data center,
+
+520
+01:18:44.860 --> 01:18:55.670
+100xEngineers: You can see it in India, but you can also see it, like, in, like, different cities. This is the India version, and the biggest, I think, is in Seattle, right?
+
+521
+01:19:04.210 --> 01:19:08.619
+100xEngineers: Yeah, I think this is… this is one of the biggest ones which they had, if I'm not wrong.
+
+522
+01:19:08.980 --> 01:19:09.980
+100xEngineers: This is…
+
+523
+01:19:10.980 --> 01:19:23.850
+100xEngineers: Again, I might be, like, wrong here, but I think I remember, like, they did, like, one of the biggest somewhere in US recently, where they invested, like… yeah, the Texas one, yeah, thanks for reminding.
+
+524
+01:19:25.150 --> 01:19:28.960
+100xEngineers: That was, like, one of their biggest facilities. Oh, yeah, this one.
+
+525
+01:19:29.780 --> 01:19:32.650
+100xEngineers: It's like… The biggest data center.
+
+526
+01:19:32.850 --> 01:19:34.260
+100xEngineers: of the Amazon.
+
+527
+01:19:35.070 --> 01:19:46.429
+100xEngineers: This is where all the computers are sitting, like, and what is there in this… in all of these buildings are these computers, like, these specific computers, which is, like, just a… think of this as a CPU.
+
+528
+01:19:46.810 --> 01:20:02.530
+100xEngineers: And all of these CPUs are the machines where ChatGPT's code is running. Every time you send hi, every time you ask for how to make my breakfast, and how to find the right movie, or maybe, like.
+
+529
+01:20:02.790 --> 01:20:04.490
+100xEngineers: Rewrite this email.
+
+530
+01:20:04.860 --> 01:20:18.880
+100xEngineers: it is going to, like, in one of these servers, executing all the code. The LLM is running in one of them, and then it's getting the data back. So, amount of energy you guys are spending is also
+
+531
+01:20:20.040 --> 01:20:21.509
+100xEngineers: A lot, by the way.
+
+532
+01:20:21.710 --> 01:20:26.490
+100xEngineers: I'll talk to you about the energy spending part of it, but this is where it is going.
+
+533
+01:20:26.910 --> 01:20:29.840
+100xEngineers: And it's a different machine altogether. So it's…
+
+534
+01:20:29.970 --> 01:20:44.239
+100xEngineers: the interface which we'll be using here between two different machines is the API. Now, the API has a very interesting part, because API can also be used for not only different machines, but within the same software system itself, which means that
+
+535
+01:20:45.970 --> 01:20:52.179
+100xEngineers: Like, if these… this system, which again, we'll come back to the second half of this part.
+
+536
+01:20:53.350 --> 01:20:58.629
+100xEngineers: And I'll ask you guys the question, do you think this is only LLM?
+
+537
+01:20:59.370 --> 01:21:03.679
+100xEngineers: The system which is connected to our front end? Or is there something else as well?
+
+538
+01:21:13.970 --> 01:21:19.890
+100xEngineers: Okay, first, let's define the name. This is… A server, right?
+
+539
+01:21:20.110 --> 01:21:23.330
+100xEngineers: All of these servers are sitting in some of the data centers.
+
+540
+01:21:23.570 --> 01:21:28.969
+100xEngineers: It's… it's a machine. Just like computer, it's a personal computer, it's a machine.
+
+541
+01:21:29.870 --> 01:21:35.250
+100xEngineers: you can buy a server on Amazon. So, if you want to buy a server rack.
+
+542
+01:21:35.640 --> 01:21:49.950
+100xEngineers: you can go and buy this machine. So this is, like, how the racks look like, and you can buy it, and you can build your own server in-house. You don't need to always depend on, by the way, AWS. So just like how computer is a machine, server is also a machine.
+
+543
+01:21:50.870 --> 01:21:53.950
+100xEngineers: Inside this machine, we had a front end.
+
+544
+01:21:54.060 --> 01:21:55.720
+100xEngineers: Which is running on a browser.
+
+545
+01:21:56.610 --> 01:21:59.629
+100xEngineers: Do you think the only thing which is running on this server is LLM?
+
+546
+01:21:59.980 --> 01:22:01.590
+100xEngineers: Because I'll tell you one thing.
+
+547
+01:22:02.080 --> 01:22:03.840
+100xEngineers: Before answering this question.
+
+548
+01:22:04.320 --> 01:22:09.289
+100xEngineers: I'll also show you the… LLM. This is the OpenAI
+
+549
+01:22:09.620 --> 01:22:14.429
+100xEngineers: GPT OSS. I think I did share this in the initial lecture, but
+
+550
+01:22:14.880 --> 01:22:17.469
+100xEngineers: If you go to Hugging Face right now.
+
+551
+01:22:17.600 --> 01:22:31.240
+100xEngineers: And you can download this entire GPT OSS model, which is 120 billion parameter model, although I don't know how many of you will be able to run it, or you will have enough RAM, you might need to have, like, at least
+
+552
+01:22:31.520 --> 01:22:34.370
+100xEngineers: 120 into 2, which is 240…
+
+553
+01:22:34.750 --> 01:22:45.869
+100xEngineers: GB of RAM in order for it to load this entire model, and slightly extra to have the KB cache running. But, there are, like, different ways to compress it. We'll learn more about it, by the way, all of these things.
+
+554
+01:22:47.360 --> 01:22:59.580
+100xEngineers: But the point here is not about how big the model is, but this is the model, this is how it looks like. The safe tensor files, the 4GBs, 4GBs, these are, like, I think somewhere around, like, some 510 files.
+
+555
+01:23:00.200 --> 01:23:05.279
+100xEngineers: This is a safe tensor file of a model.
+
+556
+01:23:05.570 --> 01:23:10.290
+100xEngineers: After doing the pre-training, this is the output you get, and you take this output.
+
+557
+01:23:10.720 --> 01:23:14.929
+100xEngineers: And you run it using some command.
+
+558
+01:23:15.560 --> 01:23:21.689
+100xEngineers: And you give it input, it will give you an output, which is the prediction based on the data it has trained.
+
+559
+01:23:22.950 --> 01:23:30.409
+100xEngineers: So, it can only do the prediction. It can only read the next word token. And you can also, like, test it out with the
+
+560
+01:23:30.530 --> 01:23:33.959
+100xEngineers: with Hugging Face, I think, yeah, this is the prompt.
+
+561
+01:23:34.950 --> 01:23:37.340
+100xEngineers: So, if I ask it, hey.
+
+562
+01:23:37.490 --> 01:23:48.900
+100xEngineers: it can give me the answer. But if I ask it, like, Search… the top… news… Today.
+
+563
+01:24:06.940 --> 01:24:17.630
+100xEngineers: It's hallucinating right now, because I know that it can't access a news, and you can see that it's trying to do, but we should attempt and retrieve the call, but it's…
+
+564
+01:24:18.510 --> 01:24:30.269
+100xEngineers: It's failing. Given this difficulty, I might fall back and use my knowledge to state that as of May 2023, the top stories include. So it's falling back and using the knowledge.
+
+565
+01:24:30.590 --> 01:24:41.039
+100xEngineers: That's what it does, like, machines are really good at predicting things, and if they don't have the right information, it will predict the wrong things, and that is what we call hallucination. I'll talk more about it, but…
+
+566
+01:24:41.230 --> 01:24:54.129
+100xEngineers: this is just like how the model works. It can pretend that it is connected to internet, it has, like, all the things which it has seen in the data, but it cannot. This model itself cannot process
+
+567
+01:24:54.390 --> 01:24:56.849
+100xEngineers: Anything apart from language right now.
+
+568
+01:24:57.500 --> 01:24:59.259
+100xEngineers: This is just a file system.
+
+569
+01:24:59.430 --> 01:25:03.819
+100xEngineers: which is… is there. So the… the question here now becomes.
+
+570
+01:25:04.860 --> 01:25:16.080
+100xEngineers: Do you think LLM is enough? If I just deploy these set of SafeTensor files on a server, and I buy a machine from Amazon today, and I'll install the Hugging Face files.
+
+571
+01:25:16.300 --> 01:25:28.620
+100xEngineers: on this machine. Maybe, like, I'll buy 240GB of RAM and install the exact same one. Do you think that is enough, and I can then put it on the internet, and anyone can just query
+
+572
+01:25:29.250 --> 01:25:30.000
+100xEngineers: it.
+
+573
+01:25:31.560 --> 01:25:32.830
+100xEngineers: What do you need?
+
+574
+01:25:33.640 --> 01:25:35.630
+100xEngineers: If we can't just use the…
+
+575
+01:25:37.620 --> 01:25:39.349
+100xEngineers: Hey, LM, what do you need here?
+
+576
+01:25:40.640 --> 01:25:44.390
+100xEngineers: Server is already here. Server is a machine. You have a machine.
+
+577
+01:25:45.560 --> 01:25:47.589
+100xEngineers: You have a machine, you have the heirloom.
+
+578
+01:25:49.760 --> 01:25:51.080
+100xEngineers: What else we need.
+
+579
+01:25:56.760 --> 01:26:07.530
+100xEngineers: Internet connectivity is already there. I'll take the example of Sheikh, and we'll basically move on to the next component, and the answer is correct.
+
+580
+01:26:08.010 --> 01:26:09.230
+100xEngineers: the backend.
+
+581
+01:26:09.710 --> 01:26:12.679
+100xEngineers: I think, I don't know, a lot of you have… might have mentioned, but…
+
+582
+01:26:12.830 --> 01:26:15.730
+100xEngineers: I'll take this, whoever said backend, this is…
+
+583
+01:26:16.320 --> 01:26:23.390
+100xEngineers: This is the correct answer, because we need a backend system that can sit on a server, just like what we had front-end.
+
+584
+01:26:23.550 --> 01:26:40.739
+100xEngineers: This is a part of the application which OpenAI has sent on my machine, which can make requests on my behalf, and this is how it looks like. It has HTML, CSS, the other languages it uses. And similar to that, we need a system, we need an application
+
+585
+01:26:40.870 --> 01:26:48.060
+100xEngineers: Which can run on a different machine, the machine that we have bought, or somebody has bought, so that
+
+586
+01:26:48.580 --> 01:27:01.310
+100xEngineers: We can interact with this machine. If tomorrow I want to install more application, want to update the model, download the model, load the model, delete the model, I should be able to do that via an app. On a browser, I can do it
+
+587
+01:27:01.880 --> 01:27:17.600
+100xEngineers: from my UI. This is the UI of Hugging Face, so I can do it from there. But on a server, I… I need to, like, find an interface which can, again, let me do all of these things. So, the common interface with
+
+588
+01:27:17.730 --> 01:27:21.410
+100xEngineers: Servers, especially, like, because machines talk to each other.
+
+589
+01:27:22.210 --> 01:27:31.140
+100xEngineers: is becoming, like, an API, and these APIs gonna be about, if you don't have this user interface.
+
+590
+01:27:32.350 --> 01:27:38.149
+100xEngineers: The second way to interact with this backend server is something which you guys have all done.
+
+591
+01:27:39.380 --> 01:27:42.520
+100xEngineers: How did you interact with me when I became a machine?
+
+592
+01:27:45.750 --> 01:27:46.860
+100xEngineers: commands.
+
+593
+01:27:47.060 --> 01:27:51.609
+100xEngineers: So… command line interface.
+
+594
+01:27:52.300 --> 01:27:52.960
+100xEngineers: 8.
+
+595
+01:27:53.200 --> 01:27:58.620
+100xEngineers: is the second interface. If a human being wants to connect with this backend.
+
+596
+01:27:59.710 --> 01:28:04.259
+100xEngineers: Most of the backends today are deployed on Linux.
+
+597
+01:28:04.450 --> 01:28:23.549
+100xEngineers: And Linux can run on different commands, so it's a shell. The reason why people use command line is because this is faster, this is, like, easier for people who are managing the backend as compared to UI. Most backend developers, if you have spoken to anyone, they prefer command line because this is, like, a…
+
+598
+01:28:23.670 --> 01:28:29.819
+100xEngineers: the standard interfaces to work with these machines. And it's also very close to, like, how
+
+599
+01:28:29.990 --> 01:28:33.319
+100xEngineers: Different machines can talk to each other by writing commands.
+
+600
+01:28:34.690 --> 01:28:40.050
+100xEngineers: So, this is the another interface which somebody like human being can use to interact with
+
+601
+01:28:41.600 --> 01:28:47.860
+100xEngineers: a server, although we don't do it regularly, because most of the time, somebody interact with this server.
+
+602
+01:28:47.970 --> 01:28:50.410
+100xEngineers: Is via a user interface.
+
+603
+01:28:50.410 --> 01:29:13.839
+100xEngineers: But only when you're developing this backend, or you are a developer, you want to install it somewhere, do things. Today, we have, like, better UI as well, but this is, like, one of the interfaces. You will hear these terms a lot, and that's why I'm trying to also clarify each and every jargon, which you might have heard before this call, and which you might hear from me as well. But I'm trying to, like, give you a very first principle view of, like.
+
+604
+01:29:13.840 --> 01:29:21.640
+100xEngineers: how these terms got originated, and where exactly we use these things. So, next time when you are building a full system.
+
+605
+01:29:21.790 --> 01:29:24.319
+100xEngineers: You are building a backend for your application.
+
+606
+01:29:25.330 --> 01:29:28.490
+100xEngineers: I might tell you to use a command line interface for that.
+
+607
+01:29:28.650 --> 01:29:33.659
+100xEngineers: So you don't need to, like, worry, because it's just another interface to talk to something which is on a server.
+
+608
+01:29:33.810 --> 01:29:43.590
+100xEngineers: Coming back to… the… Overall number of systems we had today.
+
+609
+01:29:43.880 --> 01:29:46.050
+100xEngineers: So, we have established that
+
+610
+01:29:46.250 --> 01:29:51.279
+100xEngineers: We started this entire thing, and some people said the only thing which is here is human and LLM.
+
+611
+01:29:51.460 --> 01:29:55.780
+100xEngineers: I hope those people have gotten some… Clarity.
+
+612
+01:29:55.780 --> 01:30:17.959
+100xEngineers: again, it's… I'm not saying you guys were wrong. There's definitely… there is human, and the LM is there, but there's, like, much more things, and we'll continue to explore. In this entire cohort, by end of this, you all will be able to design multiple components like that, and in fact, we'll fill this entire whiteboard, and we'll try to, like, add as many systems, whatever we learn, and we'll try to, like, design everything from that.
+
+613
+01:30:17.960 --> 01:30:24.799
+100xEngineers: But, coming back to it right now, we have front-end, we have back-end, we have LLMs. For this
+
+614
+01:30:25.640 --> 01:30:28.140
+100xEngineers: Front-end to back-end, we use API.
+
+615
+01:30:29.210 --> 01:30:30.570
+100xEngineers: And,
+
+616
+01:30:35.140 --> 01:30:40.069
+100xEngineers: As I was saying initially, That, very smile.
+
+617
+01:30:51.410 --> 01:30:52.240
+100xEngineers: Yeah.
+
+618
+01:30:57.290 --> 01:30:59.599
+100xEngineers: Yeah, what I was saying that initially.
+
+619
+01:31:00.180 --> 01:31:04.630
+100xEngineers: This front-end to back-end interface is the API, which is machine-to-machine.
+
+620
+01:31:04.790 --> 01:31:05.580
+100xEngineers: But…
+
+621
+01:31:06.090 --> 01:31:23.330
+100xEngineers: API, as what the name suggests, and the full form of the API, is the application programming interface, a set of rules and protocols that allows different software programs to communicate and share data with each other. It acts as a middleman, letting you know the systems. It also
+
+622
+01:31:23.660 --> 01:31:29.250
+100xEngineers: enables… The components, not only for different parts, but
+
+623
+01:31:30.150 --> 01:31:33.599
+100xEngineers: Even the parts of the same, same systems.
+
+624
+01:31:37.500 --> 01:31:44.869
+100xEngineers: I think… Since… an updated AI answer of this.
+
+625
+01:31:45.140 --> 01:31:53.019
+100xEngineers: But if I… Yeah, if I go back to the Wikipedia definition, this is, like, The more standard definition.
+
+626
+01:31:53.410 --> 01:32:02.459
+100xEngineers: An application programming interface is a connection between computers or between computer programs. It is a type of software interface offering service to other piece of software.
+
+627
+01:32:03.060 --> 01:32:04.410
+100xEngineers: I hope now…
+
+628
+01:32:05.090 --> 01:32:12.600
+100xEngineers: you guys can navigate some of the jargons, and one of the parts which I was looking for the definition here is that
+
+629
+01:32:12.960 --> 01:32:18.210
+100xEngineers: It's not only gonna help you to connect different systems, but you can also connect different
+
+630
+01:32:18.410 --> 01:32:20.620
+100xEngineers: Programs and different part of
+
+631
+01:32:20.740 --> 01:32:39.469
+100xEngineers: the application, even if those are sitting in the same system, which means even if I have the same machine, I bought a same server or a same laptop, but I have two different apps, I can still use API to connect these two systems. So if I want to connect my backend to LLM, I can use API.
+
+632
+01:32:39.470 --> 01:32:56.110
+100xEngineers: For that. There are multiple other ways, and we will zoom in into this entire thing, because this is not straightforward, and again, there's a question mark here, which I'm gonna leave right now, because it opens up a whole new door for us, that what is the exact API contract for it?
+
+633
+01:32:57.550 --> 01:33:02.240
+100xEngineers: They will decide whether API is the right interface or not, but as of now.
+
+634
+01:33:02.640 --> 01:33:11.549
+100xEngineers: based on our understanding, I will let it be API. We will… once we start learning about ALMs as a whole system, we'll realize that
+
+635
+01:33:13.020 --> 01:33:21.269
+100xEngineers: is it a… is it a, I would say, useful interface or not? And maybe this answer can change over time, so that's why there's a question mark here.
+
+636
+01:33:21.480 --> 01:33:28.259
+100xEngineers: But I need to put something here, so as of now, I don't want to introduce more jargons. I'll keep API here.
+
+637
+01:33:28.580 --> 01:33:30.819
+100xEngineers: There's a problem in this app right now.
+
+638
+01:33:31.550 --> 01:33:46.819
+100xEngineers: we have designed, while I was talking to you and explaining everything, and it's okay if you didn't get the last part, I'll explain it, like, in the lectures when we talk about LMs. But so far, we started the journey with user, just to summarize. We learned
+
+639
+01:33:46.910 --> 01:33:52.119
+100xEngineers: When we talk to an app like this, this is the interface we started, right?
+
+640
+01:33:54.030 --> 01:34:04.100
+100xEngineers: what are the systems there? We understood, like, there are different systems, apart from human being LLMs, the front end, the back end, the LLM, and the user, which is…
+
+641
+01:34:04.450 --> 01:34:13.689
+100xEngineers: a human being interacts with the front end via a user interface. Front-end interacts with a backend or a server via an API, application programming interface.
+
+642
+01:34:13.820 --> 01:34:22.660
+100xEngineers: And there's an LLM which backend uses this LLM to generate the answer and send it back to the front end. That is how the whole
+
+643
+01:34:23.030 --> 01:34:27.569
+100xEngineers: prompt works. If somebody sends here, the whole cycle works like this.
+
+644
+01:34:27.670 --> 01:34:30.520
+100xEngineers: There's one small problem, is that
+
+645
+01:34:31.820 --> 01:34:38.180
+100xEngineers: If I show you something like this, Let's say the Anthropic one.
+
+646
+01:34:38.480 --> 01:34:44.500
+100xEngineers: I've written, hey, hey, twice, and if I… Close this browser tab.
+
+647
+01:34:45.390 --> 01:34:50.700
+100xEngineers: Maybe I'll close the app itself, I'll restart my computer, and I'll open it again.
+
+648
+01:34:51.440 --> 01:34:53.080
+100xEngineers: My data is already there.
+
+649
+01:34:55.480 --> 01:35:02.110
+100xEngineers: So… First of all, how on earth How on earth… Anthropic knows that
+
+650
+01:35:02.210 --> 01:35:11.189
+100xEngineers: what data it needs to save, and where it is saving right now. Is it saving on my local machine? Because we just saw that
+
+651
+01:35:12.140 --> 01:35:18.300
+100xEngineers: One thing which we didn't consider here is that messages that we are sending The prompt which we sent.
+
+652
+01:35:19.110 --> 01:35:23.490
+100xEngineers: Route it through the entire process, got from the ALM.
+
+653
+01:35:23.700 --> 01:35:37.049
+100xEngineers: As an answer. But it was also persisted when I closed the app and reopened it. And if I reopened my laptop, and you know this is very basic and obvious, that it was still gonna be there.
+
+654
+01:35:39.780 --> 01:35:52.059
+100xEngineers: Now, the question is, where are these messages getting stored? Another insight before I, ask the question is that LLMs cannot store anything after the training is done.
+
+655
+01:35:52.530 --> 01:36:04.939
+100xEngineers: We'll learn more about the different stages of training the LMs, but just an insight right now for this discussion, LLMs cannot store anything. Once the neural networks are trained, once the files have been
+
+656
+01:36:05.370 --> 01:36:13.159
+100xEngineers: I would say finished. You cannot insert anything and save anything inside these files, unless until you do the… another round of training.
+
+657
+01:36:13.340 --> 01:36:20.420
+100xEngineers: So, LLM, by nature, they don't have any storage functionality within them as a raw LLM.
+
+658
+01:36:21.580 --> 01:36:23.709
+100xEngineers: Now we have, like, these two systems.
+
+659
+01:36:24.740 --> 01:36:26.590
+100xEngineers: Where should we store the messages?
+
+660
+01:36:35.450 --> 01:36:40.070
+100xEngineers: Yes, there are different ways. Somebody said database.
+
+661
+01:36:40.210 --> 01:36:43.380
+100xEngineers: But… Database is another jargon.
+
+662
+01:36:44.150 --> 01:36:50.630
+100xEngineers: If you have seen the pattern, I'm not introducing the jargon, but I'm introducing the process first, and then letting you guys arrive
+
+663
+01:36:50.890 --> 01:36:55.120
+100xEngineers: that what is the missing piece here. We all know that database
+
+664
+01:36:55.230 --> 01:37:03.240
+100xEngineers: is the answer, but exactly where are we storing the data and how the database system works? That is what I'm trying to, like, force you to think from first principles.
+
+665
+01:37:03.990 --> 01:37:06.550
+100xEngineers: Do you think we're gonna store the data first?
+
+666
+01:37:07.320 --> 01:37:09.119
+100xEngineers: I'll call it data.
+
+667
+01:37:10.250 --> 01:37:12.919
+100xEngineers: In the server, or in the front end.
+
+668
+01:37:14.550 --> 01:37:16.529
+100xEngineers: Somebody said local browser cache.
+
+669
+01:37:18.270 --> 01:37:24.549
+100xEngineers: So people who have said local browser, or browser, or cache, Which is on the browser.
+
+670
+01:37:25.520 --> 01:37:29.270
+100xEngineers: What if I, as a user, delete the entire browser?
+
+671
+01:37:30.350 --> 01:37:34.210
+100xEngineers: I format my entire PC, I delete everything from my PC.
+
+672
+01:37:34.970 --> 01:37:38.790
+100xEngineers: Everything which is sitting on my browser will also get deleted.
+
+673
+01:37:42.120 --> 01:37:53.290
+100xEngineers: not a wise decision to store the data, especially, like, sensitive data, or maybe any important data. Anthropic won't do that. Anthropic doesn't do that. It doesn't store the data on browser.
+
+674
+01:37:54.040 --> 01:37:58.020
+100xEngineers: Right now. So server becomes, like, an obvious choice.
+
+675
+01:37:58.750 --> 01:38:05.190
+100xEngineers: So we know right now, and we also reason that definitely, like, it needs to store on data, because frontends
+
+676
+01:38:05.380 --> 01:38:10.850
+100xEngineers: are not our machine. As a company, I can't control the machine which user is using.
+
+677
+01:38:10.990 --> 01:38:28.469
+100xEngineers: And I… I cannot, like, store anything which is sensitive and which I might need only on front-end. I may copy my data and send it there, and this is the answer to people who are saying cash, which I'll again come to the… to the next upcoming lectures, but…
+
+678
+01:38:28.760 --> 01:38:36.259
+100xEngineers: we need to find a storage, the safe storage, and that is in the server. Now, this gives us, like, one more piece of component to play around with.
+
+679
+01:38:42.690 --> 01:38:44.719
+100xEngineers: Now we need to store our data.
+
+680
+01:38:46.580 --> 01:38:50.350
+100xEngineers: This data looks like this. Maybe we'll have our prompts.
+
+681
+01:38:51.050 --> 01:38:57.719
+100xEngineers: Maybe we'll have our prompt response We have our user details.
+
+682
+01:39:01.410 --> 01:39:03.059
+100xEngineers: A lot more things like this.
+
+683
+01:39:04.940 --> 01:39:09.030
+100xEngineers: How do we decide that what kind of data we need to store?
+
+684
+01:39:09.490 --> 01:39:15.499
+100xEngineers: This is the whole field of database and data engineering.
+
+685
+01:39:15.610 --> 01:39:27.439
+100xEngineers: like, everything what we're gonna do with data will be in that module. The test in itself is a whole lecture, and we're gonna learn more about it in the next week. I would say in the lecture.
+
+686
+01:39:28.030 --> 01:39:32.819
+100xEngineers: 6 for Lecture 7, so we'll dedicate the entire lecture to learn about this.
+
+687
+01:39:33.090 --> 01:39:39.089
+100xEngineers: There are multiple ways. Some people said vector database, some people said database, people who were saying vector database.
+
+688
+01:39:39.680 --> 01:39:45.700
+100xEngineers: That is not the only answer. You can also store the data in your… in a file.
+
+689
+01:39:46.050 --> 01:39:52.880
+100xEngineers: A file is a database. File is the most basic and primitive database, or data storage system.
+
+690
+01:39:53.240 --> 01:39:59.600
+100xEngineers: If you don't understand, and don't believe me, half of the agents right now are running on Markdown files.
+
+691
+01:40:00.060 --> 01:40:04.610
+100xEngineers: The LLM wiki is, as a concept whole, is running on DMD files.
+
+692
+01:40:04.750 --> 01:40:05.610
+100xEngineers: Yes.
+
+693
+01:40:05.810 --> 01:40:23.129
+100xEngineers: There are a lot of data which is sitting on the HTML file, so it can also be on a file, it can be on a database system, it can be on a vector database, a lot more things, but not limited to that. The main principle to understand here is that we need a data storage system.
+
+694
+01:40:24.670 --> 01:40:27.159
+100xEngineers: Which can persist our data.
+
+695
+01:40:27.700 --> 01:40:36.369
+100xEngineers: Now, it depends based on your constraints, your requirements, your budget, what problem you are trying to solve, what
+
+696
+01:40:36.390 --> 01:40:55.399
+100xEngineers: is the amount you are okay paying, and we decide and we choose database provider, the data storage provider, according to that. I'll give you a step-by-step framework in this lecture on how do you pick which type of database based on your constraints and the requirements. And that is also, like, hopefully now you will be able to understand
+
+697
+01:40:56.240 --> 01:41:07.570
+100xEngineers: why it is important, and why, we need to think about it in this way, because the answer is not straightforward, that it's not always gonna be a vector database, or a file, or, like, maybe XYZ thing.
+
+698
+01:41:07.890 --> 01:41:23.569
+100xEngineers: as a principle, we need a data storage system, and we need this because somebody can delete their app on the front end, or maybe, like, restart it, and we'll lose the data, and we need to make a copy of it. So now flow looks like this. Whenever your user writes a prompt, send it
+
+699
+01:41:23.630 --> 01:41:28.269
+100xEngineers: Toward the backend. Back-end send it to the LLM, and…
+
+700
+01:41:28.660 --> 01:41:37.639
+100xEngineers: Now, LLM send it to the backend again. This is the prompt. Now, before sending it again to the user, it also saves this data.
+
+701
+01:41:37.790 --> 01:41:42.069
+100xEngineers: So whatever data it got from both the user as well as the LLM,
+
+702
+01:41:42.220 --> 01:41:54.200
+100xEngineers: it needs to save this data, and if next time LLM or the user wants to see the data which is already there, then backend can request this data as well.
+
+703
+01:41:54.360 --> 01:41:56.889
+100xEngineers: So there is… there needs to be, again.
+
+704
+01:41:58.370 --> 01:42:03.629
+100xEngineers: The pattern here, this arrow actually will just be… with this…
+
+705
+01:42:06.240 --> 01:42:08.860
+100xEngineers: And I'll keep it here for now.
+
+706
+01:42:13.690 --> 01:42:16.750
+100xEngineers: two different systems. Can you observe the interface here?
+
+707
+01:42:17.340 --> 01:42:21.369
+100xEngineers: Two different systems, backend and the data storage.
+
+708
+01:42:22.550 --> 01:42:25.959
+100xEngineers: It could be different, it could be a file, backend could be a…
+
+709
+01:42:26.200 --> 01:42:37.629
+100xEngineers: Python program, or could be, like, an attendant workflow, or could be, like, anything which is… which can act as a backend app. So, two different systems. What is the interface between these two?
+
+710
+01:42:41.070 --> 01:42:44.370
+100xEngineers: How can the backend talk to the data storage?
+
+711
+01:42:45.700 --> 01:42:48.380
+100xEngineers: Now, this is where it becomes slightly complicated.
+
+712
+01:42:49.600 --> 01:42:51.439
+100xEngineers: But I want you to still guess it.
+
+713
+01:42:53.730 --> 01:42:58.869
+100xEngineers: Maybe some of you might be aware of it, some of you might not be aware of it, it's completely fine.
+
+714
+01:43:00.350 --> 01:43:12.860
+100xEngineers: But if you get the whole lecture, this is the… this is what we've been doing, right? We've been trying to point out the systems that we need to work with, and then we are trying to find out what is the interface between them.
+
+715
+01:43:13.270 --> 01:43:17.700
+100xEngineers: And that is what we need to do for the rest of the entire module.
+
+716
+01:43:17.890 --> 01:43:29.400
+100xEngineers: Once you do that, this is what the AI system design, or in general, system design looks like. Understanding the components, and all of these components starts from something which is very basic and very
+
+717
+01:43:29.990 --> 01:43:34.739
+100xEngineers: comment that I already discussed in the lecture 1. How many of you remember that?
+
+718
+01:43:43.430 --> 01:43:45.139
+100xEngineers: All of this starts from…
+
+719
+01:43:45.250 --> 01:43:56.170
+100xEngineers: taking the right… understanding what are the inputs and the outputs, because once you know what are the inputs and what are the desired output, then I told you we can design a system.
+
+720
+01:43:56.430 --> 01:44:02.180
+100xEngineers: And this is what the system design process looks like. Today, we are discussing the deterministic part of it.
+
+721
+01:44:04.020 --> 01:44:07.849
+100xEngineers: In that, we learned about, like, a lot of things today, which is…
+
+722
+01:44:08.020 --> 01:44:14.019
+100xEngineers: it's not just LLM and user, it has, like, multiple parts. All of this comes on deterministic systems.
+
+723
+01:44:14.800 --> 01:44:28.839
+100xEngineers: And with each and every system, there is an interface, because there are two different systems, they need to share a boundary, and they need to communicate with each other. For user and the front end, it's user interface. For front-end and the back end, it's the API.
+
+724
+01:44:29.080 --> 01:44:33.809
+100xEngineers: for the backend and the data storage, this is a question which I'm asking right now.
+
+725
+01:44:34.000 --> 01:44:45.559
+100xEngineers: Actually, I'll remove this one. It'll create some confusion later on. I'll just keep it question mark for now. We won't discuss this interface right now, but backend and,
+
+726
+01:44:46.630 --> 01:44:47.900
+100xEngineers: data storage.
+
+727
+01:44:49.820 --> 01:44:57.659
+100xEngineers: Now, this… the reason why I said this is slightly complicated is because the interface depends on the data storage type.
+
+728
+01:44:58.010 --> 01:45:06.360
+100xEngineers: Based on the type, If the type is… Something… Let's say, file.
+
+729
+01:45:07.650 --> 01:45:10.960
+100xEngineers: let's say Markdown file, or any kind of text file.
+
+730
+01:45:12.230 --> 01:45:16.100
+100xEngineers: Markdown slash text file, which… which is just, like, raw text file.
+
+731
+01:45:16.820 --> 01:45:19.800
+100xEngineers: Then the interface becomes file operations.
+
+732
+01:45:19.970 --> 01:45:22.330
+100xEngineers: File, read, and write.
+
+733
+01:45:22.820 --> 01:45:27.409
+100xEngineers: The file system which you guys use on your operating system to read
+
+734
+01:45:27.540 --> 01:45:33.059
+100xEngineers: Create new file, delete new file, and write things on your file, which is the operating system's
+
+735
+01:45:33.190 --> 01:45:37.139
+100xEngineers: File, input type, output system, or file system.
+
+736
+01:45:37.190 --> 01:45:53.660
+100xEngineers: on internet, if you deploy it, if… that's also, like, a good way to, like, think about it, and that's where the complication arises, because it depends on what type of data storage is, and where this data is deployed. If it is deployed on the same machine.
+
+737
+01:45:54.410 --> 01:46:11.170
+100xEngineers: And all of this is under, let's say, one operating system, which is, let's say, Linux, or Windows, or, like, whatever it is, mostly Unix, which is getting installed as the operating system. Then I can use the Windows, or sorry, the Linux operating system's read and write operations.
+
+738
+01:46:12.140 --> 01:46:15.440
+100xEngineers: which is the file system of Linux, to…
+
+739
+01:46:15.740 --> 01:46:22.630
+100xEngineers: As an interface, so the file system I'll write this…
+
+740
+01:46:23.690 --> 01:46:27.019
+100xEngineers: as… as the interface. So this becomes the interface.
+
+741
+01:46:27.790 --> 01:46:41.540
+100xEngineers: If I'm storing the data in the same operating system, in the same machine, and my type is text markdown, or any kind of file which I can use here, which is, like, somewhere similar to the text file.
+
+742
+01:46:41.950 --> 01:46:54.180
+100xEngineers: Now, this changes slightly if… if this is not on my machine, but the same file, not on my machine, maybe on someone else's server, maybe on… like, I bought this from…
+
+743
+01:46:54.680 --> 01:46:58.520
+100xEngineers: One of my friends who runs a company, And,
+
+744
+01:47:00.620 --> 01:47:05.170
+100xEngineers: let's say Vishnu, who is the founder of Jarvis Lab, and this is sitting on Jarvis.
+
+745
+01:47:07.910 --> 01:47:17.679
+100xEngineers: Now, again, Because we need a medium, gate is… Internet involved here.
+
+746
+01:47:18.130 --> 01:47:23.229
+100xEngineers: Apart from a lot of other interfaces, we do need internet as well.
+
+747
+01:47:23.770 --> 01:47:28.569
+100xEngineers: I can't… even if Jarvis also has the same operating system as Linux.
+
+748
+01:47:30.110 --> 01:47:40.749
+100xEngineers: I can't just, like, log into the Jarvis system, and it won't allow me to do that, because then I can change anything, delete any file. So I need a more secured way of doing it. So, this is the…
+
+749
+01:47:40.890 --> 01:47:43.880
+100xEngineers: FTP protocol.
+
+750
+01:47:44.380 --> 01:47:51.309
+100xEngineers: You guys can do, like, a quick study about this. This is the file transfer protocol of the internet. Yes.
+
+751
+01:47:52.490 --> 01:47:55.970
+100xEngineers: Apart from the normal internet, which runs on
+
+752
+01:47:58.090 --> 01:48:04.899
+100xEngineers: HTTP, which is Hypertext Transfer Protocol. Hypertext means the text which can be linkable.
+
+753
+01:48:05.680 --> 01:48:14.660
+100xEngineers: All the links which you see, the early era of the internet was about, like, hypertext pages, where people used to write text, and text which can link to other pages.
+
+754
+01:48:14.710 --> 01:48:23.840
+100xEngineers: This is where the protocol came in, which is a set of rules, the same set of rules that you guys have designed in the early part of the lecture. Somebody designed
+
+755
+01:48:23.840 --> 01:48:35.070
+100xEngineers: the somebody's name is Tim Berners-Lee, who decided, and with a… in a CERN lab, that these are the set of rules when somebody is talking to another machine over the internet.
+
+756
+01:48:35.120 --> 01:48:51.160
+100xEngineers: they need to follow, just like what you were telling me, and what you decided, if you're talking to a different machine, which is sitting on a different part of maybe the country or the city, and we are communicating via internet or Zoom, this is how we need to talk to them. Same way, there are different
+
+757
+01:48:51.160 --> 01:48:58.500
+100xEngineers: protocols. One of them is FTP, which helps you to now use a file system on the different websites.
+
+758
+01:48:59.230 --> 01:49:08.639
+100xEngineers: you can directly use FTP protocol through that. Some people don't use it, some people use it. Then there is an abstraction on top of it. You can also
+
+759
+01:49:08.780 --> 01:49:14.819
+100xEngineers: the easier approach is you can build another API for this.
+
+760
+01:49:16.420 --> 01:49:24.590
+100xEngineers: But that API is an abstracted interface. Under the hood, it is using the internet and file transfer protocol.
+
+761
+01:49:26.180 --> 01:49:45.750
+100xEngineers: So, very soon, we'll start realizing that this API, which we learned, it's not, like, one single thing. It can also be… right now, it is used as an abstracted keyword. Here, under the API lens, we will learn different ways, and this is what I discussed in the early part.
+
+762
+01:49:45.940 --> 01:49:48.180
+100xEngineers: What makes an interface
+
+763
+01:49:53.510 --> 01:50:11.569
+100xEngineers: We need to establish a common language and establish a set of rules and protocols. So, these protocols can change for each and every interface, and you can, like, build new interfaces for new systems, and that is a whole game for this entire journey of, like, designing this system, because
+
+764
+01:50:12.650 --> 01:50:22.200
+100xEngineers: I don't want you to build another machine, another LLM, another database, another user, a human being, although it's your wish if you want to create another human being.
+
+765
+01:50:22.390 --> 01:50:41.859
+100xEngineers: everyone has a free will, but I don't want you to create another set of machine just to learn in this cohort. What we want to do is we want to build these interfaces, and you can only build these interfaces if you understand the systems around it, how these systems work, and what they can talk to each other and what they cannot.
+
+766
+01:50:41.970 --> 01:50:43.240
+100xEngineers: And,
+
+767
+01:50:45.570 --> 01:51:04.409
+100xEngineers: I hope now it makes sense. I can go into, like, much more depth here, and I can talk about different type of interfaces in, like, each and every part, but what I'll do is I'll take a pause on this, because I know I've shared a lot of things, and we'll discuss a lot more of what kind of different data storage we can use, and what kind of different
+
+768
+01:51:04.410 --> 01:51:22.489
+100xEngineers: interfaces we can use, but this is one of those. If you end up using something, like, more sophisticated, like an SQL-based database, which is Postgres, then the interface becomes SQL as a language. All of this, I'll leave it to the database lecture right now. If you have any questions, you can let me know in the chat, because this is
+
+769
+01:51:23.850 --> 01:51:41.520
+100xEngineers: everything, what we're gonna build in the next two weeks. Starting from next week onwards, I'll share the videos, I'll share the practice sets with you, we're gonna build our first front-end system, we're gonna build our back-end system, we're gonna connect these systems with an API, we're gonna also connect it with an LLM,
+
+770
+01:51:41.600 --> 01:51:45.389
+100xEngineers: We will also connect it with our data storage.
+
+771
+01:51:46.060 --> 01:51:58.690
+100xEngineers: We'll do all of this thing in next two weeks, and I'll share videos, I'll share lectures, we will conduct the exercises. Don't miss the office hours, because office hours will also play an important role in this entire session. I will use the office hour
+
+772
+01:51:58.790 --> 01:52:12.030
+100xEngineers: for the next two weeks as an exercise, or I would say the interactive elements, where you guys will be performing some exercise and your mentors can give you feedback on that. You will receive the homeworks.
+
+773
+01:52:12.210 --> 01:52:16.580
+100xEngineers: like, starting from Monday, and your job is now to build these things.
+
+774
+01:52:16.760 --> 01:52:18.649
+100xEngineers: The goal is to learn by building.
+
+775
+01:52:18.840 --> 01:52:28.480
+100xEngineers: This lecture was all about setting the principles and showing you the perspective of Why everything starts from… interfaces.
+
+776
+01:52:28.600 --> 01:52:31.860
+100xEngineers: So, if you have any questions about everything what we discussed.
+
+777
+01:52:32.260 --> 01:52:38.819
+100xEngineers: Let me know in the chat if you want to… if you don't have any questions, you can drop off, feel free to drop. This is the end of the lecture.
+
+778
+01:52:39.320 --> 01:52:45.399
+100xEngineers: GRP is the fastest API. Yes, there are, like, different interfaces out there, but we can discuss
+
+779
+01:52:46.020 --> 01:52:52.700
+100xEngineers: On Hugging Face, why there are multiple safe tensor files? Because one file is not enough for the GPT oversis.
+
+780
+01:52:53.680 --> 01:52:56.129
+100xEngineers: There might be a file size limit for that.
+
+781
+01:52:56.340 --> 01:53:03.130
+100xEngineers: Four years of computer science engine summarized beautifully in two hours of session. Thanks.
+
+782
+01:53:03.240 --> 01:53:04.180
+100xEngineers: Yes.
+
+783
+01:53:04.350 --> 01:53:08.929
+100xEngineers: I… I wish, like, somebody taught… taught me all of this in, like.
+
+784
+01:53:09.080 --> 01:53:16.050
+100xEngineers: one or two hours. I spent, like, exactly four years, I think what Vinathani has mentioned, just to learn all of these things.
+
+785
+01:53:27.470 --> 01:53:36.300
+100xEngineers: Yeah, Safe Tensor is an extension, Dave. It's a type of file system which we use for LLMs. You'll learn more about this in the LLMs lecture when we go through the,
+
+786
+01:53:37.050 --> 01:53:38.669
+100xEngineers: They deep dive interims.
+
+787
+01:53:39.980 --> 01:53:43.929
+100xEngineers: Seems like our flow state didn't allow running questions today. Oh, awesome.
+
+788
+01:53:57.820 --> 01:54:05.479
+100xEngineers: Okay, I'll check the questions tab as well. Are you guys putting on questions tab? I… For some reason.
+
+789
+01:54:06.050 --> 01:54:06.910
+100xEngineers: Yes.
+
+790
+01:54:07.690 --> 01:54:09.300
+100xEngineers: Thanks for using it.
+
+791
+01:54:10.760 --> 01:54:21.790
+100xEngineers: Sagar asked this question, is the system and abstraction the same? Because we are using system as a replacement for the interface tool. Yes, very good question, Sagar, because
+
+792
+01:54:21.960 --> 01:54:25.800
+100xEngineers: You will realize the context and the lens can shift.
+
+793
+01:54:26.650 --> 01:54:29.029
+100xEngineers: In a grand scheme of things.
+
+794
+01:54:31.380 --> 01:54:40.460
+100xEngineers: this API actually becomes a whole different software system altogether. Like, the file system, what we are using as an interface.
+
+795
+01:54:41.400 --> 01:54:44.350
+100xEngineers: Can become a system in itself.
+
+796
+01:54:44.520 --> 01:54:52.760
+100xEngineers: But the role it is playing between these two things is to communicate and to make them interact with each other.
+
+797
+01:54:53.340 --> 01:54:59.709
+100xEngineers: So you're right, and that's why it's slightly complicated, and this entire subject is complicated. It's not, like, as easy to get.
+
+798
+01:55:00.050 --> 01:55:16.619
+100xEngineers: And, in fact, you will take some time, and I would say, like, try to do the exercise. I'll upload some exercises for you guys next week, where you'll be, like, discovering new interfaces, you'll be trying to write down what the system is, but the lens…
+
+799
+01:55:17.080 --> 01:55:20.439
+100xEngineers: Changes based on what you are looking and where you're looking at.
+
+800
+01:55:21.200 --> 01:55:36.120
+100xEngineers: file system can be an interface between these two things when it is helping them to connect. The easier way to understand this part is always keep handy the definition of interface, and always come back to it.
+
+801
+01:55:36.500 --> 01:55:37.939
+100xEngineers: Is this thing…
+
+802
+01:55:38.170 --> 01:55:57.700
+100xEngineers: acting as the boundary, bridge, or a point of interaction where two separate systems or components or entities meet, and it is allowing them to communicate, because it is not satis… if it is not satisfying the definition, then it might not be an interface. And this is a good… good lens for you to think about, like, what is an interface, because
+
+803
+01:55:57.750 --> 01:56:01.039
+100xEngineers: Yes, these interfaces sometimes can become…
+
+804
+01:56:01.180 --> 01:56:05.049
+100xEngineers: Abstracted can become bigger and become, like, a whole system together.
+
+805
+01:56:05.350 --> 01:56:07.180
+100xEngineers: So, good question, by the way.
+
+806
+01:56:10.430 --> 01:56:15.609
+100xEngineers: So it depends on which abstraction layer you are operating in, what you are looking at from there.
+
+807
+01:56:16.390 --> 01:56:20.360
+100xEngineers: Fundamentally, are all interfaces man-made?
+
+808
+01:56:20.970 --> 01:56:28.009
+100xEngineers: Good question. I… I don't have the answer for this. This is slightly beyond, I would say.
+
+809
+01:56:28.120 --> 01:56:31.669
+100xEngineers: what I know, and what my current understanding is.
+
+810
+01:56:31.890 --> 01:56:37.459
+100xEngineers: I know a lot of interfaces are man-made, but I don't know if all the interfaces are man-made.
+
+811
+01:56:38.350 --> 01:56:40.130
+100xEngineers: But good question to think about.
+
+812
+01:56:41.430 --> 01:56:48.140
+100xEngineers: Would it be accurate to say the interfaces are extremely contextual, and hence total dependency would be discovery and clarity?
+
+813
+01:56:48.590 --> 01:56:55.369
+100xEngineers: Yes, I would say the interfaces would be contextual. It depends on the abstraction level you are looking at them.
+
+814
+01:56:56.800 --> 01:57:09.789
+100xEngineers: But you're right. And that's why this exercise is more important, like, instead of me handing out a lecture with you with notes and telling you, like, that this is what the API looks like, this is what the UI is, I decided to, like, spend
+
+815
+01:57:10.000 --> 01:57:16.609
+100xEngineers: Time with you and make you do all the exercises which we did, so that you understand there's a nuance behind it.
+
+816
+01:57:17.280 --> 01:57:21.050
+100xEngineers: And the more you perform the exercise, the more you look at it from the same lens.
+
+817
+01:57:21.360 --> 01:57:27.990
+100xEngineers: the more you try to, like, you can understand the whole thing. Because in this entire…
+
+818
+01:57:28.160 --> 01:57:37.360
+100xEngineers: process of designing a whole system. We are now doing the deterministic part of it. After this, we'll do the non-deterministic part, then the human part.
+
+819
+01:57:38.960 --> 01:57:49.659
+100xEngineers: One of the core jobs is to understand what is the system and what is the interface. And once you have understood that, I think this is the half of your job is done, then another half is just
+
+820
+01:57:50.060 --> 01:57:52.500
+100xEngineers: Executing and implementing those things.
+
+821
+01:57:52.810 --> 01:57:55.640
+100xEngineers: Which, AI is very good at doing that right now.
+
+822
+01:57:56.670 --> 01:58:13.660
+100xEngineers: But AI is not really good at, like, doing a lot of these things still, because this requires, like, more critical thinking, context across, like, a lot more things. I'm not saying it's really bad for small applications, for small problem statements, maybe it can design better systems, but
+
+823
+01:58:13.660 --> 01:58:17.990
+100xEngineers: There are people, as I was mentioning, like, yesterday, hiring folks
+
+824
+01:58:18.350 --> 01:58:23.850
+100xEngineers: To, like, design systems that can, again, create an impact in the enterprises.
+
+825
+01:58:24.010 --> 01:58:40.699
+100xEngineers: maybe either measured via revenue or the cost saving, which, as of now, the models are not able to do. So, a lot of our job, actually, irrespective of whether you're a designer, marketer, technical, non-technical, in the next 3 to 4 years, as I was mentioning, we have a window where
+
+826
+01:58:41.150 --> 01:58:59.360
+100xEngineers: the entire industry is trying to close the gap, and the gap can be closed by people who have understanding of domain. And why you need domain understanding, I hope now you can get… because you need to understand what input and output you want, because without defining the input and output, no matter
+
+827
+01:58:59.530 --> 01:59:03.060
+100xEngineers: How good you are in terms of designing systems.
+
+828
+01:59:03.160 --> 01:59:20.170
+100xEngineers: you cannot build a system that is reliable, and that is what the entire industry is facing as a problem. We have a lot of engineers, a lot of great architects who can design any system based on any problem, but they are not really good at that domain. They are really not good at understanding what input and output we want.
+
+829
+01:59:20.170 --> 01:59:38.530
+100xEngineers: And that's where the intersection of domain expertise and system design comes in, which makes you something more like an AI solution expert, or a power-deployed engineer, who can, like, understand the domain, write down the input and output, what you need to create an impact, to solve a problem, and then also design the system.
+
+830
+01:59:38.730 --> 01:59:47.529
+100xEngineers: So that's why, like, this is… just to connect back, in this case, I hope you got this was the input, and this prompt was the output.
+
+831
+01:59:48.060 --> 01:59:49.979
+100xEngineers: Just putting it out there, so…
+
+832
+01:59:51.400 --> 01:59:53.660
+100xEngineers: Just like what you guys have done today.
+
+833
+01:59:54.300 --> 02:00:05.710
+100xEngineers: Remember, exactly, maybe 4 or 5 years ago, somebody at OpenAI must have thought about all of these things, and they have followed the exact same principles. In fact, they have used the same principles to
+
+834
+02:00:06.410 --> 02:00:16.929
+100xEngineers: design the whole app, and you can also use the same thing. The whole goal of this lecture is also, although I've ended it, but I'll still, come back to…
+
+835
+02:00:17.290 --> 02:00:18.580
+100xEngineers: the last one.
+
+836
+02:00:20.120 --> 02:00:21.649
+100xEngineers: I've covered all of this.
+
+837
+02:00:22.450 --> 02:00:30.290
+100xEngineers: The whole goal of this lecture was… To teach you something that… That can last beyond…
+
+838
+02:00:31.000 --> 02:00:48.450
+100xEngineers: everything, and it can basically outlast the tools, the model provided, the framework, the croniums, the jargons, because model will change every quarter, the frameworks will change every month, the tools will change every week, but these principles that I have taught you today about
+
+839
+02:00:48.790 --> 02:01:00.129
+100xEngineers: understanding the interfaces, the systems, and building and designing around it, it hasn't changed from the last 50 years. And it is not… it is… it is also, like, evolving
+
+840
+02:01:00.300 --> 02:01:16.470
+100xEngineers: people are still using the same principles to build it. The interface might change tomorrow for what looks like that, how I… how users will interact with the LLM or the backend, but the thinking behind it, the principles to design all these things hasn't changed.
+
+841
+02:01:16.690 --> 02:01:31.589
+100xEngineers: That's why it gives us a very good frame to start the whole series, and every lecture, we will learn, we will fill all these boxes, we'll try to build things step by step, and by the end of the next two weeks, you will have
+
+842
+02:01:31.590 --> 02:01:46.700
+100xEngineers: a whole system which is built by all of you, irrespective of whether you are a technical person or non-technical person. In the next two weeks, I can promise you, if you complete all the exercises, if you attend the office hours, if you, like, attend the lectures, you will have a skill to design
+
+843
+02:01:46.890 --> 02:02:02.940
+100xEngineers: at least a level 1 system, which can take the user input, use the backend, use the LLM, store this data, and send it back to the user. So, it's gonna be a chat application, or maybe, like, a wrapper around the LLM API?
+
+844
+02:02:03.000 --> 02:02:11.869
+100xEngineers: not sound very interesting, I know, but it's a foundation. And on top of this foundation, you can extend the system, then you can make more complex things here.
+
+845
+02:02:12.060 --> 02:02:17.380
+100xEngineers: So that's basically what the goal is, and by the end of those two weeks, most of you will be done with your
+
+846
+02:02:18.170 --> 02:02:19.870
+100xEngineers: The assignment number one.
+
+847
+02:02:20.190 --> 02:02:27.619
+100xEngineers: And after that, it's gonna be an intersection where the moment you learn how to design these systems and build all the parts.
+
+848
+02:02:30.510 --> 02:02:38.380
+100xEngineers: By the time, you will also finish the assignment number one, which will give you the right clarity on a well-needed problem statement.
+
+849
+02:02:39.400 --> 02:02:41.480
+100xEngineers: This is what we started with week 1.
+
+850
+02:02:41.620 --> 02:02:47.640
+100xEngineers: what we need to build. You will have a discovery process and a validated problem statement.
+
+851
+02:02:49.000 --> 02:02:52.220
+100xEngineers: Which you can use to design the system.
+
+852
+02:02:52.510 --> 02:03:01.160
+100xEngineers: And after those two weeks, once you have the clarity that what parts you can automate, where you need to build those things, you will be able to, like, continue it.
+
+853
+02:03:01.370 --> 02:03:10.729
+100xEngineers: Some of you might not need to. I'm not saying everybody has to build it, but if you need, you can also build it, and that's where we will converge,
+
+854
+02:03:11.110 --> 02:03:15.500
+100xEngineers: The assignment number 1, and the assignment 2 will start from that point onwards.
+
+855
+02:03:22.850 --> 02:03:28.389
+100xEngineers: Any self-assessment tests to evaluate our grip on these topics so that we can work on the concepts where we lack depth?
+
+856
+02:03:33.150 --> 02:03:39.610
+100xEngineers: I will share some of the exercises, the level 2 exercise as well, Hunch, with you, so you can go…
+
+857
+02:03:39.650 --> 02:03:48.550
+100xEngineers: If you're somebody who already has the CS degree and who has built backend systems, I would say the goal for you is now to, like.
+
+858
+02:03:48.550 --> 02:04:01.209
+100xEngineers: look at the boundaries, and maybe, like, explore the edge of those things. I'll recommend you, like, an advanced YouTube series, and I'll upload, actually, on the LMS as the part 2 and the advanced part.
+
+859
+02:04:01.210 --> 02:04:02.130
+100xEngineers: So…
+
+860
+02:04:02.360 --> 02:04:18.860
+100xEngineers: just check out the Level 2 content. I will upload level 2 content for the advanced folk who already have the basic understanding of what I taught today. If you want to go more deeper, you can check out. For everyone else, you can, like, continue with the…
+
+861
+02:04:18.970 --> 02:04:20.829
+100xEngineers: The series of what we're discussing.
+
+862
+02:04:21.550 --> 02:04:27.220
+100xEngineers: There's some good, like, material to understand on a visual level, similar to working off a computer, you showed, as in what
+
+863
+02:04:27.400 --> 02:04:35.019
+100xEngineers: type of different interfaces, file systems, servers work well in that. In most cases, I acknowledge there can be exceptions based on specific use cases.
+
+864
+02:04:35.420 --> 02:04:46.449
+100xEngineers: There must be changes on system design with introduction to AI right now. Yes, Anirud. And the biggest change here, I told you in the last lecture, is because
+
+865
+02:04:46.690 --> 02:04:59.080
+100xEngineers: everything what we are learning, this deterministic part, is now has to interact with the probabilistic world, which is using the LLMs. And because this is not reliable, we need to add the human in the loop.
+
+866
+02:04:59.240 --> 02:05:08.389
+100xEngineers: And all of this becomes even more complicated when your probabilistic model will start doing things autonomously, which means in a loop.
+
+867
+02:05:08.550 --> 02:05:14.450
+100xEngineers: Because then you are… multiplying the error rate. So, yes.
+
+868
+02:05:14.950 --> 02:05:22.750
+100xEngineers: the things have, made… I would say right now, became much more difficult and more… more complicated and nuanced, but
+
+869
+02:05:22.960 --> 02:05:33.319
+100xEngineers: the way you design deterministic system, the way how LLMs, or sorry, the computer system, the way how your operating system understands the code is still the same.
+
+870
+02:05:34.090 --> 02:05:51.670
+100xEngineers: all operating systems work in the same manner right now. We don't have native LLM OS, and unless until we get that, we… we might not need to, like, change the same principles here. And even if we get that, I'll give you, like, at the end of this module, the…
+
+871
+02:05:52.280 --> 02:06:10.129
+100xEngineers: the question and the, I would say, the exercise, is that there are some things which actually make sense to put in the deterministic side of the things. For example, I was mentioning about mathematics. Anything which… we know that it has to go, and it has to follow a very clear deterministic path.
+
+872
+02:06:10.210 --> 02:06:23.449
+100xEngineers: Like, why would you waste your energy? Because, as I told you, LLMs are expensive. Running things on LLM is also expensive and energy intensive. That's why companies are raising trillions of dollars to, like, build data centers and gigawatt compute clusters.
+
+873
+02:06:24.020 --> 02:06:35.250
+100xEngineers: it's not wise for us to use everything, or use probabilistic models and probabilistic systems for everything, because they are expensive. So we should use it wisely in the areas where
+
+874
+02:06:35.530 --> 02:06:43.490
+100xEngineers: deterministic system cannot handle the problems. So, in my opinion, everything what we are learning is still gonna be relevant because
+
+875
+02:06:43.620 --> 02:06:46.220
+100xEngineers: Optimization is important.
+
+876
+02:06:46.430 --> 02:07:01.259
+100xEngineers: you will get to know a lot more of these things in much more detail once you start, like, connecting all these three dots, but yes, you are right, and I'm not saying that things hasn't changed a lot, but I'm saying that the way how we build deterministic systems, this hasn't changed, our principles are the same.
+
+877
+02:07:06.590 --> 02:07:16.039
+100xEngineers: UI is the preferred interface for human beings. What is the preferred interface for LM to communicate with non-LM? We will discuss more on this when we learn about LM. That's why I made a…
+
+878
+02:07:16.220 --> 02:07:21.399
+100xEngineers: question mark, and I left that question mark for the backend and LLM part as well.
+
+879
+02:07:23.200 --> 02:07:25.240
+100xEngineers: I don't want to reveal the answers, but…
+
+880
+02:07:25.540 --> 02:07:27.319
+100xEngineers: You'll get to know very soon, Monish.
+
+881
+02:07:33.480 --> 02:07:35.399
+100xEngineers: Yes, Sheikh, I'll check this out.
+
+882
+02:07:37.710 --> 02:07:42.770
+100xEngineers: For all of you, I was only checking the Q&A for now. If you have any questions,
+
+883
+02:07:43.850 --> 02:07:45.990
+100xEngineers: You can directly put in the Q&A.
+
+884
+02:07:46.790 --> 02:07:47.630
+100xEngineers: But…
+
+885
+02:07:48.610 --> 02:08:04.379
+100xEngineers: I'll take the yesiest question. I have a problem when I validate it where it is a real problem, or just something I personally face. How I validated it, I used Claude Co-work with the Opus Model Adaptive Thinking gave me a report confirming the problem is real. Has no proper solution yet.
+
+886
+02:08:04.490 --> 02:08:08.019
+100xEngineers: So we'll start working on a problem today using a discovery time approach. Yes?
+
+887
+02:08:08.950 --> 02:08:09.990
+100xEngineers: Awesome.
+
+888
+02:08:21.870 --> 02:08:24.989
+100xEngineers: Thanks, Yash. I think Yash has made something interesting.
+
+889
+02:08:27.720 --> 02:08:29.400
+100xEngineers: the AI tech jargons.
+
+890
+02:08:40.370 --> 02:08:52.950
+100xEngineers: Yeah, Tanish, you can go back to mathematics, I'll share some of the playlists with you, but I wouldn't recommend you to do it right now. Take things step by step, especially if you're starting things, like, from a beginner
+
+891
+02:08:53.240 --> 02:09:00.049
+100xEngineers: journey, like, if you don't have the computer science background already with you, then I would recommend you to go step by step.
+
+892
+02:09:00.220 --> 02:09:06.650
+100xEngineers: But once you have built this entire system, once you have learned all the skills to build these systems, like.
+
+893
+02:09:07.000 --> 02:09:09.509
+100xEngineers: At least, like, these, these two.
+
+894
+02:09:10.070 --> 02:09:12.829
+100xEngineers: Because this is something which even I haven't learned yet.
+
+895
+02:09:13.130 --> 02:09:14.960
+100xEngineers: How to figure out human beings.
+
+896
+02:09:15.300 --> 02:09:17.130
+100xEngineers: And how to, like, work with them.
+
+897
+02:09:17.370 --> 02:09:25.619
+100xEngineers: That's why sometimes I get… different kind of feedback on Discord. I'm still trying to figure it out.
+
+898
+02:09:26.330 --> 02:09:34.299
+100xEngineers: But… Once you have learned these two things, which is a part focus of the next, One month.
+
+899
+02:09:34.930 --> 02:09:46.190
+100xEngineers: I'll share you, like, a whole playlist. This is for Tanish, but for anyone who wants to go deep into the mathematics side of it, to understand it from a core level of how each and everything has been done, because
+
+900
+02:09:46.310 --> 02:09:57.459
+100xEngineers: Behind all of this is mathematics. Everything, both deterministic and probabilistic system, is built on the foundation of maths, and then those were the actual first principle of
+
+901
+02:09:57.600 --> 02:10:16.449
+100xEngineers: these two systems. It gets too… too much, I would say, complicated sometimes for beginners, so I won't recommend you, all of you, and I won't teach all of this in lecture, like the mathematics side of it, but I'll teach you all the parts which you will be using to design these systems, to build these systems.
+
+902
+02:10:17.610 --> 02:10:25.410
+100xEngineers: we'll share the recorded material for people who want to go deep into this, so you can do that. But I would recommend it, you do it, like, once you have learned how to
+
+903
+02:10:26.300 --> 02:10:30.330
+100xEngineers: Design these systems in a way that they can work together and solve problems.
+
+904
+02:10:40.000 --> 02:10:54.440
+100xEngineers: I think lecture recording is already, available, if you're asking this one. Zoom takes around, like, I think 90 to 120 minutes, which is, like, close to 2 hours, so I think after that, you should be able to receive the lecture recording.
+
+905
+02:10:54.560 --> 02:10:58.490
+100xEngineers: The moment Zoom finishes it, it automatically gets uploaded.
+
+906
+02:11:12.740 --> 02:11:16.350
+100xEngineers: Irrespective of whether you are technical or non-technical, TJ,
+
+907
+02:11:16.520 --> 02:11:20.290
+100xEngineers: all of you would be able to build these things. That's the goal.
+
+908
+02:11:20.620 --> 02:11:22.210
+100xEngineers: Both of these systems.
+
+909
+02:11:23.140 --> 02:11:26.600
+100xEngineers: I will try to teach this one as well, but as I said, like, I myself…
+
+910
+02:11:27.040 --> 02:11:34.160
+100xEngineers: not able to figure it out, everything completely. Whatever I know, I'll teach about putting human in the loop, and also understanding humans a little bit.
+
+911
+02:11:34.480 --> 02:11:37.739
+100xEngineers: So… but this is the goal, and this is what you can learn.
+
+912
+02:11:38.440 --> 02:11:48.919
+100xEngineers: So, what you can also do is, any idea what you validated through your hypothesis, you should be able to then build at least the MVP, which you can go and test out in the world.
+
+913
+02:11:48.930 --> 02:12:05.010
+100xEngineers: if you spend enough time, then you can also convert this into something which is usable by a fairly large audience. But I won't promise you that you can become somebody who can, like, start, like, building applications that can scale to, like, millions or trillions of people.
+
+914
+02:12:05.010 --> 02:12:11.739
+100xEngineers: Now, that is something which takes more than 6 months, and it's… it needs, like, a continuous effort and the hard work as well.
+
+915
+02:12:12.010 --> 02:12:19.120
+100xEngineers: So, setting the right expectation, yes, after this, even if you have the non-technical experience, you should be able to build
+
+916
+02:12:19.320 --> 02:12:31.919
+100xEngineers: the MVP versions of your idea to app journey, which can be used by a small audience, you can test these things, and once you have enough signal, and if something is working for you, then I would say, like, you can always, like.
+
+917
+02:12:31.920 --> 02:12:41.229
+100xEngineers: find people within the community if you don't want to take a route where you want to figure it out, everything by yourself. But if you want to then, again, as I said, like, we…
+
+918
+02:12:41.300 --> 02:12:50.669
+100xEngineers: We are happy to, like, share advanced resources with all of you guys, so then it's always about, like, how much time you are spending and how many projects you are building.
+
+919
+02:12:52.230 --> 02:12:55.320
+100xEngineers: But you can, you can build all of these things, even…
+
+920
+02:12:55.790 --> 02:13:02.459
+100xEngineers: without, coming from the technical background. For the tech background, and I think people who will be now
+
+921
+02:13:02.620 --> 02:13:09.090
+100xEngineers: Joining the code sessions. A quick reminder for them, you need to finish the big binary exercise. If you have not already.
+
+922
+02:13:09.800 --> 02:13:26.120
+100xEngineers: Just make sure you finish the BigBind exercise before coming to these sessions, because that is the learn-by-doing method of learning Python. I won't take any lecture where I will teach you guys what is the Python variable means, and what is the DEF in Python means.
+
+923
+02:13:26.120 --> 02:13:32.500
+100xEngineers: Because that's completely waste of my time and your time. And the best way to learn programming is by writing code.
+
+924
+02:13:32.660 --> 02:13:43.900
+100xEngineers: What we will do is we can use the office hour sessions as the doubt-solving session, where you… if you get stuck in the exercise, we'll help you to, like, get your doubts resolved.
+
+925
+02:13:44.100 --> 02:13:45.490
+100xEngineers: But this is…
+
+926
+02:13:45.670 --> 02:14:02.760
+100xEngineers: only relevant for people who have opted for the code track, and if you have not already learned Python, because we're going to use Python as a primary language for the code lectures. For no-code lectures, Abhishek will also interact with you if he has not already. I think I mentioned it with him last week.
+
+927
+02:14:02.760 --> 02:14:09.730
+100xEngineers: So maybe, like, either you'll have the first interaction in the upcoming week, or the video you will get… you'll receive on the LMS.
+
+928
+02:14:09.730 --> 02:14:17.210
+100xEngineers: Where he will, like, mention the technologies and the prerequisites so that you can prepare for the next week's no-code lecture accordingly.
+
+929
+02:14:22.540 --> 02:14:28.800
+100xEngineers: Thanks, Anj. Well… Cool, guys, I think,
+
+930
+02:14:29.100 --> 02:14:36.450
+100xEngineers: Is there anything which I've missed? Any important question? I know there's a lot of things which…
+
+931
+02:15:02.570 --> 02:15:20.969
+100xEngineers: Can you please repeat what did you have to complete? I said for the code track, you need to complete the Python big bunion exercise. This is the exercise which we have uploaded on the LMS, and I told my team to make an announcement also. If they have not made it, I'll tell them today, once more, they'll make announcement. You need to go to this website called
+
+932
+02:15:22.930 --> 02:15:24.290
+100xEngineers: Big binary.
+
+933
+02:15:27.390 --> 02:15:28.860
+100xEngineers: Actually…
+
+934
+02:15:33.270 --> 02:15:38.099
+100xEngineers: I've already shared the link of this, by the way. So, this is the exercise which you need to
+
+935
+02:15:44.950 --> 02:15:47.219
+100xEngineers: So, it has 33 chapters.
+
+936
+02:15:47.550 --> 02:15:51.300
+100xEngineers: All of the Excels are, like, pretty straightforward and easy to…
+
+937
+02:15:51.630 --> 02:16:05.850
+100xEngineers: perform. They have hints, and if you get, as I said, stuck, I'll share, like, resources for it, but this is important for the code track lectures. So next week, we're gonna do split the code and no code. Just make sure, if you have opted for the code one, complete this one.
+
+938
+02:16:11.920 --> 02:16:16.530
+100xEngineers: According to you, what is the best, way to use the foundations.
+
+939
+02:16:17.080 --> 02:16:20.149
+100xEngineers: And the document, is it through the post, teaching someone
+
+940
+02:16:20.660 --> 02:16:26.890
+100xEngineers: All of this works, I would say the best method is teaching the other person. This is also known as the Feynman technique.
+
+941
+02:16:28.180 --> 02:16:41.050
+100xEngineers: the best part for you, Sagar, because I know that you are already, like, really good at it, so you can host these peer-to-peer sessions, maybe every week, whatever you are learning, just try to teach
+
+942
+02:16:41.049 --> 02:16:48.970
+100xEngineers: to another peer, another person from the community, maybe a group of people. That really helps, and people who have done that in past communities.
+
+943
+02:16:49.040 --> 02:16:54.610
+100xEngineers: we have seen, like, good amount of success from that. So that's… that's one of the best methods, like…
+
+944
+02:16:54.830 --> 02:17:07.289
+100xEngineers: whenever you learn something, the foundational knowledge, try to teach it somebody. If you are new to it, try to also maybe find a peer who has already maybe a background of this. Maybe you can, like.
+
+945
+02:17:07.750 --> 02:17:14.500
+100xEngineers: do more of those sessions. Debate about the differences in your opinion and your beliefs, that really helps.
+
+946
+02:17:14.500 --> 02:17:29.000
+100xEngineers: Don't only use the peer-to-peer sessions where, like, one person is speaking, another person is listening. You can all come up with your own questions and debate about these things. That also really helps to solidify. So I would say that make the best use of the community you have.
+
+947
+02:17:29.180 --> 02:17:38.230
+100xEngineers: But apart from that, I'll keep sharing the assignments and the practice sets and the exercises, like what I shared, one for the code. Yeah.
+
+948
+02:17:45.870 --> 02:17:50.410
+100xEngineers: Cool, awesome, guys, I think,
+
+949
+02:17:52.219 --> 02:18:01.639
+100xEngineers: Can you go over deterministic, etc. again, in the AI system? I… I can, just quickly describing what I initially discussed with all of you.
+
+950
+02:18:02.090 --> 02:18:05.209
+100xEngineers: Is the first part of… are weak.
+
+951
+02:18:05.430 --> 02:18:13.749
+100xEngineers: to understand what to build, which is through our discovery skill. Once you have discovered what problem to solve, and you've validated that problem.
+
+952
+02:18:14.240 --> 02:18:19.429
+100xEngineers: The first and foremost thing, and the starting point, where everything what we discussed connects
+
+953
+02:18:19.580 --> 02:18:25.769
+100xEngineers: It's understanding the inputs and output, because without defining the input and output, you cannot build a system.
+
+954
+02:18:28.700 --> 02:18:30.990
+100xEngineers: What we learned yesterday, that
+
+955
+02:18:32.280 --> 02:18:46.939
+100xEngineers: the AI design system is not only about code. This is what the legacy version of system design used to look like when we only had one type of system, which is deterministic systems, that can understand code language. And as a deterministic, it means anything which
+
+956
+02:18:47.010 --> 02:18:56.370
+100xEngineers: is directly interpretable by machines like your computer, your servers. This is where your… the classic software engineering comes in.
+
+957
+02:18:57.170 --> 02:19:02.890
+100xEngineers: The second part was a probabilistic thing. Now, probabilistic is referring to all the
+
+958
+02:19:03.020 --> 02:19:13.590
+100xEngineers: models, the AI models. It could be LLMs, diffusions, Anything which uses Probability, not determinism.
+
+959
+02:19:13.790 --> 02:19:16.450
+100xEngineers: to… Generate the output.
+
+960
+02:19:17.320 --> 02:19:21.979
+100xEngineers: These are the systems, and because these systems are not reliable.
+
+961
+02:19:22.200 --> 02:19:31.460
+100xEngineers: LLMs can make mistakes, it can hallucinate. You need a human in the loop, in the right places, and that is also a function of designing a system that
+
+962
+02:19:31.680 --> 02:19:35.000
+100xEngineers: Without overwhelming your human operator.
+
+963
+02:19:35.209 --> 02:19:46.349
+100xEngineers: what are the things where you need the review from a human being? Where should the human come into the picture? What is the intelligence of this human being? You design the entire system with these three
+
+964
+02:19:46.790 --> 02:19:54.090
+100xEngineers: subsystems. Today, we started our journey with understanding the deterministic part of it. We took an example
+
+965
+02:19:54.390 --> 02:20:08.729
+100xEngineers: of ChatGPT. ChatGPT starts with this. We learned different interfaces, and we know the interface here, between the human and the front-end app is a UI. It takes the input.
+
+966
+02:20:09.070 --> 02:20:22.470
+100xEngineers: all of it starts from the input and output. It gives us the output like this, and everything what ChatGB is doing is… consists of the systems, which has both deterministic and non-deterministic part to it.
+
+967
+02:20:22.990 --> 02:20:26.940
+100xEngineers: In the deterministic part, We learned about it.
+
+968
+02:20:27.190 --> 02:20:35.179
+100xEngineers: We have front-end, we have back-end, because we need a system that can talk to LLMs, that can orchestrate things.
+
+969
+02:20:35.260 --> 02:20:46.409
+100xEngineers: And we also need to store something, and we can't store this data on the front end, because front-end is not our machine. This is a machine which you can buy, and you can host your application, so it's much reliable to
+
+970
+02:20:46.410 --> 02:20:58.329
+100xEngineers: Put sensitive information here, which is also a guiding principle when people who are especially beginner get confused at what part of my code should live in the front end, what part of my code or the workflow should live in the back end.
+
+971
+02:20:58.510 --> 02:21:05.020
+100xEngineers: the question becomes very clear. What are the things which you need, like,
+
+972
+02:21:05.290 --> 02:21:10.260
+100xEngineers: absolute security you want to store, you cannot lose them. So…
+
+973
+02:21:10.680 --> 02:21:29.880
+100xEngineers: if those are the conditions, then it makes sense to store it here. Things which are readily, or we can say frequently accessed, and this is where the concept of cache comes in. For example, if I'm again and again asking the same question to the chat GPT, instead of doing the whole
+
+974
+02:21:30.170 --> 02:21:34.599
+100xEngineers: Drama here, which is, like, in a way, it's kind of drama also, because…
+
+975
+02:21:34.980 --> 02:21:46.649
+100xEngineers: It's talking to, like, different systems and passing the information. The smarter approach is that you save everything locally, so you… just like how you have frequently asked questions.
+
+976
+02:21:47.210 --> 02:22:07.210
+100xEngineers: all the frequently asked questions and their responses. Front-end… that's why the front-end system becomes smarter, and it can, like, create a table of all these FAQs. So whenever, next time, a same question user is asking, it… instead of doing the whole loop of going from the back-end
+
+977
+02:22:07.500 --> 02:22:14.269
+100xEngineers: wasting the compute and, like, wasting the energy to an LLM, it can directly take it from the FAQ,
+
+978
+02:22:16.140 --> 02:22:26.420
+100xEngineers: table. And this simple process of, like, not going through the entire part, but maintaining a small copy of the database or the data system.
+
+979
+02:22:26.630 --> 02:22:30.310
+100xEngineers: Having the frequently asked question is known as caching.
+
+980
+02:22:31.950 --> 02:22:39.219
+100xEngineers: there's a lot of complicated terms, and people throw all of these things, like, without understanding it, but I believe that
+
+981
+02:22:39.310 --> 02:22:52.389
+100xEngineers: Hopefully, the goal of this lecture was also to, like, set the foundations for all of you, so that you understand these jargons well, and you can now use these systems as well. Now, I hope these are no longer jargons for people.
+
+982
+02:22:52.390 --> 02:23:01.099
+100xEngineers: who got what I'm trying to say, and tomorrow you can… in the next two weeks, I'm very hopeful that if you implement all the exercises, you will be able to build all of these things.
+
+983
+02:23:01.750 --> 02:23:03.600
+100xEngineers: I hope this helps, Shefali.
+
+984
+02:23:16.540 --> 02:23:17.470
+100xEngineers: Yes…
+
+985
+02:23:18.160 --> 02:23:29.049
+100xEngineers: Awesome, guys, I think, I'll take a leave right now. I have a hard stop, so… but thank you so much for, again, listening and being patient throughout the session and performing.
+
+986
+02:23:30.060 --> 02:23:40.419
+100xEngineers: I would say you guys performed still average on the activity. Next time, do this activity with your peer group, I would… I would share more exercises like this.
+
+987
+02:23:40.570 --> 02:24:00.420
+100xEngineers: Try to design interfaces, try to design contracts and set of rules among yourself, coordinate with things. This is the best exercise to improve that skill as well, which is agnostic of the technology, but uses the same critical thinking muscle in your brain. So do more of the exercise, I'll share more data, and I'll see you next week.
+
+988
+02:24:00.420 --> 02:24:03.209
+100xEngineers: Until then, bye-bye, good night, and keep building.
+

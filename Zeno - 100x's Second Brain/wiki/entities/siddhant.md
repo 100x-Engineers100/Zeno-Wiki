@@ -9,9 +9,10 @@ tags: [100x-engineers, educator, founder, ai, cto]
 CTO and Co-founder of 100x Engineers. Teaches Modules 2 (LLMs + Full Stack) and 3 (AI Agents) — covering months 2-6 of the cohort. Had 2 prior exits (sold two companies to one academy).
 
 ## Key Contributions / Role
-- Designed and teaches full-stack LLM development: Gradio, FastAPI, Supabase, Prompt Engineering, MCP, RAG, Memory
-- Designed and teaches AI Agents: ReAct, multi-agent systems, agentic workflows, production patterns
-- Brings entrepreneurial perspective — has built and sold AI companies
+- Designed and teaches Module 2 (C7): product methodology first (IDEA2App V2, FDE role, AI adoption gap), then full-stack LLM development (interfaces, APIs, FastAPI, Supabase, RAG, MCP, memory)
+- Designed and teaches Module 3: AI Agents (ReAct, multi-agent systems, agentic workflows, production patterns)
+- Built the "Discovery to MVP Coach" Claude skill — encodes his 10 years of product-building methodology as a slash-command-invocable skill
+- Brings entrepreneurial perspective — has built and sold AI companies; 2 prior exits
 
 ## Connections
 Related entities: [[100x-engineers]], [[sridev]]

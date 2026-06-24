@@ -2,7 +2,7 @@
 title: "Domain Modeling"
 type: concept
 tags: [database, architecture, sql, supabase, 100x-cohort7]
-source_count: 1
+source_count: 2
 ---
 
 ## Definition
@@ -45,6 +45,20 @@ Members: MemberID (PK), Name, Address
 Loans: LoanID (PK), BookID (FK), MemberID (FK), DateBorrowed, DateDue
 ```
 
+### CRUD Test for Entity vs Attribute
+Primary validation: *Can you independently Create, Read, Update, Delete this thing in the app?*
+- If yes → entity (its own table)
+- If no → attribute (column in parent table)
+
+Applied to chat app:
+| Thing | Entity or Attribute? | Reason |
+|---|---|---|
+| User | Entity | CRUD independently |
+| Conversation | Entity | CRUD independently |
+| Message | Entity | CRUD independently |
+| Email | Attribute | Belongs to User, cannot CRUD independently |
+| Plan | Entity | Independently manageable |
+
 ### When to Make Something an Entity vs Attribute
 - If only the name is needed → attribute in the parent table
 - If more details are needed (bio, relationship to other things) → separate entity with FK
@@ -75,8 +89,8 @@ CREATE TABLE customers (
 - `Enrollments(EnrollmentID, StudentID FK, CourseID FK, Grade)` — M:N junction table
 
 ## Connections
-Related concepts: [[full-stack-llm-architecture]], [[fastapi-patterns]], [[context-economy]]
-Introduced by: [[100x-cohort7-module2-llm]]
+Related concepts: [[full-stack-llm-architecture]], [[fastapi-patterns]], [[context-economy]], [[database-fundamentals]], [[supabase]]
+Introduced by: [[100x-cohort7-module2-llm]], [[100x-cohort7-module2-l07-l10]]
 
 ## Open Questions / Unknowns
 - When should you use MongoDB (flexible schema) vs PostgreSQL (strict schema)? — Rough rule: if data structure is still evolving, use Mongo; when structure is known, use Postgres.

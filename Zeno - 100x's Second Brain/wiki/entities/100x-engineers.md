@@ -10,7 +10,7 @@ An applied AI education program running cohorts for professionals and entreprene
 
 ## Key Contributions / Role
 - **Cohort 7** (starting March 2026): The current cohort this vault tracks. 3 modules: Diffusion, Full Stack LLM, AI Agents. ~6 months.
-- **Founders**: Sridev (CEO), Siddhant (CTO, 2 prior exits), Tejas (EOS Labs / EOS Films)
+- **Founders**: Sridev (CEO), Siddhant (CTO, 2 prior exits), Tejas (AEOS Labs)
 - **Curriculum philosophy**: First principles + applied building + 0-to-100x challenge (100 days public LinkedIn posting)
 - **Tracks**: Entrepreneurship vs. Career Accelerator; Code vs. No-Code paths
 - **Leaderboard platform**: Built for Cohort 7 — real-time scores for attendance, projects, challenge posts

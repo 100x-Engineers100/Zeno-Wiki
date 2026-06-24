@@ -2,7 +2,7 @@
 title: "FreePik Platform (AI Aggregator)"
 type: concept
 tags: [freepik, ai, video, image, aggregator, ugc, 100x-cohort7, module1]
-source_count: 2
+source_count: 4
 ---
 
 ## Definition
@@ -52,13 +52,46 @@ Any image uploaded as reference on FreePik is processed on model providers' serv
 Other platforms with similar model aggregation: Higgsfield, OpenArt, Genspark.
 FreePik chosen in the 100x cohort specifically because it has **FreePik Spaces** — the node-based workflow interface that no other aggregator offers in the same way.
 
+## 3D Scenes (added L13)
+FreePik can convert any 2D image into a navigable Gaussian Splat 3D environment.
+- Path: All Tools → 3D → 3D Scenes
+- Credits: ~2200 (image→3D scene), ~1600 (image→3D object)
+- WASD + mouse navigation, spacebar = capture frame
+- Solves environment inconsistency across shots — the fundamental diffusion limitation
+- See [[gaussian-splat-3d-scenes]] for full workflow
+
+## Upscaling (added L13)
+- **Image Upscaler** (Magnific): Precision (pixel-accurate, no prompt) and Creative (diffusion-based, adds texture)
+  - Path: All Tools → Image Upscaler
+  - See [[image-upscaling-ai]]
+- **Video Upscaler**: Available; instructor prefers Topaz over Magnific for video
+
+## Motion Control (added L13)
+- Path: All Tools → Kling 3.0 Motion Control
+- Record real actor → upload as motion reference + AI character as start frame → Kling transfers real motion
+- See [[motion-control-video]]
+
+## GPT Image 2 on FreePik (added L13)
+- Credits: medium ~200, high ~700, 2K ~1400, 4K ~2000
+- Strong at prompt following. Weak on character consistency. Nano Banana Pro still better for consistency.
+
+## Kling 4K (added L13)
+- Kling 3.0 now supports 4K video output (~2000 credits)
+- CDance 2.0 better for physics/VFX
+- Test first with Google Video 3.1 Lite (~160 credits) before spending on Kling 4K
+
+## Audio in FreePik (added L13)
+- Sound effects: prompt + duration, ~25 credits, powered by ElevenLabs
+- Music generator also via ElevenLabs — not great. Use Suno instead.
+
 ## Commercial Licensing Note
 Commercial licensing only on purchased plans — NOT on cohort gifted credits. For client work and revenue-generating content, purchase your own plan.
 
 ## Connections
-Related concepts: [[comfyui-vs-proprietary]], [[freepik-spaces-workflows]], [[ai-influencer-pipeline]], [[video-generation-models]], [[lora-training]], [[ip-adapter]]
-Introduced by: [[100x-l09-intro-freepik-spaces]], [[100x-l10-branding-marketing-freepik-spaces]]
+Related concepts: [[comfyui-vs-proprietary]], [[freepik-spaces-workflows]], [[ai-influencer-pipeline]], [[video-generation-models]], [[lora-training]], [[ip-adapter]], [[gaussian-splat-3d-scenes]], [[image-upscaling-ai]], [[motion-control-video]], [[ai-content-pipeline]]
+Introduced by: [[100x-l09-intro-freepik-spaces]], [[100x-l10-branding-marketing-freepik-spaces]], [[100x-l13-freepik-3d-motion-upscaling]], [[100x-l14-heygen-elevenlabs-content-pipeline]]
 
 ## Open Questions / Unknowns
 - When will FreePik enable API access for building applications on top of Spaces?
 - CDance 2.0 availability after April 2026 — still the quality ceiling or replaced by newer model?
+- When will .blend file import be supported in 3D Scenes? (currently only .obj)

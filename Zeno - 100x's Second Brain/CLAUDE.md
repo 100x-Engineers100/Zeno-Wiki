@@ -271,3 +271,15 @@ When Vishal adds new sources, here is what to do by type:
 - Remaining 100x Cohort 7 lectures as they are released
 - Any articles/podcasts on AI agents, RAG, or MCP that Vishal clips
 - Business operation notes (decisions, processes, retrospectives)
+
+---
+
+## 10. KNOWN ENTITY NAME CORRECTIONS
+
+These are confirmed corrections from Vishal. Always use these names — never revert to old/transcript variants:
+
+| Correct Name | Wrong Variants | File |
+|---|---|---|
+| AEOS Labs | EOS Labs, AOS Labs | `wiki/entities/aeos-labs.md` |
+
+When transcripts use a wrong variant, silently use the correct name in all wiki pages.

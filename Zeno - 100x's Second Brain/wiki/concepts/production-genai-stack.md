@@ -92,7 +92,7 @@ Log every LLM call with: `timestamp`, `user_id`, `prompt`, `response`, `tokens_u
 - **Self-hosted stack** — replace Pinecone with Qdrant/Weaviate, OpenAI with Llama on Modal
 
 ## Examples
-**Architecture from L17 (EOS Labs):**
+**Architecture from L17 (AEOS Labs):**
 - Frontend: Next.js on Vercel
 - Backend: FastAPI on Railway
 - DB: Supabase (PostgreSQL + pgvector)

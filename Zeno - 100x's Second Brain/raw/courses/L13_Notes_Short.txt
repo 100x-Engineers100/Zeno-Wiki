@@ -1,0 +1,89 @@
+LECTURE 13 — FREEPIK: 3D SCENES, MOTION CONTROL, UPSCALING
+100xEngineers | 24 Apr 2026 | Instructor: Pranay Prajapati
+
+---
+
+MODULE CONTEXT
+Last technical session of Diffusion Module. FreePik introduced this cohort for first time (prev cohorts = pure ComfyUI).
+
+---
+
+CORE PROBLEM SOLVED TODAY
+Environment inconsistency across shots. Prompting can't hold a background consistent because diffusion re-hallucniates the scene every run. Fix: give the model a fixed 3D space to navigate.
+
+---
+
+3D SCENES (Main Feature)
+Path: All Tools → 3D → 3D Scenes
+- Upload any image → Freepik converts it to a navigable 3D Gaussian Splat
+- Navigate with WASD + mouse, spacebar = capture frame
+- Prompt variations (rain, fire, night) apply consistently within same spatial reference
+- Add cameras: multiple angles of same scene without re-generating environment
+- Add 3D objects: upload reference image → Generate 3D (uses Triple 3D model) → drag into scene
+- Blender workaround: take a basic viewport screenshot → upload as base image (can't import .blend directly; .obj files supported)
+- Credits: ~2200 for image→3D scene, ~1600 for image→3D object
+- AI 3D topology is not production-ready — use as reference only
+
+CAMERA SETTINGS INSIDE 3D SCENE (real cinematography applied)
+- Focal length: 35mm standard, 50mm portrait, 200mm close-up, wide for environment
+- Aperture/DOF: f/1.4–f/2 = shallow depth (bg blurs), f/11 = everything in focus
+
+CHARACTER PLACEMENT WORKFLOW
+1. Generate environment image (no character)
+2. Upload to 3D Scenes → generate Gaussian Splat
+3. Navigate, frame shot, spacebar to capture
+4. Take captured frame to Nano Banana Pro
+5. Add character reference + prompt: "same pose and composition, dressed as samurai"
+6. Generate — character placed in consistent environment
+7. Don't like angle? Reopen scene, reframe, recapture. No full regen needed.
+
+---
+
+IMAGE UPSCALER (Magnific)
+Path: All Tools → Image Upscaler
+
+PRECISION: pixel-accurate, no character change, no prompt needed. Models: V2 Photo / Sublime. Scale 2X/4X/8X. Credits: ~90/360/1440.
+CREATIVE: diffusion-based, adds texture/realism, can drift character. Creativity 2–3 sweet spot. Similarity ~70. Resemblance inverse to creativity. Fractality = 0. Optimized for Films & Photography. Prompt what you want enhanced.
+Tip: generate low-res, iterate, upscale only the final approved image.
+
+VIDEO UPSCALER
+Same concept. Pranay prefers Topaz over Magnific for video. Available in All Tools → Video Upscaler.
+
+---
+
+MOTION CONTROL / THEATRICS
+
+Method 1 — Prompt acting: Use Kling 3.0, add start image, prompt actions ("walk toward camera, scream and cry"). Limited by model interpretation.
+
+Method 2 — Kling Motion Control (recommended): Path: All Tools → Kling 3.0 Motion Control
+- Record a real actor performing the motion (4–5 sec video)
+- Upload video as motion reference + AI character image as start frame
+- Kling transfers real human motion onto AI character
+- Exaggerate lip movement for better lip sync. Credits: ~550 for 4 sec.
+
+---
+
+GPT IMAGE 2 ON FREEPIK
+Credits: medium ~200, high ~700, 2K ~1400, 4K ~2000.
+Strong at prompt following. Weak on character consistency. Nano Banana Pro still better for consistency.
+
+KLING 4K VIDEO
+New: Kling 3.0 now does 4K (~2000 credits). CDance 2.0 better at physics/VFX. Test first with Google Video 3.1 Lite (~160 credits).
+
+---
+
+FREEPIK vs COMFYUI (definitive)
+FreePik: closed source, browser-based, fast, credit cost (~₹1500 per 20K credits), non-commercial on 100x-provided credits, no app deployment yet (Enterprise has FreePik Apps).
+ComfyUI: open source, full control, GPU required (96GB ideal), app deployment possible, cheaper at scale. ₹1500 on Freepik = 3 LoRA trainings + hours of generation on JarvisLabs.
+Rule: client is okay with closed source → FreePik. Client wants open source / you're building apps → ComfyUI.
+
+---
+
+AUDIO IN FREEPIK
+Sound effects: prompt + duration (25 credits, powered by 11 Labs). Music generator also via 11 Labs — not great. Use Suno instead.
+
+---
+
+UPCOMING
+Next session: HeyGen + ElevenLabs. Next module: LLMs.
+Capstone details covered next session. Credits for capstone will be provided — tag team on Discord.

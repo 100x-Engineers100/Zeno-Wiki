@@ -8,16 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a1cd8f88f2ad35b8",
+            "id": "ceb85f091b5fb7c8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/entities/siddhant.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "siddhant"
+            }
+          },
+          {
+            "id": "be2f6caeb665c9e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 284.5
   },
   "right": {
     "id": "19b07a288fc09879",
@@ -177,34 +196,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "a1cd8f88f2ad35b8",
+  "active": "be2f6caeb665c9e9",
   "lastOpenFiles": [
-    "wiki/entities/andrej-karpathy.md",
-    "wiki/entities/sridev.md",
     "wiki/entities/siddhant.md",
     "wiki/entities/100x-engineers.md",
-    "templates/synthesis.md",
-    "templates/source.md",
-    "templates/entity.md",
-    "templates/concept.md",
-    "wiki/synthesis/full-cohort-decision-framework.md",
-    "wiki/synthesis/llm-optimization-decision-tree.md",
-    "wiki/entities/cursor-ai.md",
-    "100x knowledge base/Zeno-Second-Brain-Setup-Doc.md",
-    "wiki/concepts/replicate-deployment.md",
-    "wiki/concepts/llm-cost-economics.md",
-    "wiki/concepts/tool-calling-architecture.md",
+    "wiki/concepts/agentic-loop.md",
+    "wiki/sources/100x-cohort7-module2-llm.md",
+    "llm-application-architecture.md",
     "wiki/synthesis/agent-vs-workflow-economics.md",
+    "wiki/entities/autogen-microsoft.md",
+    "wiki/entities/andrej-karpathy.md",
+    "wiki/entities/sridev.md",
+    "wiki/log.md",
+    "wiki/index.md",
+    "AGENTS.md",
+    "raw/clippings/To-do list- Vishal.md",
+    "wiki/concepts/agent-deployment.md",
+    "wiki/concepts/95-percent-rule.md",
+    "wiki/overview.md",
+    "Knowledge graph setup guide.md",
+    "granola.md",
+    "multi-agent-systems.md",
+    "CLAUDE.md",
+    "wiki/persona.md",
     "wiki/synthesis/production-failure-analysis.md",
     "wiki/synthesis/module2-architecture-philosophy.md",
+    "wiki/synthesis/llm-optimization-decision-tree.md",
+    "wiki/synthesis/full-cohort-decision-framework.md",
     "wiki/synthesis/ai-knowledge-management.md",
-    "wiki/concepts/ppt-framework.md",
-    "wiki/concepts/opt-framework.md",
-    "wiki/entities/langflow.md",
-    "wiki/entities/cognition-devin.md",
-    "wiki/entities/autogen-microsoft.md",
-    "wiki/entities/openai-swarm.md",
-    "wiki/entities/llama-guard.md",
     "wiki/index.md.tmp.21048.1775916542205",
     "raw/courses/Six Easy Pieces for Full-Stack LLM Applications_mod 2.txt",
     "raw/courses/Connecting the LLM Dots with First Principles_mod 2.txt",

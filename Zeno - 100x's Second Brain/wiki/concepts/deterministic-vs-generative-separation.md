@@ -2,7 +2,7 @@
 title: "Deterministic vs. Generative Separation"
 type: concept
 tags: [ai, agents, architecture, reliability, productivity]
-source_count: 2
+source_count: 5
 ---
 
 ## Definition
@@ -46,8 +46,8 @@ The LLM writes and maintains wiki pages (generative). File system operations, in
 - This wiki: CLAUDE.md defines deterministic conventions (file naming, log format, index updates). LLM applies judgment in synthesis.
 
 ## Connections
-Related concepts: [[ai-agents-react]], [[ai-memory-architecture]], [[llm-wiki-pattern]], [[opt-framework]]
-Introduced by: [[rsarver-ai-chief-of-staff]], [[100x-cohort7-module3-agents]]
+Related concepts: [[ai-agents-react]], [[ai-memory-architecture]], [[llm-wiki-pattern]], [[opt-framework]], [[interface-types]]
+Introduced by: [[rsarver-ai-chief-of-staff]], [[100x-cohort7-module3-agents]], [[100x-cohort7-module2-llm]], [[100x-cohort7-module2-l01-l03]], [[100x-cohort7-module2-l07-l10]]
 
 ## Open Questions / Unknowns
 - Where exactly is the right boundary for novel cases — when generative synthesis should be allowed to "promote" a result into the deterministic layer?

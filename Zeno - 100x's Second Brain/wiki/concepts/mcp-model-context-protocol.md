@@ -2,7 +2,7 @@
 title: "MCP — Model Context Protocol"
 type: concept
 tags: [ai, agents, mcp, protocol, tool-calling, 100x-cohort7]
-source_count: 2
+source_count: 3
 ---
 
 ## Definition
@@ -40,9 +40,49 @@ Orchestrator agent → MCP → Specialist agent A
 
 ## Connections
 Related concepts: [[ai-agents-react]], [[multi-agent-systems]], [[retrieval-augmented-generation]]
-Introduced by: [[100x-cohort7-module2-llm]], [[100x-cohort7-module3-agents]]
+Introduced by: [[100x-cohort7-module2-llm]], [[100x-cohort7-module3-agents]], [[100x-l18-22-llm-finetuning]]
+
+## MCP Governance Update (March 2026, L22)
+MCP is now under the **Linux Foundation**. Anthropic, OpenAI, and Google have all signed on.
+"When three competitors agree on a standard, it becomes the standard. Like HTTP for the web."
+This resolves any uncertainty about MCP becoming the de facto protocol — the network effect is now locked in.
+
+## Generative UI (MCP, March 25, 2026)
+New capability: apps render interactive UI inside Claude's chat window. Bidirectional — clicking the UI calls the real app server, not Claude's server.
+
+**How it works:**
+- App provider builds an MCP server (e.g., Canva)
+- Claude calls the MCP server
+- The UI (iframe) renders inside Claude's chat window
+- User interaction → real app API calls via MCP
+- Result rendered back in Claude
+
+**The Ajax analogy**: Before Ajax, web pages reloaded on every action. After Ajax, pages became apps. Before Generative UI, LLM gives a text link. After Generative UI, LLM renders the actual interactive app inside chat.
+
+**Why it matters**: No traditional integration needed. App provider builds one MCP server. Claude (or any MCP client) can render and interact with it natively.
+
+## MCP Context Efficiency Solutions (L22)
+Problem: connecting many MCPs loads all tool definitions into context window — potentially 72,000+ tokens just for tool definitions.
+
+**Solution 1 — Tool Search Tool:**
+- RAG index of tool definitions
+- LLM searches for the tool it needs just-in-time
+- Only the relevant tool definition enters context
+- Same principle as PageIndex in RAG — index first, load only what's needed
+
+**Solution 2 — Programmatic Tool Calling:**
+- LLM writes Python code to call APIs
+- Code runs in execution environment
+- Only final result returns to LLM context
+- Intermediate data never pollutes context window
+- See [[programmatic-tool-calling]]
+
+Both are platform-agnostic patterns — work with any LLM, not Anthropic-specific.
+
+## MCP vs CLI (common debate)
+"MCP is overkill, just use CLI to call APIs directly." True for a one-off API call. For an M×N problem — many models, many tools — MCP is the solution. Security and scale of bidirectional UI cannot be handled with just CLI.
 
 ## Open Questions / Unknowns
-- What is the current version of the MCP spec and who maintains it?
-- How does authentication work in MCP tool servers?
-- What are the performance characteristics vs. direct API calls?
+- Full component/primitive specification for Generative UI MCP (what UI elements are supported?)
+- Authentication standards for MCP tool servers
+- Performance characteristics vs direct API calls at scale
