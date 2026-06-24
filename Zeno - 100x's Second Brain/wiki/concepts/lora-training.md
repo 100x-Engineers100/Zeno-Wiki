@@ -2,7 +2,7 @@
 title: "LoRA Training"
 type: concept
 tags: [diffusion, lora, fine-tuning, flux, sdxl, 100x-cohort7]
-source_count: 2
+source_count: 3
 ---
 
 ## Definition
@@ -66,9 +66,19 @@ Recommended GPUs: **A6000 or A5000**. Setup: create conda env → install PyTorc
 - **Amul Girl LoRA:** Trained on ~40 Amul Girl comic images. Captured character style, scene aesthetic, font style. Text rendering remained weak (proprietary models better for text).
 - **Product photoshoot engine:** Train LoRA on a product → generate infinite variations in any background/lighting.
 
+## LLM LoRA (added from L18–22)
+LoRA for LLMs follows the same principle as diffusion LoRA but with different parameter conventions:
+- **LLM LoRA rank**: 32 is a common starting point (vs 16/32/64 for diffusion)
+- **LoRA alpha**: typically 2× rank. Controls how much the adapter layer influences vs base model. No equivalent in diffusion LoRA.
+- **Portability**: LLM LoRA is portable across model versions IF they share the same architecture (`LlamaForCausalLM`) and tokenizer — e.g., Llama 3 LoRA → Llama 3.1
+- **Training tools**: Axolotl (YAML-based, JarvisLabs template) or LLaMA Factory (GUI-based, Windows-friendly)
+- **~2% of total parameters** trained. "Spend 10% of cost, get 95% of outcome for narrow tasks."
+
+See [[sft-techniques]] for full LLM fine-tuning method comparison (Full, LoRA, QLoRA).
+
 ## Connections
-Related concepts: [[comfyui-workflow-system]], [[flux-architecture]], [[diffusion-models]], [[cost-optimization-patterns]]
-Introduced by: [[100x-l06-flux-lora-training]]
+Related concepts: [[comfyui-workflow-system]], [[flux-architecture]], [[diffusion-models]], [[cost-optimization-patterns]], [[sft-techniques]], [[llm-fine-tuning]]
+Introduced by: [[100x-l06-flux-lora-training]], [[100x-l18-22-llm-finetuning]]
 
 ## Open Questions / Unknowns
 - At what rank/step count does FLUX LoRA overfit for styles vs faces?

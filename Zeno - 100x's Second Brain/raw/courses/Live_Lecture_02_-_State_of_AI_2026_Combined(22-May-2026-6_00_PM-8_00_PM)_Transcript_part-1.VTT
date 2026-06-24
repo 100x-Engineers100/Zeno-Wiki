@@ -1,0 +1,3378 @@
+WEBVTT
+
+1
+00:05:32.560 --> 00:05:33.670
+Audio shared by 100xEngineers: Jesus!
+
+2
+00:06:08.180 --> 00:06:08.850
+Audio shared by 100xEngineers: Shazam!
+
+3
+00:06:12.310 --> 00:06:17.749
+Audio shared by 100xEngineers: From Billie Jean to the classics you love, listen to, This Is Michael Jackson on Spotify.
+
+4
+00:06:18.320 --> 00:06:19.500
+Audio shared by 100xEngineers: Mama, mama.
+
+5
+00:11:44.100 --> 00:11:47.430
+100xEngineers: Hi folks, can you hear me? Can you see me? If yes.
+
+6
+00:11:47.820 --> 00:11:50.030
+100xEngineers: Let me know in the chat, how are you guys doing?
+
+7
+00:11:50.640 --> 00:11:53.309
+100xEngineers: How's… How's everything going so far?
+
+8
+00:12:04.000 --> 00:12:05.229
+100xEngineers: This chat enabled.
+
+9
+00:12:05.230 --> 00:12:06.919
+Yash Jhaveri: That is disabled.
+
+10
+00:12:07.290 --> 00:12:10.419
+100xEngineers: That is simple. Okay, let me check right now.
+
+11
+00:12:10.810 --> 00:12:13.930
+100xEngineers: Can you check right now? Okay, yeah.
+
+12
+00:12:36.420 --> 00:12:43.120
+100xEngineers: Awesome. Awesome. Just… getting the… Zoom all and up.
+
+13
+00:12:45.130 --> 00:12:46.850
+100xEngineers: Very excited for the session.
+
+14
+00:12:46.980 --> 00:13:05.150
+100xEngineers: I am as well, I am as well. Like, my wife's score is right now at 9 by 10. I had, like, too much coffee, I think, maybe because of that. But let me, share a quick agenda, and also, this session is an additional session which we have planned for this cohort specifically, and I…
+
+15
+00:13:05.150 --> 00:13:11.779
+100xEngineers: And I thought about, like, the session makes sense in the beginning, rather than me doing it maybe after one month, is because
+
+16
+00:13:11.780 --> 00:13:19.760
+100xEngineers: This will set the foundations for what we're gonna learn, why we're gonna learn those things, and also, if somebody
+
+17
+00:13:19.760 --> 00:13:36.430
+100xEngineers: still confused about their path, their North Star, which we discussed in the previous lectures, you will get a clear step-by-step approach of how do you take, like, a raw idea and maybe set a direction through it. So that's the primary goal. I'll set the agenda, agenda is
+
+18
+00:13:36.430 --> 00:13:50.019
+100xEngineers: understanding the state of AI in May 2026, as per today's date, which is 22nd of May, where AI is, what are the things that we can do in order for us to prepare and navigate in this
+
+19
+00:13:50.670 --> 00:13:55.520
+100xEngineers: environment. What are the tools? What are the skills? What are the
+
+20
+00:13:55.640 --> 00:14:18.090
+100xEngineers: best practices which your alumni have applied and they have got success. How can you prepare for that, and how can you plan for the journey? And even if it's… even if you don't, I would say, get a clear idea of the entire 6-month journey from this lecture, it's completely fine, but the entire agenda for me and for all of you who is here, or who are here, is that
+
+21
+00:14:18.200 --> 00:14:25.330
+100xEngineers: get that next 21-day plan clear. And I think I've shared this as an assignment in the last lecture, so,
+
+22
+00:14:25.570 --> 00:14:33.340
+100xEngineers: the goal is to, like, make sure that we know what to do for the next 21 days, and if you do that, if you have, like, all the, I would say.
+
+23
+00:14:33.890 --> 00:14:50.790
+100xEngineers: things that you have planned, and the hypothesis that you're building, and the MV plan with you, and you've executed that, that will give us a lot of action and insights about who you are, what you do, and how you take action. And that will help us to, like, then design the next set of roadmaps. So.
+
+24
+00:14:50.820 --> 00:15:05.800
+100xEngineers: as I mentioned in the previous sessions itself, this module is, like, designed differently as compared to, like, the previous ones, and it's also gonna be, like, I think a different experience for a lot of you who… who are basically, I would say.
+
+25
+00:15:06.300 --> 00:15:10.260
+100xEngineers: new to the AI curriculums, because it's not about
+
+26
+00:15:10.530 --> 00:15:15.339
+100xEngineers: just sharing the information via lectures, but as I told you, it's about, like.
+
+27
+00:15:16.080 --> 00:15:22.890
+100xEngineers: designed around, learn by implementing and building. So, let me stop for…
+
+28
+00:15:24.860 --> 00:15:36.260
+100xEngineers: my speech for a moment, and I'll share my screen first, so that I'll give you a full context of what all things we are planning to cover, and how we are about to take this
+
+29
+00:15:36.630 --> 00:15:50.049
+100xEngineers: By the way, there is a pattern which we're gonna follow for the lectures, specifically for these combined sessions, and I'll give you, like, a overview of, like, when exactly will you…
+
+30
+00:15:50.050 --> 00:16:06.790
+100xEngineers: get a split lecture, which means a code and no code. For this week, both lectures, Fridays and Saturdays, which is today and tomorrow lectures, gonna be combined. This will help you to set the foundations right, also understand the key principles. Using these principles, starting from the next week, we will
+
+31
+00:16:06.790 --> 00:16:20.439
+100xEngineers: take all of these information, and we'll start implementing it. So, next week, gonna be more hands-on. We will be split, into your code and no code batches, and you'll have, like, different instructors, but this week, we will…
+
+32
+00:16:20.510 --> 00:16:24.970
+100xEngineers: Set the foundation, we'll learn the principles, so that you guys are all prepared.
+
+33
+00:16:28.280 --> 00:16:36.090
+100xEngineers: let me do this, and coming to the structure which I was mentioning, what we're gonna follow for the combined session is,
+
+34
+00:16:36.170 --> 00:16:50.490
+100xEngineers: we're gonna take, because I realized last time I was not able to take all the questions, so we'll dedicate, like, after the first half of this part, maybe around, like, I'd say, like, a 45 to 50 minutes mark.
+
+35
+00:16:50.490 --> 00:17:12.680
+100xEngineers: I'll take a break, I'll do a dedicated Q&A during that time, and then we'll come back to the second half of the lecture, and then same thing, we'll do it at the end, rather than, like, picking questions in between. So I would highly request you to, if you have any questions regarding what I'm sharing, just keep a note of it. I'll give a dedicated Q&A time so that I'll try to address as many questions as I can in that window.
+
+36
+00:17:12.680 --> 00:17:30.199
+100xEngineers: And, at the end, like, I'll, again, stretch it to the extended Q&A. So, that's where we're gonna, like, take these Q&As, because otherwise, the discussion can drift towards something which maybe, like, it's not intended, or it's not, like, part of the lecture. So I'm trying to, like.
+
+37
+00:17:30.200 --> 00:17:32.899
+100xEngineers: Keep it, like, dense, trying to keep it more focused.
+
+38
+00:17:32.900 --> 00:17:34.009
+100xEngineers: And,
+
+39
+00:17:34.880 --> 00:17:40.789
+100xEngineers: Coming back to the agent of session, and I want to, like, start with a quick poll. This is about…
+
+40
+00:17:43.520 --> 00:17:56.230
+100xEngineers: writing, like, one-line statement of what do you think in your… in your words, what's the current state of AI is, which means, what do you think about
+
+41
+00:17:56.970 --> 00:17:59.560
+100xEngineers: The current state of,
+
+42
+00:18:00.490 --> 00:18:10.429
+100xEngineers: Like, AI skills that somebody needs in 2026, what is the current state of AI work somebody needs to do, or what is the current state of AI businesses that people are doing?
+
+43
+00:18:10.720 --> 00:18:25.679
+100xEngineers: based on whichever track you guys have opted for, like, for people who are in the career accelerator, maybe you can, like, answer it from your lens, that what are the skills you are observing in the AI, state of AI 2026,
+
+44
+00:18:25.680 --> 00:18:40.120
+100xEngineers: that you think you might need to learn, and you maybe, like, want to learn, and that's why you signed up for this. People who are from the entrepreneurship track, maybe you can share what kind of opportunities in terms of business, ideas, growth.
+
+45
+00:18:40.440 --> 00:18:55.649
+100xEngineers: you are observing in 2026 about, like, state of AI. And if you are somebody who has a domain expertise, and you have, like, found something interesting, which you think recently came up, and maybe, like, that defines the state of AI for you personally.
+
+46
+00:18:55.650 --> 00:19:11.040
+100xEngineers: you can, like, let me know in that, in the chat. Now, why am I asking this question is to understand the current AI literacy, as well as the current state of AI of Cohort 7, people who are, who joined this, and then I'll try to, like.
+
+47
+00:19:11.040 --> 00:19:23.880
+100xEngineers: map this with the whole lecture and try to see, like, if I can give you this roadmap, if I can give you this path where what you are thinking… first of all, whether it is actually true or not, like, is your…
+
+48
+00:19:24.000 --> 00:19:26.030
+100xEngineers: Current understanding of
+
+49
+00:19:26.130 --> 00:19:44.779
+100xEngineers: AI is actually the… the true reality, or maybe something which you are… which you have picked up from maybe the last year, and you're still, like, holding onto that. And if… if you are somebody, like, who is… who has, like, some certain insights about… about, let's say, state of AI right now, how can I personally
+
+50
+00:19:44.780 --> 00:19:53.329
+100xEngineers: maybe, like, give you insights so that you can… you can take an action on it. So just write down, your insights of State of AI, if you are
+
+51
+00:19:53.440 --> 00:19:56.169
+100xEngineers: From the query accelerator track, then mentioned, like.
+
+52
+00:19:56.170 --> 00:20:14.220
+100xEngineers: what kind of skills you have seen, what kind of work you are doing, or you think it's gonna be, like, the most relevant as per State of AI 2026. If you're the entrepreneur, then maybe… or if you're from that track, then the business side of things about State of AI. I'll quickly scan the answers in the chat,
+
+53
+00:20:14.960 --> 00:20:22.700
+100xEngineers: This is also a peer-to-peer learning activity, where you guys can see, like, what your… Peers are hosting.
+
+54
+00:20:24.650 --> 00:20:27.370
+100xEngineers: Can you please share the actual date of assignment due to
+
+55
+00:20:28.000 --> 00:20:32.490
+100xEngineers: Please, there's a discrepancy between June 6th and some other date mentioned on the platform.
+
+56
+00:20:32.780 --> 00:20:43.990
+100xEngineers: Yeah, I think it was clarified, Shefali. Yeah, we… I did mention this to my team, once again, but it's, like, exactly, like, 21 days from the assignment when we released it.
+
+57
+00:20:48.640 --> 00:20:58.440
+100xEngineers: Sagar said, build a strong foundation, domain expertise, timeless skills, critical thinking, logical communication skills, plus reducing time between idea and execution.
+
+58
+00:20:58.880 --> 00:21:02.110
+100xEngineers: Awesome, very close to what I believe, Several. Yes.
+
+59
+00:21:03.590 --> 00:21:11.880
+100xEngineers: But I think a lot of these things which you have mentioned, it's more about, not…
+
+60
+00:21:12.190 --> 00:21:26.160
+100xEngineers: not specific to AI, but I agree that these are the skills which are important right now. So, irrespective of either you're working in the AI industry or non-AI industry, I think all these things are still really relevant. But, yeah, I completely agree with this.
+
+61
+00:21:26.860 --> 00:21:33.100
+100xEngineers: Intojeet said, currently automated workflows with human in the loop, moving towards AI agents as employees.
+
+62
+00:21:33.460 --> 00:21:34.159
+100xEngineers: Thank you.
+
+63
+00:21:35.090 --> 00:21:40.950
+100xEngineers: Automation, agentic AI workflows, Building to increase productivity.
+
+64
+00:21:42.060 --> 00:21:45.540
+100xEngineers: Awesome! They have said forward deployed engineer, 100% sure.
+
+65
+00:21:46.130 --> 00:21:53.289
+100xEngineers: That is part of it, yes. Mathly said second brain, maybe. Models are extremely powerful. There's a huge potential in terms of
+
+66
+00:21:53.400 --> 00:21:55.500
+100xEngineers: Application within workflows.
+
+67
+00:21:55.710 --> 00:22:08.260
+100xEngineers: With high level of autonomy across roles with relevant business context. AI-driven filmmaking, workflow automation, finding automation opportunities is increasing, yes.
+
+68
+00:22:12.250 --> 00:22:14.189
+100xEngineers: Very interesting answers, by the way.
+
+69
+00:22:23.970 --> 00:22:29.030
+100xEngineers: Cool, thank you so much for sharing these answers, because this will also help me to now
+
+70
+00:22:31.460 --> 00:22:42.239
+100xEngineers: give you some interesting piece of insights which I have. Rather than, again, making this lecture static, I'll try to, like, find things which are relevant to the audience who have joined.
+
+71
+00:22:43.030 --> 00:22:51.620
+100xEngineers: I'll actually… Before starting this with a slide, I'll share some very interesting Graph.
+
+72
+00:22:51.870 --> 00:22:54.009
+100xEngineers: This is a graph which I…
+
+73
+00:22:54.910 --> 00:22:59.850
+100xEngineers: I've been, like, looking at from last couple of… Months.
+
+74
+00:23:02.930 --> 00:23:09.869
+100xEngineers: This is a Gartner graph. So Gartner did this study, and on x-axis.
+
+75
+00:23:10.150 --> 00:23:15.640
+100xEngineers: there's time. On the y-axis, this is the AI capability. Now.
+
+76
+00:23:15.750 --> 00:23:21.190
+100xEngineers: you don't need to go into the details of it, like, they are also, like, positioning AGI on this graph, but, like.
+
+77
+00:23:21.360 --> 00:23:31.579
+100xEngineers: The goal is, if you plot And if you observe, Over the time, What is the…
+
+78
+00:23:33.230 --> 00:23:44.789
+100xEngineers: state of AI innovation in terms of new models getting released, which means that now you have models like the latest set of models is GPT-5.5 and Opus
+
+79
+00:23:44.970 --> 00:23:57.089
+100xEngineers: 4.7, and, like, Sonnet, and then Kimi, another Gemini, release another one. But I'll take, like, these as one of the current,
+
+80
+00:23:58.000 --> 00:24:04.419
+100xEngineers: Frontier models, Frontier Labs, And then, if you see this blue line on this graph.
+
+81
+00:24:04.690 --> 00:24:07.430
+100xEngineers: This is about the AI outcomes race.
+
+82
+00:24:07.750 --> 00:24:09.979
+100xEngineers: And this graph was…
+
+83
+00:24:10.180 --> 00:24:16.689
+100xEngineers: actually sourced last year, when I was teaching and when I was starting my lecture series with the Cohort 6.
+
+84
+00:24:16.890 --> 00:24:20.379
+100xEngineers: The cohort just before you guys. And,
+
+85
+00:24:20.530 --> 00:24:23.119
+100xEngineers: And we have internally seen this
+
+86
+00:24:23.200 --> 00:24:39.539
+100xEngineers: again and again from last 3 years, because we were, like, one of the first teams, when I was working with AOS Labs, we were one of the first teams in India who is applying these, AI workflows to, like, large enterprises, especially, like.
+
+87
+00:24:39.540 --> 00:24:45.799
+100xEngineers: Fortune 500 companies and, like, Indian businesses who are publicly traded right now.
+
+88
+00:24:46.210 --> 00:24:52.390
+100xEngineers: one of the core gaps, even then, what we observed, and I think what is still true, is that
+
+89
+00:24:52.740 --> 00:25:03.170
+100xEngineers: the innovation in these companies, when I say these, I mean, like, Frontier Labs, it has outperformed
+
+90
+00:25:03.960 --> 00:25:11.140
+100xEngineers: the overall adoption rates, which means that right now, even if GPT stop…
+
+91
+00:25:12.080 --> 00:25:14.699
+100xEngineers: Improving and stop releasing the next model.
+
+92
+00:25:15.070 --> 00:25:17.000
+100xEngineers: I think we all can take
+
+93
+00:25:17.520 --> 00:25:27.209
+100xEngineers: a huge amount of, application from their current set of models, and in fact, this was, like, another study which was mentioned, which said that
+
+94
+00:25:28.000 --> 00:25:36.500
+100xEngineers: The current utilization of these models is below 20% in big tech or in the large enterprises right now, which means
+
+95
+00:25:37.230 --> 00:25:52.400
+100xEngineers: what GPT 5.5 or Opus 4.7 can deliver, we are using, and when I say one of the biggest companies in the world, are only using the 20%, or utilizing the 20% of their total capability.
+
+96
+00:25:52.580 --> 00:25:57.860
+100xEngineers: And that actually shows in this gap very beautifully, because this is…
+
+97
+00:25:58.990 --> 00:26:07.219
+100xEngineers: I would say the next $100 billion, maybe a trillion dollar opportunity for each and everybody who joined this call. And this is also a very…
+
+98
+00:26:07.830 --> 00:26:12.030
+100xEngineers: interesting way to compress the insights of State of AI where we are.
+
+99
+00:26:12.210 --> 00:26:14.210
+100xEngineers: today. And,
+
+100
+00:26:14.370 --> 00:26:28.500
+100xEngineers: Now, the question becomes that, okay, if we have only utilized the 20% of the current capability of our AI models, then what's the problem, and how can we apply the remaining 80% of it? And that is the…
+
+101
+00:26:28.870 --> 00:26:32.839
+100xEngineers: trillion dollar question. That is, to be honest,
+
+102
+00:26:33.080 --> 00:26:46.669
+100xEngineers: the entire curriculum of this cohort exists for that. I think each and everybody who is here, it's actually for that, and this… this opportunity, like, tells you that how do we close this gap? Because every time, every single person
+
+103
+00:26:46.740 --> 00:26:56.049
+100xEngineers: from our cohort, who has closed this gap for an enterprise, for a business, for a small or a medium-sized business, they were able to, like.
+
+104
+00:26:56.050 --> 00:27:03.009
+100xEngineers: provide value, and they were able to, like, capture a percentage of that value. And, now it has…
+
+105
+00:27:03.010 --> 00:27:21.410
+100xEngineers: it is becoming, I would say, formalized into, like, something now, which we call, I'll introduce this as a term, but a lot of companies are realizing that we should now focus on this, like, rather than keep improving models again and again, because yes, next quarter you can see, again, GPT
+
+106
+00:27:21.640 --> 00:27:27.589
+100xEngineers: 5.6 might get released, maybe, like, 4.8 release, or, like, 5 released, but…
+
+107
+00:27:27.710 --> 00:27:31.910
+100xEngineers: If the adoption is gonna be, like, at the same rate.
+
+108
+00:27:32.250 --> 00:27:38.890
+100xEngineers: It's… it's not long… it's no longer gonna be, like, beneficial for the entire ecosystem, because
+
+109
+00:27:39.710 --> 00:27:52.649
+100xEngineers: all these companies have raised money. These are, like, private ventures. They are not companies who are, I would say, running publicly as of now. All the Frontier Labs, excluding Google, but,
+
+110
+00:27:53.280 --> 00:28:02.669
+100xEngineers: these guys have raised money, and right now, what they need to show, because they are burning cash a lot, so they need… they also need to show the overall ROI of
+
+111
+00:28:02.850 --> 00:28:15.739
+100xEngineers: whatever they have promised to their investors about, like, all the money they have raised and they are deploying, it will actually provide value in a significant way to the enterprises, and
+
+112
+00:28:15.740 --> 00:28:23.619
+100xEngineers: this is the whole AI bubble, which, like, some people call it bubbles, some people call it, like, this is gonna burst, and… and I'll also try to
+
+113
+00:28:23.620 --> 00:28:40.340
+100xEngineers: give some clarity on that state, whether, like, I believe it's a bubble, or it's something which… which is, like, I would say, something different, and how can we prepare for this? Because this gap is true, and it's not, like, only from the Gartner, because I can share, like, multiple studies here.
+
+114
+00:28:40.370 --> 00:28:42.859
+100xEngineers: But the completing thought here is.
+
+115
+00:28:43.210 --> 00:28:46.579
+100xEngineers: As of now, all of these companies are burning
+
+116
+00:28:46.790 --> 00:29:00.910
+100xEngineers: maybe billions of dollars, and they have only transferred, or their customers have only gotten the 20% value out of it. Now, because of this, both of these companies realized that it is something which is…
+
+117
+00:29:01.000 --> 00:29:10.889
+100xEngineers: gonna take time, and if we don't focus on this adoption race, then we might not be able to show the returns. That is one of the reasons why this company
+
+118
+00:29:11.100 --> 00:29:12.679
+100xEngineers: Got released, so…
+
+119
+00:29:12.800 --> 00:29:21.389
+100xEngineers: How many of you remember, or maybe, this is on May 11th? I think I mentioned about this in the first lecture, but…
+
+120
+00:29:21.650 --> 00:29:34.010
+100xEngineers: This is when OpenAI launches the OpenAI deployment company to help businesses to build around intelligence. If I have to give you, like, the biggest news and the biggest shift
+
+121
+00:29:34.060 --> 00:29:53.519
+100xEngineers: in May 2026, right now. I think it's gonna be, like, definitely this, where not only OpenAI, but the same thing is happening with Anthropic. Both of these guys, together, have raised around, like, $5.5 billion to now start a new company. And now some people will…
+
+122
+00:29:53.710 --> 00:30:03.920
+100xEngineers: think about it, that, hey, why Anthropic and OpenAI, who are, like, an AI innovation race, who are building these models.
+
+123
+00:30:04.250 --> 00:30:23.699
+100xEngineers: Why are they building another company, which is, like, doing something completely different? And the answer to that is to close this gap. Close this adoption gap, which is currently sitting at only 20%, to make it, like, more. Because they realize that this is the only way where we can get value from the AI.
+
+124
+00:30:23.880 --> 00:30:28.900
+100xEngineers: One of the… thing which I think everybody understands right now is that
+
+125
+00:30:29.690 --> 00:30:46.979
+100xEngineers: all these models are great, and they can do things, they have the capability, but it's not easy. Like, you can't just expect, like, cloud code to, like, figure out everything in your business, and GPT 5.5 to, like, automate everything and, like, provide, like, significant productivity. Somebody needs to, like.
+
+126
+00:30:46.990 --> 00:31:04.689
+100xEngineers: take that effort, and right now, this is the biggest, like, question mark among, like, all these companies, that who will take that, how… what's the process? And because it's been almost, like, since 3 years, these models have been, like, improving, and things are getting better, but people are not able to figure it out as a whole standard practice.
+
+127
+00:31:04.690 --> 00:31:28.830
+100xEngineers: in small buckets, in small pockets, we have our students from last 3 years, we've been doing the exact same thing, where we've been, like, telling people that… because I was the first person, like, in India who was, like, building one of the solutions for a media enterprise, and when I realized that with GBD3.5, how much gap was there, and how many things they can, like, implement in the business, which they were not.
+
+128
+00:31:28.910 --> 00:31:33.559
+100xEngineers: I could see that this is gonna get widened, because
+
+129
+00:31:33.760 --> 00:31:45.410
+100xEngineers: The people who can, like, understand the both part, which is, first, the capability, And, plus the…
+
+130
+00:31:48.620 --> 00:32:02.409
+100xEngineers: workflows. And I say workflow in the sense, like, it's gonna be a part of the process in a business, and somebody who knows that what GPT-5.5 is capable of, and where exactly it can fit, and then, like, actually
+
+131
+00:32:02.930 --> 00:32:09.769
+100xEngineers: take it to the production is already gonna be, like, one of the, very important skills. And,
+
+132
+00:32:10.060 --> 00:32:19.829
+100xEngineers: And this is, like, what we've been, like, doing from the last, like, 3 years, and that's where, like, all of this insight came in, and that the whole part came in.
+
+133
+00:32:21.850 --> 00:32:33.950
+100xEngineers: Now, the answer, as I said, like, this is for the OpenAI story, and this is one of the biggest things which happened in this state right now. Along with that, there was one more
+
+134
+00:32:34.130 --> 00:32:39.149
+100xEngineers: piece of insight which I want to share along with that is that
+
+135
+00:32:39.690 --> 00:32:43.649
+100xEngineers: This is the McKinsey's Generative AI,
+
+136
+00:32:45.160 --> 00:32:49.000
+100xEngineers: report, and they have mentioned it as a…
+
+137
+00:32:49.290 --> 00:32:52.699
+100xEngineers: what they call GenAI Value Paradox.
+
+138
+00:32:52.970 --> 00:33:10.269
+100xEngineers: they've conducted, like, until 2025 reports, where they've seen that 80% of the companies report that they have adopted the new generation of AI, but 80% of the companies also report that they have not seen significant value creation, revenue increase, or cost reduction. Just mark these two things
+
+139
+00:33:10.480 --> 00:33:15.959
+100xEngineers: as, like, highlighted and really important, and I'll come back to it, because…
+
+140
+00:33:16.800 --> 00:33:30.940
+100xEngineers: just implementing AI in a business is very different from actually creating a significant value, which can be measurable against revenue increase or cost reduction. And this has been a core motive for me
+
+141
+00:33:31.180 --> 00:33:37.940
+100xEngineers: And I think it's gonna be, like, a core part of, like, my teaching and my assignments and everything, what I'll share with you, that…
+
+142
+00:33:38.140 --> 00:33:45.120
+100xEngineers: Whatever you're building today, if it cannot significantly impact these two metrics for a business.
+
+143
+00:33:46.590 --> 00:34:00.149
+100xEngineers: I don't think it's, like, worth putting your effort right now. And I know that there are people who might give me a counter to this, that, no, not everybody's, like, doing it for capitalism, and then we do want to, like, start something good, and then we want to, like.
+
+144
+00:34:00.150 --> 00:34:15.790
+100xEngineers: fight for a cause, and I can debate with you guys, like, on a separate session, but, I'll give you, like, my whole thesis about that. Even if, let's say, you want to do something good, like, without, like, thinking about capital, and without, like, even putting, I would say.
+
+145
+00:34:16.210 --> 00:34:18.929
+100xEngineers: Like, money in the picture, but, like, only impact.
+
+146
+00:34:19.840 --> 00:34:35.490
+100xEngineers: you cannot create impact with just intentions. You need resources, and you need, like, capital, and capital also helps you to create that. So, at the end of the day, like, whether you're doing it for money, or not for money, or, like, for any other reason.
+
+147
+00:34:36.179 --> 00:34:48.989
+100xEngineers: the only way we can accumulate maximum resources and do something which is, like, significant in this era, as compared to, like, any other marketing gimmick or writing anything which is gonna go viral on LinkedIn or X,
+
+148
+00:34:49.190 --> 00:34:52.999
+100xEngineers: Is that, like… We find out, like.
+
+149
+00:34:53.300 --> 00:35:04.639
+100xEngineers: what are the capabilities of the current AI models, and how can we create the value for an enterprise, which can either be measured against the revenue increase or the cost reduction.
+
+150
+00:35:04.700 --> 00:35:16.360
+100xEngineers: Right now, it's not happening. And as you said, like, this is, like, the… another report suggesting the same pattern. Along with that, I have… I think a couple of people were asking me about,
+
+151
+00:35:16.670 --> 00:35:29.179
+100xEngineers: the… the resources and the long reads. The long reads are coming very soon. I was, like, waiting for the right moment, because I didn't want to overwhelm a lot of people. And even if you are somebody who is, like, slightly advanced.
+
+152
+00:35:29.180 --> 00:35:38.099
+100xEngineers: I think, like, I'll start profiling these, these people, and we'll try to, like, put you into different levels, starting from, like, next week.
+
+153
+00:35:38.730 --> 00:35:40.000
+100xEngineers: But the…
+
+154
+00:35:40.240 --> 00:35:47.270
+100xEngineers: only signal which I get right now from most people is that, how much are you executing? Because…
+
+155
+00:35:47.620 --> 00:35:58.280
+100xEngineers: If you tell me that, hey, this is, like, too basic for me, and I want something more advanced, I need a proof that whether whatever I have shared with you, whatever task we have shared, whatever the assignments we have done.
+
+156
+00:35:59.310 --> 00:36:16.059
+100xEngineers: do you already, have you already done that? Do you have already the capability to perform each and everything? If yes, I'm really happy to, like, even get on a call with you and, like, discuss, like, something which is, like, slightly more advanced, because I also want to, like, make sure that each and every person, like, retrospective of, like.
+
+157
+00:36:16.160 --> 00:36:32.629
+100xEngineers: what's your experience with technology or with your career outcome? We'll try to, like, provide the maximum value. And I know, like, I can't do it, like, on one single session, so we'll do, like, multiple sessions for that, and I'll, I'll try to basically, like, provide, like, maximum value for it, but
+
+158
+00:36:32.630 --> 00:36:41.080
+100xEngineers: in return, what I need is a signal that you have already finished the things, and you are capable of, like, doing the current part. So,
+
+159
+00:36:41.210 --> 00:36:52.229
+100xEngineers: if you have completed the assignment one, and I'll come back to it, like, after this, I would, recommend you only after that, not before it, but only after that, then you can…
+
+160
+00:36:52.510 --> 00:37:03.400
+100xEngineers: give it a read to this. This is the AI Transformation Gap Index. It's a research paper released on February 2026, and I think one of the best research
+
+161
+00:37:03.460 --> 00:37:17.510
+100xEngineers: of this quarter, which is talking about the AI transformation gap, and which is highlighting both the graphs which I discussed with you, the McKinsey graph, and also the graph which we discussed from the Gartner, the adoption gap.
+
+162
+00:37:18.900 --> 00:37:21.349
+100xEngineers: Now, what this paper said is that
+
+163
+00:37:21.550 --> 00:37:29.139
+100xEngineers: it studied each and every business in 2025 until the February 2026, and it
+
+164
+00:37:29.230 --> 00:37:47.009
+100xEngineers: understood, like, each and every part of that business, that what is the value that AI has created, where are the bottlenecks right now, what is the value decomposition and mapping gap scores for the, to true enterprise value, and
+
+165
+00:37:47.220 --> 00:38:06.940
+100xEngineers: like, how it correlates with, like, observed EBITDA margins and expansions, like, which actually creates significant impact. It's not an easy read, it's gonna be difficult, and I would say if you are a first time, like, reading a paper like this, you can use the GBD, it'll help you to summarize that. I have made a summary of this entire thing, actually.
+
+166
+00:38:07.080 --> 00:38:13.440
+100xEngineers: This… this also, like, talks about a similar thing. We'll share this, like, mini HTML slide with all of you.
+
+167
+00:38:14.540 --> 00:38:18.660
+100xEngineers: But this, talks about the same thing. These are the scores which
+
+168
+00:38:19.170 --> 00:38:30.470
+100xEngineers: The paper has introduced the industry AI susceptibility score, the AI frontier coefficient, and where the firm stands today, and the value creation bridge, and the AI disruption risk index, which is, like, really interesting.
+
+169
+00:38:30.690 --> 00:38:42.850
+100xEngineers: It's a slightly advanced part, Level 2. Even if you don't understand all of this, what I said, it's completely fine, but this is something which I was just, like, sharing as the level 2, if you want to go one level deep into it.
+
+170
+00:38:43.220 --> 00:38:44.660
+100xEngineers: What I will do for…
+
+171
+00:38:45.400 --> 00:39:03.160
+100xEngineers: like, the remaining part of the lecture, I've compressed the insight from this entire paper, and there are, like, two papers which I've used in this whole research process, the Agentic AI and industry era, and also the AI transformation, along with the McKinsey and the Gartner study. And the total insight from all of this is
+
+172
+00:39:03.640 --> 00:39:12.080
+100xEngineers: that today, We are… we are looking at two major parts of,
+
+173
+00:39:19.260 --> 00:39:22.419
+100xEngineers: Yeah, sorry, I was trying to open the whiteboard, yes.
+
+174
+00:39:22.640 --> 00:39:37.580
+100xEngineers: Today, we are looking at the two major parts of this, and that's how we defined, started the discussion. The AI innovation, which is the capability of the model, and the adoption, which is the implementation or utilization of these models.
+
+175
+00:39:38.510 --> 00:39:46.219
+100xEngineers: Every single research has pointed and just validated the same study, the same hypothesis that we have
+
+176
+00:39:46.440 --> 00:39:49.980
+100xEngineers: gained in this… in the beginning of this lecture, is that
+
+177
+00:39:50.790 --> 00:39:54.750
+100xEngineers: this gap is widening a lot. And, now.
+
+178
+00:39:55.280 --> 00:40:03.240
+100xEngineers: the remaining part of this cohort, as well as, like, an entire, I would say, maybe your career journey.
+
+179
+00:40:03.250 --> 00:40:17.099
+100xEngineers: is about, like, understanding, like, how can we close this gap? And that's exactly the information which is there in those papers, and that's also what I've taken to design the upcoming lectures, and also update the curriculum for what we're gonna do next.
+
+180
+00:40:23.790 --> 00:40:28.630
+100xEngineers: This is a one-line summary, whoever you are.
+
+181
+00:40:29.550 --> 00:40:32.129
+100xEngineers: One thing is becoming common across…
+
+182
+00:40:32.350 --> 00:40:47.619
+100xEngineers: everybody who is on this call, like, whether you want to get a job in AI, whether you're transitioning into an AI-native career, or you want to upskill inside your own current company, deploy AI into your team's workflow, start a business from scratch, automate a part of an existing business.
+
+183
+00:40:49.190 --> 00:40:57.379
+100xEngineers: Can you right now identify one area in your business that can be reliably automated using the current generation of AI models?
+
+184
+00:40:57.700 --> 00:41:01.210
+100xEngineers: And that is a core opportunity. And some people will…
+
+185
+00:41:01.570 --> 00:41:24.089
+100xEngineers: tell me that, why don't you give some ideas? And I think some people were asking about it, and I specifically given you the reason, and I'll tell you that once again. I'll share the examples, but not right now. I'll share it, like, once you finish the assignment deadline, and once you finish your first assignment, because I don't want to interrupt your critical thinking right now. This is the best part, even if you have no idea.
+
+186
+00:41:24.090 --> 00:41:26.909
+100xEngineers: You can use the discovery
+
+187
+00:41:27.060 --> 00:41:33.489
+100xEngineers: to MVP skill, which we have just shared. That skill is exactly designed to
+
+188
+00:41:33.790 --> 00:41:46.279
+100xEngineers: teach you this. And as I said, like, all of these lectures are gonna be, like, highly dependent on how much activity you are performing. So if you have already, like, finished that hypothesis-building part, and you got the MBB plan with you.
+
+189
+00:41:46.470 --> 00:41:58.360
+100xEngineers: And this is the best, best place to, I would say, share that. I'll ask you to actually share on Discord, because right out of this lecture, I want to go through each and everyone's
+
+190
+00:41:58.360 --> 00:42:07.749
+100xEngineers: plan. Like, I… I know Adarsh has sent me, and I think last time also I was asking this, not a lot of you have completed this part, but…
+
+191
+00:42:08.010 --> 00:42:18.750
+100xEngineers: if you can't do this today, if you can just, like, take some time out and, like, think about this, I'm sure, like, all of you, based on your goal,
+
+192
+00:42:18.890 --> 00:42:22.119
+100xEngineers: You can at least identify one part of a business.
+
+193
+00:42:22.190 --> 00:42:25.010
+100xEngineers: If you cannot, then you can use my OPT framework.
+
+194
+00:42:25.050 --> 00:42:36.850
+100xEngineers: very simple, you can at least identify in your own job what are all things you can reliably automate, and then build the hypothesis around it. Build an MVE plan, and share the MVE plan on the Discord.
+
+195
+00:42:36.850 --> 00:42:51.220
+100xEngineers: If you are not comfortable sharing with everybody in public, you can also DM me, but I would recommend you to share it on a public channel. You can pick, like, a general channel, or on your house channel. I will go through all the submissions,
+
+196
+00:42:51.420 --> 00:43:09.120
+100xEngineers: And this is, like, before submitting the whole idea and execution of it. So I would keep a check that how many of you are following along with this. Because if you guys can identify this, I can tell you, like, the next trillion dollar opportunity, and how can we design our roadmap for that.
+
+197
+00:43:13.240 --> 00:43:22.829
+100xEngineers: These are the top 5 shifts, as I said, like, the summary of both the research paper and all the studies which I've been sharing with you, the McKinsey and the Gartner.
+
+198
+00:43:22.830 --> 00:43:41.530
+100xEngineers: And I think some of you already had the clear understanding when I asked this question. That's why, like, I didn't spend too much time, like, on just, like, repeating those things, but I think these are the things which are there, and a lot of you have already confirmed. Yes, models are converging into systems. AI in 2026 is no longer the intelligence race.
+
+199
+00:43:41.530 --> 00:43:53.800
+100xEngineers: It is the systems race across models, tools, protocols, agents, who can build better systems that can solve and close that deployment gap in the businesses.
+
+200
+00:43:54.690 --> 00:43:57.590
+100xEngineers: AI now operates inside the work, which means
+
+201
+00:43:57.880 --> 00:44:07.279
+100xEngineers: by default, like, this was… this was also a whole opportunity in 2023 and 2022, where, like, people were building a lot of
+
+202
+00:44:07.390 --> 00:44:17.659
+100xEngineers: SaaS businesses and AI businesses in these areas, but now we are realizing that all the LLMs and the Frontier Labs are targeting these folks, which means
+
+203
+00:44:18.290 --> 00:44:35.240
+100xEngineers: the LLM, by default, are expected. This is the expectation, which is not a feature right now in all the Frontier LLMs, that they can search, inspect file, run code, call tools, use memory, operate inside the bounded work environments, and
+
+204
+00:44:36.000 --> 00:44:54.000
+100xEngineers: The other major shift which I discussed with you right now is OpenAI. Anthropic, by the way, also, like, did something very similar to what OpenAI is doing, with BlackRock, and, like, they're setting up a new consultancy to deploy the Anthropics models into, like, large businesses.
+
+205
+00:44:54.000 --> 00:44:58.360
+100xEngineers: Google is recruiting almost, like, right now, I think 100 plus
+
+206
+00:44:58.360 --> 00:45:05.930
+100xEngineers: engineers, consultants for this role, which is known as FDE. I'll talk more about it.
+
+207
+00:45:06.130 --> 00:45:10.320
+100xEngineers: But the idea is same. We need to, like, close that gap.
+
+208
+00:45:10.810 --> 00:45:15.599
+100xEngineers: Of, like, what is getting utilized with the current set of model.
+
+209
+00:45:16.320 --> 00:45:33.659
+100xEngineers: So, the signal here is, from all three major labs, is that they understand that this is becoming a real bottleneck, and in order for them to unlock the next revenue, and also show their investors that the AI is actually providing value, what McKinsey has, like.
+
+210
+00:45:33.660 --> 00:45:45.149
+100xEngineers: pointed out, which it was not with almost the 80% cases where they have spoken to those businesses. They are closing those gaps, and for that, like, all of these
+
+211
+00:45:45.160 --> 00:46:03.290
+100xEngineers: three giants are, like, coming together, and it's creating, like, a massive opportunity right now. And that's also one of the directions we are taking as a company and as a whole community together, so that we take the advantage of exactly this space.
+
+212
+00:46:03.570 --> 00:46:20.470
+100xEngineers: if I would have been, like, I would say conducted this session maybe last year, last to last year, the curriculum would… would be completely different, but I think just because, like, we are in the inflection point, and I believe that when I say it, because I think this is… this is one of the largest,
+
+213
+00:46:20.630 --> 00:46:30.169
+100xEngineers: reallocation of human labor in the history, and I've mentioned it, like, I think in the previous session as well. And I think this exact moment, and it's a window in the next, like.
+
+214
+00:46:30.200 --> 00:46:48.840
+100xEngineers: 12 to 24 months. It could be shorter than that, that's my prediction, but in the next 12 to 24 months, this is a window where the gap, what we have seen here, is gonna get at least, like, not maybe, like, close to, let's say, 100%, but it's gonna move to
+
+215
+00:46:48.940 --> 00:46:50.890
+100xEngineers: Like, from 20% to…
+
+216
+00:46:51.720 --> 00:47:06.630
+100xEngineers: like, majority of them, 50% to 60% maximum. And then there's also, like, a business efficiency law, like, you cannot, like, make all the companies utilize each and everything, so there will be, like, some inefficiency gains, but…
+
+217
+00:47:06.690 --> 00:47:16.190
+100xEngineers: The majority of the work, because the capital has been deployed, the companies have formed, and the big tech has already, like, taken their decisions.
+
+218
+00:47:16.230 --> 00:47:30.920
+100xEngineers: all of these things and decisions are made in the May month itself. So what we can expect in the next upcoming, like, 12 to 24 months, because this is, like, where the deployment is gonna take time, the first and foremost thing as a result of it.
+
+219
+00:47:30.920 --> 00:47:37.160
+100xEngineers: is that we're gonna see, like, a lot of demands in roles. Like, in specific, like, job roles.
+
+220
+00:47:37.640 --> 00:47:40.530
+100xEngineers: Who will be… doing this…
+
+221
+00:47:41.460 --> 00:48:00.759
+100xEngineers: adoption for the companies, like, these ones, to increase this cap… to decrease this gap. So, because, like, right now, there's a… there's a capital injection which has happened, and because of that, Google has already, like, started opening for it, and one of my friends, whose name is Sanjit.
+
+222
+00:48:00.760 --> 00:48:04.160
+100xEngineers: He's… he's also, like, one of the…
+
+223
+00:48:05.120 --> 00:48:11.630
+100xEngineers: Kursar ambassador in India, we discussed recently, like, he is now, like.
+
+224
+00:48:12.030 --> 00:48:29.029
+100xEngineers: he gave me the opportunity where, like, the students from the previous cohort are now applying for these roles in Google, because Google is aggressively doing inbounds for these kind of roles. So they have already started doing the inbounds as they're shortlisting the profiles right now.
+
+225
+00:48:29.030 --> 00:48:35.399
+100xEngineers: Similarly, like, OpenAI and Anthropic will do that, and the first and the foremost signal which we all can see
+
+226
+00:48:35.400 --> 00:48:50.410
+100xEngineers: is gonna be in the AI hiring market, and I wrote a post about this as well. So, you will see in the next couple of months, the AI hiring gonna go, like, bomb, and people will… will try to, like, do this. Now, the question becomes here is that
+
+227
+00:48:50.950 --> 00:48:57.389
+100xEngineers: What kind of… roles… We can see here.
+
+228
+00:48:57.920 --> 00:49:03.719
+100xEngineers: which can help somebody to close the gap. The common intuition here is that
+
+229
+00:49:05.800 --> 00:49:16.550
+100xEngineers: we don't need the same capability. Like, the reason why GPT launches a new company, and they have built a new business altogether.
+
+230
+00:49:16.700 --> 00:49:29.419
+100xEngineers: instead of, like, going with their own organization and hiring people and making them do that, because it requires a whole different DNA, it requires a whole different strategy to do this, and it's a completely different work altogether.
+
+231
+00:49:29.420 --> 00:49:37.880
+100xEngineers: And because there was a gap in the market, and the current consultancy companies and the current businesses were not able to fill that gap.
+
+232
+00:49:37.940 --> 00:49:46.179
+100xEngineers: they themselves have decided to do this. But the clear signal from here is that somebody who is already, like, building the model.
+
+233
+00:49:46.330 --> 00:49:51.339
+100xEngineers: This is not the same set of skills which need… which we need in order for us to, like.
+
+234
+00:49:51.580 --> 00:50:01.260
+100xEngineers: you make the utilization go up, or make all the enterprises adopt the AI. It's gonna be something different, and that's one of the core things.
+
+235
+00:50:02.120 --> 00:50:08.520
+100xEngineers: Another part of this situation is, Because businesses have already…
+
+236
+00:50:11.860 --> 00:50:35.519
+100xEngineers: in this report, as I mentioned, they've already implemented the latest generation of model. If you talk to any of your company, and maybe if you work in a company, or if you know any of your friend who is working in any big tech company, or Fortune 500, you already know that these guys have all the new generation of AI. They are using the latest generation of GPTs, and the Opus, and the Cloud Code, and whatever.
+
+237
+00:50:35.520 --> 00:50:37.830
+100xEngineers: The new tools are there.
+
+238
+00:50:37.830 --> 00:50:41.960
+100xEngineers: the problem is in something else. Problem is in the…
+
+239
+00:50:41.960 --> 00:50:53.799
+100xEngineers: application, and as I said, in the understanding of, like, somebody who knows the capability of these models, and then can carefully design these workflows.
+
+240
+00:50:53.980 --> 00:51:11.960
+100xEngineers: And this is the whole problem, because most people think of this as a workflow automation part, where, like, hey, I can come and I can design a workflow, can you tell me, like, 5 workflows? You can watch YouTube tutorials about it, like, how to automate marketing campaigns, how to automate, like, hiring campaigns, and, like, XYZ, the operations part of it.
+
+241
+00:51:11.960 --> 00:51:21.280
+100xEngineers: The problem is, these enterprises are not stupid. They've all done that. I have, like, a lot of clients, and I've personally, like, worked with these enterprises a lot. They are already working on these things.
+
+242
+00:51:21.810 --> 00:51:23.079
+100xEngineers: It's not easy.
+
+243
+00:51:23.220 --> 00:51:34.730
+100xEngineers: the thing which looks easy on… on surface level is that, hey, I can learn LLMs, and I can build agents, and I can apply it into workflows, and then we can certainly get a productivity boost.
+
+244
+00:51:34.750 --> 00:51:53.270
+100xEngineers: it's not happening from last, like, almost, like, 3 years. Everybody's trying to do that. And one of the core reasons why I personally, because this was, like, one of my first experience when I was doing it for one of my clients, is that… because I lacked something called domain expertise in
+
+245
+00:51:53.340 --> 00:51:56.370
+100xEngineers: a particular area. So I was… I'll tell you, like, a quick…
+
+246
+00:51:56.630 --> 00:52:16.120
+100xEngineers: anecdote about my first consulting gig, and this was with a media company, which was, as I mentioned, like, I won't take the name right now, because I'm still… I've signed the NDA for it. I'll give you, like, this is a publicly traded media company in India right now, and the first project was to look at their
+
+247
+00:52:16.500 --> 00:52:34.989
+100xEngineers: entire business workflows, what these guys do to basically, like, push out the media content and, like, do everything, advertising and all other part of it, and then, like, identify that where can AI add value. Now, this was, like, back in 2020,
+
+248
+00:52:35.120 --> 00:52:41.740
+100xEngineers: 2023, when, like, I was doing this project.
+
+249
+00:52:41.900 --> 00:52:46.800
+100xEngineers: And back in the day, I only had, like, the skills
+
+250
+00:52:46.930 --> 00:52:56.979
+100xEngineers: Like, I'll tell about myself that I've been working in education and technology, specifically, like, SaaS and the software development side of things.
+
+251
+00:52:56.980 --> 00:53:08.220
+100xEngineers: I have, like, some experience in B2B and in marketplaces, but this has been a core focus of my last, I would say, like, 6 to 7 years of career, where
+
+252
+00:53:08.450 --> 00:53:30.610
+100xEngineers: hyper-focused on education and technology together. When I spoke to this company, I realized that I can tell them different ideas, and I gave different ideas, and which I implemented as well, and it definitely improved maybe, like, 1-2% of the overall productivity for their business, but it was not significant. Not significant enough that it can create an impact in their P&L.
+
+253
+00:53:30.610 --> 00:53:34.639
+100xEngineers: Which is their profit and loss statement every quarter, every year.
+
+254
+00:53:34.640 --> 00:53:37.590
+100xEngineers: And because it was not significant, the company said.
+
+255
+00:53:37.590 --> 00:53:47.809
+100xEngineers: I think the investment which we are putting in this project is not able to get us the outcome. The CEO decided to pause on the project, after working on this for almost, like, 7 to 8 months.
+
+256
+00:53:47.810 --> 00:53:59.769
+100xEngineers: Now, some of you can tell me that maybe it's my personal skill gap, which I was not able to solve for this company, and I completely agree with that. It was my domain expertise, which I didn't have in the media domain, because…
+
+257
+00:53:59.770 --> 00:54:17.570
+100xEngineers: the thing they were looking for, the thing they were optimizing for, they themselves were not able to articulate well to me. They just, like, told me, come watch our employees, come sit with our teams, and like, automate whatever you can. And that's what exactly I did, but I did with a lens of what I know
+
+258
+00:54:17.570 --> 00:54:22.870
+100xEngineers: And what I have done. So it created a whole gap that even having, like, say.
+
+259
+00:54:22.870 --> 00:54:37.129
+100xEngineers: 5 to 10 years of, like, experience, I'm still not able to, like, provide the value to a client, where they can, like… and it was not, like, completely zero value, it was some value to them, but it was not significant enough where they can just…
+
+260
+00:54:37.210 --> 00:54:46.920
+100xEngineers: continue the project, and maybe, like, start putting in money. And that was the first experience which I had myself in 2023. And then I started teaching, and then I started observing the same
+
+261
+00:54:46.920 --> 00:55:10.399
+100xEngineers: experience among all our students, like, every single person, even if you talk to, like, Pranesh, Sridev, and, like, Tejas, who will be… who will actually take some of the lectures with you guys, he's the CTO of Aos Labs, and he himself is, building solutions for companies like Amazon Prime, and Ogilvi, and things like that. So, he also tells the same thing, that right now, the majority of these
+
+262
+00:55:10.570 --> 00:55:15.299
+100xEngineers: Gigs, what these guys have done, are now shifting
+
+263
+00:55:15.430 --> 00:55:23.769
+100xEngineers: to where they have the domain expertise. For example, if Sridev is doing something, he will utilize his
+
+264
+00:55:24.170 --> 00:55:43.340
+100xEngineers: content creation skill, the marketing skill, and that's where… so he recently did a course on Meta's platform, it's called Generative AI for Marketer, and also, like, did a consulting workshop for Netflix. And both of them wanted to leverage Sridev's domain expertise.
+
+265
+00:55:43.340 --> 00:56:02.479
+100xEngineers: Because they knew that Sridev has cracked something in content creation which they wanted to learn, and because he also knows AI, then these guys can, like, package it together with an AI slash, like, the marketing workshop, and that is what is giving them the value. And that's exactly, like, what Tejas also did, which basically
+
+266
+00:56:02.480 --> 00:56:07.940
+100xEngineers: if you look at the EOS companies or EOS labs right now, this is, like.
+
+267
+00:56:09.740 --> 00:56:20.949
+100xEngineers: the kind of work which these guys are doing right now is also now converging to one of the core things. If you look at their project campaigns, I think, yeah, all of these campaigns.
+
+268
+00:56:20.950 --> 00:56:34.400
+100xEngineers: I don't know how many of you watch Prime Videos, the MedZap for Season 3, and this was the entire campaign which was done by Tejis, who will take the lectures for you guys in the fine-tuning session, by the way, and
+
+269
+00:56:34.410 --> 00:56:52.719
+100xEngineers: One thing we shall observe from this, and what they are doing currently right now, is what we also realize as an industry, is that these are the… one of the successful projects which they had. Now, because Tejas himself has worked with Varun Maya, and Varun is also one of the founders of this company, so these guys know
+
+270
+00:56:52.730 --> 00:57:11.809
+100xEngineers: the campaigns and the marketing, like, really well. Like, how to make a piece of content on internet really viral, and how to make it, like, accessible to the people, because this is, like, what Varun via what Aegis, like, as a company, as a team, they've been doing it, like, for, like, last 10, 20 years, like, 10 years probably, like, with Aegis and, Varun.
+
+271
+00:57:11.810 --> 00:57:13.350
+100xEngineers: And that's where, like.
+
+272
+00:57:13.350 --> 00:57:31.080
+100xEngineers: Prime gave one of the biggest contracts, which they could do… give to anyone, right? They could have given to, like, TCS, to Cognizant, to Accenture, to any company. Amazon Prime didn't have, like, any bottlenecks in terms of, like, finding vendors. But the reason they… why they chose
+
+273
+00:57:31.080 --> 00:57:37.160
+100xEngineers: a company like EOS Labs is because of the domain expertise. And that is what, again, something which we have been, like, observing
+
+274
+00:57:37.270 --> 00:57:45.960
+100xEngineers: again and again, getting, like, validated across all our student case studies, across all our instructor case studies as well, people who are teaching you guys, is that
+
+275
+00:57:47.790 --> 00:57:49.780
+100xEngineers: Once you have the domain expertise.
+
+276
+00:57:50.400 --> 00:57:55.049
+100xEngineers: And… and you learn something called… this is the part of…
+
+277
+00:57:55.420 --> 00:57:57.260
+100xEngineers: Our next lecture, by the way.
+
+278
+00:58:00.120 --> 00:58:10.310
+100xEngineers: This is called system design. Not writing code, not building software, not building, like, I would say any kind of, like, classic system design. It's actually, like, more if I have to do
+
+279
+00:58:10.760 --> 00:58:17.730
+100xEngineers: the AI system design. Another insight from this skill is that every single interview.
+
+280
+00:58:18.180 --> 00:58:26.659
+100xEngineers: which is now getting conducted, especially in the applied AI role, for the senior positions, as well as right now happening for the junior positions.
+
+281
+00:58:26.800 --> 00:58:28.540
+100xEngineers: This is a dedicated round.
+
+282
+00:58:28.540 --> 00:58:52.450
+100xEngineers: If you're somebody who is preparing for the next interview, maybe transition into an AI-native job, or maybe if you're, like, somebody who is transitioning within your company, this is gonna be, like, a core part of what people are checking in the interviews, because we already had, like, people from our cohort 6 who are giving these interviews and preparing for these skills, and this has, getting asked again and again.
+
+283
+00:58:52.450 --> 00:58:58.119
+100xEngineers: From big tech companies to even, like, early-stage startups. They all want to understand that
+
+284
+00:58:58.370 --> 00:59:18.200
+100xEngineers: A, do you have the domain expertise for what we are trying to solve? Let's say if somebody is applying for a media company, the company is understanding and trying to see whether you have the domain expertise or not. If you have the domain expertise, can you design the AI systems and look at our workflows, what I was doing for this company, but
+
+285
+00:59:18.260 --> 00:59:32.390
+100xEngineers: with the domain expertise that you have, because if you have these two things, only then it will make sense for you to come and apply the experience, what you gained, and then solve the problems which this company otherwise cannot solve.
+
+286
+00:59:32.870 --> 00:59:42.699
+100xEngineers: the reason why Prime came to AOS Labs is not because Prime does not have developers, engineers, or marketing, I would say, folks.
+
+287
+00:59:42.700 --> 01:00:02.259
+100xEngineers: in their own company, they do have all those people, but they needed something else, they needed something which they were not able to crack internally. And that is what the domain expertise plus AI system design gives you, because once you know, like, what is virality and how to make a content viral, which is, like, what on Core Forte is, and…
+
+288
+01:00:02.260 --> 01:00:10.270
+100xEngineers: Then, Tejis, who is, I believe, one of the smartest CTO I have, like, ever worked with him, and
+
+289
+01:00:10.270 --> 01:00:24.200
+100xEngineers: he understands system design to a very core level. He can, like, design systems, he has built systems which has scaled to, like, over… probably, like, hundreds of millions of users right now with these kind of campaigns. So, together, this becomes, like, a really…
+
+290
+01:00:24.440 --> 01:00:40.370
+100xEngineers: important skill set, which basically is lucrative enough for companies like Amazon, companies like Ogilvy, and all these big tech giants to put their money and then to hire these people. Now, this has been…
+
+291
+01:00:40.370 --> 01:00:50.340
+100xEngineers: an industry play and the agency play from last 3 years, and this is the first time what we are seeing, because of this gap and because of what OpenAI is doing, they are, like.
+
+292
+01:00:50.480 --> 01:00:54.869
+100xEngineers: Deploying everything, and they understand that a lot of these
+
+293
+01:00:55.550 --> 01:01:11.390
+100xEngineers: gigs are happening, via an agency like EOS Labs, and why, like, even Pranay is doing a lot of these things, who is, like, going to companies and using his domain expertise and using the AI system design and building workflows for them.
+
+294
+01:01:11.640 --> 01:01:16.110
+100xEngineers: Right now, all of this is gonna change, in the sense that
+
+295
+01:01:17.370 --> 01:01:31.589
+100xEngineers: the market which was fragmented for a very long time, and this is another, like, state of AI which we are currently seeing, is this is gonna… which was a fragmented market is not… is gonna get, like, standardized
+
+296
+01:01:32.410 --> 01:01:37.570
+100xEngineers: Across a defined role, and… This is what is known as
+
+297
+01:01:37.820 --> 01:01:42.239
+100xEngineers: FTE. So, FDE stands for Power Deployed
+
+298
+01:01:44.110 --> 01:01:54.260
+100xEngineers: engineers. Now, this is not only from, I would say, like, a job market perspective, but even if you are somebody who is trying to understand, like.
+
+299
+01:01:55.190 --> 01:02:09.559
+100xEngineers: what kind of people I can work with, and what kind of people can help me to, like, let's say, build a system, whether you're an entrepreneur, or maybe, like, somebody who's an executive, who's, like, trying to, like, deploy systems. This has gone… this has…
+
+300
+01:02:10.050 --> 01:02:14.299
+100xEngineers: Now becoming a standard, like, role, where…
+
+301
+01:02:14.420 --> 01:02:19.089
+100xEngineers: If you look at any kind of job description among these kind of roles, is that
+
+302
+01:02:20.090 --> 01:02:39.460
+100xEngineers: every single company who is hiring these people, they're all demanding the same thing. And along with that, I'll also, like, give you, like, a whole list of things which they want, and by the way, like, you don't need to memorize all these parts, because this is exactly what we are teaching. So, every insight which I'm sharing you right now is…
+
+303
+01:02:39.540 --> 01:02:47.300
+100xEngineers: basically the raw ingredients which went into designing the curriculum, which was, like, the most, I would say.
+
+304
+01:02:49.280 --> 01:03:02.860
+100xEngineers: a different, as well as, like, a whole rewrite for the C7, because, like, we have done, like, multiple curriculums before this part, the sixth version of our previous curriculum, but I had to, like, change a lot of things, and…
+
+305
+01:03:03.060 --> 01:03:07.570
+100xEngineers: each and everything, and I hope now you get why, things might…
+
+306
+01:03:07.570 --> 01:03:26.310
+100xEngineers: come across today as unstructured to some people, that you might think that, hey, these guys don't have a structure which they are telling us that when we should learn what exactly. Because this is the current reality, like, we got all of this information and all of these things which I'm talking to people, like, around, like, last week.
+
+307
+01:03:27.350 --> 01:03:36.289
+100xEngineers: every single thing what I'm gonna share with you in the next couple of weeks is something which I've been, like, re-changing, redesigning from the last couple of weeks. Like.
+
+308
+01:03:36.380 --> 01:03:47.349
+100xEngineers: I could have taught you the same curriculum which I had to C6, and the entire experience would have been really straightforward. I'll give you the exact same, copy, exact same note.
+
+309
+01:03:47.350 --> 01:03:57.070
+100xEngineers: all of these things on time, everything well-structured. And I'm happy to do that if, like, we can do a vote that, hey, everybody wants a structured curriculum over the more relevant curriculum.
+
+310
+01:03:57.080 --> 01:04:02.349
+100xEngineers: If we have the majority on that, then I would be happy to share all that thing. But the thing is.
+
+311
+01:04:02.520 --> 01:04:15.099
+100xEngineers: I have seen it again and again, guys, and I have been doing… it's not like first cohort, which I'm doing. So, it happened every single time. And the only thing which will help you stand out in this market is not to get the most…
+
+312
+01:04:15.100 --> 01:04:28.999
+100xEngineers: I would say the… the structured set of instructions from somebody like us, but the most relevant piece of information that can help you create the maximum impact in any business, which you can, like, measure against a significant,
+
+313
+01:04:29.000 --> 01:04:36.570
+100xEngineers: maybe a revenue boost or the cost saving. And this is the most important piece of insight which I got, and I thought, like, this is gonna be, like, most imp…
+
+314
+01:04:36.570 --> 01:04:46.040
+100xEngineers: important thing which I can share as part of this work, and that's where, like, I decided to tell my team that instead of, like, sharing everything what we have already done with C6, this time.
+
+315
+01:04:46.040 --> 01:05:11.009
+100xEngineers: because we have one of the biggest inflection points in the history of the employment, and I believe these guys deserve something which, like, we have not done it yet. And that's, like, one of the… also the reason why it has, like, still, like, I would say the curriculum is forming, that a lot of lectures I'm still writing, and I'm, like, still building on top of it. Principles hasn't changed. The good part of all of this is that, and which I'll teach you guys in the
+
+316
+01:05:11.010 --> 01:05:29.800
+100xEngineers: the next lecture as well. The principles are exactly the same, but the workflows, the methods, the way we are deploying it, the way we are preparing people, because all of these insights we're getting in real time with people who are now sitting in the interviews and building these companies together, and, like, getting hired for these kind of roles. We are basically, like.
+
+317
+01:05:30.010 --> 01:05:38.199
+100xEngineers: like, adding all these same insights. Just to, like, maybe give you, like, one more piece of evidence here, this is…
+
+318
+01:05:39.340 --> 01:05:41.559
+100xEngineers: I think I was telling this about…
+
+319
+01:05:45.650 --> 01:05:55.040
+100xEngineers: By the way, you should all talk to Sanjit if you are somebody who wants to, like, be a part of cursor community in India, he's the…
+
+320
+01:05:55.420 --> 01:06:02.430
+100xEngineers: like, one of the ambassadors right now for the Cursor AI, and I think he mentioned this here.
+
+321
+01:06:03.100 --> 01:06:04.780
+100xEngineers: Couple of weeks back.
+
+322
+01:06:15.680 --> 01:06:20.349
+100xEngineers: Yeah, this one. So, May 13, Sanjit posted this, and
+
+323
+01:06:20.700 --> 01:06:28.970
+100xEngineers: we are good friends, right now. I was in the first meetup of Cursive when they launched in India.
+
+324
+01:06:29.270 --> 01:06:31.609
+100xEngineers: We discussed about this, where…
+
+325
+01:06:31.720 --> 01:06:46.109
+100xEngineers: like, he got the first inbound opportunity for Google FT in India, and this is what he mentioned, like, the craziest part is that they've compressed the hiring cycle from, like, almost to 2 days to 2 interviews, and you're done.
+
+326
+01:06:47.350 --> 01:06:52.909
+100xEngineers: Now, compare this, I don't know how many of you applied for Google-like companies before, like, 2023 era.
+
+327
+01:06:53.000 --> 01:06:56.410
+100xEngineers: It used to be, like, at least a month-long process, where you had, like.
+
+328
+01:06:56.500 --> 01:07:04.679
+100xEngineers: Multiple interview rounds, like, different aspects, and, like, a lot of things, which… even, like, shortlisting takes a time.
+
+329
+01:07:04.680 --> 01:07:20.359
+100xEngineers: And now it's, like, roles are reversed, like, companies like Google doing the inbound and trying to, like, find people for this kind of role. The interview cycle, the hiring cycle has compressed to, like, 2 days and 2 interviews. And, the insights which I got from Air, and then I referred, like, one of our students
+
+330
+01:07:20.360 --> 01:07:26.080
+100xEngineers: for this role, what Sanjit was, like, hiring, because he's doing consultancy, he's not looking for a full-time job.
+
+331
+01:07:26.080 --> 01:07:45.949
+100xEngineers: So he said, like, and he's also, like, a past speaker in one of our events, so he said, take, like, let me see if anyone from 100x can take this opportunity. So we are now sending, like, people for this role who are actively interviewing, and along with that, there's also, like, a lot of other companies who are hiring for this, which is, like, now getting a downstream effect of it, but
+
+332
+01:07:45.950 --> 01:07:47.970
+100xEngineers: This is what I'm trying to tell you guys, that
+
+333
+01:07:48.770 --> 01:07:53.060
+100xEngineers: You won't get this kind of information, or any… these kind of insights, like.
+
+334
+01:07:53.060 --> 01:08:18.049
+100xEngineers: by, watching, like, any tutorial out there on the internet. Because this is something which is happening, like, on, like, Google Meets, and, like, people discussing these things, and things are still forming. Like, a lot of creators, a lot of people across the internet will get to know all of this when the AI will get deployed. Like, the same way, like, why people today think that NATN is good, or lovable is good, or why coding is maybe something which I can
+
+335
+01:08:18.050 --> 01:08:20.640
+100xEngineers: learn and I can build today, and maybe you have that still.
+
+336
+01:08:20.640 --> 01:08:45.599
+100xEngineers: notion that I want to build another AI wrapper application, why this guy is not teaching us, like, how to build AI apps, and he's, like, giving us lecture about all these random things is because I've seen this cycle again and again. I will teach you guys how to build an AI app, AI wrapper, but the moment you build it, you'll realize that train is left right now. The train has left, and you won't be able to capture the value out of it. The next set of value is going to be captured by the people, as I mentioned.
+
+337
+01:08:45.600 --> 01:09:07.700
+100xEngineers: for the folks who will be able to close this gap. And right now, this might not sound like a very lucrative opportunity, might not sound as, like, a very interesting thing for a lot of you, because you are still looking at the media, which is, like, catching up on the last year's trend, which is, like, building apps and, like, doing some interesting, cool, cool things with AI, but that's…
+
+338
+01:09:07.939 --> 01:09:25.090
+100xEngineers: it's not resulting in any value, and and that's basically the whole reason why everything which I share and which I talk about might not make sense to, like, a majority of people, but… which is completely fine, to be honest. Like, because even if it makes sense to, like, 10% of the folks who are here, and they take action.
+
+339
+01:09:25.090 --> 01:09:30.800
+100xEngineers: I think this will shape their entire career, and they will be able to, like, now tap into that trillion-dollar pool.
+
+340
+01:09:30.800 --> 01:09:42.959
+100xEngineers: they can capture even the 1% value of it. I think it's gonna be, like, a once-in-a-lifetime opportunity, whether you're an entrepreneur, whether you are somebody who's seeking career. And, now the question becomes, you know, without, like.
+
+341
+01:09:42.970 --> 01:09:46.050
+100xEngineers: Putting, like, more, hype around it, is that
+
+342
+01:09:46.069 --> 01:09:51.679
+100xEngineers: what exactly we can learn from, and how can we prepare for these kind of roles. So…
+
+343
+01:09:51.720 --> 01:09:59.340
+100xEngineers: One thing which I've mentioned is domain expertise is really valuable. The reason why Google reached out to Sanjit is not because
+
+344
+01:09:59.370 --> 01:10:19.200
+100xEngineers: like, he's an engineer, but because he's the engineer who is also… who also understands, like, how to build communities, how to maintain developer relations, and he's, like, doing one of the, I would say, the most premium community for Kherson India, and he's the only one from the Kherson, I would say the ambassador group.
+
+345
+01:10:19.200 --> 01:10:36.299
+100xEngineers: And he has already done, like, really good events. I've been part of their events, the cursor event in Bangalore, and this is, like, why it works, because this guy has the intersection, and now you can, like, map and apply the framework. People who have the domain expertise.
+
+346
+01:10:36.300 --> 01:10:46.070
+100xEngineers: and now who can understand how to design these systems and build these workflows are gonna be, like, highly in demand. So for us, like, the first step is about, like.
+
+347
+01:10:46.620 --> 01:10:52.080
+100xEngineers: How do you build this domain expertise, and how do you, learn about system design?
+
+348
+01:10:52.520 --> 01:10:58.880
+100xEngineers: Unfortunately, the domain expertise part is something which you guys need to come with.
+
+349
+01:10:59.580 --> 01:11:06.929
+100xEngineers: Because this is something which I cannot teach in 6 months. This is a very clear expectation I want to set with everybody.
+
+350
+01:11:07.900 --> 01:11:17.289
+100xEngineers: If anyone is promising you that they can make you a domain expert in 6 months, that is a false lie. That's, like, completely false, and it's, like, a lie, as I want you said.
+
+351
+01:11:17.830 --> 01:11:31.830
+100xEngineers: it's very difficult to become an expert in 6 months in any domain, so you need that expertise. Maybe, the goal here is to understand what you have done in your career before joining this program, and try to leverage that, because now.
+
+352
+01:11:32.200 --> 01:11:39.849
+100xEngineers: the technology is agnostic of any kind of industry. Like, the application of AI is across, like, every domain.
+
+353
+01:11:39.860 --> 01:11:59.019
+100xEngineers: So no matter what you have done in the past, like, whether it's, like, something which you think that it's very common, or very, like, mediocre, or very something which is not so lucrative for you, but you can tap into that, and you can make that, or you can use this as your leverage. So this is something where you need to do your introspection.
+
+354
+01:11:59.020 --> 01:12:04.609
+100xEngineers: One of the… part which can help you here is, again, the discovery skill. So…
+
+355
+01:12:05.170 --> 01:12:18.339
+100xEngineers: if you, like, sit with that skill and will try to, like, I would say, get your observation down, you will be able to, like, understand where your domain expertise lie, because the more input you will give to that skill.
+
+356
+01:12:18.850 --> 01:12:30.889
+100xEngineers: the mortality you will get about your hypothesis, and you can test your frameworks again and again. The second part is something which is completely coachable. So, let's say, at this point, you are somebody, and
+
+357
+01:12:31.450 --> 01:12:36.999
+100xEngineers: We can take a moment and try to understand maybe… Try to just, like.
+
+358
+01:12:37.290 --> 01:12:58.170
+100xEngineers: picture yourself, what is your domain expertise? You can maybe type in the chat if you are okay, comfortable sharing with everybody. Just mention what you think, like, what is your domain expertise? And domain expertise is, again, as I said, like, something which you have worked on, and you are confident that's something you can deliver, and I'll tell you exactly, like, how and where you can leverage this.
+
+359
+01:12:58.170 --> 01:12:59.630
+100xEngineers: In the next session, but…
+
+360
+01:13:02.800 --> 01:13:12.839
+100xEngineers: If you have found this, the next piece of part, which is, I think, one of the most important thing in this whole journey, and I wrote a whole post about it,
+
+361
+01:13:13.380 --> 01:13:15.440
+100xEngineers: This is about, I think.
+
+362
+01:13:26.440 --> 01:13:29.329
+100xEngineers: Yeah, let me just copy what…
+
+363
+01:13:31.210 --> 01:13:34.430
+100xEngineers: I mentioned here. So this is about the…
+
+364
+01:13:36.040 --> 01:13:50.350
+100xEngineers: my personal observation of… after talking to Sanjit, after talking to, like, people who are now interviewing for these roles, people who are deploying this, people who are building these kind of things, but all trying to, like, close this gap.
+
+365
+01:13:50.500 --> 01:13:53.590
+100xEngineers: This was, like, some of the insights from that conversation.
+
+366
+01:13:55.180 --> 01:14:05.240
+100xEngineers: as I said, starting from workflow diagnosis. If you remember from the, the quick anecdote which I shared you with the, like, the media company.
+
+367
+01:14:05.240 --> 01:14:21.499
+100xEngineers: the first thing they asked me is that we don't know exactly what AI can do. You are the AI guy, you come here and you watch what we are doing, and you tell us where you can add AI, and we'll see, like, whether it can create a significant impact. If yes, then we'll adopt it. That was their motto.
+
+368
+01:14:21.900 --> 01:14:31.009
+100xEngineers: this is becoming, like, a standard for a job role like this, and also the expectation for it. So, the first thing is about diagnosis, the workflow diagnosis.
+
+369
+01:14:31.010 --> 01:14:42.169
+100xEngineers: You sit with the team, map what they actually do, not what the org chart says. You decide what gets automated, what stays as code, where human judgment still has to sit.
+
+370
+01:14:43.370 --> 01:14:47.880
+100xEngineers: And I'll… I'll actually give you, like, a whole formula for this as well. This…
+
+371
+01:14:48.870 --> 01:14:52.959
+100xEngineers: This actually, talks about, like, 3 elements.
+
+372
+01:14:56.860 --> 01:15:03.489
+100xEngineers: pause on this, and I'll come back right now, and I'll give you all three… all three elements, for workflow diagnosis, and, like, how do you start
+
+373
+01:15:03.640 --> 01:15:09.900
+100xEngineers: doing this… building these systems. The second thing is, as I said, the system building, which is…
+
+374
+01:15:10.540 --> 01:15:25.310
+100xEngineers: you're not building one single agent. Any of these companies where they're trying to close this gap, it's not gonna happen because they have applied Cloud Core, or they have installed OpenClaw, and something like that, and they've just magically got all the utilization from the AI.
+
+375
+01:15:25.310 --> 01:15:32.900
+100xEngineers: It's gonna happen because somebody needs to build a self-improving intelligence system. This is the most important piece of
+
+376
+01:15:32.960 --> 01:15:40.570
+100xEngineers: insight, if you can take away from this, I will share you one more resource on this, if somebody is interested. This resource is…
+
+377
+01:15:40.690 --> 01:15:48.500
+100xEngineers: I think… YC's self-improving company. This is…
+
+378
+01:15:48.690 --> 01:15:51.880
+100xEngineers: a talk which, I think…
+
+379
+01:15:53.200 --> 01:15:55.880
+100xEngineers: Yeah, it's showing 24 hours ago, by the way.
+
+380
+01:15:57.000 --> 01:16:09.120
+100xEngineers: This is based… Yeah. It's… it's like… it's that latest. Now, I think… I hope, like, now some of you will get it, like, the kind of preparation which I do is not something which is already…
+
+381
+01:16:09.190 --> 01:16:26.360
+100xEngineers: or can be prepared, like, for a month or a week ago. I was watching this video, like, last night, like, exactly when it got released. 23 hours ago, this video got released on the page, and I was, like, looking at all of these things, and I decided that moment that I think this deserves
+
+382
+01:16:26.360 --> 01:16:31.650
+100xEngineers: Like, a specific mention, because It's not only
+
+383
+01:16:32.040 --> 01:16:37.049
+100xEngineers: just another, insight, somebody sharing it, like, maybe at YC, is because
+
+384
+01:16:37.990 --> 01:16:40.259
+100xEngineers: In this, in this video,
+
+385
+01:16:41.240 --> 01:16:53.460
+100xEngineers: YC has, themselves, has shared, like, this is, like, one of the YC general partners called, Tom Bloomfield, who has break down that… how to build a self-improving company using AI.
+
+386
+01:16:54.330 --> 01:17:07.259
+100xEngineers: And some of you might seem like this is a very futuristic idea of that, hey, like, is this something that's possible, and if that's possible, like, how can you build something like that? But…
+
+387
+01:17:08.300 --> 01:17:10.400
+100xEngineers: when I talk to companies like…
+
+388
+01:17:10.790 --> 01:17:17.939
+100xEngineers: Amazon and, like, like, Netflix and other companies, they are actually, like, building it, and they're hiring people to do this.
+
+389
+01:17:17.990 --> 01:17:27.720
+100xEngineers: that's again a gap, right, which I want to highlight here, is that everything what you see in media right now, especially, like, the media you guys consume, is already, like.
+
+390
+01:17:27.760 --> 01:17:44.709
+100xEngineers: 3 to 4 months late. Like, when things happen already in the industry, like, right now, as I told you, like, the conversations, the role, the deployment, and the funding is happening, but the effects of it gonna go out after maybe 3 to 4 months, where people will
+
+391
+01:17:44.740 --> 01:17:50.230
+100xEngineers: majority of the masters will understand it. So right now, it's very early adopter phase.
+
+392
+01:17:50.680 --> 01:18:05.920
+100xEngineers: it started to come out right now, through these kind of networks, and again, like, this video has some 20,000 views right now. I don't know, like, even if it gets, like, more than 100,000 views, because this is what the normal or average view count looks like for these kind of videos.
+
+393
+01:18:06.480 --> 01:18:24.199
+100xEngineers: So, so what I was trying to, like, share is that this was one of the things which is now getting asked as a part of, again, the interview discussions, and also becoming a core responsibility, that, can you come in this business and
+
+394
+01:18:24.830 --> 01:18:48.700
+100xEngineers: 2023, maybe I would have built an AI workflow with N10 or Python or, like, whatever AI tool I was using, and I could have, like, still got a decent value for me, but right now, that market is saturated. Every single person can do that. Like, people can just write, like, these kind of workflows and build it with cloud code, and just to break your bubble, if anyone is watching, like, 10 tutorials or saving, like, different workflows.
+
+395
+01:18:48.700 --> 01:18:51.909
+100xEngineers: Which can, like, do XYZ things.
+
+396
+01:18:51.910 --> 01:19:00.160
+100xEngineers: or take one input and convert it to other output, I would say, like, stop focusing on that, because that train has already left.
+
+397
+01:19:00.400 --> 01:19:12.859
+100xEngineers: Now, the goal here is that every company, again, who is deploying this capital, when somebody is hiding you, and when I reveal the numbers, the numbers are, like, something which is
+
+398
+01:19:13.520 --> 01:19:23.980
+100xEngineers: really, really lucrative, especially for the role like this, because it doesn't require a formal engineering degree. Although, the name suggests that it's a forward-deployed engineer, but
+
+399
+01:19:24.100 --> 01:19:47.339
+100xEngineers: even people who do not have a formal degree in engineering, they are getting hired for this. And as I said, like, the core requirement is this, like, can you… do you have the domain expertise, and can you build an AI system design? Even if you don't have the degree, and there are people who are young, who are very early in their career, getting these roles, and the packages starting from, like, $50,000,
+
+400
+01:19:47.340 --> 01:19:51.049
+100xEngineers: To now, like, $400,000, $500,000, to, like.
+
+401
+01:19:51.150 --> 01:20:06.279
+100xEngineers: companies which are doing consulting and services, now equivalent to, like, what TCS and Infosys kind of companies in India. This is, like, what kind of companies… the services companies in the US is, like, giving the compensation packages like this. Now.
+
+402
+01:20:06.530 --> 01:20:17.539
+100xEngineers: when somebody's spending, like, almost, like, $100,000 plus, which is an Indian currency, you have to convert it somewhere around, like, 95 to 1 CR plus amount.
+
+403
+01:20:17.540 --> 01:20:29.799
+100xEngineers: on an individual talent. They don't want to build a simple workflow that you can build on maybe, like, a tool and take one input and convert to another output. They want to build something which
+
+404
+01:20:29.800 --> 01:20:54.399
+100xEngineers: can improve over time and accumulate and compound the information. This is what is known as the concept of self-improving intelligence system, which is also the same talk 23 hours ago, the YC General Partner Tom Bloomfield, has shared about. And now you will see, like, more topics about it, that how people are building it. As a concept, it is not very fancy. This is exactly the same thing which I taught in C6 in the agents module.
+
+405
+01:20:54.400 --> 01:21:07.509
+100xEngineers: And all of those things are built on top of the foundations of the LLMs learning those same principles. And I said, like, the application of all of these things hasn't changed.
+
+406
+01:21:07.510 --> 01:21:18.069
+100xEngineers: Meaning that you still need to understand, like, how agents work, how LLMs work, how tool calling works, which are basically lectures for all of you for the next couple of weeks.
+
+407
+01:21:18.120 --> 01:21:28.490
+100xEngineers: And only then you can, like, design something like that. Even if I tell you that, hey, this is a great thing, this is the opportunity, we still need to learn all of those parts, and which again, like, validates, like, what
+
+408
+01:21:28.720 --> 01:21:52.739
+100xEngineers: you guys are about to learn, and where to invest your energy. But coming back to it, that this is the core of, like, what system design looks like today, as compared to 2023, where, like, people were building these workflows and getting the value out of it. Now you are expected to build these self-improving intelligence systems. One other way, which is also got really popular, how to do this. Again, slightly advanced information.
+
+409
+01:21:52.740 --> 01:22:01.169
+100xEngineers: But, if you are somebody who's, like, who don't want to do this, you can, like, completely skip this part. I would recommend you to check this repo from
+
+410
+01:22:01.170 --> 01:22:05.500
+100xEngineers: Andrei Karpati's called LMViki. I have multiple, like.
+
+411
+01:22:05.650 --> 01:22:29.849
+100xEngineers: GitHub repositories right now. I'll… I can share some of the masterclasses which I have done. I think some people are asking me to share the masterclass recording. I do have everything in one place. I'll share it, like, with all of you, like, over this weekend. I'm just, like, trying to, like, finalize all the notes. So you will get all the recordings of the masterclasses which I have done. Again, as a level 2 content, not needed for everybody, but if you're somebody who's curious
+
+412
+01:22:29.850 --> 01:22:35.790
+100xEngineers: you can, like, watch that. But that's, like, one of the ways to get started with this, like, understanding, like.
+
+413
+01:22:35.910 --> 01:22:58.730
+100xEngineers: how to build a company brain that holds the context across teams, a wiki that captures the entire knowledge, so that next agent does not start from zero. The skills and the agent registry, so capabilities compound instead of getting rewritten every single quarter. MCP servers exposing legacy systems that were not built for AI. Generative UI for workflows where a user needs to, needs different surfaces.
+
+414
+01:22:58.730 --> 01:23:02.689
+100xEngineers: And authentication that works for the agents, not just for human beings.
+
+415
+01:23:02.690 --> 01:23:04.039
+100xEngineers: All of these terms.
+
+416
+01:23:04.040 --> 01:23:20.540
+100xEngineers: you don't need to, again, as I said, like, understand right now, but these are the things which, again, a core part of your curriculum, everything, all the topics which I've mentioned, starting from your MCPs, to generative UI, to skills, to agent repository.
+
+417
+01:23:20.540 --> 01:23:33.770
+100xEngineers: this is exactly what we're gonna learn in the next 2 months, which will, again, help you to, like, gain this skill, which is what you need to design a better AI system, an intelligence system which can self-improve over time.
+
+418
+01:23:34.830 --> 01:23:42.209
+100xEngineers: The third and, the… I think the next thing is, which I'll actually compress it with, like, third and fourth together, but…
+
+419
+01:23:42.490 --> 01:23:47.310
+100xEngineers: I'll first talk about the evals, which is the number 4 thing, and then I'll talk about the guardrails.
+
+420
+01:23:47.510 --> 01:23:54.690
+100xEngineers: Now, this is where… the… Domain expertise comes in.
+
+421
+01:23:55.150 --> 01:23:56.440
+100xEngineers: One of the…
+
+422
+01:23:57.260 --> 01:24:03.910
+100xEngineers: easy way to, like, explain this concept, and I think I have done this with some of the folks
+
+423
+01:24:04.760 --> 01:24:09.510
+100xEngineers: with this prompt, if you remember, the… I feel.
+
+424
+01:24:10.390 --> 01:24:11.860
+100xEngineers: the Ogili prompt.
+
+425
+01:24:18.850 --> 01:24:20.940
+100xEngineers: When I was writing about,
+
+426
+01:24:21.490 --> 01:24:34.160
+100xEngineers: like, general marketing and copywriting, as I told you, like, I don't come from the marketing background, so I didn't have any domain expertise in that. And I was trying to learn it, and then I came to,
+
+427
+01:24:36.180 --> 01:24:49.630
+100xEngineers: Mr. O'Gilby, who has written this book, and he has mentioned about his scoring criteria, what he uses, how he uses all these things. One thing which I personally learned from this approach might, again, sound very simple, but
+
+428
+01:24:49.780 --> 01:24:57.999
+100xEngineers: This is what we have codified, like, this is what the codification of What good looks like,
+
+429
+01:24:58.190 --> 01:25:04.859
+100xEngineers: looks like, actually. That's… I'm trying to find, like, a better word, but I think it's… it's,
+
+430
+01:25:05.030 --> 01:25:10.899
+100xEngineers: It's the same thing that when you have a specific scoring criteria, the way to judge
+
+431
+01:25:10.900 --> 01:25:26.479
+100xEngineers: in this case, the marketing copy, and you write down those criterias, and you give this as a quantification method so that LLMs can verify whether the output is good or bad based on these criterias. This is where you encode your
+
+432
+01:25:26.870 --> 01:25:33.579
+100xEngineers: evaluations and code your expertise. One of the biggest areas right now where you need domain expertise, because
+
+433
+01:25:33.940 --> 01:25:44.370
+100xEngineers: This is also why I can tell you my 2023 project failed, because I built all these workflows for them, but I never had the taste of what
+
+434
+01:25:44.660 --> 01:26:04.369
+100xEngineers: for this particular media business, what is a good content looks like? I was writing a system prompts, and I was designing all these LLM workflows for them to automate their content writing, content research, but I actually never wrote and published a media article in maybe, like, say, to, like, thousands of people.
+
+435
+01:26:04.370 --> 01:26:10.500
+100xEngineers: And I… I never had that kind of, like, judgment for their, like, end product.
+
+436
+01:26:10.500 --> 01:26:33.610
+100xEngineers: So I was never able to, like, design the better set of evals. As a result of that, my quality of the output was always, I would say, like, less valuable than the humans who were writing content there. So what happened is that editors who were writing in this company, they said, this is good, but it's not something which we can directly use, and I need to still spend my time, so it's not gonna give me, like, a huge productivity boost.
+
+437
+01:26:33.960 --> 01:26:35.339
+100xEngineers: If I would have, like
+
+438
+01:26:35.380 --> 01:26:49.400
+100xEngineers: spend some time with an editor, maybe, like, I would have learned their way of doing it, and I would have written a better eval system. I would have, like, been able to, like, at least give whatever the best capability of AI can do
+
+439
+01:26:49.430 --> 01:27:06.399
+100xEngineers: back then, with the same taste and the same evaluation guidelines. So this is, like, something which is a very deeply personal learning for me, and I suggest it right now to all of you, is that when I ask, like, tell me your domain expertise in the chat.
+
+440
+01:27:06.840 --> 01:27:09.680
+100xEngineers: A quick homework for all of you is that
+
+441
+01:27:10.200 --> 01:27:15.860
+100xEngineers: Whether you have a clear roadmap for the next 21 days with your discovery skill or not.
+
+442
+01:27:16.160 --> 01:27:19.859
+100xEngineers: I would say you should start writing that
+
+443
+01:27:19.890 --> 01:27:36.529
+100xEngineers: what a good quality output looks like in your domain. Let's say you are maybe, again, running, let's say, a marketing business, or maybe you are working as an engineer, or maybe you're working as a designer, product manager, whatever you do, you must have some,
+
+444
+01:27:36.680 --> 01:27:42.720
+100xEngineers: criteria to… Measure your output for a business, and you just try to, like.
+
+445
+01:27:44.400 --> 01:27:50.789
+100xEngineers: codify that judgment, by providing… one of the best bets for that is you can
+
+446
+01:27:50.920 --> 01:28:06.290
+100xEngineers: take the inspiration from the Ogilvi copy reviewer prompt. Still, like, relevant, slightly older version of it. I'll maybe, like, share more newer version in the lectures when I'll take the evaluation, the LM evaluation lectures. I have a dedicated lecture for this topic.
+
+447
+01:28:06.290 --> 01:28:17.520
+100xEngineers: So, but before that, one homework you can start doing is that start building a golden data set of what great looks like in your job. And again, some of you might…
+
+448
+01:28:17.700 --> 01:28:36.579
+100xEngineers: not get exact clarity of how do we do this, this is where the OPT framework, again, comes handy. If you don't have a specific process and task in front of you, which you can identify today, go through the OPT prompt. I'll share the prompt once more. You can just find it on the same GitHub repository.
+
+449
+01:28:36.730 --> 01:28:39.779
+100xEngineers: go through that OPT coach prompt.
+
+450
+01:28:40.210 --> 01:28:45.660
+100xEngineers: This is the, one, and answer these questions. It'll give you your…
+
+451
+01:28:46.120 --> 01:28:50.200
+100xEngineers: Candidate task, and for those tasks, start
+
+452
+01:28:50.890 --> 01:28:56.339
+100xEngineers: writing the golden dataset. Like, this is the… I would say, the ideal output.
+
+453
+01:28:59.200 --> 01:29:15.949
+100xEngineers: if somebody will do these kind of tasks in your day-to-day job, what is the ideal output look like? And this needs to be, like, the best dataset, because this you can't create from AI. This is something which I would not recommend you to generate and use a synthetic data, because this
+
+454
+01:29:16.020 --> 01:29:22.429
+100xEngineers: creates the quality bar, right? And, something which I learned in the hard way. Now.
+
+455
+01:29:22.690 --> 01:29:30.730
+100xEngineers: Apart from what is good and what you want model to do, which can be done with setting a good evals.
+
+456
+01:29:31.140 --> 01:29:35.660
+100xEngineers: There's a second part of it is what you don't want, like,
+
+457
+01:29:43.070 --> 01:29:45.830
+100xEngineers: Now, this is, like, one of the biggest
+
+458
+01:29:46.220 --> 01:30:05.560
+100xEngineers: security concern, I would say the policy concern across all the enterprise workflows. Half of the market right now, including all the people who are building these, agencies, who are doing freelancing, a lot of my personal, like, people from my network, students, they are facing this problem, because
+
+459
+01:30:05.560 --> 01:30:19.939
+100xEngineers: everything until this point, which I shared with you, you all can learn in the next 2-3 months. You can learn how to design better systems, I'll give you the exact roadmap, I'll give you all the lectures you need to perform the exercise. Once you do that, you will be able to, like, get the same skill.
+
+460
+01:30:19.940 --> 01:30:43.960
+100xEngineers: And you will be able to also, like, diagnose workflows, you will be able to, like, write better evals, you need to practice with the same set of, like, scoring criterias and quantification methods, and, like, making sure that you can verify and set the verification criterias with a good quality data set. All of this is possible, something even if you have no technical experience, no experience, like, from the past.
+
+461
+01:30:43.960 --> 01:30:46.700
+100xEngineers: of, like, using AI, I can teach you all of this.
+
+462
+01:30:46.700 --> 01:30:48.980
+100xEngineers: not a big deal. The thing which…
+
+463
+01:30:49.330 --> 01:30:57.229
+100xEngineers: It's difficult, and the thing where, like, most of the beginners make mistakes, and people fail is in this step, which is
+
+464
+01:30:57.680 --> 01:31:02.740
+100xEngineers: Step number 3. That's why I said, like, I'll talk about it in the, later part.
+
+465
+01:31:03.900 --> 01:31:13.230
+100xEngineers: So, this step, which is guardrails and safety, it actually determines not what, guardrails are, but this is about
+
+466
+01:31:13.430 --> 01:31:16.089
+100xEngineers: what you don't want your AI system to do.
+
+467
+01:31:16.390 --> 01:31:26.480
+100xEngineers: There's a very, famous story about it. I don't know how many of you remember. There's this company in India called Ola, and Ola launched this,
+
+468
+01:31:26.730 --> 01:31:29.620
+100xEngineers: AI call… Krothim.
+
+469
+01:31:29.740 --> 01:31:51.919
+100xEngineers: which was basically a fine-tuned version of, like, their own model. They use a pre-trained model from Meta, and they fine-tuned it on their dataset, and they built a LLM. They said, okay, this is the… India's LLM. Again, I don't want to comment on the quality of the product, because I never used it myself, but their whole pitch was that, okay, this is the
+
+470
+01:31:52.050 --> 01:32:05.160
+100xEngineers: LLM built for India by the India, and this is what our employees should use, this is what our customers should use, and they open source it. Again, like, slightly older story, like, one or two years back.
+
+471
+01:32:05.670 --> 01:32:17.410
+100xEngineers: there's somebody on Twitter who used Ola, and just to give you some context, Ola, that time, launched the Ola scooters, so there's, like, I think,
+
+472
+01:32:18.570 --> 01:32:21.840
+100xEngineers: I forgot the name of that. I think this was, like,
+
+473
+01:32:23.930 --> 01:32:35.530
+100xEngineers: In India, they had, like, another competitor called Aether, so these are two competitions. One is from the Ovola, they had their own EV scooters, and then Aether has the EV scooters. They launched this Krothraim module.
+
+474
+01:32:35.900 --> 01:32:38.200
+100xEngineers: One person asked this question.
+
+475
+01:32:38.390 --> 01:32:41.170
+100xEngineers: Which… Scooter.
+
+476
+01:32:41.730 --> 01:32:42.900
+100xEngineers: Should I buy?
+
+477
+01:32:43.950 --> 01:32:46.070
+100xEngineers: In India. Now.
+
+478
+01:32:49.250 --> 01:32:56.500
+100xEngineers: if you are somebody who's working at OLA, and you build your own LLM, ideally, it's a good decision that,
+
+479
+01:32:56.740 --> 01:33:12.940
+100xEngineers: or a good way to, like, embed this into model, that you would use your product information to, like, justify the listing. But what happened here, because they did use, like, a pre-trained model, which had, like, no guardrails.
+
+480
+01:33:12.940 --> 01:33:18.160
+100xEngineers: no, I would say, set, set safety, on top of it.
+
+481
+01:33:19.100 --> 01:33:26.439
+100xEngineers: Whatever the default state of this model, which they use to fine-tune the current version, it…
+
+482
+01:33:26.530 --> 01:33:37.129
+100xEngineers: continued to use that, and when people were asking questions like this, which scooter should I buy? Ideally, this is a company's model, which they have spent and they have built, so they should recommend
+
+483
+01:33:37.130 --> 01:33:49.429
+100xEngineers: at least the first thing from the company, and then maybe the competition. But the answer was coming as Aether. So… and this was, like, a meme which became, like, really viral back then, where they were saying that
+
+484
+01:33:49.430 --> 01:34:02.210
+100xEngineers: Okay, this is something which looks fishy, because Ola is suggesting that don't buy a whole scooter, buy, like, your competition scooter. Now, as a business, this is really difficult, because
+
+485
+01:34:02.290 --> 01:34:20.309
+100xEngineers: something like this cannot be encoded in any general model. If you use Cloud, if you use Anthropic AI, or Cloud AI, or maybe, say, OpenAI is AI, you cannot expect them to, like, embed your business intelligence and decisions like this, and people can ask these kind of questions.
+
+486
+01:34:21.190 --> 01:34:32.680
+100xEngineers: for them, like, for a user, they are asking and they're talking to Ola, but they don't know, like, whether this is using a different model altogether. What they want is, like, take it, what is the answer should I get? And…
+
+487
+01:34:33.530 --> 01:34:51.859
+100xEngineers: it can actually create, like, a significant impact in the overall business. So that's something which I personally, like, have seen again and again, where people have made mistakes, and companies like Ola, which is, like, again, a billion-dollar company in India, like, so they have made this mistake, and I've seen this, like, again and again with different people. So.
+
+488
+01:34:52.660 --> 01:34:58.160
+100xEngineers: the crux of this entire point is that you need to write what you don't want your AI to do. In that case.
+
+489
+01:34:58.720 --> 01:35:00.170
+100xEngineers: as in…
+
+490
+01:35:00.180 --> 01:35:09.169
+100xEngineers: like, an AI engineer at OLA, I didn't want my LLM to recommend products which are, again, of my competitors.
+
+491
+01:35:09.170 --> 01:35:20.980
+100xEngineers: I would, like, tell maybe, like, there is no better product if I don't serve it, or maybe, like, give, like, other diplomatic answers, but I don't want to redirect my customers to my competition. This is something which is…
+
+492
+01:35:21.060 --> 01:35:31.409
+100xEngineers: my company policy. So, this is also where the AI policy design comes in. Like, if any of you are active in this area of
+
+493
+01:35:31.410 --> 01:35:44.150
+100xEngineers: policy design for AI, majority of the work is, like, going here. And that is also why, like, the technical people, or people who are, like, very close to building these workflows, they might not be really familiar with all of these
+
+494
+01:35:44.390 --> 01:35:46.760
+100xEngineers: Policies and, like, way to design it.
+
+495
+01:35:46.760 --> 01:36:11.629
+100xEngineers: majority of the time, what happens is, like, the moment you get a workflow, you build a system around it, you write the evals, you push it out in production, and then later you realize that when something like what happened with Ola is happening with you, you come and you need to now design the policy. Although this is a lesson which we have learned. I'm not saying that everybody is doing it right now, but it was something which wasn't, like, very clear and evident back then, but now the industry has learned
+
+496
+01:36:11.630 --> 01:36:14.910
+100xEngineers: from it, and the AI policy design is becoming, like, a whole…
+
+497
+01:36:15.300 --> 01:36:28.669
+100xEngineers: ask for this role, by the way, and this is also something which, like, EOS Labs does a lot with all… anyone who has been, like, currently doing any kind of AI projects with any companies right now, they will tell you that this has become, like, a common ask from all their clients that
+
+498
+01:36:28.670 --> 01:36:45.219
+100xEngineers: you need to, like, come up with a policy design with the client to make sure that what are the things the system cannot do, what are the ways, like, how it should behave, and once you design these policies, so these are just, like, the instructions that, okay, what I wanted to do, what I wanted not, like, not to perform.
+
+499
+01:36:45.220 --> 01:36:52.639
+100xEngineers: you need to enforce these policies after designing it. So, the enforcement happened through guardrail.
+
+500
+01:36:53.100 --> 01:36:54.880
+100xEngineers: And this is where the whole…
+
+501
+01:36:55.800 --> 01:37:20.719
+100xEngineers: system comes in where we need to learn how to put guardrails. And if you have to, like, imagine a very simple analogy for this, like, guardrail is just exactly like a security guard sitting in front of your house, or maybe a building, and the job of this security guard is to make sure it, it knows that what all things are allowed to come in this building, what all things are allowed, again, if somebody's, like, creating a chaos in the building, he needs to kick him out.
+
+502
+01:37:20.720 --> 01:37:44.319
+100xEngineers: or kick her out, or if somebody's, like, who is unauthenticated, maybe, like, who is not allowed to come into this business building, then make sure, like, it'll not come. So, the goal here is to, like, build these guardrails systems, which becomes, like, a layer, along with your LLM, and, like, whatever LLM system you're using, or the AI systems you're using, you
+
+503
+01:37:44.610 --> 01:37:47.000
+100xEngineers: You put a guardrail here.
+
+504
+01:37:47.940 --> 01:38:12.929
+100xEngineers: you put a guardrail here, and you enforce your policies, and then, basically, it becomes, like, one of the way, like, how to interact. I'll talk about this in detail, as I said, like, this is another… one of the very important things which I learned, again, again, from the past students, that what other mistakes they have made, what are the current solutions out there? I have mentioned in the post as well, like, if you're somebody who is curious, as I said, like, today.
+
+505
+01:38:12.930 --> 01:38:29.969
+100xEngineers: you can check out the GPT OSS, which has the custom policy design for it, which means you can design your own policies and embed in GPT OSS. It's an open source model, which means you can also self-host it, you can use it freely if you have the compute available. If you want to go with the more advanced ones, Cisco
+
+506
+01:38:29.970 --> 01:38:39.450
+100xEngineers: is one of the companies which is, like, designing the enterprise guard layers for all of these systems and the requirements
+
+507
+01:38:40.290 --> 01:38:42.860
+100xEngineers: for these policies. Now…
+
+508
+01:38:43.080 --> 01:38:52.990
+100xEngineers: once you complete all of these steps, like, you have now, like, let's say, understood how to diagnose the workflows, build systems around it, write evals to make, like.
+
+509
+01:38:53.020 --> 01:39:03.759
+100xEngineers: understand what good looks like, set up the guardrails, set up the policies, enforce these policies. And the last part, which is the most underrated part, but not the least one, is
+
+510
+01:39:03.760 --> 01:39:14.730
+100xEngineers: Now, it will also translate that what all things AI can and cannot do into something which a non-technical person can understand, and they can decide on, because
+
+511
+01:39:15.540 --> 01:39:24.960
+100xEngineers: especially if you're doing it as a vendor, like what I was doing and what a lot of my students are now doing, especially, like, being part of FDEs.
+
+512
+01:39:26.330 --> 01:39:31.690
+100xEngineers: You will only get a green light signal if the Person who is in charge.
+
+513
+01:39:32.180 --> 01:39:38.579
+100xEngineers: Of the business, or whoever is, like, funding this project, will understand whatever you have built.
+
+514
+01:39:38.580 --> 01:39:57.270
+100xEngineers: will understand whatever systems you have designed, why you have designed it, what is the output they'll get, and this is also, like, an important part, right? A lot of our students have done these things really well. I'm calling all of them, by the way, on Sunday, and I'll share
+
+515
+01:39:57.270 --> 01:40:22.239
+100xEngineers: the insights. I know some people are asking me, like, if we can do the livestream. Unfortunately, we won't be able to share the livestream, because, like, some of these are, like, things which they have been building and part of the proprietary work. If you are curious, you can come, you can, like, walk into our office if you're in Bangalore, happy to welcome you there. But what I can do is, I can get the insights from all the demos and all the stories.
+
+516
+01:40:22.240 --> 01:40:37.069
+100xEngineers: And what I will do is maybe I can prepare a case study lecture for all of you. We'll share that, what were the learnings from each and every demo, and we can share it through that. Definitely after asking the consent from the people who were presenting there, because I don't want to just…
+
+517
+01:40:37.070 --> 01:40:41.779
+100xEngineers: talk about somebody's work without taking consent from them. So…
+
+518
+01:40:42.620 --> 01:40:57.339
+100xEngineers: I was coming back to this part where, is that, like, the majority of this entire thing happens is, when you build it, and you come to Bangalore, and this might happen to some of you folks as well, is that you have solved great problems, but the moment you start pitching.
+
+519
+01:40:57.340 --> 01:41:06.209
+100xEngineers: to your clients, to the people who are… who you are building it for, they cannot understand anything. And this happens a lot with, like, technical people, like, they just, like.
+
+520
+01:41:06.210 --> 01:41:17.929
+100xEngineers: don't know, like, what are the common terms which are, like, used, and what were the things that… that I can, like, compress it down and easily explain it to, like, people. And this is, like, also a part which…
+
+521
+01:41:17.930 --> 01:41:42.900
+100xEngineers: now I'm adding as, like, in one of the sessions for you guys, as part of the additional module for this thing, is where, like, we'll give you templates, we'll give you, like, the best practices, so that you'll be able to, like, explain these things. And if you yourself are somebody who is, like, not from a technical background, so you can understand those things and, like, build a pitch around it and, like, make something which is convincing. So, we call it a conviction
+
+522
+01:41:42.900 --> 01:41:43.790
+100xEngineers: document.
+
+523
+01:41:43.900 --> 01:41:52.740
+100xEngineers: which you will, like, produce as an artifact of, like, your capstone project. And, all of these things, again, as I said, it's something, like, which has…
+
+524
+01:41:53.500 --> 01:42:15.989
+100xEngineers: which has been, like, redesigned for this cohort specifically. Like, a lot of these parts were, like, baked into different part of the lecture. Sometimes it was, like, not dedicated sessions, but in this time, like, we're gonna hyper-focus on all of these things, so I'll make sure that each and every person who is here, they'll be able to understand each and every part of this process, because this is exactly what is getting done at a scale right now.
+
+525
+01:42:15.990 --> 01:42:34.789
+100xEngineers: for these companies, and the downstream effect of all of these things will… will be, I would say, evident in the next 6 to 7 months, where these skills and these things will become normal. But that's the advantage you guys will have, and the only way to take maximum advantage of this information is when you take action on it, and that's why I'm very bullish on people who are
+
+526
+01:42:34.790 --> 01:42:47.769
+100xEngineers: building things with… along with these lectures, not by just consuming this information, but actually taking action on it. I think, I would love to, like, again, work with you guys, and, like, hopefully take some of your projects. That's why I said.
+
+527
+01:42:47.840 --> 01:42:51.950
+100xEngineers: today, marking, I would say, if you have
+
+528
+01:42:52.880 --> 01:42:59.329
+100xEngineers: understood, like, a part of what I'm trying to say. Like, how you combine your domain expertise
+
+529
+01:42:59.800 --> 01:43:03.220
+100xEngineers: This is the part which you need to first prove me, like, what…
+
+530
+01:43:03.880 --> 01:43:10.469
+100xEngineers: is the plan that you're gonna follow? What is the idea you have found from your domain, from your expertise.
+
+531
+01:43:10.470 --> 01:43:34.009
+100xEngineers: And can you validate this? Because just discovery won't help, so I need a proof for validation. And for both of that, you have a skill already, you have the assignment number one. So you complete that, you have a discovery and the validation phase completed, and once you have that, I'll personally, like, help you to, like, take this to the next level, where you will… you'll design all these things. Now, I'm not saying that I'll not do it for other people, I'll still take the lectures, it's just that
+
+532
+01:43:34.010 --> 01:43:38.789
+100xEngineers: The experience for people who will complete this assignment on time will be…
+
+533
+01:43:38.820 --> 01:43:57.810
+100xEngineers: much more personalized as compared to everybody else. I will still continue to share all the information with everybody, it's just those people might not be able to, like, apply the same thing and maybe get the same benefit. So, the incentive here is that if you're able to, like, solve it and validate the problem statement that you have picked from your domain expertise.
+
+534
+01:43:57.920 --> 01:44:17.240
+100xEngineers: in the next 21 days and submit the assignment number one, I can give you, like, a very specific and a personalized recommendation and a roadmap of, like, how do you take this validated idea, and then build system around it, and then design the whole AI system, design the guardrails, everything what we discussed, which can actually create a significant impact
+
+535
+01:44:17.240 --> 01:44:21.879
+100xEngineers: to close this gap and capture the value. So that is the whole plan for us
+
+536
+01:44:22.020 --> 01:44:26.930
+100xEngineers: Now, I know I've been sharing a lot of things, so I'll take a quick Q&A break, and
+
+537
+01:44:27.040 --> 01:44:29.570
+100xEngineers: I'll… I'll talk about this…
+
+538
+01:44:32.090 --> 01:44:36.670
+100xEngineers: I'll take a pause and I'll continue talking about this in the next 5 to 10 minutes.
+
+539
+01:44:38.900 --> 01:44:48.080
+100xEngineers: Just try asking Gemini which model… if you have Q&As, by the way, or any questions which you have written, you can just, like, paste in the chat right now. I'll try to…
+
+540
+01:44:48.470 --> 01:44:53.609
+100xEngineers: start reading from the latest chat. Saksham has written this, tried asking Gemini which…
+
+541
+01:44:54.850 --> 01:45:00.940
+100xEngineers: model, is the best. If I want to choose one out of all, it says, use Yemeni.
+
+542
+01:45:01.460 --> 01:45:06.210
+100xEngineers: Yeah, obviously, like, Gemini won't make the same mistakes, Akshum, so I think…
+
+543
+01:45:07.240 --> 01:45:11.500
+100xEngineers: And plus, like, the story which I told you is, like, from last… to last year's.
+
+544
+01:45:12.180 --> 01:45:20.299
+100xEngineers: You talked about the domain expertise, what if the domain is not traditional or tangible? Say, being a good parent, helping your squad shop.
+
+545
+01:45:20.410 --> 01:45:22.580
+100xEngineers: Or know how to host people well.
+
+546
+01:45:23.370 --> 01:45:28.430
+100xEngineers: I think, like, Aditi, it's always about the perspective, right?
+
+547
+01:45:28.660 --> 01:45:44.849
+100xEngineers: I think it's relevant in every domain, right? As you mentioned that, being a good parent, helping your squad shop, and knowing how to host people well, all of these are skills which are very important in hospitality.
+
+548
+01:45:45.020 --> 01:46:06.339
+100xEngineers: in a lot of businesses, and sometimes you might not even call them businesses, but I know that there are… there's now a whole trend in Bangalore, in a lot of metro cities in India, where people are hosting these intimate dinners and intimate parties with, like, very close circles, and the kind of skill and the kind of people who are looking… who these guys are
+
+549
+01:46:06.340 --> 01:46:31.320
+100xEngineers: looking for are not somebody who has done hotel management, or who has, like, done, like, XYZ degree in the hospitality, or somebody who is actually, like, good at these kind of skills. So, it's always about, like, understanding where your skills can be applied in which domain, and if you are already, like, skilled, as you said, like, in these things, you can definitely, like, explore, different opportunities. Yeah, it might be difficult and not very obvious that where exactly you'll be
+
+550
+01:46:31.320 --> 01:46:34.390
+100xEngineers: Applying these things, but definitely possible, yeah.
+
+551
+01:46:36.870 --> 01:46:42.570
+100xEngineers: Can you work on one or two problem statements, since it takes time for, well, for validation from people?
+
+552
+01:46:42.760 --> 01:46:59.729
+100xEngineers: Vinay, again, my answer to this is pick something one, and validation should not take too much time if you have a right problem statement. The idea of, like, doing the whole discovery plus simulation exercise through the prompting journey will
+
+553
+01:46:59.940 --> 01:47:07.060
+100xEngineers: will force you to, like, get more clear ideas. If you don't have any clear ideas, you automatically will
+
+554
+01:47:07.290 --> 01:47:13.130
+100xEngineers: get flagged in the validation part when the LLM will do the simulation using the MOM test approach.
+
+555
+01:47:13.250 --> 01:47:21.380
+100xEngineers: And you yourself will… might observe some initial red flags there. But let's say if you continue to do that,
+
+556
+01:47:21.510 --> 01:47:29.599
+100xEngineers: this community is the best source for you to, like, hire people, and when I say hire, I mean, in a sense, like, test your ideas, like.
+
+557
+01:47:29.600 --> 01:47:53.050
+100xEngineers: get people… I recently, like, saw there, like, a lot of people who were, like, discussing, they have made their peer groups, so take advantage of the community, and I don't think, like, anyone can give an excuse that they don't have people, and it will take time, because you guys have, like, the best, I would say, the community, some of the smartest people right now in the space, who have, like, again, a very, very wealthy experience from different domains.
+
+558
+01:47:53.240 --> 01:48:10.990
+100xEngineers: as going through the onboarding form for this cohort. I think this is one of the most experienced cohort we had so far. So, like, yeah, I think you guys are, like, among, like, some of the really smart people right now. So, take advantage of that, and, yeah, like, validate the problem statement from it.
+
+559
+01:48:10.990 --> 01:48:16.900
+100xEngineers: Don't, don't jump on ideas just for the sake of doing it.
+
+560
+01:48:17.030 --> 01:48:20.559
+100xEngineers: I'll tell you, this is a advice which will save you a lot of time.
+
+561
+01:48:21.680 --> 01:48:24.300
+100xEngineers: What do you think about spec-driven development?
+
+562
+01:48:24.970 --> 01:48:27.729
+100xEngineers: I think it's just a fancy term for,
+
+563
+01:48:28.460 --> 01:48:32.409
+100xEngineers: Like, writing, plans and then building it.
+
+564
+01:48:34.990 --> 01:48:43.270
+100xEngineers: We'll do, like, something similar to this. It's just another term. The goal here is to be clear about the requirements. Cheers.
+
+565
+01:48:45.140 --> 01:49:07.270
+100xEngineers: Can you get the 100X team to livestream on C6 Demo Day on May 4th? As I said, unfortunately, right now, I can't, because I told you that some people might be presenting a proprietary work, and all of that, I need to take consent from them, like, before sharing their work. The same thing which I'll do for you guys, right? Like, if you want me to share your work with the people in the whole world, only then I'll share that.
+
+566
+01:49:07.340 --> 01:49:12.620
+100xEngineers: I don't want to, like, encroach somebody's privacy, guys. So you need to also be, like, mindful about that.
+
+567
+01:49:12.690 --> 01:49:31.530
+100xEngineers: we do have, like, told them that there might be, like, a few set of people who might be joining us from the office, and you guys may maybe, like, then, can take things from there. So if you are in Bangalore, happy to host you there, but, unfortunately, right now, we can't do the livestream because of the, as I said, like, privacy reasons.
+
+568
+01:49:32.650 --> 01:49:44.839
+100xEngineers: what I can do as a solution, Manish, I told you, is that I can provide all of the insights, anonymizing the data, and things which are valuable after taking the consent from the participants.
+
+569
+01:49:44.840 --> 01:49:57.929
+100xEngineers: And we'll maybe, like, present it in the lecture. So before you guys will start working on your caption projects, you'll have, like, some insights. Another reason why I also won't do it, even if I get the consent, is because, like.
+
+570
+01:49:57.930 --> 01:50:12.890
+100xEngineers: that will distract you guys from your own current discovery process. In the next 21 days, I don't want to release any other assignment, any other project, even, in fact, I don't want to put any other thing on the LMS apart from this assignment, because I want all of you to get absolute
+
+571
+01:50:12.890 --> 01:50:25.819
+100xEngineers: clarity and the focus on what you're gonna do for the next 4 months. And that clarity will only come once you, like, start doing your own discovery. And I told you, like, this is the most important part of this journey, understanding what you can do, and
+
+572
+01:50:26.000 --> 01:50:32.580
+100xEngineers: sure, like, if you fail in this 21 days, maybe you're not able to, like, find something, I'll give you the problem statements, I'll give you the ideas, but…
+
+573
+01:50:33.000 --> 01:50:35.820
+100xEngineers: This is also, like, the right…
+
+574
+01:50:35.920 --> 01:50:38.500
+100xEngineers: Time for you to, like,
+
+575
+01:50:39.310 --> 01:50:51.749
+100xEngineers: like, prove that, yeah, you have something which is, like, you can… the ability to stand out from the crowd, and you have the critical thinking skills. So I would say, like, focus on one thing first, and but yeah, I'll try to share, like, as much information I can
+
+576
+01:50:51.750 --> 01:51:04.739
+100xEngineers: From the learnings of the past cohort. What is the best approach? This is what Haleem said. What is the best approach to build an AI system that preserves organizational context across teams, especially when the person designing it doesn't have the expertise in every domain?
+
+577
+01:51:07.920 --> 01:51:21.489
+100xEngineers: it's slightly broader than one single skill, Halim. As I said, like, understanding the whole part of, like, where the information is gathered and what you need to, like.
+
+578
+01:51:22.750 --> 01:51:24.340
+100xEngineers: I would say, like, use…
+
+579
+01:51:24.710 --> 01:51:39.700
+100xEngineers: to feed your LLM, so that LMs can become, like, smarter to do this task. So those kind of questions are, like, there in this part, but I think without giving a specific example, won't be able to, like, share the exact detail here.
+
+580
+01:51:39.920 --> 01:51:44.370
+100xEngineers: There is no single best approach which works for everything.
+
+581
+01:51:44.620 --> 01:51:51.140
+100xEngineers: In the next 3 weeks, we'll learn how to design the This first system, which…
+
+582
+01:51:51.140 --> 01:51:59.219
+100xEngineers: can connect to an AI using the front-end, back-end database, and once you connect all these pieces, you'll be able to, like, see
+
+583
+01:51:59.220 --> 01:52:20.180
+100xEngineers: how much each and every piece, or what role each and every piece plays. So maybe, like, then you might get some clarity, but if you don't get clarity in the next, like, 3 lectures, I will still come back to this question. But again, thanks for asking this. Can we build an AI solution which works similar to ERP, like Oracle and SAP Finance? Why do you want to build that, Abdul?
+
+584
+01:52:22.080 --> 01:52:27.650
+100xEngineers: Do you have a thesis around it, that the current ERP systems are not working?
+
+585
+01:52:29.990 --> 01:52:48.230
+100xEngineers: if you have something like that, maybe you can, like, again, send me that hypothesis doc. That's why I was asking, like, I might not be able to give you, like, the recommendation based on one or two-line, like, answers here, but if you have something which you want,
+
+586
+01:52:49.740 --> 01:53:00.160
+100xEngineers: you want me to share, or you want to share with me, you can just, like, generate your hypothesis, and… because that's what I learned in the entire journey, right? I…
+
+587
+01:53:00.160 --> 01:53:07.780
+100xEngineers: The entire idea of doing all of this exercise, especially the discovery exercise, is to teach you guys a skill that
+
+588
+01:53:07.780 --> 01:53:32.249
+100xEngineers: how do you, like, discover problem statements? How do you convert your wake observation into something which can turn into a falsifiable hypothesis that you can take and conduct experiments with real human beings, and then, like, validate this problem statement? So this is a whole skill. Some of you might not get this entire exercise unless until you perform this, but I would recommend to Abdul and to anyone who has a similar
+
+589
+01:53:32.520 --> 01:53:42.320
+100xEngineers: question that what kind of things you can automate and what you can build. Just, yeah, if you can, like, perform the same exercise, send me the hypothesis, I would love to, like, take a look and send it to you.
+
+590
+01:53:43.550 --> 01:53:48.380
+100xEngineers: You don't need to complete the MBE plan entirely, but just send me the hypothesis first.
+
+591
+01:53:50.570 --> 01:53:58.469
+100xEngineers: Cloud certification architect course is worth doing, it's not technical background, so will I be able to clear it? Chintan, I would say…
+
+592
+01:53:59.060 --> 01:54:06.179
+100xEngineers: I don't know if you get what I'm trying to say here, but if you go, like, step by step, I think you will be able to, like.
+
+593
+01:54:06.250 --> 01:54:12.680
+100xEngineers: do a lot more things, and eventually you can also clear the clot certificate, because everything what we teach is
+
+594
+01:54:12.720 --> 01:54:25.779
+100xEngineers: also, like, what Claude certification is asking for right now, because those are the very common and overlapping skills. But the goal is not to do any certification, Jintan. And I said, this is something for everybody, like, who is out there. If…
+
+595
+01:54:25.780 --> 01:54:44.530
+100xEngineers: In the age of AI, 2026, when the entire market is, like, going to now fund the gap of this, like, a trillion dollar opportunity for AI adoption, and you're still looking for certification, and that is the goal you're trying to optimize, I think you need to rethink your strategy, Shintan. Like, seriously, this is…
+
+596
+01:54:44.530 --> 01:54:55.630
+100xEngineers: not the time to optimize for certifications. All these certifications will become irrelevant very soon, because nobody knows, like, which is a model that's gonna, like, win this race. Yes, Claude is winning right now, but
+
+597
+01:54:55.630 --> 01:55:12.390
+100xEngineers: what if, like, tomorrow, like, GPT starts, like, doing something better, and then maybe, like, GPT achieves the AGI, and then, like, or maybe, like, becomes, like, the most powerful model, or maybe Gemini becomes, which is very unlikely right now, to be honest, but, again, I don't know what the future is. So, I would not, like, focus my entire
+
+598
+01:55:12.410 --> 01:55:20.539
+100xEngineers: effort into doing a certification right now, if I would be in your position. Rather, I would be trying to create as many projects
+
+599
+01:55:20.540 --> 01:55:22.660
+100xEngineers: Which is solving a real-world…
+
+600
+01:55:22.660 --> 01:55:46.790
+100xEngineers: problems, creating a significant impact, showing that I have a potential to close this gap using my domain expertise. And if you have that, I can tell you from my personal experience, every single person who we have worked with, who have started their business, who have got placed in some of the highest paid role, they all had the same thing. They didn't apply for certification, they actually built a portfolio around the real business problem statements, and they have solved it.
+
+601
+01:55:47.140 --> 01:55:52.330
+100xEngineers: So, that's a good way to actually rethink about, like, the strategy, what you're trying to do.
+
+602
+01:55:52.520 --> 01:56:08.639
+100xEngineers: Will we learn the context engineering as a skill in further session? Definitely, yes. I'll share the full curriculum with you guys. I'm still, like, working on it, as I said, but I'll share you, like, what we have covered so far. I think this is…
+
+603
+01:56:09.930 --> 01:56:19.790
+100xEngineers: Yeah, this is, like, some part of it which is, like, there, so we have today covered about, the set of AI, and, this was the foundation first, which I want to start with.
+
+604
+01:56:19.790 --> 01:56:33.029
+100xEngineers: Of what we are building. If you… if you have not seen my office hour, I'll also upload it… I think it's already uploaded, if not, I'll check once again with my team, where I've mentioned, like, the plan for the next…
+
+605
+01:56:33.030 --> 01:56:34.290
+100xEngineers: Couple of weeks.
+
+606
+01:56:35.220 --> 01:56:59.710
+100xEngineers: This… starting from tomorrow, we're gonna, like, start diving deep into the interfaces, the APIs and data, and this is a system design part one, which is using the deterministic approach of softwares, building the domain modules, building the databases, connecting this… connecting and understanding with what is an API, what is a UI, how to build those parts using code and no-code approach.
+
+607
+01:56:59.940 --> 01:57:02.020
+100xEngineers: And this is where we'll do the split.
+
+608
+01:57:02.480 --> 01:57:09.670
+100xEngineers: This is the part one of, like, designing systems with deterministic softwares, using APIs, databases.
+
+609
+01:57:09.670 --> 01:57:17.459
+100xEngineers: backends, and then we go to the part two of the system design process, where we learn about the LLMs,
+
+610
+01:57:17.460 --> 01:57:36.390
+100xEngineers: the AI coding, the prompt engineering. This is where the context part comes in, and again, today it might not make sense to all of you to, like, get everything from this curriculum, that's why I didn't share it yet. I'll try to, like, simplify it even more. Maybe, like, I'll try to, like, add a few more
+
+611
+01:57:36.500 --> 01:57:43.369
+100xEngineers: Examples and descriptions here to make these topics self-explanatory, but we'll talk about, like, all of this
+
+612
+01:57:43.630 --> 01:57:58.900
+100xEngineers: This was, like, a workshop, which I'll keep it combined for everybody, so that you can, like, get started with Cloud Code Cursor in the week two. I don't want you to, like, do it right now. As I said, like, step by step, if you take these things and focus on one thing at a time,
+
+613
+01:57:58.950 --> 01:58:08.269
+100xEngineers: you'll be able to, like, get, like, the maximum value from it. But we definitely cover context engineering, and what is context engineering, everything you will learn
+
+614
+01:58:08.270 --> 01:58:21.159
+100xEngineers: only after, like, completing these set of lectures, because I can't just give you, like, some jargons and put it on the screen, and that's why I didn't want to, like, share the entire curriculum yet, but this is only for the next, I would say, like.
+
+615
+01:58:21.530 --> 01:58:27.959
+100xEngineers: 4 to 8 weeks, and then we'll continue with the agents, which is a part of it. We'll… we'll learn about
+
+616
+01:58:29.070 --> 01:58:41.740
+100xEngineers: Fine-tuning, this is the part where architecting GenAI products and building fine-tuning models with Aegis will come in. So we'll basically have, like, Tejas, who will be sharing, like, his expertise.
+
+617
+01:58:41.740 --> 01:59:05.510
+100xEngineers: Of, like, what he's been doing here. So we have, like, a bunch of interesting things planned for you. I have workshops. We have a workshop with Baron Maya, by the way, it's a surprise workshop for all of you, which is gonna be also in one of those topics. So we are trying to bring, like, some of the best folks from the industry who have, like, solved these problems, and who are doing this thing, which also, like, makes sense with the curriculum, because I don't want to just, like, invite people for the sake of inviting them and doing the workshop parts.
+
+618
+01:59:05.610 --> 01:59:12.229
+100xEngineers: But, yeah, like, on a higher level, like, this is what the journey would look like, from… starting from, actually.
+
+619
+01:59:12.360 --> 01:59:23.790
+100xEngineers: tomorrow itself, we will have the first part of this system design building, and in order for you to, like, learn system design, as I said in the last session.
+
+620
+01:59:24.250 --> 01:59:31.189
+100xEngineers: The whole job of how to build part will start from understanding what is the
+
+621
+01:59:31.460 --> 01:59:50.419
+100xEngineers: required input to solve a problem, and what is the desired output. Once you know this thing, then you can focus on building a system that converts these inputs into the output. Now, very important part for somebody who is looking to learn and get a roadmap for how do we plan for the next set of things which you can learn.
+
+622
+01:59:50.700 --> 01:59:58.909
+100xEngineers: is that Understanding these system requirements, which is, like, writing down the inputs, writing out desired output.
+
+623
+01:59:59.040 --> 02:00:10.030
+100xEngineers: In the next 21 days, if you can get clarity on the problem statement, which is, again, test your critical thinking skills, test your discovery skills, makes you more,
+
+624
+02:00:10.320 --> 02:00:24.790
+100xEngineers: I would say, prepared for doing user interviews, which is one of the most important requirements in any kind of FDE jobs, any kind of consulting jobs, and any kind of business work where AI workflows
+
+625
+02:00:25.110 --> 02:00:41.099
+100xEngineers: development is needed, where you need to, like, ask people the right type of questions, take the user research and conduct these kind of user interviews. This is what the first skill teaches you. And after doing that, you'll get clarity on the goal.
+
+626
+02:00:41.540 --> 02:01:00.920
+100xEngineers: once you have clarity on the goal, you will be able to, like, identify the right input and output. This is all what you need to do in the first assignment for 21 days, and you don't need to build any software for this. So I'm again repeating it, I think last time somebody was asking me that if you don't know how to build software, you don't need to build software. It's a completely manual approach.
+
+627
+02:01:01.390 --> 02:01:19.469
+100xEngineers: In the first skill, for the 21 days, there is no building required, there's only research and the clarity. How do you discover idea, build the hypothesis, test, validate the system, talk to real people? But by doing it, everything manually, you learn the process, you learn the business. And some people will…
+
+628
+02:01:19.710 --> 02:01:29.680
+100xEngineers: will drop off from this. Some people will shy away, and they say, okay, this is… this will take time. Like, I saw, like, some people who were mentioning, and trying to find excuse, and I know it's easy, it's easy to, like.
+
+629
+02:01:30.040 --> 02:01:42.879
+100xEngineers: find an excuse and say, okay, this will take time, and we can do something easier, can you share us the link of something else, or some other ideas which we can build? The answer is, unfortunately, guys, I'll make you uncomfortable.
+
+630
+02:01:42.880 --> 02:01:54.039
+100xEngineers: That's the truth. And I know some of you might not like it. Some of you will also, like, won't give me good reviews after this lecture, or maybe, like, for the cohort, and I'm okay to take that bad review, but…
+
+631
+02:01:54.040 --> 02:02:08.360
+100xEngineers: I think this is the only way where I have learned things, and where all the successful students from my personal experience who have learned this, they… they… they faced this uncomfortable truth. They had this entire phase, and this phase is gonna be like that
+
+632
+02:02:08.360 --> 02:02:25.239
+100xEngineers: talking to a stranger about your ideas, conducting the interview with them, talking to them, and asking the questions is not easy. Sometimes you face rejection, and rejection is not easy. It's not something which everyone can take. It's gonna be uncomfortable. But the thing is that everything what you're dreaming.
+
+633
+02:02:25.240 --> 02:02:42.739
+100xEngineers: everything what you want is on the other side of that rejection, other side of that being uncomfortable. And we have seen it again and again, people who have crossed that threshold, they will be able to, like, I would say, like, excel in this. Coming back to the system design part of it, what we're gonna do discuss tomorrow is
+
+634
+02:02:43.010 --> 02:02:55.319
+100xEngineers: I'll take a sample, problem statement, I'll try to, like, use something simpler, will give you, like, a whole idea of how do we gather the input and the output, and then design the system around it.
+
+635
+02:02:56.060 --> 02:03:12.510
+100xEngineers: this skill to design a system is also, as I said, like, the core skill of what is required, the system design part. Now, some of you might be aware of this term, and some of you who have maybe, like, prepared for these kind of interviews, maybe you have had your jobs, or you have worked in these kind of roles.
+
+636
+02:03:12.510 --> 02:03:30.839
+100xEngineers: already familiar, but this is different from anything which you have done in the traditional software space. It's not only about designing systems with front-end, back and API, which is the deterministic part of it. This is a system design skill which needs three different parts, and these three different parts are
+
+637
+02:03:34.840 --> 02:03:39.400
+100xEngineers: this is what makes it difficult, because I think, some people were…
+
+638
+02:03:44.880 --> 02:03:54.260
+100xEngineers: Some people might have this question that, like, how it is different from… this entire role is different from consulting, right? Or maybe, like, the older way of what software was doing, because
+
+639
+02:03:54.260 --> 02:04:06.740
+100xEngineers: In a way, what we did, and what I was sharing, is kind of that, right? Where you talk to people, you consult with them, and you build some solutions for them. So, how is it different from any kind of, like, software or tech consultancy?
+
+640
+02:04:07.380 --> 02:04:12.899
+100xEngineers: Anyways, and why we are hyping it so much, because the… the… the…
+
+641
+02:04:13.080 --> 02:04:16.170
+100xEngineers: The reason why it is different is because in this approach.
+
+642
+02:04:17.350 --> 02:04:22.010
+100xEngineers: With any kind of software system, you have…
+
+643
+02:04:23.660 --> 02:04:30.220
+100xEngineers: one part, which is the deterministic engine. And when I say deterministic engine, it's…
+
+644
+02:04:30.720 --> 02:04:38.650
+100xEngineers: Let me put it small, yeah. When I say deterministic, it means that everything is built using Code.
+
+645
+02:04:39.270 --> 02:04:45.720
+100xEngineers: Code translates to… Zeros and ones, which are the binary language.
+
+646
+02:04:45.910 --> 02:04:59.719
+100xEngineers: And these are basically the on and off switches for computers, which will run the instructions and make the machines do things. So if you have written the instructions, it machine will behave the exact same way, and this is what, like.
+
+647
+02:04:59.850 --> 02:05:09.199
+100xEngineers: the entire software industry was doing. So, for example, again, you have your OPT framework, so you mentioned what is your operating model, your task.
+
+648
+02:05:09.270 --> 02:05:24.020
+100xEngineers: let's say you are doing marketing, so you're doing campaigns, one of the tasks is to design a campaign, or design a creative for the campaign, which can go out as a social media content on LinkedIn, on Instagram, or YouTube. So, you need to now find the
+
+649
+02:05:24.140 --> 02:05:26.530
+100xEngineers: Task input and the output.
+
+650
+02:05:26.890 --> 02:05:41.959
+100xEngineers: So once you have the input and output, let's say input is a prompt, or the requirement for this social media post, and output is the image, then we need to write a code that can take this input and maybe find similar image, and then
+
+651
+02:05:42.130 --> 02:05:43.569
+100xEngineers: Give the output.
+
+652
+02:05:43.670 --> 02:06:00.090
+100xEngineers: With software, the deterministic part of the software, which is code zeros and ones, this is much more easy to verify and validate, because you can write test cases, so what most software engineers have done is, like, written test cases, which means that once you have built a system.
+
+653
+02:06:00.350 --> 02:06:03.890
+100xEngineers: Which converts one input into the output.
+
+654
+02:06:03.930 --> 02:06:19.070
+100xEngineers: you write a test case, which makes sure that it always reduces this output, because if it doesn't, then the system can break, and whenever it breaks, it breaks the test, and somebody gets the notification that there's an issue, and you fix that issue. And this is a…
+
+655
+02:06:19.070 --> 02:06:36.549
+100xEngineers: proper software maintenance project looks like. You… and as long as, like, you have all the things which are tested, there's more likely things will not break and will not change, because of the nature of the deterministic software. Now, why this entire AI system design is different, and why this whole power deployment engineer is, like.
+
+656
+02:06:36.880 --> 02:06:46.279
+100xEngineers: attracting capitals of, like, hundreds of billions of dollars, and what I'm projecting can become a trillion-dollar opportunity, is because this has a very important element, which is
+
+657
+02:06:47.000 --> 02:07:05.169
+100xEngineers: Probabilistic models, and these are your language models, diffusion models, and models which works on probability, not determinism. Very important distinction. These models work on probability, they work on prediction. LLM predicts the next word token. It doesn't determine it.
+
+658
+02:07:05.170 --> 02:07:17.089
+100xEngineers: Whatever you write it, I can write the same prompt, and all the people who are here, they can write the same prompt, but you might get different output, which means, based on what ALM has learned from the distribution.
+
+659
+02:07:17.090 --> 02:07:26.079
+100xEngineers: maybe from your own personal context and memory, these guys, can change the output. And the output for each and every input
+
+660
+02:07:26.080 --> 02:07:28.000
+100xEngineers: Can change.
+
+661
+02:07:28.170 --> 02:07:38.890
+100xEngineers: Now, this creates a massive problem for everybody, because everything that you have built in the software space, which works on deterministic software, determinism, which means that
+
+662
+02:07:38.890 --> 02:07:49.020
+100xEngineers: No matter who is writing the input, and who is generating the output, as long as we have defined the set of instructions, it will perform the same, and we have the test to test those things.
+
+663
+02:07:49.080 --> 02:07:58.040
+100xEngineers: with the LLMs, or with any kind of model that works on probability, we cannot expect that, because the outputs will keep on changing, even with the same input.
+
+664
+02:07:58.100 --> 02:08:12.780
+100xEngineers: as a model update, or maybe as the behavior changes, or as anything changes, and even the neural network prediction can change over time. So you cannot expect the same output from the same input, and vice versa.
+
+665
+02:08:12.980 --> 02:08:36.279
+100xEngineers: Which means that you cannot write the same way, and you cannot, like, build the same verification layer and the same testing layer. Now you need something different, and that is where the evals comes in, that is where the guardrails, which I was telling you, comes in, and sometimes even those evals won't work. Sometimes you need a different person, because, let's say this is a critical case where you want to understand whether you want to refund a business, sorry, refund
+
+666
+02:08:36.280 --> 02:08:55.360
+100xEngineers: like, something to a customer or not. And your probabilistic model is predicting that you should, but how would you rely on this? Because if tomorrow it's… it's a… it's a fake case, then you have to pay the liability, and that is where the human in the loop comes in. So this is the human in the loop part.
+
+667
+02:08:55.720 --> 02:09:01.350
+100xEngineers: All of this together becomes a whole system, and probabilistic system can
+
+668
+02:09:01.370 --> 02:09:18.600
+100xEngineers: delegate the judgment to a human being, and it can also use a deterministic system wherever the instructions are hard-coded, which means, let's say if you are building an app where you want to calculate and predict, let's say, the
+
+669
+02:09:18.600 --> 02:09:35.919
+100xEngineers: how would the stock price of a company would go in the next 5 years? For the calculation and arithmetic part, the probabilistic models are not the best ones, so you can use a deterministic system still to use the arithmetic and do calculation statistics, but
+
+670
+02:09:35.920 --> 02:09:47.070
+100xEngineers: for doing, let's say, projection, maybe you can use probabilistic models, and when you want to combine it with the high reliability output, you introduce a human in the loop.
+
+671
+02:09:47.070 --> 02:09:59.000
+100xEngineers: These three things sounds, very simple and looks very simple on this whiteboard, but this is one of the hardest problems right now in the industry, which is also this entire gap that we have discussed
+
+672
+02:09:59.480 --> 02:10:03.680
+100xEngineers: So far, which is around… like…
+
+673
+02:10:05.410 --> 02:10:20.059
+100xEngineers: for which, like, OpenAI and Anthropic has raised $5.5 billion, and they're gonna deploy, like, deploy all of this capital to close this gap, which can potentially, as I said, like, become a trillion-dollar opportunity for each and everybody, and for the entire industry. Because…
+
+674
+02:10:20.220 --> 02:10:32.540
+100xEngineers: Understanding how to work with all these three systems together to make it reliable for a business and generate a significant output which can be measured
+
+675
+02:10:32.540 --> 02:10:43.800
+100xEngineers: against a revenue boost or a cost saving is the whole key. This is what we need to learn, and this is what we will be doing in the AI system design process. In the deterministic part, the first thing is
+
+676
+02:10:44.100 --> 02:11:09.080
+100xEngineers: the layers, and we'll learn more about these layers, the interface, tomorrow. I won't, like, take too much time. I'll… I'll take a pause on the lecture stuff, but starting from tomorrow, we will learn how to build UI, which is a part one of understanding the building deterministic system, because you need an interface. We'll learn after that the APIs, we'll learn how to work with backends, how to build databases, and then we'll go into the probabilistic world, which is the LLMs.
+
+677
+02:11:09.080 --> 02:11:24.530
+100xEngineers: And that opens up the part two for our curriculum, which I was showing you, where we learn everything like context engineering, tool calling, RAG, and things like that. And at the end of this module, we'll learn where the human judgment comes in, and how do you integrate all of these three systems together.
+
+678
+02:11:24.610 --> 02:11:35.239
+100xEngineers: So that is the goal, and once you understand these things, this… I hope now you can fit into the whole thesis of, like, what… what it looks like, and
+
+679
+02:11:35.330 --> 02:11:53.049
+100xEngineers: How… why we are doing it, why we made a sudden change and a big change in the curriculum, why learning from this approach will hopefully give you something that what we've been, like, doing and listening from all the interviews and the updates and the personal experience from all our instructors.
+
+680
+02:11:53.050 --> 02:12:05.629
+100xEngineers: And why things can look slightly unstructured in the upcoming weeks as well. So, I'm just giving you a heads up, but I hope now you can understand the reason behind it, and again, like, as I said, like, if a lot of people still
+
+681
+02:12:05.630 --> 02:12:18.600
+100xEngineers: think that this might not be the best approach, I'm happy to take a different approach as well. Maybe I'll take conductor poll, and you guys can maybe, like, send me DMs, and if you think, like, you have a different opinion about doing all of this and learning from all of this.
+
+682
+02:12:18.600 --> 02:12:36.279
+100xEngineers: But yeah, I'll take a pause here, and I'll, as I said, like, I'll share two things after this lecture. One is the updated curriculum. This is the one which I have right now. I'll try to, like, simplify it slightly more, so you understand when exactly, because this is a common feedback which I got, and I know that this is important, so…
+
+683
+02:12:36.300 --> 02:12:55.819
+100xEngineers: I'll send you each and every lecture titles, what we're gonna do, for the next, like, upcoming week, so you guys can plan your weekends for the next, like, 3 to 4 weeks. I'll give you, like, the context, what are things you need to come prepared for, some extra reads, which I mentioned about, like, the research papers.
+
+684
+02:12:56.240 --> 02:13:16.399
+100xEngineers: these things I'll share as a Level 2 content for the advanced folks, people who have already done the first exercise, and they want to, like, dig deeper, trying to understand, like, the whole transformation gap part, and, like, a whole lecture notes. The lecture notes is tied slightly on the, I would say, getting delayed, but I'll try to make sure that I'll post all the lecture notes right now.
+
+685
+02:13:16.400 --> 02:13:33.120
+100xEngineers: That's the end of the session, that's what I have planned for, like, as I said, like, the next one month, and I hope, like, you get some clarity right now. If you still have more questions, I'll take the questions right now. If you don't have any questions, you can, like, feel free to drop off right now.
+
+686
+02:13:40.910 --> 02:13:44.030
+100xEngineers: Yes, flow state just ended, TJ.
+
+687
+02:13:44.630 --> 02:13:48.549
+100xEngineers: As a product designer, how do we see the job market affecting the role?
+
+688
+02:13:48.800 --> 02:14:04.930
+100xEngineers: Majority of the time, I hear noise that design is a dead whenever there is an AI functionality launched, but I see the opposite. Any advice? Exactly, you're right, Indirjeet. As I said, like, the narrative on media is also run by a lot of people who might not have clear understanding of what all these things are, like…
+
+689
+02:14:05.160 --> 02:14:15.179
+100xEngineers: I don't know, like, anyone, like, who is, like, posting content right now, like, apart from, like, very few people who also, like, do these kind of deep research, right? And, in fact, this is not a deep research, it's just, like.
+
+690
+02:14:15.360 --> 02:14:33.789
+100xEngineers: having people in the industry who you can talk to who are also, like, doing these things is more important than also doing a deep, because I can just, like, write a prompt and I won't get the same information what I was telling you today, right? You can't just write any prompt and get the same thing. So, Indirjeet, what you said is, like, exactly right. As a product designer, I would say
+
+691
+02:14:33.890 --> 02:14:51.670
+100xEngineers: all the roles are getting blurred. The opening of this lecture, which I said, no matter whatever you are doing today, whether you're designing a product, whether you're building it, whether you're managing the people, or whether you are making strategy for it, this is one of the biggest opportunities what we are seeing right now.
+
+692
+02:14:52.170 --> 02:15:11.540
+100xEngineers: And this is validated by the biggest funding, biggest companies and labs putting money behind it, biggest hiring in the entire, like, last 3 years, and, like, all the evidence which we… I could gather, and I can share the validation report with you. So we have already… the validation is that
+
+693
+02:15:11.790 --> 02:15:23.650
+100xEngineers: everybody understand we have only utilized the 20% of the intelligence which is available to us. If we can unlock even the 50%, 60% of that, I think the amount of
+
+694
+02:15:23.880 --> 02:15:32.810
+100xEngineers: gains we can get across the industry, and as a whole human society, is gonna be, like, much bigger than just working on the next version of GPT.
+
+695
+02:15:32.810 --> 02:15:43.849
+100xEngineers: 5.6 or maybe, like, 4.8, and that is commonly agreed by the top labs. So, what I believe is that, as you said, like, as a product designer, maybe, like, as an engineer or anyone.
+
+696
+02:15:43.850 --> 02:16:07.080
+100xEngineers: I think the goal is to understand this, like, how can we close the gap? And everything starts from your own personal company, your personal workflow. If you can identify and observe one gap in that today, you can use the OPT framework if you don't know how to start. If you already have the observation, you can use the skill, build the hypothesis, get the plan, and actually, like, execute that plan. Do it manually. And that's something which I believe, and
+
+697
+02:16:07.190 --> 02:16:11.479
+100xEngineers: And yeah, like, the roles are merging, so that's the advice, like, I think…
+
+698
+02:16:12.300 --> 02:16:24.240
+100xEngineers: now, like, I don't see, like, in future, like, we'll have the same way of, like, working with people, like, we'll have specific designers or engineers. I think we'll have, like, people who… who will have the same…
+
+699
+02:16:24.590 --> 02:16:44.249
+100xEngineers: thing. Like, some people have domain expertise in design, so maybe, Indarjeet, if you have a domain expertise in this area, you would be more likely to solve problems for this section, right? And that's basically, like, what we will be, like, seeing and what we are also, like, observing right now. As compared to, like, you just being a designer, which is a change that
+
+700
+02:16:44.410 --> 02:16:52.449
+100xEngineers: That is, like, coming right now. Akhil said this, I'm thinking to build a workflow for indie hackers, the agent will access to
+
+701
+02:16:52.450 --> 02:17:06.570
+100xEngineers: all codebase, marketing, revenue, database, reviews, feature requests, etc. It will be able to see the entire app of the indie hacker and improve them 24 by 7. I am an indie hacker so that I can improve all my systems one by one.
+
+702
+02:17:06.600 --> 02:17:30.449
+100xEngineers: I would, again, like, start slightly on a narrow problem statement, Akhil. If I would be in your position, I would rather pick one of my app, and we'll try to optimize it, make it better, rather than, like, doing it for everybody. There's a very good example, I'm sure, like, you might be aware of Peter Levels as, like, one of the very popular indie hackers, and what he has done is he has installed
+
+703
+02:17:30.450 --> 02:17:34.069
+100xEngineers: the cloud code, and I think the open claw
+
+704
+02:17:34.070 --> 02:17:48.709
+100xEngineers: on his VPS server, which is, like, taking… and this is the same idea which I was sharing. So, what Peter Levels has built, it's like a self-improving intelligence system sitting on a website that takes the information from analytics.
+
+705
+02:17:48.760 --> 02:18:12.319
+100xEngineers: So the idea here was, like, again, slightly, like, a different topic, but I'll extend it because Akhil is working on something like this, and it's actually a very interesting idea. So the idea was, like, let's say he has built a website, and if any of you has, let's say, an e-commerce website, let's say you're selling shoes, or maybe, like, anything what you can think of right now, I'll pick shoes as an example. You're selling shoes, you're selling a digital service, maybe you're selling a course.
+
+706
+02:18:12.370 --> 02:18:26.610
+100xEngineers: Online, and one thing which most of us do not have enough time is we… we don't check the analytics every single day. In my previous company, we had a person whose
+
+707
+02:18:26.610 --> 02:18:43.809
+100xEngineers: entire job was to do this every single day. He used to wake up, he used to check the analytics of our app, website, and give us the insight that, hey, because of the last feature that you have released, because of the carousal that you have posted, the number of signups has increased, or the number of
+
+708
+02:18:43.809 --> 02:19:08.519
+100xEngineers: checkouts, like, have dropped because of the last push that you guys have, like, done, or because of the marketing campaign, like, the more people, like, started doing XYZ thing on the website, or any kind of new information. So this is, like, a good way for us to use this information and make changes to the product once again. And our product team used to discuss these changes that, hey, let's see what data we got from
+
+709
+02:19:08.520 --> 02:19:11.270
+100xEngineers: the analytics, and product team used to, like.
+
+710
+02:19:11.360 --> 02:19:14.189
+100xEngineers: Find that what is the best solution for this.
+
+711
+02:19:14.320 --> 02:19:24.530
+100xEngineers: with the engineering team, and then write the PRD, share this PRD with the engineers and the engineering managers, and then the engineering team used to, like, implement all of this.
+
+712
+02:19:24.530 --> 02:19:35.670
+100xEngineers: And then once they implement the entire thing, they push it back to the main product, and then they observe whether the analytics has changed, or if something has worked for it. The goal is to, like, increase
+
+713
+02:19:35.670 --> 02:19:52.019
+100xEngineers: a particular metric, let's say in this case, revenue is the main metric, that you want to increase the revenue of the business, you want to sell more shoes, so whatever will help us to sell more shoes, we'll make changes according to that. We look at the data, and we do this as an iterative cycle, the agile cycle.
+
+714
+02:19:52.090 --> 02:20:00.280
+100xEngineers: this is, like, how exactly some of our teams have worked in the past, the SaaS teams, the D2C team, I still know a lot of people who work like this.
+
+715
+02:20:00.280 --> 02:20:24.779
+100xEngineers: The idea here is that what I think Akhil has mentioned, and what Peter Levels has done, one thing which you can do is, now all of this thing can be built as an… as a system, like an agent-type system, which can take the analytics data, like, you can connect all this data to an agent, and agent also knows your business goals, so instead of now having
+
+716
+02:20:24.780 --> 02:20:29.079
+100xEngineers: A product manager, which is a human being. You can have a product agent.
+
+717
+02:20:30.220 --> 02:20:53.449
+100xEngineers: which can basically take the insights, and which understands the context, and this is why, like, having, like, multiple agents and building this as a self-improving intelligent system is much more beneficial, as compared to somebody who's only building it as a workflow. And the difference there is that if you add AI in some of these layers, maybe, like, that's, like, good for doing one task, but
+
+718
+02:20:53.450 --> 02:21:05.049
+100xEngineers: if you have, let's say, an agent which can take a look at the analytics data, and then this can transfer to a software agent, which is maybe, like, let's say Claude,
+
+719
+02:21:05.520 --> 02:21:08.150
+100xEngineers: And then the Cloud agent can…
+
+720
+02:21:08.460 --> 02:21:16.469
+100xEngineers: Do… do all the implementation, and then there's, like, a testing agent, which is, like, a review agent, or like a test agent.
+
+721
+02:21:17.390 --> 02:21:19.919
+100xEngineers: And, this agent can, like,
+
+722
+02:21:19.940 --> 02:21:43.200
+100xEngineers: do the final testing, and maybe this is where you can add the human in the loop, where a human being can look at all the changes which are getting built, tested, and when I review it, and I… I give them a go-ahead, and then they can directly push changes to the production. This is happening right now in real time. Peter Levels has, like, done… implemented this thing. Some of my students are also building a very similar
+
+723
+02:21:43.200 --> 02:21:46.939
+100xEngineers: piece of software, which is a self-improving software systems.
+
+724
+02:21:46.940 --> 02:22:01.820
+100xEngineers: it's like, on a surface level, it looks like a website, but behind the scenes, there are agents looking at the real-time data, making changes to the product to optimize the core metric. Let's say, in this case, revenue, then they'll make changes to it.
+
+725
+02:22:01.900 --> 02:22:20.200
+100xEngineers: You can do the same thing for the marketing, by the way. Like, there's one open caption project which I released, like, last couple of weeks, which is building all of this as a performance marketing agent using the meta ads. So Meta Ads, as a platform, they have now
+
+726
+02:22:20.200 --> 02:22:29.509
+100xEngineers: made their, the platform agent-native, which means, like, a lot of agents can consume that platform, and they can run
+
+727
+02:22:29.510 --> 02:22:48.139
+100xEngineers: marketing campaigns. Although right now it's not completely usable by all the agents, they have some restrictions and some problems right now, but it's still a very good start. And I can think of, like, a next couple of months, you can have a full-blown marketing performance agent
+
+728
+02:22:48.140 --> 02:23:02.040
+100xEngineers: who are, like, running the campaigns for it, and maybe you'll have, like, one human in the loop, which will decide, or take the critical decision, but remaining everything is done by, like, the agent. And that's where this systems comes in, right? And…
+
+729
+02:23:02.260 --> 02:23:26.590
+100xEngineers: all of this can be designed by all these three layers, right? You need to understand, like, where to put the elements which can predict things, use probability, where to keep the things which are deterministic in nature, which you don't want to keep it, like, predict those things, and where you need to put the human loop. So I would say, like, if you want to explore as an idea, I think this is going to be an interesting idea.
+
+730
+02:23:26.590 --> 02:23:30.929
+100xEngineers: Again, like, happy to share more information on this.
+
+731
+02:23:30.930 --> 02:23:35.849
+100xEngineers: But, if you can share me, like, your own hypothesis, I can add more things on top of it.
+
+732
+02:23:49.460 --> 02:24:05.370
+100xEngineers: As a fresher, how can I find my domain? The best way to find a domain as a fresher is to work with somebody who has a domain expertise. And you have a lot of people around you who have domain expertise, and who might need somebody like you, who has the curiosity, the time, and you need to just become slightly more…
+
+733
+02:24:05.940 --> 02:24:18.000
+100xEngineers: competent, which is, like, the exact way how I'm sharing all the blueprints with you. So, the better way is to team up with somebody who has a domain expertise and, like, help them. And I know, like, a lot of people who are here looking for people like you.
+
+734
+02:24:19.710 --> 02:24:30.490
+100xEngineers: Even if you have a strong problem statement, how do we decide what the actual solution should look like? A website, an app, or something else? Hanch, this is exactly where the discovery process will help you, so I'll ask a counter question to you.
+
+735
+02:24:30.510 --> 02:24:50.309
+100xEngineers: Have you completed your discovery assignment yet? If yes, then do share me the MVP plan, and I can point out to you that how exactly solution will shape. Because each and every solution will be different, and that is the reason why I'm not sharing solutions in the… in the week one. Because you were correct, on point, what Hunch has mentioned, that
+
+736
+02:24:50.310 --> 02:24:54.620
+100xEngineers: Every problem might have a different solution based on who is
+
+737
+02:24:54.870 --> 02:25:00.500
+100xEngineers: Like, facing that problem, who is solving it, and what's the budget, and there's, like, multiple constraints to that.
+
+738
+02:25:00.620 --> 02:25:15.740
+100xEngineers: So, I cannot give you one single answer. I don't want to teach one single framework for one single platform that, hey, this is how you build web app, this is how you build mobile app, this is how you build, like, like, a voice app. I would say, like, that is the part which
+
+739
+02:25:15.970 --> 02:25:32.570
+100xEngineers: eventually, like, you guys should learn that how do you map things to the… to the app-level interface, because my personal insight is that for 90% of the use cases which you guys are gonna solve as an MVP, you might not even need any kind of external application.
+
+740
+02:25:32.570 --> 02:25:41.240
+100xEngineers: And I'll teach you that in exactly, like, next 3 lectures, like, why LMs are becoming, like, one of the core interfaces, and how we can, like, leverage those things.
+
+741
+02:25:41.240 --> 02:25:55.380
+100xEngineers: But, yeah, we'll talk more about that, but the goal, I think, for now is, Hansh, if you have, like, done the exercise, do send me that MV plan and the hypothesis. I'll definitely take a look and maybe give you some suggestions on that.
+
+742
+02:25:58.670 --> 02:26:06.710
+100xEngineers: I have a problem that I observe in my job. I build an MVP for it using a discovery method. Is that the assignment? Yes, exactly, Yasi, that's the assignment.
+
+743
+02:26:07.300 --> 02:26:10.569
+100xEngineers: And you need to complete it within 21 days. So you need to…
+
+744
+02:26:10.910 --> 02:26:25.520
+100xEngineers: finish the validation part for the 21 days. The entire assignment and the MVP plan will give you a manual validation plan. First, it'll help you to build the hypothesis of what is the observation you had, and how do you convert it to a
+
+745
+02:26:25.520 --> 02:26:30.920
+100xEngineers: Hypothesis that you can validate, and then it will give you a plan which you can use
+
+746
+02:26:30.920 --> 02:26:38.709
+100xEngineers: And you can talk to real human beings, and you can talk to people to solve the problems manually, without building a software. And once you have the validation with you.
+
+747
+02:26:39.010 --> 02:27:03.540
+100xEngineers: you will reach to a state where you have clarity on what all inputs and outputs you want and your users want. And once you reach to this output, you will have clarity on the next step, and you naturally evolve and start, like, thinking about the right decisions, that which kind of system I need to use. Do I need to use determinism here, probability here, or I need a human judgment here. And that's why, like, I am not jumping into that,
+
+748
+02:27:03.540 --> 02:27:08.230
+100xEngineers: solution building right now. But yes, you need to do that, and that's the assignment.
+
+749
+02:27:13.410 --> 02:27:30.539
+100xEngineers: Yeah, see, again, as I'm repeating, you know, you don't need to build solution. The… just generate the plan for you. I'm just requesting you to just follow the exercise, generate the plan. I'm not asking you to build anything. The plan is just to go and talk to real human beings and gather the insights.
+
+750
+02:27:30.690 --> 02:27:31.740
+100xEngineers: That's all.
+
+751
+02:27:40.070 --> 02:27:41.020
+100xEngineers: Okay.
+
+752
+02:27:41.530 --> 02:27:59.340
+100xEngineers: We know that he said, yes, exactly, this is what we have been doing in traditional software development. We presented an idea yesterday at work on the same lines. We had a company convince a lot of non-tech people why standard AI tools used by anybody across the organization would fail without special editor developer doing the job with an AI.
+
+753
+02:27:59.530 --> 02:28:04.919
+100xEngineers: Yes, yeah, yeah, I think… I'm glad you can also, like, Relate to this…
+
+754
+02:28:11.730 --> 02:28:20.410
+100xEngineers: When did CIS, I did a rich picture to understand a company, its culture, employee and flowcharts to turn into programs. Are we…
+
+755
+02:28:21.090 --> 02:28:22.740
+100xEngineers: These things still relevant.
+
+756
+02:28:25.760 --> 02:28:35.870
+100xEngineers: Yeah, I think, Chris, all the things which you're mentioning about building a company culture, employees, all these things are still relevant.
+
+757
+02:28:36.430 --> 02:28:43.049
+100xEngineers: Again, you can maybe, like, give me slightly more context about, what exactly you are… you have done.
+
+758
+02:28:43.380 --> 02:28:46.159
+100xEngineers: In, in, in, in those, in those, roles.
+
+759
+02:28:47.120 --> 02:28:49.969
+100xEngineers: But definitely, like, all these things are still relevant.
+
+760
+02:28:50.950 --> 02:29:01.900
+100xEngineers: At what stage do we know we have arrived inside the gap? Because the gap seems wide, but how do we sign the proximity towards the gap? What would be the signs of validity and confirmation?
+
+761
+02:29:02.090 --> 02:29:11.339
+100xEngineers: The confirmation will come from the people who are facing the problem, and one of the best way, and this is something which I think I was mentioning.
+
+762
+02:29:11.450 --> 02:29:13.560
+100xEngineers: In the beginning, is…
+
+763
+02:29:21.030 --> 02:29:22.060
+100xEngineers: Is this…
+
+764
+02:29:23.370 --> 02:29:29.740
+100xEngineers: to answer Methli's question, I'll quickly repeat it, because it's a good question, Methli, what you have said.
+
+765
+02:29:30.020 --> 02:29:33.159
+100xEngineers: At what stage do we know
+
+766
+02:29:33.570 --> 02:29:42.039
+100xEngineers: that we have arrived inside the gap, because the gap seems wide, but how do we sign the proximity towards the gap? What would be the signs of validity or confirmation?
+
+767
+02:29:42.550 --> 02:29:46.399
+100xEngineers: One of the easiest confirmations for validation is this.
+
+768
+02:29:47.160 --> 02:29:50.259
+100xEngineers: Either revenue increase or cost reduction.
+
+769
+02:29:51.440 --> 02:30:05.110
+100xEngineers: The better, the more the number, you can, like, chase here, the better the overall impact is, because you can get the validation from here.
+
+770
+02:30:05.760 --> 02:30:19.959
+100xEngineers: the fastest way. This is about closing the gap. You might not get the same validation when you're doing the exercise. For the exercise, the first part of the validation is to understand whether there is a problem which is worth solving or not.
+
+771
+02:30:19.960 --> 02:30:44.159
+100xEngineers: Because if the problem is not even worth solving, which means, like, not everybody's facing this in the company, or maybe it won't, like, help it to go in the right direction, even if somebody solves that, then it's not, like, worth spending your time into it. And this is a skill which I want you guys to train in. So, that's why I said, like, I don't… I'm making you guys slightly uncomfortable by not sharing all these solutions, but forcing you to do the exercise, because this is… this is gonna build a skill.
+
+772
+02:30:44.160 --> 02:30:46.310
+100xEngineers: Which will hopefully…
+
+773
+02:30:46.320 --> 02:30:52.640
+100xEngineers: Help some of you when you walk into these messy businesses, and you'll be able to, like.
+
+774
+02:30:52.680 --> 02:30:59.270
+100xEngineers: pick up your observation from that and apply the same skill. But I think that's the answer for that.
+
+775
+02:31:00.690 --> 02:31:02.289
+100xEngineers: Would you recommend building…
+
+776
+02:31:04.390 --> 02:31:10.189
+100xEngineers: My own harness from scratch, or leverage the harness built by the tech companies using data from their customers.
+
+777
+02:31:10.380 --> 02:31:15.790
+100xEngineers: Aaron, this is a long question, which I'll try to answer it through…
+
+778
+02:31:15.970 --> 02:31:25.719
+100xEngineers: a series of 6 lectures, specifically, like, which I have dedicated at the end of the LLM module, and I'll talk about it at the last one, that
+
+779
+02:31:25.740 --> 02:31:41.199
+100xEngineers: when I sh… when I recommend building something from scratch versus when I recommend using something which is already out there. And there is… there's a very important nuance in it. I'm not denying that, like, every time
+
+780
+02:31:41.200 --> 02:31:48.319
+100xEngineers: I would say, like, not using something, is the best approach, or maybe, like, every time building something in Snatch is the best approach.
+
+781
+02:31:48.360 --> 02:32:07.839
+100xEngineers: But, there's a nuance to it, and I'll talk about it, and this nuance will only make sense once you have gone through those lectures. So, I'll come back to it, like, in exactly… at the end of this module, and I'll share you exact step-by-step decision-making framework on how can you decide that when something makes sense to build in-house versus to outsource it.
+
+782
+02:32:13.720 --> 02:32:25.679
+100xEngineers: As coding as a standalone skill will become less valuable, the agent orchestration and system design become the real moat. One-time activity, what other high-value task skills do you think will matter the most?
+
+783
+02:32:27.360 --> 02:32:33.430
+100xEngineers: I'll talk about it, like, again soon. Don't want to reveal all the pieces yet.
+
+784
+02:32:33.530 --> 02:32:46.149
+100xEngineers: But I think if you learn the AI system design first, and the discovery part of the problem statement, and the validation, I think these three things are still very core to what we're gonna do. So understand, like, how do you
+
+785
+02:32:46.170 --> 02:32:54.620
+100xEngineers: Discover the problem statements which are worth solving inside the organization. How do you validate those problem statements? How do you set the evals for it?
+
+786
+02:32:54.870 --> 02:33:08.300
+100xEngineers: to understand what good looks like, how do you set the guardrails? How do you build the intelligent systems, which can self-evolve over time. These are things which I can share with right now. As you learn these four to five skills.
+
+787
+02:33:08.470 --> 02:33:10.759
+100xEngineers: In the upcoming lectures, I'll share more.
+
+788
+02:33:12.240 --> 02:33:15.350
+100xEngineers: Don't you think PRD should be the approved by a human first?
+
+789
+02:33:15.610 --> 02:33:20.240
+100xEngineers: Yes, definitely, Dave, and that's why I have not generated any PRD.
+
+790
+02:33:21.120 --> 02:33:23.350
+100xEngineers: If you're, like, asking about the…
+
+791
+02:33:29.470 --> 02:33:31.120
+100xEngineers: I think…
+
+792
+02:33:34.950 --> 02:33:50.779
+100xEngineers: Yeah. Yeah, I agree. Like, in this case, I was just giving an example. This is what Peter Levels has done, but you don't need to exactly copy this, but I agree, like, if you're doing it in your business, then it makes sense to generate the PRD and get it reviewed by the human being.
+
+793
+02:33:53.470 --> 02:34:07.410
+100xEngineers: Not sure if this is fully relevant to the topic here, but I feel that the customer is becoming more aware of the AI, their expectation around quality and speed have increased exponentially today. It's not just about what we can build, also about how confidently and clearly we communicate our ability to shift.
+
+794
+02:34:07.700 --> 02:34:12.590
+100xEngineers: There's clarity, expertise, confidence, customers, trust. Yeah, I completely agree, Nikhil.
+
+795
+02:34:13.250 --> 02:34:17.619
+100xEngineers: What does a self-improving system means? Can you give a quick example?
+
+796
+02:34:17.950 --> 02:34:23.139
+100xEngineers: I think I gave the example, I don't know if you answered, or did you…
+
+797
+02:34:24.110 --> 02:34:26.460
+100xEngineers: Get the answer from that question or not.
+
+798
+02:34:27.200 --> 02:34:44.470
+100xEngineers: I'll cover more of these things in detail, as I said, like, today is more, like, setting the expectation, understanding the current state of AI, and planning the next couple of months ahead. So… but I'll give you more examples. We'll build together, Tanishk. Don't worry, we'll build the examples for all of this.
+
+799
+02:34:49.200 --> 02:34:53.189
+100xEngineers: Okay, I'll come at the end, and I'll try to see what are the latest.
+
+800
+02:34:53.450 --> 02:34:56.480
+100xEngineers: questions. I think there are, like, a lot of questions.
+
+801
+02:34:58.870 --> 02:35:09.840
+100xEngineers: Can you share the link of the McKenzie PDF, please? Super curious. Yes, I will. Let me share the link right now with all of you. I'll share it on the LMSI as well, but this is the link.
+
+802
+02:35:11.980 --> 02:35:13.140
+100xEngineers: Yeah, thanks, Hunch.
+
+803
+02:35:43.340 --> 02:35:59.879
+100xEngineers: Mayur said I design and run the cloud and virtualization infrastructure that keeps the global commodity trading business operational. I think multi-cloud architecture, enterprise workload, performance, cost, and reliability at scale, given the background. What kind of AI broad problem do you think I'm uniquely positioned to build or solve?
+
+804
+02:36:00.000 --> 02:36:09.289
+100xEngineers: I want to pick a project where my domain expertise is unfair advantage, not just a generic AI tool. Yeah, that's exactly what I recommended, and I completely agree with you, Mayur.
+
+805
+02:36:12.290 --> 02:36:18.100
+100xEngineers: I think, like, if… if cloud deployment and virtualization infrastructure is your… is your…
+
+806
+02:36:18.100 --> 02:36:34.440
+100xEngineers: core domain expertise. I might still need… need more context from you, so what maybe I think you can do is, if you have your portfolio or a CV which you have built, if you can DM me, I would, like, love to… love to check this out.
+
+807
+02:36:35.120 --> 02:36:37.210
+100xEngineers: But idea is actually, like,
+
+808
+02:36:37.520 --> 02:36:39.670
+100xEngineers: Pick something which you have faced.
+
+809
+02:36:39.960 --> 02:36:46.849
+100xEngineers: yourself, right? And, it might be initially hard, but I would say, if you can, like, just…
+
+810
+02:36:48.020 --> 02:36:57.910
+100xEngineers: recall your past experience when you were doing the job. What were the problem statements which were open-ended, which nobody has solved in your domain yet, which…
+
+811
+02:36:58.100 --> 02:37:11.219
+100xEngineers: Which, even if you cannot solve it with AI, you can actually at least think about the observation from that lens, and but yeah, I think if you can give me slightly more context, maybe exactly what you did,
+
+812
+02:37:11.440 --> 02:37:16.510
+100xEngineers: I'll be able to, like, give you… give you a better suggestion here. You can send me your portfolio.
+
+813
+02:37:18.470 --> 02:37:30.350
+100xEngineers: I'm currently a software consultant, and I've been working with the finance clients on the last 8 months, and I currently had 2 ideas apart from my job, and the discovery time we killed those 2 ideas, didn't move past
+
+814
+02:37:30.570 --> 02:37:46.709
+100xEngineers: the human interaction phase. Now, if I use the OPT framework and come up with a plan to automate my 9-to-5, that won't help me to build a service company, right? Why not? I think it can, right? Should I think about even more ideas, or should I stick to the OPT framework?
+
+815
+02:37:46.950 --> 02:37:50.859
+100xEngineers: I think you… you can… you can start with the OPT, right? Because…
+
+816
+02:37:53.630 --> 02:37:58.590
+100xEngineers: See, one of the core insights which I got, and which is the compression,
+
+817
+02:37:58.890 --> 02:38:01.770
+100xEngineers: like, of the OPD exercise is that
+
+818
+02:38:02.470 --> 02:38:08.449
+100xEngineers: If you think you are doing a valuable job, right? This is the first and
+
+819
+02:38:08.900 --> 02:38:25.559
+100xEngineers: prerequisite for this… this framework, like Mahmat Sheikh. If you think your job is valuable, whatever salary you're drawing from the company is significant enough based on whatever your market standard is, and you think, like, this job is valuable.
+
+820
+02:38:26.120 --> 02:38:32.600
+100xEngineers: It's already a good signal, because somebody is already putting money, somebody has already deployed capital.
+
+821
+02:38:32.730 --> 02:38:48.150
+100xEngineers: to hire you, to pay you every month, to do the… to do the task which you are doing. What OPT extracts for you here is to… is to, like, get everything into a structured format, like, what are the processes you do, what are the tasks you perform?
+
+822
+02:38:48.330 --> 02:38:58.760
+100xEngineers: And once you start automating those things, and let's say today you start with one task, tomorrow you do, like, another 5 tasks, and then eventually you automate a process within your job, and you…
+
+823
+02:38:58.960 --> 02:39:07.899
+100xEngineers: keep doing it for, like, another 3 to 4 months, and you automate, like, half of your job. You already have a solid proof on paper that
+
+824
+02:39:08.140 --> 02:39:10.969
+100xEngineers: somebody was paying you, let's say, X amount of salary.
+
+825
+02:39:11.090 --> 02:39:30.580
+100xEngineers: And the 50% of that money, what they were initially paying for a human being, you have automated. I think that's the biggest signal you have. And now, what I can do is I can reach out to all the competitors, which is, again, like, slightly risky, but I would, again, leave my job first, and then I'll do it.
+
+826
+02:39:30.610 --> 02:39:47.770
+100xEngineers: I'll maybe then drop my papers, I'll resign, and go to all the competitors of my company, and maybe all the people who are, like, in the same space, and I'll start selling them that this is exactly the workflow which I've automated, and now I can sell this to you.
+
+827
+02:39:47.900 --> 02:39:57.990
+100xEngineers: although it can't do 100% of the job, but it can still do the 50% of this thing, so it's still valued at that thing. And now, you can, like, start doing this as a services business.
+
+828
+02:39:58.030 --> 02:40:00.970
+100xEngineers: Where you are providing the same value.
+
+829
+02:40:00.970 --> 02:40:12.790
+100xEngineers: This is what a good case study of Soham Parekh is, like, I don't know Muhammad Sheikh, if you've heard of it, like, Soham Parakeh had, like, a very similar idea. People had, like, built agencies like him.
+
+830
+02:40:12.790 --> 02:40:36.049
+100xEngineers: Do you know about that? Where, like, somebody who's, like, working it, although it's come… it comes under the gray area still, because in some countries it's legal, in some countries it is not legal to moonlight and to work with different employees. But I think if your employees consider you as a fractional person, like, there's a term called fractional employee, which means, like, you can work with different employees, and as long as you
+
+831
+02:40:36.050 --> 02:40:56.590
+100xEngineers: finish your targets and day-to-days, and this happens, like, at a senior position a lot. Like, we recently worked with one of the person who is working as a fractional CMO for a lot of companies today. So he's… he designed campaigns, and he basically gives the strategy to the team, and he's working with a couple of teams together.
+
+832
+02:40:56.590 --> 02:41:07.740
+100xEngineers: And he himself is using a lot of AI, which is… he used my OPT framework to, like, automate, like, number of tasks in his job, and now he packaged those services
+
+833
+02:41:07.740 --> 02:41:21.809
+100xEngineers: to his clients, that, hey, I know, like, I have automated the 50% of things which I have done in my XYZ job. If you want the same thing, I can give you in, like, in XYZ time with this budget. And he's able to scale himself through that model.
+
+834
+02:41:22.150 --> 02:41:37.959
+100xEngineers: maybe, like, slightly slow growth in that part, but I think this is also, like, a very good signal for you if you're somebody who's trying to, like, understand and maybe, like, scale something, what you're trying to do. But as I said, the prerequisite here is, like, only if you think what you're doing is valuable enough.
+
+835
+02:41:54.660 --> 02:41:57.160
+100xEngineers: Thanks, Yash. Yeah, I'll…
+
+836
+02:41:57.850 --> 02:42:03.439
+100xEngineers: I'll try to, like, maybe incorporate this, and yeah, we'll share something like this as well.
+
+837
+02:42:04.210 --> 02:42:05.279
+100xEngineers: But thank you.
+
+838
+02:42:22.050 --> 02:42:34.410
+100xEngineers: Cool, guys. I think I covered, like, most of the questions. I know if there's any open question yet, I'll try to, like, cover it tomorrow. Tomorrow, we have, like, one more session.
+
+839
+02:42:34.590 --> 02:42:48.779
+100xEngineers: I'd happy to, like, take one more office hour with you guys, and I think I know a couple of folks. As I said, like, I want to personally, like, talk to you guys, and there's already, like, some people who have already, like, spoken on DMs.
+
+840
+02:42:48.930 --> 02:42:52.410
+100xEngineers: The only thing I would… I would say is…
+
+841
+02:42:52.730 --> 02:43:06.519
+100xEngineers: just keep your hypothesis plan ready, and the MBE plan ready. I think once you have done that, just share it with me. If needed, like, yeah, happy to, like, have a call with you, or maybe we can do an office hour, next week, once we get time.
+
+842
+02:43:06.680 --> 02:43:10.880
+100xEngineers: Until then, I'll see you soon, and yeah, I…
+
+843
+02:43:12.060 --> 02:43:18.449
+100xEngineers: tomorrow we'll start the Module 2, so excited to work with all of you guys, and let's build something interesting.
+
+844
+02:43:18.800 --> 02:43:20.759
+100xEngineers: See you, good night, bye-bye.
+

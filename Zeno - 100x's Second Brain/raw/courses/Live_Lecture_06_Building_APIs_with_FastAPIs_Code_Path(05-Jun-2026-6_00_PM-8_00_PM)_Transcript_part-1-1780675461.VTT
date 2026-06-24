@@ -1,0 +1,3854 @@
+WEBVTT
+
+1
+00:01:37.920 --> 00:01:41.490
+Siddhant - 100xEngineers: AI folks. Can you hear me? Can you see me clearly?
+
+2
+00:01:44.090 --> 00:01:45.450
+Siddhant - 100xEngineers: How are you guys doing?
+
+3
+00:01:47.540 --> 00:01:51.910
+Siddhant - 100xEngineers: Let's start with a quick vibe check. How are you guys feeling? On a scale of 1 to 10?
+
+4
+00:01:56.760 --> 00:02:02.599
+Siddhant - 100xEngineers: Let me also check my… Screen and sound, okay, awesome.
+
+5
+00:02:07.590 --> 00:02:12.420
+Siddhant - 100xEngineers: Wait, let me see if you guys can… can you use the chat right now?
+
+6
+00:02:16.490 --> 00:02:17.400
+Siddhant - 100xEngineers: Awesome.
+
+7
+00:02:22.170 --> 00:02:24.100
+Siddhant - 100xEngineers: 9.87.
+
+8
+00:02:25.500 --> 00:02:27.330
+Siddhant - 100xEngineers: 9, 9, 12.
+
+9
+00:02:32.940 --> 00:02:49.599
+Siddhant - 100xEngineers: Awesome. First of all, like, I think I had a very interesting session yesterday. I was talking to a lot of people, got some insights about what you guys are building. So, I'll set the agenda for what we're gonna do today, and also, like, for the next
+
+10
+00:02:49.730 --> 00:02:54.409
+Siddhant - 100xEngineers: Almost, like, one or two weeks. We started the entire journey with…
+
+11
+00:02:54.690 --> 00:03:01.310
+Siddhant - 100xEngineers: like, understanding the problem statement, and let me share my screen while I'll talk about this, so that everybody has a picture.
+
+12
+00:03:01.910 --> 00:03:03.760
+Siddhant - 100xEngineers: If you remember the diagram.
+
+13
+00:03:04.300 --> 00:03:13.449
+Siddhant - 100xEngineers: the messy one. This is… this is where we started things, where we were trying to understand, like, how a system works,
+
+14
+00:03:13.620 --> 00:03:23.409
+Siddhant - 100xEngineers: on the front end, it looks like a chat interface for us. This is a chat GPT, but it does a lot of things. It takes the input, it generates some output back.
+
+15
+00:03:23.410 --> 00:03:41.649
+Siddhant - 100xEngineers: And there's a lot of things happening behind the scenes. So we broke it down, we learned about frontend, and we learned about APIs. The first interface is a user interface, which helps us to connect between human and a machine. And then we are also connecting, in the last two sessions, about learning about how to
+
+16
+00:03:41.650 --> 00:03:45.730
+Siddhant - 100xEngineers: Communicate between two different machines, and that is where we used our second interface.
+
+17
+00:03:45.730 --> 00:03:48.909
+Siddhant - 100xEngineers: APIs. So this session sits
+
+18
+00:03:49.010 --> 00:04:07.460
+Siddhant - 100xEngineers: exactly here, where now I'm assuming all of you, especially people who are in the code track, you have some clarity about how can you build your first front-end app. We have used Gradio last time. For anyone who has not done that exercise, I would recommend you to, go through
+
+19
+00:04:08.660 --> 00:04:14.120
+Siddhant - 100xEngineers: this part. Let me also share the exact… Step…
+
+20
+00:04:14.440 --> 00:04:20.209
+Siddhant - 100xEngineers: I think… yeah. So this is the week 3. We have uploaded a lot of
+
+21
+00:04:20.339 --> 00:04:27.610
+Siddhant - 100xEngineers: content right now on the week 3, so along with… actually, it's gonna be, like, in the week 4.
+
+22
+00:04:27.780 --> 00:04:31.190
+Siddhant - 100xEngineers: Starting from… the fast APIs.
+
+23
+00:04:31.490 --> 00:04:36.500
+Siddhant - 100xEngineers: I… what I would recommend you is We're gonna perform…
+
+24
+00:04:36.770 --> 00:04:49.629
+Siddhant - 100xEngineers: an activity today where I will show you the step-by-step approach of how you're gonna build your first API and connect the API to an LLM provider, like what we saw in the last lecture.
+
+25
+00:04:49.630 --> 00:05:04.730
+Siddhant - 100xEngineers: And based on those principles, we will share you some pre-recorded videos, or this is, like, one of my, stack which I built, in the previous cohorts. So, it's a pre-recorded series of, like, 5 videos, which will walk you through
+
+26
+00:05:04.730 --> 00:05:14.169
+Siddhant - 100xEngineers: The same steps which we have learned in the last 3 to 4 lectures, but in a very concise and compressed manner, from a different problem statement altogether.
+
+27
+00:05:14.170 --> 00:05:33.850
+Siddhant - 100xEngineers: in this series, I took a problem statement from 100X enrollment team, and I showed that how I solved that problem statement. It was a very simple one, but just good enough for all of us to see how the dots connect. So, this is the recommendation after the session, and for everyone else, I'll also show
+
+28
+00:05:33.850 --> 00:05:35.510
+Siddhant - 100xEngineers: Share a repository.
+
+29
+00:05:35.510 --> 00:05:43.629
+Siddhant - 100xEngineers: as an artifact of this report… this entire lecture, so you can follow along with that. But coming back to this
+
+30
+00:05:43.700 --> 00:05:51.840
+Siddhant - 100xEngineers: the map, right? This is where we are right now, where we understand about frontend. We learned about this thing called Gradio.
+
+31
+00:05:53.460 --> 00:06:05.250
+Siddhant - 100xEngineers: we saw how we can build simple interfaces using Python. Assuming all of you right now are at least familiar with basic Python functionalities, you guys can understand what is written here.
+
+32
+00:06:05.590 --> 00:06:09.419
+Siddhant - 100xEngineers: We have also learned, like, how to use these kind of interfaces, how to…
+
+33
+00:06:09.580 --> 00:06:18.940
+Siddhant - 100xEngineers: use the chat interfaces, this is the last one which we use, and we deployed this entire thing to Hugging Face Space, where we shared the link to everybody, so we made our app live.
+
+34
+00:06:21.600 --> 00:06:24.380
+Siddhant - 100xEngineers: That's basically what we had, and
+
+35
+00:06:26.560 --> 00:06:29.769
+Siddhant - 100xEngineers: Now, what I'm gonna do is…
+
+36
+00:06:30.110 --> 00:06:32.870
+Siddhant - 100xEngineers: Let's do… paint a better picture here.
+
+37
+00:06:34.220 --> 00:06:37.620
+Siddhant - 100xEngineers: So the first thing is, we have our user interface ready.
+
+38
+00:06:38.990 --> 00:06:44.299
+Siddhant - 100xEngineers: The second interface is the API, and this is what we're gonna start with today.
+
+39
+00:06:45.080 --> 00:06:59.360
+Siddhant - 100xEngineers: how to build this API. We learned about the principles in the last lectures, but today is more about the implementation of those principles. One more thing which I had as a question before I start this session is
+
+40
+00:06:59.790 --> 00:07:04.689
+Siddhant - 100xEngineers: You guys have done the practice set, and also one of the
+
+41
+00:07:10.400 --> 00:07:16.410
+Siddhant - 100xEngineers: one of the… Exercise, and she uploaded this one, specifically.
+
+42
+00:07:16.930 --> 00:07:17.930
+Siddhant - 100xEngineers: So…
+
+43
+00:07:19.310 --> 00:07:34.230
+Siddhant - 100xEngineers: Here, exactly at this step, I was trying to show you how we can connect a large language model. This is exactly where we left the last lecture. So now, connecting it where we left, now how we want to start, is
+
+44
+00:07:36.540 --> 00:07:39.370
+Siddhant - 100xEngineers: we had this LLM, and
+
+45
+00:07:39.560 --> 00:07:44.010
+Siddhant - 100xEngineers: We ask you that you can go to this croc, website.
+
+46
+00:07:44.820 --> 00:07:51.740
+Siddhant - 100xEngineers: This is also a prerequisite for everyone who wants to follow along today, so… I hope, like,
+
+47
+00:07:52.230 --> 00:07:59.080
+Siddhant - 100xEngineers: I made it clear what we're gonna do today. We're gonna, like, focus on the API and the backend part today, like, this entire thing.
+
+48
+00:07:59.770 --> 00:08:10.959
+Siddhant - 100xEngineers: From the next week onwards, we're gonna start, like, actually tomorrow onwards, I'm gonna start with how can we store the information, but for now, the picture is this. This is what we're gonna…
+
+49
+00:08:14.390 --> 00:08:17.030
+Siddhant - 100xEngineers: I would say, like, focus on.
+
+50
+00:08:20.320 --> 00:08:34.600
+Siddhant - 100xEngineers: this part is already done, and today the goal is to, like, connect these two pieces, and finally build a full-stack interface. It's not gonna be the most persistent data which we're gonna have, and that's exactly where the next lecture comes in.
+
+51
+00:08:34.600 --> 00:08:41.890
+Siddhant - 100xEngineers: And by the end of next two weeks, you will have your first full-stack architecture, exactly each and every
+
+52
+00:08:42.130 --> 00:08:51.160
+Siddhant - 100xEngineers: thing, what we drew on the whiteboard on day one. This is what we end up, like, building by the end of, like, next week. So…
+
+53
+00:08:53.020 --> 00:09:02.309
+Siddhant - 100xEngineers: This is the primary agenda for today's session. Now, coming back to the question which I was trying to frame, so that we all have a good starting point.
+
+54
+00:09:03.260 --> 00:09:05.350
+Siddhant - 100xEngineers: Where we left the last exercise.
+
+55
+00:09:06.680 --> 00:09:16.070
+Siddhant - 100xEngineers: This is… the application, which we had, I asked you to install this, thing, and it…
+
+56
+00:09:16.960 --> 00:09:20.210
+Siddhant - 100xEngineers: Shows you how you can connect a large language model
+
+57
+00:09:20.600 --> 00:09:30.309
+Siddhant - 100xEngineers: With a simple interactive HTML interface. So you need to put your API key. How many of you have the API key from Grok? Can we have a quick raise of hands?
+
+58
+00:09:31.760 --> 00:09:48.279
+Siddhant - 100xEngineers: This is the website. You need to go to here, and we discuss… if you don't have the API key, I'll give you a couple of minutes before we actually do the activity. So you can create your account, go to the API key section. It looks like this. I have already logged in from a different account.
+
+59
+00:09:49.130 --> 00:09:57.679
+Siddhant - 100xEngineers: And you need to create one API key. So I've already done this for myself. In your case, you need to click on this API key, and
+
+60
+00:09:57.920 --> 00:10:10.409
+Siddhant - 100xEngineers: set some expiration, like, ideally 90 days, or maybe less if you want to change the API keys frequently. You can choose anything here. And once you click on submit, you'll get the API key. Should look like this.
+
+61
+00:10:10.510 --> 00:10:14.100
+Siddhant - 100xEngineers: Just copy this for now, and you can paste it
+
+62
+00:10:14.990 --> 00:10:18.219
+Siddhant - 100xEngineers: And, try to perform this…
+
+63
+00:10:18.370 --> 00:10:35.770
+Siddhant - 100xEngineers: exercise here. Now, I'm gonna… I'm not gonna paste my API key. I'll also share that you should not reveal your API key everywhere, that's why I share this as a downloadable HTML page, so you're not sharing the API key with me or anywhere. It's gonna be there on your computer.
+
+64
+00:10:35.940 --> 00:10:41.730
+Siddhant - 100xEngineers: But this is one way to connect with the API key, because Right now?
+
+65
+00:10:42.110 --> 00:10:48.829
+Siddhant - 100xEngineers: Everything is metered, which means how much usage We… we have, and what…
+
+66
+00:10:48.870 --> 00:10:58.459
+Siddhant - 100xEngineers: like, what we want to use from Grok today. It needs to be metered so that tomorrow, if we end up using more resources, we have to pay for it.
+
+67
+00:10:58.460 --> 00:11:14.320
+Siddhant - 100xEngineers: And, we don't bankrupt the companies who are, like, supplying the free resources to us. That's the whole goal here, and that's why the API keys is important, equivalent to how you create the sign-up process for email and password. Once you paste it, we saw here
+
+68
+00:11:14.490 --> 00:11:18.030
+Siddhant - 100xEngineers: Like, if you change this input right now, let me…
+
+69
+00:11:18.780 --> 00:11:21.360
+Siddhant - 100xEngineers: Change it to, let's say, hello.
+
+70
+00:11:24.150 --> 00:11:29.849
+Siddhant - 100xEngineers: Or maybe, Hello Builders. This is my… Equivalent of hello world.
+
+71
+00:11:29.950 --> 00:11:36.200
+Siddhant - 100xEngineers: So I have a… Based on our principles, we have a URL, which is…
+
+72
+00:11:36.320 --> 00:11:56.140
+Siddhant - 100xEngineers: where we're gonna… where our machine is sitting, so we can talk to it. Then we have the authorization, which means we do know, and we do have the authority to talk to this model and use this resource. Because it's a POST request, so it will create something in the backend, so we are mentioning it, like that. And,
+
+73
+00:11:56.430 --> 00:12:03.590
+Siddhant - 100xEngineers: content, this is a common language, the model, and everything, and I'm just adding the Hello, Builder part.
+
+74
+00:12:03.970 --> 00:12:06.430
+Siddhant - 100xEngineers: Let me see if I can submit this.
+
+75
+00:12:06.950 --> 00:12:09.439
+Siddhant - 100xEngineers: Oh, well, I need to add this.
+
+76
+00:12:09.620 --> 00:12:12.859
+Siddhant - 100xEngineers: So I think I might need to stop my screen for a moment.
+
+77
+00:12:13.480 --> 00:12:16.439
+Siddhant - 100xEngineers: Or actually, I'll put it in a different screen for now.
+
+78
+00:12:17.080 --> 00:12:18.960
+Siddhant - 100xEngineers: So I'll be able to copy it.
+
+79
+00:12:20.250 --> 00:12:21.260
+Siddhant - 100xEngineers: Boom.
+
+80
+00:12:24.750 --> 00:12:38.819
+Siddhant - 100xEngineers: How many of you were able to perform this exercise, by the way, so far? If you have created the API key already, what I'll recommend you do, just, like, paste your API key here, and maybe write the same message, hello builders, and then try to click on Submit.
+
+81
+00:12:39.290 --> 00:12:42.180
+Siddhant - 100xEngineers: Meanwhile, I'll pick my API key from here.
+
+82
+00:12:57.580 --> 00:13:01.560
+Siddhant - 100xEngineers: Okay, I got my API key, this is… the output.
+
+83
+00:13:01.740 --> 00:13:05.650
+Siddhant - 100xEngineers: So I pasted the API key, and then I…
+
+84
+00:13:06.930 --> 00:13:21.780
+Siddhant - 100xEngineers: pasted this response. So now you can see in the output box, I got something. Hello, what are you building? Today, a new project, creative ideas, maybe a solution? So this is actually the response which is coming from the LLM, specifically the Llama 3.3.
+
+85
+00:13:22.330 --> 00:13:30.359
+Siddhant - 100xEngineers: And the way how it is working, it's using the same principles. First, it's checking where the endpoint lies. Right now, it's on Grok.
+
+86
+00:13:30.630 --> 00:13:42.539
+Siddhant - 100xEngineers: And we are using the specific URL. The method is POST, because we want to create and generate a response by the model. This is the exact input
+
+87
+00:13:42.540 --> 00:13:51.710
+Siddhant - 100xEngineers: the request body we are sending, and the output we are getting here. This is a whole output, along with the status code. So it's, like, a bunch of things we are getting here, right?
+
+88
+00:13:53.780 --> 00:13:56.849
+Siddhant - 100xEngineers: How many of you are able to perform this exercise? Can we have a quick raise of hand?
+
+89
+00:14:00.990 --> 00:14:09.400
+Siddhant - 100xEngineers: You just need to paste a Grok API key, and you can change here. In fact, you can also do one thing, you can just take the input, whatever input you have, and you can just
+
+90
+00:14:10.150 --> 00:14:13.290
+Siddhant - 100xEngineers: Asks this and pastes this entire thing here.
+
+91
+00:14:14.190 --> 00:14:21.760
+Siddhant - 100xEngineers: So… If I write the exact same input, and if I click on Submit, then…
+
+92
+00:14:22.230 --> 00:14:24.019
+Siddhant - 100xEngineers: Okay, now it gave me an output.
+
+93
+00:14:24.360 --> 00:14:36.330
+Siddhant - 100xEngineers: So you can test this out as well. So whatever I'm getting right now, it's from the exact model, which is Lama 3.37 billion parameter model, and it's actually working. So we have seen
+
+94
+00:14:36.520 --> 00:14:37.960
+Siddhant - 100xEngineers: This journey of…
+
+95
+00:14:38.230 --> 00:14:56.659
+Siddhant - 100xEngineers: like, building all of these inputs and then outputs, now to, like, a point where the LLM is able to give us the answers. Awesome, so a lot of people are able to, like, finish this part. This is the hardest part, right? One other thing which I'm trying to do with this exercise and with all of these interactive elements, is because
+
+96
+00:14:56.660 --> 00:15:18.470
+Siddhant - 100xEngineers: most of you, especially folks who have, or who've been writing code first time, it becomes very intimidating to look at the code, look at a lot of environments, and doing the setup here, and that actually takes majority of the time for a lot of beginners, and that's… that's where I learned, when I was learning all of these things. I was spending a lot of time
+
+97
+00:15:18.470 --> 00:15:22.870
+Siddhant - 100xEngineers: Into just setting things up, and not actually learning
+
+98
+00:15:22.870 --> 00:15:31.489
+Siddhant - 100xEngineers: the key principles, and sometimes that demotivates us, because we're not able to, like, see the outcome, but the reason why I showed you
+
+99
+00:15:31.690 --> 00:15:49.520
+Siddhant - 100xEngineers: through this webpage, so that you see the whole journey. This is what we're gonna do, but we're gonna do right now, from the first principle, but using the Python code. If you are able to connect the Grok API, paste your key here, and get the response like this.
+
+100
+00:15:49.650 --> 00:16:05.009
+Siddhant - 100xEngineers: you can also, like, show the, or you can see the entire response. It's, it's getting, like, a lot of things are coming in the response, not only just the content, it's about what is the object, what is a model, when it is created.
+
+101
+00:16:05.010 --> 00:16:19.790
+Siddhant - 100xEngineers: It also assigns some IDs. We learn more about these things, and as you, like, progress throughout these sessions, you'll get to know that, why some of these things are important, and how you can, like, maybe build something like this on your own.
+
+102
+00:16:19.990 --> 00:16:29.840
+Siddhant - 100xEngineers: But… Hopefully, this is a major prerequisite before starting this, that everybody understands the basics of
+
+103
+00:16:30.630 --> 00:16:41.000
+Siddhant - 100xEngineers: what we've been discussing, like, building the front end, and then we had to connect this front-end to a large language model. Right now, I showed you through the simulation, but
+
+104
+00:16:41.220 --> 00:16:49.999
+Siddhant - 100xEngineers: in just, like, next 5 minutes, we're gonna implement all of this. But before, just before, like, I implement all of this, I have a question, and the question is.
+
+105
+00:16:57.810 --> 00:17:02.719
+Siddhant - 100xEngineers: What if we… Take this, because we already have a code.
+
+106
+00:17:03.880 --> 00:17:05.280
+Siddhant - 100xEngineers: Take this code.
+
+107
+00:17:06.200 --> 00:17:10.240
+Siddhant - 100xEngineers: And, share this… Fantastic.
+
+108
+00:17:11.190 --> 00:17:12.280
+Siddhant - 100xEngineers: the world.
+
+109
+00:17:19.369 --> 00:17:26.470
+Siddhant - 100xEngineers: So, I'll break it down to clarify this question, because it's not the most well-articulated one right now, but…
+
+110
+00:17:26.890 --> 00:17:31.550
+Siddhant - 100xEngineers: what I'm trying to ask here… We saw this exercise.
+
+111
+00:17:33.940 --> 00:17:36.350
+Siddhant - 100xEngineers: Exactly, this is what we wanted to build.
+
+112
+00:17:36.420 --> 00:17:55.540
+Siddhant - 100xEngineers: on our whiteboard, the thesis was, like, we had Arav's problem statement, we had this hypothesis, and based on the hypothesis, we got the input, and the output, we expected all of you to discuss this thing together, that we can show the analysts explaining their workflow, and the output, it should be a written plan.
+
+113
+00:17:56.160 --> 00:18:03.529
+Siddhant - 100xEngineers: And we need an interface, we designed the interfaces, and we exactly got the same output, which is running on my…
+
+114
+00:18:03.640 --> 00:18:05.170
+Siddhant - 100xEngineers: HTML app.
+
+115
+00:18:05.830 --> 00:18:20.620
+Siddhant - 100xEngineers: Why can't we just take all of this? We can, like, maybe install the code, ask plot code, you can wipe code your way, or maybe you can figure out, like, how to implement all of this with Gradio. You can deploy it on Hugging Face Spaces and share it with the world.
+
+116
+00:18:20.950 --> 00:18:22.330
+Siddhant - 100xEngineers: What if we do that?
+
+117
+00:18:22.580 --> 00:18:25.250
+Siddhant - 100xEngineers: First of all, are there any problems?
+
+118
+00:18:25.660 --> 00:18:27.370
+Siddhant - 100xEngineers: If you end up, like, doing it.
+
+119
+00:18:42.640 --> 00:18:44.459
+Siddhant - 100xEngineers: Let me know if my volume is fine.
+
+120
+00:18:45.830 --> 00:18:48.689
+Siddhant - 100xEngineers: Manish, is it fine right now?
+
+121
+00:18:49.650 --> 00:18:50.460
+Siddhant - 100xEngineers: Okay.
+
+122
+00:18:50.700 --> 00:19:10.329
+Siddhant - 100xEngineers: I'll repeat the question. The question is, what if we take this code? And I say this code, this specific code where we connected our workflow to a large language model, because it is working. Exactly what we wanted. We can send an input, it is giving us the output, which is a plan. Plan is coming from the large language model. So, in a way, everything works right now.
+
+123
+00:19:10.520 --> 00:19:13.319
+Siddhant - 100xEngineers: Whatever we planned on the whiteboard last week.
+
+124
+00:19:13.730 --> 00:19:17.000
+Siddhant - 100xEngineers: So what if we take all of this to the…
+
+125
+00:19:17.180 --> 00:19:20.279
+Siddhant - 100xEngineers: Maybe, like, we can deploy it on Hugging Face spaces.
+
+126
+00:19:20.430 --> 00:19:22.200
+Siddhant - 100xEngineers: And share it with the world.
+
+127
+00:19:22.500 --> 00:19:23.630
+Siddhant - 100xEngineers: what happens?
+
+128
+00:19:53.000 --> 00:19:58.380
+Siddhant - 100xEngineers: Okay, interesting answers. One said token rate limit issues, API costs will increase.
+
+129
+00:19:58.660 --> 00:20:05.110
+Siddhant - 100xEngineers: No layer of authentication and authorization, session management for a user, no proper deployment, guardrails, fines.
+
+130
+00:20:05.330 --> 00:20:08.170
+Siddhant - 100xEngineers: Yes, all of these are actually…
+
+131
+00:20:08.310 --> 00:20:27.140
+Siddhant - 100xEngineers: the ledger issues. And this is why we can't directly connect the thing which we learned in the last lecture, and we got very, excited that, hey, we just built a simple front-end app, we connected it with LLM, and then now we are done. The thing is, you're right, all of you are right.
+
+132
+00:20:27.220 --> 00:20:31.960
+Siddhant - 100xEngineers: it actually has some serious security issues. The first one is
+
+133
+00:20:32.230 --> 00:20:34.510
+Siddhant - 100xEngineers: at the API key for which I sh…
+
+134
+00:20:34.900 --> 00:20:51.790
+Siddhant - 100xEngineers: didn't share my screen, because I didn't want to reveal my API key so that, like, all of you can take it and maybe, like, use the LM from my account, and then I'll exhaust my little bit and I can't use it for the upcoming lectures. So this is a problem I'll face if I make this app public right now.
+
+135
+00:20:51.990 --> 00:21:06.330
+Siddhant - 100xEngineers: the API key which is sitting on my PC will immediately become public to everybody, and anyone can write inputs, and they get output using my account. And the moment I'll exhaust the limit, the app will stop working.
+
+136
+00:21:06.730 --> 00:21:12.590
+Siddhant - 100xEngineers: Not the best experience, also not the most wise way to, like, share the applications.
+
+137
+00:21:13.630 --> 00:21:15.599
+Siddhant - 100xEngineers: Now, based on what we have learned.
+
+138
+00:21:16.650 --> 00:21:21.280
+Siddhant - 100xEngineers: We, so this will definitely… include some…
+
+139
+00:21:22.620 --> 00:21:25.999
+Siddhant - 100xEngineers: security issues with us. We can't share the same application.
+
+140
+00:21:30.280 --> 00:21:47.659
+Siddhant - 100xEngineers: where should we keep the API key? Because the main problem here is actually the API key, because if it is about just UI, which is taking the input and output, we could have shared this with the world. And that's what ChatGPT also does, right? It sends you all the front end, the UI part, whatever you have built so far.
+
+141
+00:21:47.690 --> 00:21:54.840
+Siddhant - 100xEngineers: The only thing which we have right now here, if I'm being precise, is the… Grok.
+
+142
+00:21:56.430 --> 00:21:58.299
+Siddhant - 100xEngineers: Cloud API key.
+
+143
+00:22:01.750 --> 00:22:05.069
+Siddhant - 100xEngineers: Which we… which actually is sitting on our front end.
+
+144
+00:22:05.410 --> 00:22:08.350
+Siddhant - 100xEngineers: So, what do you think? Where should we keep this key?
+
+145
+00:22:22.830 --> 00:22:35.269
+Siddhant - 100xEngineers: Yes, I think somebody is getting… Chris is getting, hunch is also getting to the right answer. That is exactly what we discussed, and it was just a quick test to recall your memory.
+
+146
+00:22:36.710 --> 00:22:40.150
+Siddhant - 100xEngineers: No, we don't need to store it in database.
+
+147
+00:22:40.440 --> 00:22:41.360
+Siddhant - 100xEngineers: Nihil.
+
+148
+00:22:41.860 --> 00:22:56.129
+Siddhant - 100xEngineers: And, people who are saying .env.env is the answer to specific location, but you don't need to always put it there. You can also, like, put it in the backend, right, in a file. Might not be the best practice, but…
+
+149
+00:22:56.350 --> 00:22:59.209
+Siddhant - 100xEngineers: We… the whole goal here is that
+
+150
+00:22:59.360 --> 00:23:05.130
+Siddhant - 100xEngineers: This is the app which we have built, which is completely running on front-end, because we have not built anything
+
+151
+00:23:05.230 --> 00:23:19.009
+Siddhant - 100xEngineers: in the backend, we have not, like, added, like, APIs there. We only had, like, the user interface, and we connected our Grok Cloud API key also in the front end, which created a security problem for us, because now anyone
+
+152
+00:23:19.100 --> 00:23:29.590
+Siddhant - 100xEngineers: can access it. And the rule of the front-end applications and the deployment is, the moment you make this app public, anyone can see the code. Anyone can download everything what you're sending to them.
+
+153
+00:23:30.030 --> 00:23:41.689
+Siddhant - 100xEngineers: So, definitely, we can't put the API key, which is sensitive, which has sensitive information, to the application that can be used by anybody where they can see our API key and use it.
+
+154
+00:23:41.830 --> 00:23:48.520
+Siddhant - 100xEngineers: Exactly for this reason, we need another system, another machine. We need a machine which we can control.
+
+155
+00:23:48.680 --> 00:23:58.510
+Siddhant - 100xEngineers: A machine where we can store a sensitive information, a machine which has access to the resources for what we want to run, because the code which we have written for Gradio
+
+156
+00:23:58.610 --> 00:24:10.290
+Siddhant - 100xEngineers: is gonna be running on the client machine, and we don't control that machine. It could be an app, it could be a mobile app, which is running on mobile, it could be on,
+
+157
+00:24:10.610 --> 00:24:18.179
+Siddhant - 100xEngineers: laptop, it could be on a PC, so… but what we do control is a machine that we can buy, and we can put it on
+
+158
+00:24:18.580 --> 00:24:20.810
+Siddhant - 100xEngineers: The internet, and we can assign it
+
+159
+00:24:21.330 --> 00:24:30.539
+Siddhant - 100xEngineers: a URL, we can share it on the internet, and anyone who wants to talk to this machine, they can come to a URL, and this URL
+
+160
+00:24:30.940 --> 00:24:33.270
+Siddhant - 100xEngineers: Points to our machine.
+
+161
+00:24:34.270 --> 00:24:51.070
+Siddhant - 100xEngineers: And in this machine, we can store all the sensitive information, and we can set the guardrails. So, just like how we have security guards in our societies, we basically can set up our own guardrails here. We'll talk more about guardrails for both LLMs in detail in the upcoming module, but this…
+
+162
+00:24:51.410 --> 00:24:57.250
+Siddhant - 100xEngineers: This way, we can… Secure things which we don't want to reveal to the user, because
+
+163
+00:24:57.760 --> 00:25:01.410
+Siddhant - 100xEngineers: This is your machine, and users cannot access this.
+
+164
+00:25:01.570 --> 00:25:19.409
+Siddhant - 100xEngineers: And you build the APIs, and that's what we learned, which are basically the way how you communicate with different machines, and you only expose the information which you are okay sharing, or which you want to share. This could be a response coming from the LLM without sharing the cloud API key.
+
+165
+00:25:19.410 --> 00:25:26.669
+Siddhant - 100xEngineers: And that is the whole point of it. And the reason why I asked you this question and also emphasize here, is because this is also a very common
+
+166
+00:25:26.740 --> 00:25:32.199
+Siddhant - 100xEngineers: Question, and a very important design decision, which…
+
+167
+00:25:33.130 --> 00:25:44.030
+Siddhant - 100xEngineers: Sounds intuitive to, like, some people, maybe, hopefully, like, who are here who have built apps in past, but it's not as intuitive, like, when you start, like, learning these things that
+
+168
+00:25:44.240 --> 00:25:45.670
+Siddhant - 100xEngineers: The question here is.
+
+169
+00:25:46.940 --> 00:25:54.939
+Siddhant - 100xEngineers: How do we decide that what part of our application should stay in front-end versus what part should stay in the backend?
+
+170
+00:25:55.110 --> 00:26:01.070
+Siddhant - 100xEngineers: So just to be clear, I'll make this and name this term, this is the backend, this is the front end. Because just by…
+
+171
+00:26:01.130 --> 00:26:15.769
+Siddhant - 100xEngineers: Saying that, hey, this is the backend, it's the front end, it lives on the client side, lives on the server side, and you control this machine, and you can't control this machine is not enough information. So this is also, like, how and what it looks like to reason from the principles that we learned.
+
+172
+00:26:15.990 --> 00:26:17.560
+Siddhant - 100xEngineers: So, next time.
+
+173
+00:26:17.620 --> 00:26:23.699
+Siddhant - 100xEngineers: this entire thing will help you when you are building your own system, and I'll ask you to do that in the next week.
+
+174
+00:26:23.700 --> 00:26:38.909
+Siddhant - 100xEngineers: where you will be sending me the exact, specific, high-level design for what you guys are building, what part of your application should stay in the backend, what part should stay in the front end. And you need to have that clarity. No AI can give you this clarity.
+
+175
+00:26:38.910 --> 00:26:45.360
+Siddhant - 100xEngineers: It can guess, it can maybe, like, build an architecture based on the assumptions of what it has seen.
+
+176
+00:26:45.370 --> 00:26:47.750
+Siddhant - 100xEngineers: In the training data, but what…
+
+177
+00:26:47.910 --> 00:27:07.570
+Siddhant - 100xEngineers: is actually beneficial for you, what is more efficient for you, is something that only you can decide. And that's why this is also a very core skill, to understand that which parts should stay in the back end, which parts should stay in the front end. So I hope you get the clarity on why a Grok Cloud API key should stay in the backend, not in the front end. On the other side.
+
+178
+00:27:09.830 --> 00:27:15.920
+Siddhant - 100xEngineers: Let's say we have now got the clarity that this is where we, we store all the keys.
+
+179
+00:27:16.790 --> 00:27:27.069
+Siddhant - 100xEngineers: now we can make the request from here, because we have the key, so we'll make the request, and this request will go to another machine, because this is not our machine, this is Grok's machine.
+
+180
+00:27:29.200 --> 00:27:30.420
+Siddhant - 100xEngineers: And,
+
+181
+00:27:32.420 --> 00:27:40.869
+Siddhant - 100xEngineers: So this is where Grok Cloud is sitting. Maybe we'll get the API URL from the Grok Cloud itself. To be very specific, this is the exact URL.
+
+182
+00:27:41.490 --> 00:27:49.239
+Siddhant - 100xEngineers: where the Grok is sitting, and their APIs are sitting. If you want to talk to them and get the API, this is the URL we will be targeting.
+
+183
+00:27:49.370 --> 00:27:54.270
+Siddhant - 100xEngineers: And, based on this, We can get some response back.
+
+184
+00:27:54.490 --> 00:28:11.690
+Siddhant - 100xEngineers: And we usually get a lot of response, as you saw here. So we get, like, all of this response back when we call this API, but we need specific things, so I have mentioned it here. What we need is the choices, message, content, and that is this content, which it is showing in the output box.
+
+185
+00:28:11.760 --> 00:28:16.090
+Siddhant - 100xEngineers: So we… we get a lot of response back, and then this backend
+
+186
+00:28:16.390 --> 00:28:25.059
+Siddhant - 100xEngineers: It's also acting as a filter, because now you got a response, which is a raw response, from the backend of your application.
+
+187
+00:28:25.550 --> 00:28:33.160
+Siddhant - 100xEngineers: Like, in some cases, let's say even if you have, built everything in front-end.
+
+188
+00:28:33.700 --> 00:28:40.639
+Siddhant - 100xEngineers: and you can somehow, let's say, hide the key, but this also shows some information, right? The information which is, like, about
+
+189
+00:28:41.040 --> 00:28:48.570
+Siddhant - 100xEngineers: You, your model, your system fingerprint, a lot of these things which are directly coming from the
+
+190
+00:28:49.240 --> 00:28:56.649
+Siddhant - 100xEngineers: the Croc API itself. So we don't want to send all of this information to our client. Let's say Arav is using this application.
+
+191
+00:28:56.650 --> 00:29:12.770
+Siddhant - 100xEngineers: This information is not useful for RF. In fact, it's not useful for a lot of us as well as right now, but we need to build a filter. So this backend also now acts as a filter, right? So it filters out all the things which our backend does.
+
+192
+00:29:12.960 --> 00:29:19.079
+Siddhant - 100xEngineers: Or it receives from different machines, different providers, and only give back the most
+
+193
+00:29:19.960 --> 00:29:36.359
+Siddhant - 100xEngineers: relevant piece to the front end, which is, in our case, this specific message which we are receiving. So that way, now, hopefully you see that it's… it's doing our job of, like, one, being a secure place for us where we can store our
+
+194
+00:29:38.330 --> 00:29:52.690
+Siddhant - 100xEngineers: like, let's say, important files or keys, which we want to keep secret, and also, like, acts as a filter, right? Because if we directly… like, think about it, like, if you directly just connect our front end, which is our client's machine, with
+
+195
+00:29:53.820 --> 00:30:13.670
+Siddhant - 100xEngineers: 10 different APIs. As of now, I just showed you one API, but in a production application, there could be, like, multiple APIs. Imagine the amount of response data coming to directly a front-end, and there would be a point where this front-end, the browser, will eat up all the RAM of RF, and then Araf won't be able to even use our application.
+
+196
+00:30:13.700 --> 00:30:28.889
+Siddhant - 100xEngineers: So, we don't need to, like, overwhelm Arab's application, especially the machine. Maybe, like, he's using a mobile phone, which doesn't have enough of RAM, right? So, we only need to, like, make sure that we send only the most, important details. And that is a very…
+
+197
+00:30:29.600 --> 00:30:41.149
+Siddhant - 100xEngineers: under… I would say, underrated principle when it comes to optimization, because we used to do it a lot, when I used to build these applications where,
+
+198
+00:30:41.670 --> 00:31:01.409
+Siddhant - 100xEngineers: there was, like, millions of people who were using, like, our small application when we were building back in the days, and in order for us to optimize these things, that how can we make the front-end load faster so it won't take too much time, these were the some common principles we used to, like, come back to that, hey, what parts of our application
+
+199
+00:31:01.410 --> 00:31:14.140
+Siddhant - 100xEngineers: should be filtered out before we send it to the front end, and how we should, like, make those decisions. All come back to the same part, right? If you're thinking about it from the problem discovery lens, that,
+
+200
+00:31:14.680 --> 00:31:27.449
+Siddhant - 100xEngineers: what is the most important, input we can take from the end user, what is the output we can get back, and then how can we filter that most important piece of data from everything what we are receiving here? And this…
+
+201
+00:31:27.550 --> 00:31:46.689
+Siddhant - 100xEngineers: Today, it might seem very easy, because we are just working with one API, but as you guys will work on your application, this becomes a very important decision, and that's why I'm emphasizing it, again and again. So I hope, like, this is clear, and this is also the architecture we're gonna implement right now. So we… we will take this part and
+
+202
+00:31:47.160 --> 00:31:48.510
+Siddhant - 100xEngineers: what I'm gonna do…
+
+203
+00:31:50.730 --> 00:32:09.200
+Siddhant - 100xEngineers: I'm gonna actually show you… I know there are a couple of questions in the chat, but I'll first show you the implementation of it in a very simple manner, and then we're gonna deploy it. That's the target for me for the next, like, one and a half hour, and hopefully I'll be able to share this entire thing with you, so you can replicate it for your application.
+
+204
+00:32:09.610 --> 00:32:13.689
+Siddhant - 100xEngineers: Now, first and foremost thing before we start this activity.
+
+205
+00:32:14.890 --> 00:32:21.460
+Siddhant - 100xEngineers: We have, shared a couple of resources here, I think, let me see…
+
+206
+00:32:27.930 --> 00:32:30.610
+Siddhant - 100xEngineers: So, some prerequisites for people who are
+
+207
+00:32:30.760 --> 00:32:39.249
+Siddhant - 100xEngineers: going to write code first time, or who were introduced to programming and world of, like, building softwares first time. This is…
+
+208
+00:32:39.810 --> 00:32:40.960
+Siddhant - 100xEngineers: Ding…
+
+209
+00:32:44.620 --> 00:32:58.210
+Siddhant - 100xEngineers: So we have wrote a guide. So this entire guide was, initially written by one of my team members, who actually had a very similar experience, and so we basically did this
+
+210
+00:32:58.610 --> 00:33:04.090
+Siddhant - 100xEngineers: So… anyone who is learning all of these things, and I know it might…
+
+211
+00:33:04.090 --> 00:33:27.910
+Siddhant - 100xEngineers: become overwhelming after a point that, hey, I'll be talking about Python, I'll be talking about GitHub, which is a platform where we share our codebase, I'll be talking about, like, using Cursor, and, like, tons of other things, and it gets confusing because I'm not explaining these things, right? I do want to, but the thing is that increases the overall time which we have committed for this program.
+
+212
+00:33:27.910 --> 00:33:32.979
+Siddhant - 100xEngineers: So what we have done here is we have compiled everything in a very,
+
+213
+00:33:33.000 --> 00:33:51.519
+Siddhant - 100xEngineers: I would say straightforward documentation. So, starting from… if you're struggling with Python, this is a good Python roadmap which covers the basic of Big Binary, but also gives you some alternatives. Then, if you don't know about these things, like Git and GitHub, so it's a whole resource which I…
+
+214
+00:33:51.940 --> 00:33:55.490
+Siddhant - 100xEngineers: I… I basically shared here the…
+
+215
+00:34:02.330 --> 00:34:04.109
+Siddhant - 100xEngineers: Let me see if I can…
+
+216
+00:34:04.650 --> 00:34:06.549
+Siddhant - 100xEngineers: Find a PDF copy to this.
+
+217
+00:34:06.670 --> 00:34:07.930
+Siddhant - 100xEngineers: I think…
+
+218
+00:34:11.130 --> 00:34:23.599
+Siddhant - 100xEngineers: Yeah, I'll try to upload the whole PDF directly. There's one bug on the LMS which doesn't allow it to have multiple pages, but let me find that link right now and share it with all of you.
+
+219
+00:34:36.540 --> 00:34:45.500
+Siddhant - 100xEngineers: Because this really helps, especially, like, people who are coming in and doing all of these first time. So this is the link, which I'm gonna drop it in the chat.
+
+220
+00:34:46.449 --> 00:34:52.089
+Siddhant - 100xEngineers: Yeah, it's okay, Varun. I'll share the link right now with all of you. You guys can just check this out.
+
+221
+00:34:54.250 --> 00:34:58.319
+Siddhant - 100xEngineers: I'll drop it in the chat, I'll also drop it with my team after this.
+
+222
+00:34:59.200 --> 00:35:10.450
+Siddhant - 100xEngineers: This is the link, and what I would recommend you right now to do from the, like, maybe after this session, if you are completely new, go through all of this, like, starting from the intros.
+
+223
+00:35:10.560 --> 00:35:24.879
+Siddhant - 100xEngineers: like, how we're gonna talk about these things? If you… if you want to, like, start small, you can, like, use our, programs, or use our, we can say, prompts. You can use Big Binary as a starting point. If you don't…
+
+224
+00:35:24.920 --> 00:35:32.059
+Siddhant - 100xEngineers: understand anything about Big Binary, the second recommendation which I can make is by Code Academy.
+
+225
+00:35:32.270 --> 00:35:34.330
+Siddhant - 100xEngineers: for the Git and GitHub, this is…
+
+226
+00:35:34.990 --> 00:35:45.689
+Siddhant - 100xEngineers: a simple intra… I would say, a crash course, which I have, recommended here. Designed for version control and collapse. Which basically, like, gives you, like, a whole 49 minutes of…
+
+227
+00:35:45.690 --> 00:36:03.949
+Siddhant - 100xEngineers: like, deep dive into, like, GitHub. If you are somebody who's lazy, you don't want to watch that 49 minutes of video, we have also a shorter version, which I have recorded, and which one of my TAs has recorded for 100X Essentials. This walks you through the entire part of, like, how you're gonna install these things on the local machine.
+
+228
+00:36:04.130 --> 00:36:06.990
+Siddhant - 100xEngineers: Don't need to worry about it right now, but…
+
+229
+00:36:07.490 --> 00:36:12.059
+Siddhant - 100xEngineers: if you have not already installed things like GitHub, things like,
+
+230
+00:36:12.440 --> 00:36:23.920
+Siddhant - 100xEngineers: cursor. This is the ID which you'll be using. Go through this documentation today after the lecture, and install these things. You'll be able to, like, find all of these here. We have, like, made
+
+231
+00:36:24.180 --> 00:36:25.780
+Siddhant - 100xEngineers: Videos as well, here.
+
+232
+00:36:26.080 --> 00:36:33.040
+Siddhant - 100xEngineers: So, you will be able to, like, see all of this in a, like, a pretty straightforward manner.
+
+233
+00:36:33.140 --> 00:36:43.529
+Siddhant - 100xEngineers: If you still have a problem, maybe you're not able to, like, set up things like Python, GitHub locally, and install anything, you can read a support ticket, and what we'll do is, in the next
+
+234
+00:36:43.530 --> 00:37:00.470
+Siddhant - 100xEngineers: doubt-solving session, whenever we do it, we will try to address all of these things. But these are gonna be the prerequisites moving further. I'll also take a lecture, maybe, it is more gonna be, like, about, like, a guest lecture kind of thing, where,
+
+235
+00:37:01.010 --> 00:37:13.299
+Siddhant - 100xEngineers: we'll talk about, like, the GitHubs and the do's and don'ts of it. So if… if you guys are still struggling, I'll maybe, like, like, can talk about it in the upcoming few weeks. But I would say…
+
+236
+00:37:14.180 --> 00:37:24.479
+Siddhant - 100xEngineers: like, go through this guide. It really gonna, like, help you to, like, set up things locally, and I know some people were asking me, like, do we have something like this, which gives us, like, a one…
+
+237
+00:37:24.890 --> 00:37:32.130
+Siddhant - 100xEngineers: clean prerequisites, what is needed, especially for non-coders, so you can, like, refer to this part. Now.
+
+238
+00:37:32.280 --> 00:37:42.050
+Siddhant - 100xEngineers: Coming to the last bit, which I was sharing, this is the prerequisite, and the prerequisite here, just to put it down clearly.
+
+239
+00:37:42.510 --> 00:37:44.640
+Siddhant - 100xEngineers: You need Python?
+
+240
+00:37:45.540 --> 00:37:49.500
+Siddhant - 100xEngineers: installed locally. When I say locally on your machine.
+
+241
+00:37:50.190 --> 00:37:54.319
+Siddhant - 100xEngineers: You need one IDE. I would prefer cursor here.
+
+242
+00:37:55.120 --> 00:37:57.430
+Siddhant - 100xEngineers: You also need access to Git.
+
+243
+00:37:58.020 --> 00:38:09.469
+Siddhant - 100xEngineers: And specifically GitHub. If you don't have access to GitHub, the easiest thing to do for today's lecture is just to go and sign up for GitHub. Just go to this website.
+
+244
+00:38:10.170 --> 00:38:15.060
+Siddhant - 100xEngineers: You don't need to, like, think about, like, a lot of these things, but, you will still be able to, like.
+
+245
+00:38:15.170 --> 00:38:30.249
+Siddhant - 100xEngineers: go through the entire, like, lecture. I'll give you the whole guide. Just sign in, or sign up, actually, for somebody who's doing it first time, and then enter your email, just do this part. So you'll be all set. These are the prerequisites which you need.
+
+246
+00:38:30.370 --> 00:38:35.399
+Siddhant - 100xEngineers: And, once you have done this, I'll share you this repository.
+
+247
+00:38:35.680 --> 00:38:38.430
+Siddhant - 100xEngineers: This is the starting point.
+
+248
+00:38:50.270 --> 00:38:51.960
+Siddhant - 100xEngineers: Let me open this…
+
+249
+00:38:56.320 --> 00:38:58.839
+Siddhant - 100xEngineers: So let's do a quick poll. How many of you
+
+250
+00:38:59.140 --> 00:39:03.049
+Siddhant - 100xEngineers: Can see this screen, and if you can see the screen.
+
+251
+00:39:03.450 --> 00:39:10.210
+Siddhant - 100xEngineers: people who are using it first time, who are seeing the platform of GitHub first time, you can click on this green button.
+
+252
+00:39:10.480 --> 00:39:19.889
+Siddhant - 100xEngineers: And then click on Download Zip Folder. So this will download this entire file, which I have shared with you, in a zip folder, so you don't need to, like.
+
+253
+00:39:20.180 --> 00:39:29.460
+Siddhant - 100xEngineers: use any kind of other application, you'll have all the code files with you in the downloaded format. So once you unzip this thing, you will be able to
+
+254
+00:39:29.590 --> 00:39:49.160
+Siddhant - 100xEngineers: see all these files which I've shared with you. People who are already familiar with GitHub, you guys already know how to work with this, but this is a starting point, so this is the repository which we'll be using. I'll also, like, use this repository to… to showcase that… how we're gonna implement everything what we have just discussed on the whiteboard.
+
+255
+00:39:49.190 --> 00:39:59.449
+Siddhant - 100xEngineers: Like, where we start with the front end, that we already have, in a way, built, but it was everything sitting on our Hugging Face account, but not on our local machine.
+
+256
+00:39:59.450 --> 00:40:14.579
+Siddhant - 100xEngineers: And I hope now you understand that why do we need a local machine, because first we need to test all of these things. And only when everything works, when we have built the right guardrails, when we have done all our hygiene checks, then we want to share these things with the world.
+
+257
+00:40:14.620 --> 00:40:21.530
+Siddhant - 100xEngineers: The Hugging Face deployment practice works well when you only want to share the front end, which doesn't have any
+
+258
+00:40:21.680 --> 00:40:35.129
+Siddhant - 100xEngineers: thing which is linked to your account. And that's why the first app which we built, the first interface that we built, was like an app which doesn't have any API keys, or any intelligence, or anything which can be built for us.
+
+259
+00:40:35.130 --> 00:40:54.059
+Siddhant - 100xEngineers: So, for those use cases, definitely, yes, you can continue using direct hugging Face approach, where you can open it, and you can create a space, you can paste the code here, but anything which requires you to build more sophisticated solutions, where you might need to have some things which are private, you have to build a backend because you have things which
+
+260
+00:40:54.060 --> 00:41:04.440
+Siddhant - 100xEngineers: you want to store there. I would prefer to first do everything locally, which means everything running on your machine, or maybe a machine where you trust, and once you have
+
+261
+00:41:04.440 --> 00:41:18.060
+Siddhant - 100xEngineers: done all the tests and all the checks, then make it on cloud, or deploy it on cloud. And that's the same approach which I take, and that's something which I would also recommend you guys to continue doing it. So.
+
+262
+00:41:19.840 --> 00:41:32.930
+Siddhant - 100xEngineers: In step number one, we're gonna clone the front end, and then we're gonna add the API. The repository, which I shared with all of you, can we have a quick raise of hands? How many of you have downloaded this repository? You can just download it from here.
+
+263
+00:41:33.030 --> 00:41:39.129
+Siddhant - 100xEngineers: Or if you have access to GitHub CLI, you can also ask your cloud, or you can directly clone it.
+
+264
+00:41:41.220 --> 00:41:45.560
+Siddhant - 100xEngineers: So I'll keep a count of how many people are following along. Oh, interesting, we have, like.
+
+265
+00:41:46.620 --> 00:41:50.280
+Siddhant - 100xEngineers: A lot of people who have… Clone this repository.
+
+266
+00:41:50.610 --> 00:41:52.220
+Siddhant - 100xEngineers: Let's start with front-end.
+
+267
+00:41:52.640 --> 00:41:58.329
+Siddhant - 100xEngineers: This is app.app underscore frontend dot py, this is the front end of our application.
+
+268
+00:41:58.540 --> 00:42:01.099
+Siddhant - 100xEngineers: And, as you have already seen.
+
+269
+00:42:01.820 --> 00:42:04.660
+Siddhant - 100xEngineers: In the last lecture, we have built the same thing.
+
+270
+00:42:06.780 --> 00:42:09.769
+Siddhant - 100xEngineers: The only difference here, and I'll actually keep…
+
+271
+00:42:09.980 --> 00:42:23.840
+Siddhant - 100xEngineers: That application open in a different window. So, to make sure we can draw the parallels of what we have built previously, and what we are building, so it doesn't feel like a huge jump.
+
+272
+00:42:26.100 --> 00:42:27.980
+Siddhant - 100xEngineers: Let me see the…
+
+273
+00:42:31.850 --> 00:42:35.230
+Siddhant - 100xEngineers: This was the app we were building, so…
+
+274
+00:42:42.620 --> 00:42:44.829
+Siddhant - 100xEngineers: This is the chat interface, if you remember.
+
+275
+00:42:45.260 --> 00:42:47.029
+Siddhant - 100xEngineers: And we had, like,
+
+276
+00:42:47.390 --> 00:42:54.730
+Siddhant - 100xEngineers: one function, which was linked to this chat interface. It takes the input and gives some output back.
+
+277
+00:42:55.180 --> 00:42:59.740
+Siddhant - 100xEngineers: This was the whole premise of it, and even, like, the previous
+
+278
+00:42:59.940 --> 00:43:03.490
+Siddhant - 100xEngineers: The simpler version of it was… was here.
+
+279
+00:43:03.860 --> 00:43:16.009
+Siddhant - 100xEngineers: Which is the most simplest implementation. The Gradio interface, it takes a function, some input-output, connect it with the Python function, you write the input, and you return the output here.
+
+280
+00:43:16.850 --> 00:43:25.660
+Siddhant - 100xEngineers: So what we are doing with our version, so this is our app underscore front-end file, this is the implementation of
+
+281
+00:43:25.850 --> 00:43:37.829
+Siddhant - 100xEngineers: what we are building for RF that can take the workflow which ARF can write and give a plan out of it, similar to what we have seen in our, application which we were testing.
+
+282
+00:43:44.750 --> 00:43:45.890
+Siddhant - 100xEngineers: In this part.
+
+283
+00:43:46.960 --> 00:43:47.790
+Siddhant - 100xEngineers: Right?
+
+284
+00:43:47.910 --> 00:43:48.870
+Siddhant - 100xEngineers: So…
+
+285
+00:43:55.990 --> 00:43:57.419
+Siddhant - 100xEngineers: Now, I want to do just…
+
+286
+00:43:57.840 --> 00:44:04.240
+Siddhant - 100xEngineers: carry the same principle. We still need to build a first interface, so we are… we're gonna choose the chat interface.
+
+287
+00:44:04.360 --> 00:44:10.750
+Siddhant - 100xEngineers: And that's what I've taken here. So we have built… a chat interface.
+
+288
+00:44:12.190 --> 00:44:27.979
+Siddhant - 100xEngineers: And right now, I'm not sharing, like, or maybe doing a complete, like, full-fledged, the same chat interface, but just a simple one to showcase you that, how can we connect a function? So the function which we are connecting for this particular app.
+
+289
+00:44:28.130 --> 00:44:47.799
+Siddhant - 100xEngineers: I'm gonna, like, use the specific naming convention for my app. You can use the same thing for your app, based on the context of what you are building. In my case, this interface's job is to diagnose the workflow, so I'm gonna, like, add the description here, which is gonna be rendered on the machine of my user, which is Arav.
+
+290
+00:44:47.800 --> 00:44:56.629
+Siddhant - 100xEngineers: So that he knows that this is a space where he can describe one repeated task that he does at work. And it takes the input.
+
+291
+00:44:56.650 --> 00:45:13.550
+Siddhant - 100xEngineers: And then it sends this input to the diagnose function. This is the diagnose function. Right now, we're not using the history here, so you don't need to worry about it. We can eventually add it, but as of now, I'm focusing on one thing at a time. So we take the input only as message for now.
+
+292
+00:45:13.550 --> 00:45:25.090
+Siddhant - 100xEngineers: And, then we send this data to our backend. Now, this is where the backend call is happening. One thing which you will notice here.
+
+293
+00:45:25.210 --> 00:45:28.300
+Siddhant - 100xEngineers: Python does a lot of things for us. It packages…
+
+294
+00:45:28.700 --> 00:45:40.330
+Siddhant - 100xEngineers: the messy API calls into a simple function. So, request is that library in Python. You can import it. It's a native library, which means you don't need to install it specifically.
+
+295
+00:45:40.530 --> 00:45:51.779
+Siddhant - 100xEngineers: If you're using Python, if you have Python locally on your machine, you can… it… like, request as a method comes with it. So you can import request, and then request.post.
+
+296
+00:45:51.950 --> 00:46:01.270
+Siddhant - 100xEngineers: This is a method. The method which we learned in the last lecture, the GET, POST, UPDATE, DELETE, these are the same methods you can use.
+
+297
+00:46:01.560 --> 00:46:15.949
+Siddhant - 100xEngineers: to make the API call. Now, we understood this was a quick assignment, which we did in the last exercise, because we are talking to a large language model. We will be generating something, and hence the method is post here. So…
+
+298
+00:46:16.450 --> 00:46:23.859
+Siddhant - 100xEngineers: The… the second thing is the URL. We need a request URL, a backend URL in this case, and
+
+299
+00:46:25.400 --> 00:46:35.790
+Siddhant - 100xEngineers: This is where, like, things will get interesting. I'll take a pause for it right now. I won't explain this in detail, but this is what we will be building in the next part.
+
+300
+00:46:35.790 --> 00:46:49.059
+Siddhant - 100xEngineers: But before coming to the URL of where the URL will be sitting and where our machine will be, I'll come to the common language. The common language will be JSON, so I'll keep everything in JSON itself, and the input.
+
+301
+00:46:49.270 --> 00:46:55.470
+Siddhant - 100xEngineers: This is the request input which I am gonna be sending. This is workflow description.
+
+302
+00:46:55.700 --> 00:46:59.380
+Siddhant - 100xEngineers: And I call it workflow description, and…
+
+303
+00:46:59.540 --> 00:47:03.249
+Siddhant - 100xEngineers: If you see the… the connection point here.
+
+304
+00:47:03.360 --> 00:47:09.100
+Siddhant - 100xEngineers: This is message. This message is coming as an input to this function.
+
+305
+00:47:09.260 --> 00:47:15.219
+Siddhant - 100xEngineers: which is connected to my chat interface. And as we know, with Gradio, what happens is.
+
+306
+00:47:15.770 --> 00:47:22.610
+Siddhant - 100xEngineers: Whatever you connect here, and whatever you write, this input.
+
+307
+00:47:22.940 --> 00:47:40.969
+Siddhant - 100xEngineers: goes to the function with this variable. So whatever you type in here, this becomes, like, the input here, and then you can use this to process and do whatever you want. Like, this is where the processing comes in, how you take the input and convert it into the output, the desired output, what you want.
+
+308
+00:47:42.140 --> 00:47:51.710
+Siddhant - 100xEngineers: So what we are doing exactly here is, Whatever Arab is gonna type, From this chat interface.
+
+309
+00:47:52.460 --> 00:47:58.560
+Siddhant - 100xEngineers: let's say, type that, hey, I do XYZ things in my day-to-job, and then we're gonna take this
+
+310
+00:47:59.140 --> 00:48:06.429
+Siddhant - 100xEngineers: as an input to this function, and I'm gonna pass it to the backend URL, as a POST request.
+
+311
+00:48:07.000 --> 00:48:10.680
+Siddhant - 100xEngineers: So that I know I'll be generating a plan for Aura.
+
+312
+00:48:10.750 --> 00:48:23.000
+Siddhant - 100xEngineers: And, there's a timeout happening here, but you can ignore this as of now. I kept it just to keep sanity, and I'll teach you, like, a lot of best practices over the time, but right now the focus is to, like.
+
+313
+00:48:23.000 --> 00:48:33.210
+Siddhant - 100xEngineers: build a MVP first. Timeout usually mentions that after 60 seconds, if we don't get a response from the backend, then the request will time out.
+
+314
+00:48:33.210 --> 00:48:52.800
+Siddhant - 100xEngineers: it will say that we have waited 60 seconds, we didn't receive anything from that person, or from the backend. It must be busy, or must be something wrong with it. We'll try any other time. So, that's just, like, a good best practice. You can also remove it, because if you know that your backend is almost
+
+315
+00:48:52.830 --> 00:48:57.679
+Siddhant - 100xEngineers: up every time. But, some, some things which I also, like, share that
+
+316
+00:48:57.780 --> 00:49:12.580
+Siddhant - 100xEngineers: These are the practices which will help you to also build more robust solutions. Otherwise, like, there are a lot of ways how the application can fail, and the difference between a good app and a bad application is, like, how well you handle those edge cases and limitations.
+
+317
+00:49:13.550 --> 00:49:18.679
+Siddhant - 100xEngineers: Now, this is also something which I have mentioned
+
+318
+00:49:19.720 --> 00:49:25.880
+Siddhant - 100xEngineers: People who have completed a big binary, you might have already seen this in the practices. This is called a try-accept block.
+
+319
+00:49:26.380 --> 00:49:30.300
+Siddhant - 100xEngineers: The whole job of this block is that if anything goes wrong.
+
+320
+00:49:30.550 --> 00:49:38.679
+Siddhant - 100xEngineers: And when I say anything goes wrong, it means because we are connecting with a different machine. And let me explain this from the diagram again, is because
+
+321
+00:49:38.920 --> 00:49:48.629
+Siddhant - 100xEngineers: if I do any processing within my machine, it's on my backend, maybe let's say I'm adding two numbers and doing something which I can do on my machine, doesn't need any dependency.
+
+322
+00:49:49.050 --> 00:49:53.850
+Siddhant - 100xEngineers: I might not need a lot of these things, right? But in this case.
+
+323
+00:49:53.990 --> 00:50:01.890
+Siddhant - 100xEngineers: Although it's a good practice to do it, but in this case, it becomes necessary, because I'm trying to connect with a different machine which is sitting on a different server.
+
+324
+00:50:02.410 --> 00:50:04.480
+Siddhant - 100xEngineers: Arav is dependent on me.
+
+325
+00:50:04.630 --> 00:50:16.700
+Siddhant - 100xEngineers: he doesn't know that whether I'm using Grak Cloud, OpenAI, Anthropic, or whatever different services. He only understands that he has an app, which is built by me, and this app can help him to plan the journey.
+
+326
+00:50:17.750 --> 00:50:37.269
+Siddhant - 100xEngineers: So, in order for RF to, like, make this entire experience better, if suppose tomorrow Grok Cloud goes down as a company, or maybe as a server, like, if anyone is doing maybe some changes to Grok Cloud, and for temporarily they are down, their APIs are not working, they're not responding as a whole, maybe, service.
+
+327
+00:50:37.350 --> 00:50:41.299
+Siddhant - 100xEngineers: We have to handle something, right? We can't just tell Arav that, hey, everything is broken.
+
+328
+00:50:41.450 --> 00:50:57.120
+Siddhant - 100xEngineers: he might freak out. So, that's… that's also a thing, right? And how will we get to know? Because we don't even understand that what all things can go wrong. So, that's the whole concept of exceptions in any programming language, which means that, just like in real life, there could be…
+
+329
+00:50:57.240 --> 00:51:20.889
+Siddhant - 100xEngineers: exceptions, there could be accidents which can happen, and nobody can control those things. In the same way, software world exceptions and accidents can happen. So what we can do is, we can just put everything in the try-except block. What this block does, it just looks for anything which is not an usual behavior. Let's say, where the request is not responding, it's spending too much time, it's giving us a wrong
+
+330
+00:51:20.890 --> 00:51:25.130
+Siddhant - 100xEngineers: Output, it's giving us something which… maybe it's not the correct output.
+
+331
+00:51:25.340 --> 00:51:29.270
+Siddhant - 100xEngineers: In those cases, it throws everything into the
+
+332
+00:51:29.600 --> 00:51:41.669
+Siddhant - 100xEngineers: accept block, and you can write a message to explain the end user that, hey, right now we could not reach to the backend. And usually it gives you the exception message in this format.
+
+333
+00:51:43.210 --> 00:51:45.290
+Siddhant - 100xEngineers: Is anyone saying something?
+
+334
+00:52:02.020 --> 00:52:02.870
+Siddhant - 100xEngineers: Okay.
+
+335
+00:52:03.850 --> 00:52:09.850
+Siddhant - 100xEngineers: I'll take the questions, Mayor. Just give me one sec, I'll finish this part, and we'll come back to it.
+
+336
+00:52:11.590 --> 00:52:15.499
+Siddhant - 100xEngineers: Yeah. So, what I was saying is, this is where we…
+
+337
+00:52:15.900 --> 00:52:23.580
+Siddhant - 100xEngineers: we raise the exceptions, and we mentioned that, hey, what's the… what's the problem, and what went wrong? So that's another good practice, right? So…
+
+338
+00:52:23.950 --> 00:52:25.279
+Siddhant - 100xEngineers: All of these things.
+
+339
+00:52:25.380 --> 00:52:40.609
+Siddhant - 100xEngineers: you can ignore, you can still get the job done 90% of the time, but the last 10% and 5% where things go wrong, these are the things which we are doing for that. But coming back to it, the main thing which we have written in this whole file is
+
+340
+00:52:40.610 --> 00:52:46.610
+Siddhant - 100xEngineers: How we gonna take input from the chat interface, which is a workflow diagnoser, and
+
+341
+00:52:47.490 --> 00:53:00.269
+Siddhant - 100xEngineers: take this message, send it to our backend. And our backend is right now running somewhere, so we don't know where, because we have not built it yet, and that's the whole thing. What I want you to do, as a quick exercise, and I'll give you, like, because…
+
+342
+00:53:00.530 --> 00:53:03.140
+Siddhant - 100xEngineers: It's something which you guys have already done.
+
+343
+00:53:04.200 --> 00:53:13.909
+Siddhant - 100xEngineers: 2 minutes to take this entire code, whatever you have here, in front of me, and deploy it on your Gradio spaces. So the exercise here…
+
+344
+00:53:14.480 --> 00:53:15.360
+Siddhant - 100xEngineers: is…
+
+345
+00:53:18.660 --> 00:53:22.690
+Siddhant - 100xEngineers: Deploy the… up.
+
+346
+00:53:23.440 --> 00:53:25.960
+Siddhant - 100xEngineers: Frontend.py file.
+
+347
+00:53:26.720 --> 00:53:29.289
+Siddhant - 100xEngineers: to Hugging Face Spaces.
+
+348
+00:53:29.580 --> 00:53:34.589
+Siddhant - 100xEngineers: Now, the reason why I want to do this is because we're gonna use the same application.
+
+349
+00:53:35.940 --> 00:53:39.569
+Siddhant - 100xEngineers: And at the end of it, I want all of you to have
+
+350
+00:53:40.010 --> 00:53:50.859
+Siddhant - 100xEngineers: a link which you can share with the world. Although, like, you don't need to necessarily share it with the world, because it might have your, I would say, API key linked to it.
+
+351
+00:53:51.210 --> 00:53:57.750
+Siddhant - 100xEngineers: So people can, like, still use it. At least you know how to, like, deploy things by the end of this lecture, so…
+
+352
+00:53:57.750 --> 00:54:21.930
+Siddhant - 100xEngineers: as step number one, all of us have already finished this thing, nothing fancy right now. The only change which I have done, and the only change which I explained to all of you guys, is how we are communicating from our front-end application to our backend, and what are the things which could go wrong, and how we're gonna handle those things that can go wrong, so our front-end will not break, and will still function. And once we have done these things.
+
+353
+00:54:21.930 --> 00:54:31.319
+Siddhant - 100xEngineers: Then we're gonna, like, set up our first API, and actually, this is, like, a part of the API, what we are doing here, which is calling the backend. So this is…
+
+354
+00:54:31.320 --> 00:54:36.550
+Siddhant - 100xEngineers: the request.post is how you call the API in Python right now.
+
+355
+00:54:36.800 --> 00:54:40.810
+Siddhant - 100xEngineers: So, as I said, what you need to do, all of you right now.
+
+356
+00:54:41.050 --> 00:54:53.809
+Siddhant - 100xEngineers: deploy the app underscore frontend.py file to the Hugging Face spaces. You'll have, like, next 2 minutes with you. Meanwhile, if you have any questions, you can drop your questions in the chat, and
+
+357
+00:54:53.890 --> 00:55:10.240
+Siddhant - 100xEngineers: I'll give you, like, 2 minutes of time so you can deploy things. Once you have deployed, just let me know in the chat how many of you have deployed it. Once I see, like, enough number of people have deployed it, we'll move to the next step, where we start building our backend, and we'll follow the same approach. We build the backend, and then we deploy it on cloud.
+
+358
+00:55:11.990 --> 00:55:15.870
+Siddhant - 100xEngineers: I've already shared the code, Danesh. I'll share it, like, one more time.
+
+359
+00:55:20.280 --> 00:55:26.520
+Siddhant - 100xEngineers: So you go to this, actually, I'll share the specific code. This is the app.frontend.
+
+360
+00:55:28.610 --> 00:55:30.930
+Siddhant - 100xEngineers: This is a specific URL, the second one.
+
+361
+00:55:42.870 --> 00:55:54.550
+Siddhant - 100xEngineers: No, nothing, Hansh. You don't need to do anything. For now, like, you can just, like, ignore the backend URL part, because I'll teach you, like, how can we connect this. But you don't need to.
+
+362
+00:55:55.590 --> 00:56:00.689
+Siddhant - 100xEngineers: Even if you push everything as of now, this will try to connect with the local machine of
+
+363
+00:56:01.000 --> 00:56:06.220
+Siddhant - 100xEngineers: Hugging Face, and right now, it won't give you any response back.
+
+364
+00:56:06.930 --> 00:56:12.039
+Siddhant - 100xEngineers: So don't expect, because the thing which we are deploying is only one front-end file, which is this file.
+
+365
+00:56:12.810 --> 00:56:18.950
+Siddhant - 100xEngineers: Exactly same activity what we did last time, but we copy-pasted the code from here.
+
+366
+00:56:19.420 --> 00:56:24.080
+Siddhant - 100xEngineers: This time, we have written those lines of code, and we've also, like.
+
+367
+00:56:24.320 --> 00:56:39.679
+Siddhant - 100xEngineers: built a skeleton so that we can connect the APIs, once we have the APIs. Right now, we don't have, but I'm trying to, like, make sure everybody deploys it, because the moment you have the API, then you can go back to the same app, just change the URL, and then you have,
+
+368
+00:56:39.880 --> 00:56:41.330
+Siddhant - 100xEngineers: A full stack app already.
+
+369
+00:56:42.190 --> 00:57:00.180
+Siddhant - 100xEngineers: Should we create a new space? Yes. This is also a test nickel. So everything what we have done in the last session, if you can recall that, and you can deploy the app on Gradio, I'll mark this as a success for me and for you guys, that you have remembered how to build and deploy your first app.
+
+370
+00:57:23.040 --> 00:57:31.069
+Siddhant - 100xEngineers: Hunch, for now, I'm not asking you to, like, deploy anything. Like, deploy any APIs for it, so the only goal here is
+
+371
+00:57:31.640 --> 00:57:34.440
+Siddhant - 100xEngineers: Take the front-end file, just the interface.
+
+372
+00:57:34.900 --> 00:57:44.669
+Siddhant - 100xEngineers: We're not deploying the backend, so just to be very clear, we are not deploying the backend, we're not deploying anything. The only thing which I want to deploy is the interface, without any keys, without any backend.
+
+373
+00:57:47.520 --> 00:58:06.290
+Siddhant - 100xEngineers: Which is very similar to how you take the code of apt underscore frontend.py file, and just how we have deployed our first application, we follow the same step and deploy it here. So no need to, like, over-engineer anything at this point. We will come to that part, like, what you are discussing with .envs and with other things.
+
+374
+00:58:06.690 --> 00:58:07.470
+Siddhant - 100xEngineers: Yup.
+
+375
+00:58:18.130 --> 00:58:26.050
+Siddhant - 100xEngineers: Yeah, I also prefer, like, for beginners to start with OS levels, and then you can go to the .env files as you progress.
+
+376
+00:58:26.210 --> 00:58:28.549
+Siddhant - 100xEngineers: Awesome. Your Raj has done it.
+
+377
+00:58:29.690 --> 00:58:31.639
+Siddhant - 100xEngineers: Let me see your Raj's application.
+
+378
+00:58:32.310 --> 00:58:34.550
+Siddhant - 100xEngineers: So, he has also shared it.
+
+379
+00:58:34.760 --> 00:58:47.010
+Siddhant - 100xEngineers: Yes, I can see this is a workflow diagnoser. Let me see the file section. So, he has created the app.py file, and all the code as it is. So it's the same code, nothing has changed.
+
+380
+00:58:47.520 --> 00:58:51.650
+Siddhant - 100xEngineers: It's working fine, I can see it. That's exactly what all of you are supposed to do.
+
+381
+00:58:53.200 --> 00:58:56.130
+Siddhant - 100xEngineers: I hope you got the point, which is very similar.
+
+382
+00:58:59.680 --> 00:59:04.789
+Siddhant - 100xEngineers: what Yvraj has done, and what I want all of you to do, is just copy this entire thing.
+
+383
+00:59:04.910 --> 00:59:07.590
+Siddhant - 100xEngineers: Go to Hugging Face, create a new space.
+
+384
+00:59:07.830 --> 00:59:19.570
+Siddhant - 100xEngineers: In the app.py file, just like what we added last time, you add this code. Once you add it, it will deploy it. Right now, it won't give you the answer. If I try to ask something to this application.
+
+385
+00:59:21.900 --> 00:59:31.429
+Siddhant - 100xEngineers: It won't give me the answer, because it'll tell me that I could not reach to the backend, right? And which is okay, because we don't have the backend right now, and that's what we're gonna build right now.
+
+386
+00:59:32.140 --> 00:59:36.440
+Siddhant - 100xEngineers: Is that clear to people, especially who are doing it right now? If you're doing it
+
+387
+00:59:36.440 --> 00:59:56.029
+Siddhant - 100xEngineers: Right now, you can continue it. If you are somebody who wants to maybe do it, like, after the lecture, you can just understand it. If you have any doubts, you can let me know in the chat. But this is what we're supposed to do. This is also the prerequisite for building the backend. Because if you don't have a front-end, and front-end both on your machine as well as on the cloud machine.
+
+388
+00:59:56.050 --> 00:59:59.030
+Siddhant - 100xEngineers: Which you can share with the world. So this becomes your…
+
+389
+00:59:59.120 --> 01:00:05.369
+Siddhant - 100xEngineers: Environment which you can share with the world, and then the one which you have on a local machine, you can use it for testing and development.
+
+390
+01:00:08.940 --> 01:00:12.480
+Siddhant - 100xEngineers: Awesome. Hunch is also done. Shalesh is done.
+
+391
+01:00:47.280 --> 01:00:50.210
+Siddhant - 100xEngineers: Okay, I think I have, like, enough number of people, but…
+
+392
+01:00:52.310 --> 01:00:54.620
+Siddhant - 100xEngineers: How to share the link from Hugging Face Spaces?
+
+393
+01:00:56.090 --> 01:01:02.189
+Siddhant - 100xEngineers: You can click on these three dots, click on the embed space, and this is the direct URL which you'll receive.
+
+394
+01:01:09.170 --> 01:01:11.559
+Siddhant - 100xEngineers: Yes, Nikhil, this is exactly what we need.
+
+395
+01:01:14.760 --> 01:01:15.630
+Siddhant - 100xEngineers: Yes.
+
+396
+01:01:16.350 --> 01:01:23.010
+Siddhant - 100xEngineers: Awesome. So, all of you can do that, and first of all, congratulations to people who have done this…
+
+397
+01:01:23.590 --> 01:01:25.440
+Siddhant - 100xEngineers: Very interesting, very fast.
+
+398
+01:01:26.220 --> 01:01:36.069
+Siddhant - 100xEngineers: Now, all of you have something ready which we can start, like, connecting it to our backend. So… now, step number two. We have just finished step number one.
+
+399
+01:01:36.510 --> 01:01:38.050
+Siddhant - 100xEngineers: We now need to…
+
+400
+01:01:38.300 --> 01:01:45.179
+Siddhant - 100xEngineers: build our backend, because we don't have a backend. That's why the error was coming, so the step is to build the backend.
+
+401
+01:01:46.600 --> 01:01:49.919
+Siddhant - 100xEngineers: Now, I have a very simple way to, like.
+
+402
+01:01:50.550 --> 01:01:57.610
+Siddhant - 100xEngineers: actually approach this problem, and I'll show you, like, first from My older piece of code.
+
+403
+01:01:58.500 --> 01:02:00.839
+Siddhant - 100xEngineers: Let me show if I can…
+
+404
+01:02:04.030 --> 01:02:05.550
+Siddhant - 100xEngineers: Open a new file.
+
+405
+01:02:15.110 --> 01:02:16.709
+Siddhant - 100xEngineers: Can you guys see my cursor?
+
+406
+01:02:17.690 --> 01:02:19.640
+Siddhant - 100xEngineers: I'll try to, like, zoom in a little bit.
+
+407
+01:02:34.430 --> 01:02:36.309
+Siddhant - 100xEngineers: Yes, I am…
+
+408
+01:02:37.870 --> 01:02:49.720
+Siddhant - 100xEngineers: You don't need to, like, do everything, Tanishka, like, that's the thing, right? You don't need to deploy all the files. The only file which I wanted to deploy was app underscore frontend, and you're supposed to do it under app.py.
+
+409
+01:02:49.830 --> 01:02:56.579
+Siddhant - 100xEngineers: So that's the change which I want you to do. Just make sure you write the code of app underscore frontend dot py.
+
+410
+01:02:56.790 --> 01:02:59.590
+Siddhant - 100xEngineers: in the app.py file. No need to…
+
+411
+01:03:00.330 --> 01:03:03.050
+Siddhant - 100xEngineers: add another files on the Hugging Face spaces.
+
+412
+01:03:03.530 --> 01:03:04.410
+Siddhant - 100xEngineers: But…
+
+413
+01:03:05.600 --> 01:03:16.290
+Siddhant - 100xEngineers: Awesome, that's great. So let's talk about the backend right now, and because this is the part where most people get confused at what exactly is the backend, in my head, if you can see on my screen.
+
+414
+01:03:17.210 --> 01:03:36.109
+Siddhant - 100xEngineers: your backend is the same code which you are running, like, anywhere else. In this case, we are using Python, so it would be a Python code, and the easiest way to tell, and I like this using functions, so let's say, if I'm building a program to add two numbers, so this is…
+
+415
+01:03:36.960 --> 01:03:39.729
+Siddhant - 100xEngineers: Actually, let me change the format.
+
+416
+01:03:50.230 --> 01:04:03.869
+Siddhant - 100xEngineers: test.py, yeah, now it would show me the Python file. So I've created a Python file. You can just create any PY file on your local machine, and let's say I write a function, DEF, add, it can add two numbers, X comma Y,
+
+417
+01:04:04.060 --> 01:04:06.740
+Siddhant - 100xEngineers: And then… No.
+
+418
+01:04:07.060 --> 01:04:12.270
+Siddhant - 100xEngineers: What I want to do is, I want to return the submission of these two numbers, X plus Y.
+
+419
+01:04:14.060 --> 01:04:15.950
+Siddhant - 100xEngineers: This is the code which I've written.
+
+420
+01:04:16.870 --> 01:04:35.059
+Siddhant - 100xEngineers: And this is also how you can decompose everything, as I was telling, in the software world. Because I have the inputs, I have the outputs. In this case, I've also done the processing here, which is the addition. So, the better way to also, like, write this is, I'll write a variable called sum, and then I do X plus Y.
+
+421
+01:04:36.160 --> 01:04:40.419
+Siddhant - 100xEngineers: And, then I use that sum as the output.
+
+422
+01:04:40.720 --> 01:04:56.240
+Siddhant - 100xEngineers: It's a more cleaner way to write this. So it explains that this function takes an input, two input actually, x comma Y, do some processing, this is the part where we are doing processing which converts input into output, and this is the part where we are sharing the output.
+
+423
+01:04:57.580 --> 01:05:00.070
+Siddhant - 100xEngineers: This is the entire thing.
+
+424
+01:05:00.720 --> 01:05:17.640
+Siddhant - 100xEngineers: Whenever you have a business logic, whenever you have a code, whenever you have a problem, we solve that problem by writing instructions. These instructions are usually deterministic, which we have been learning. It can use the probabilistic part, which means it can call the LM, it can do, like, multiple other things.
+
+425
+01:05:17.710 --> 01:05:23.040
+Siddhant - 100xEngineers: maybe take an approval XYZ, which we'll learn. But on a very core level.
+
+426
+01:05:23.320 --> 01:05:29.210
+Siddhant - 100xEngineers: These are the set of instructions which… We use to actually…
+
+427
+01:05:29.730 --> 01:05:37.139
+Siddhant - 100xEngineers: Write our business logic, right? Our conversion logic, which takes the input and converts it into the output format.
+
+428
+01:05:39.880 --> 01:05:45.270
+Siddhant - 100xEngineers: The common problem with Python files, as of now, is that
+
+429
+01:05:45.430 --> 01:05:50.810
+Siddhant - 100xEngineers: even if I, let's say, you replace this ad file with what we're gonna do with our ops.
+
+430
+01:05:51.250 --> 01:06:02.539
+Siddhant - 100xEngineers: Like, in the case of RF, this add function will change into the diagnose function, because I want to diagnose the RF's workflow, and the input will change into the workflow description.
+
+431
+01:06:03.780 --> 01:06:06.600
+Siddhant - 100xEngineers: This is what we have been asking RF to write.
+
+432
+01:06:06.750 --> 01:06:12.950
+Siddhant - 100xEngineers: And then… Here, we basically do some processing. I'll add some comments, like…
+
+433
+01:06:13.330 --> 01:06:17.130
+Siddhant - 100xEngineers: So we do some process, we may be, like, call the LLM.
+
+434
+01:06:18.650 --> 01:06:22.050
+Siddhant - 100xEngineers: with this… To diagnose the workflow.
+
+435
+01:06:23.590 --> 01:06:26.860
+Siddhant - 100xEngineers: And then we basically get the output from the LLM.
+
+436
+01:06:27.190 --> 01:06:33.630
+Siddhant - 100xEngineers: And then, we actually just return the output In this case, TLLMs.
+
+437
+01:06:35.250 --> 01:06:36.170
+Siddhant - 100xEngineers: output.
+
+438
+01:06:40.010 --> 01:06:47.170
+Siddhant - 100xEngineers: What I'm also trying to show you is the, like, a pseudocode approach slash, building the skeleton here.
+
+439
+01:06:48.910 --> 01:06:50.620
+Siddhant - 100xEngineers: And this skeleton…
+
+440
+01:06:50.850 --> 01:06:57.690
+Siddhant - 100xEngineers: doesn't need you to use AI, and that's where I'm trying to, like, force things, because if you sit down with just…
+
+441
+01:06:57.920 --> 01:07:01.540
+Siddhant - 100xEngineers: Deep… Simple atomic functions.
+
+442
+01:07:01.800 --> 01:07:07.009
+Siddhant - 100xEngineers: And apply the principles which we've been learning, the input, the output, the processing part.
+
+443
+01:07:07.100 --> 01:07:13.769
+Siddhant - 100xEngineers: A lot of these things will become clear, and as you start using AI to build applications.
+
+444
+01:07:13.840 --> 01:07:34.769
+Siddhant - 100xEngineers: it also increases the, I would say, the overall productivity and your confidence, because you understand that, hey, I can… and this is how I build today application. A lot of applications, I don't ask AI to just build everything from scratch for me. Like, unless, until, like, I'm okay, doing it, like, in that way, because it's a side project, but if it's something
+
+445
+01:07:34.770 --> 01:07:35.790
+Siddhant - 100xEngineers: let's say…
+
+446
+01:07:35.790 --> 01:07:46.719
+Siddhant - 100xEngineers: something which is, like, serious. Let's say I'm building it for maybe a multinational company, and it actually, like, is something which can put, like, risk
+
+447
+01:07:47.220 --> 01:07:56.899
+Siddhant - 100xEngineers: I would want to, like, take control of each and every input, and I want to make sure that I understand the information flow to my whole program.
+
+448
+01:07:56.960 --> 01:08:09.940
+Siddhant - 100xEngineers: I know what is the workflow description, what is the output, and I can debug if something goes wrong. And that is the, that is the, like, amount of, I would say, information at least you need to know for you to, like, build any kind of
+
+449
+01:08:10.550 --> 01:08:35.340
+Siddhant - 100xEngineers: like, logic or backend workflows, right? And for this part, like, for understanding the process, this is where you can take help of LLM. You can, like, figure out, okay, what is the best, because initially, you might not have all the context that, like, what is the best way to convert this workflow into LLM, but over time, once you start building it, this becomes more and more clear. And that's also a good learning curve for people who are new to programming. I would recommend it.
+
+450
+01:08:35.340 --> 01:08:36.000
+Siddhant - 100xEngineers: this.
+
+451
+01:08:36.080 --> 01:08:40.919
+Siddhant - 100xEngineers: But coming back to the point here, what I'm trying to, like, share is that this logic
+
+452
+01:08:41.819 --> 01:08:53.170
+Siddhant - 100xEngineers: maybe what we built for RF, a function that takes the workflow description, gives the LM output, or a simple function which takes any input and gives the submission of it. For your case, it might look different.
+
+453
+01:08:53.410 --> 01:09:02.499
+Siddhant - 100xEngineers: This is our backend logic. This is our business logic. The problem with this business logic is that it is only on my machine.
+
+454
+01:09:02.660 --> 01:09:05.790
+Siddhant - 100xEngineers: Somebody who can take this test.py file.
+
+455
+01:09:05.870 --> 01:09:23.060
+Siddhant - 100xEngineers: and run it on their machine, then only they will be able to execute this function. Because A, first they need Python locally installed, or maybe, like, somewhere, wherever they have a machine, they need to install Python, and they need to run this file, write a command to run this file specifically.
+
+456
+01:09:23.140 --> 01:09:28.440
+Siddhant - 100xEngineers: And that's the thing which will give them the output, the so-called output in this case.
+
+457
+01:09:31.029 --> 01:09:35.960
+Siddhant - 100xEngineers: Let's say if I buy a new server from Amazon, and I wrote all of this code, installed this file.
+
+458
+01:09:36.120 --> 01:09:42.840
+Siddhant - 100xEngineers: And I have given this server an address on the internet, which anyone can access to.
+
+459
+01:09:43.770 --> 01:09:49.539
+Siddhant - 100xEngineers: I have now a bridge, which I need to cover, is that How can I let everybody
+
+460
+01:09:50.140 --> 01:09:54.840
+Siddhant - 100xEngineers: access only this function, because I don't want to use
+
+461
+01:09:55.010 --> 01:10:11.809
+Siddhant - 100xEngineers: or I don't want to expose, like, I think somebody was mentioning in the chat, is that how do we tunnel our local workflows or local hosts, which is, like, a fancy way of saying that whatever code we have, how can we expose it to the rest of the internet?
+
+462
+01:10:12.040 --> 01:10:18.390
+Siddhant - 100xEngineers: Now, the answer, again, lies here, is that it's tricky, it's actually risky, because if I just…
+
+463
+01:10:18.560 --> 01:10:25.709
+Siddhant - 100xEngineers: tell that, hey, I'm gonna buy a server. Let's say I went on Amazon, and I said that, okay, I wanna buy a server rack.
+
+464
+01:10:25.910 --> 01:10:35.979
+Siddhant - 100xEngineers: for, let's say I'm gonna get this one, the mass rack. For 30,000 rupees, I'll have this one and a whole… actually, not this rack, but the entire server.
+
+465
+01:10:36.140 --> 01:10:37.530
+Siddhant - 100xEngineers: machine.
+
+466
+01:10:38.820 --> 01:10:42.809
+Siddhant - 100xEngineers: This one, with the HPE ProLiant.
+
+467
+01:10:43.240 --> 01:10:53.289
+Siddhant - 100xEngineers: Like, servers are getting expensive these days, by the way. 5 lakhs, 15,000 for this machine. Or I can get something cheaper, which is a Dell 44000 PowerEdge R7
+
+468
+01:10:53.290 --> 01:11:11.370
+Siddhant - 100xEngineers: It's actually a simple CPU with all these processing power. It has this Intel machine, 2.5MB of, like, cache, and the DDR3 of 768GB of RAM, and 32TB of storage. So this is a machine which I bought, and I…
+
+469
+01:11:12.120 --> 01:11:26.059
+Siddhant - 100xEngineers: installed my code, which is this code, onto this machine, and then I made this machine accessible to the entire internet. Anyone can write anything on this machine. Anyone can delete anything, right? Or even if I give access to, let's say, not
+
+470
+01:11:26.440 --> 01:11:36.809
+Siddhant - 100xEngineers: all the parts, but at least this file. People can make changes to this file. They can read this file easily. I don't want that. I only want them to input their
+
+471
+01:11:36.810 --> 01:11:48.299
+Siddhant - 100xEngineers: information to this function, and get the output back. Now, you'll say, like, why can't we do this with Gradio? We just did this with Gradio, we have the app.frontend, we have this diagnose function, we did it right now, but the thing is.
+
+472
+01:11:48.410 --> 01:11:54.779
+Siddhant - 100xEngineers: we actually didn't share our Grok API key, and we don't want to. That's the whole point which…
+
+473
+01:11:54.810 --> 01:12:00.759
+Siddhant - 100xEngineers: I opened in the initial part of the lecture. I don't want to share the Grok API key, and hence.
+
+474
+01:12:00.790 --> 01:12:19.610
+Siddhant - 100xEngineers: I can't write the same thing in the Gradio file. So I need it in my backend file, where… or backend server, where I'll write all the sensitive information. And where I have the sensitive information, I can't expose this entire code. So this poses a very important question that how can we
+
+475
+01:12:19.880 --> 01:12:30.430
+Siddhant - 100xEngineers: take this code, which I just wrote, like a diagnose one, or maybe the add one, like, the functions which are written, and I don't want to expose everything in this case, but just this one.
+
+476
+01:12:30.790 --> 01:12:32.420
+Siddhant - 100xEngineers: This is where the…
+
+477
+01:12:33.220 --> 01:12:42.350
+Siddhant - 100xEngineers: APIs help us. Now we actually take the API to the one level below, starting from Machine-to-machine interaction.
+
+478
+01:12:43.850 --> 01:13:02.600
+Siddhant - 100xEngineers: we're gonna build the APIs so that we first expose what is written in this backend file. And the easiest way here to do that is, like, there are multiple frameworks through it. In Python, we have something called FastAPI. So, I've written, like, a very simple explanation of it. I'll share this.
+
+479
+01:13:02.810 --> 01:13:04.110
+Siddhant - 100xEngineers: in…
+
+480
+01:13:18.670 --> 01:13:21.660
+Siddhant - 100xEngineers: So, if you see this one on my screen.
+
+481
+01:13:45.330 --> 01:13:57.639
+Siddhant - 100xEngineers: Yeah, I was trying to find the number. This is the method, right? So what we have here is the same method that we have written on our machine, but everything from line number 1 to line number 19
+
+482
+01:13:57.640 --> 01:14:11.269
+Siddhant - 100xEngineers: is actually designed to make this function exposed in a most safe and secure manner to the entire world, so that they can call specific endpoint. This is where the endpoint design becomes applicable in your codebase.
+
+483
+01:14:12.250 --> 01:14:15.240
+Siddhant - 100xEngineers: If I want people to create something.
+
+484
+01:14:15.550 --> 01:14:26.409
+Siddhant - 100xEngineers: A quick question again that. If we are adding two numbers, we're taking the input, and we're generating a submission here. So, hence, we need post-API endpoint. So…
+
+485
+01:14:26.410 --> 01:14:40.350
+Siddhant - 100xEngineers: This becomes a decision for me that I'll be using POST for this, because I want to generate a submission, and I will specifically name this endpoint slash add, so everybody who wants to add two numbers, or who wants to access a specific
+
+486
+01:14:40.690 --> 01:14:43.589
+Siddhant - 100xEngineers: function that I have written in my Python file.
+
+487
+01:14:43.870 --> 01:14:47.700
+Siddhant - 100xEngineers: this is gonna be the, I would say.
+
+488
+01:14:47.770 --> 01:15:06.829
+Siddhant - 100xEngineers: the identifier for it. So it can locate this function on my file, and transfer the input which is coming from any front-end. It could come from frontend, it could come from another machine as well. That is what this API is doing, Application Programming Interface, is taking any input from the world.
+
+489
+01:15:06.930 --> 01:15:09.700
+Siddhant - 100xEngineers: As long as they are using the same method.
+
+490
+01:15:09.850 --> 01:15:14.229
+Siddhant - 100xEngineers: to the URL where this machine is deployed, and using this specific
+
+491
+01:15:14.400 --> 01:15:31.440
+Siddhant - 100xEngineers: endpoint, which is telling this machine that go to this add number function, and how it is telling, because in line number 13, if you can see that, we are using the definition of add numbers API. What is this? This is just simple function in Python.
+
+492
+01:15:31.630 --> 01:15:36.309
+Siddhant - 100xEngineers: FastAPI framework, which tells Python code
+
+493
+01:15:36.480 --> 01:15:47.770
+Siddhant - 100xEngineers: that whatever you're gonna, receive on this particular endpoint, when somebody calls slash add with post, this is what you're gonna execute. So…
+
+494
+01:15:47.980 --> 01:15:50.150
+Siddhant - 100xEngineers: Everything what you're gonna write after this?
+
+495
+01:15:50.280 --> 01:15:51.580
+Siddhant - 100xEngineers: app.post.
+
+496
+01:15:51.890 --> 01:15:54.320
+Siddhant - 100xEngineers: This is the execution which will happen.
+
+497
+01:15:54.450 --> 01:16:07.390
+Siddhant - 100xEngineers: And it takes the input, this is the input which can come from this API, because it's a post API, so we are expecting some request body, and then it takes this request body, and directly
+
+498
+01:16:07.560 --> 01:16:10.400
+Siddhant - 100xEngineers: Call this… with our…
+
+499
+01:16:10.470 --> 01:16:25.870
+Siddhant - 100xEngineers: function that we have written here. So, this part, line number 14, if you can see the add numbers, this is the function invocation, what we call in programming, which means we are calling the function that is written in my Python file. And because of this.
+
+500
+01:16:25.940 --> 01:16:43.869
+Siddhant - 100xEngineers: I can make sure that this will only execute the function that I have written. All the logic which I have written here, all the things which I have written, which converts this input to output. That is the only thing which is gonna be accessible by this endpoint. Not the entire file, not anything else on my machine, just this part.
+
+501
+01:16:43.870 --> 01:16:52.399
+Siddhant - 100xEngineers: And that's, like, how we translate the APIs. So we pass the inputs, in this case, I'm getting the numbers from my, let's say.
+
+502
+01:16:52.510 --> 01:17:02.029
+Siddhant - 100xEngineers: front end, so I pass the numbers.x, numbers.y, these are the two numbers which I'm getting, and then this becomes the input to the function, and then gives the output back.
+
+503
+01:17:02.030 --> 01:17:13.890
+Siddhant - 100xEngineers: And I send this output in the result format. If you'll see that this is JSON, which is key and value, this is the common language we established in the last lecture, what we are using for all the APIs, and this is what
+
+504
+01:17:13.890 --> 01:17:24.110
+Siddhant - 100xEngineers: all the REST APIs, the majority of the SREST APIs on the internet also uses, which is, when we send the response and receive the response, it always comes in this format, which is key and value pairs.
+
+505
+01:17:24.320 --> 01:17:42.910
+Siddhant - 100xEngineers: So that's… that's a whole way of you converting one function that you have written, because this is the logic which you have written, this is the logic which converts your input into output. You have spent your time. And for this, you don't need to, like, again, think about it. This is where the programming and deterministic part comes in. So,
+
+506
+01:17:42.910 --> 01:17:52.280
+Siddhant - 100xEngineers: you write a function first, and that is always a first and foremost task. When you're designing something, right, you have built a whole system, you understood that
+
+507
+01:17:52.280 --> 01:18:09.709
+Siddhant - 100xEngineers: For RO, I'll take the workflow description, design the UI, design the backend, and things like that. But now comes that, how can we convert this input into output? So this is where the entire logic is happening, once you have written this part out. And that's how I suggest everybody to move from here. Don't get into the details of
+
+508
+01:18:09.710 --> 01:18:15.169
+Siddhant - 100xEngineers: all of this immediately. But first, figure out how you convert this thing, and
+
+509
+01:18:15.170 --> 01:18:19.519
+Siddhant - 100xEngineers: Again, like, you'll get this clarity, like, once you have done enough, number of…
+
+510
+01:18:19.960 --> 01:18:38.339
+Siddhant - 100xEngineers: iterations, you're testing yourself, and that's where the discovery comes in. And once you're happy with this function, which means you know that when RF is gonna write the workflow description, and you can test it because you can, like, manually put this… this workflow here, and you can, like, return the output from here. One thing which I also recommend
+
+511
+01:18:38.380 --> 01:18:49.080
+Siddhant - 100xEngineers: as a quick exercise, and I was discussing this with yesterday with some people, is that running your backend workflow as a service.
+
+512
+01:18:49.190 --> 01:18:59.589
+Siddhant - 100xEngineers: Which means that instead of, like, doing all of this, which again, I'm gonna, like, recommend you to do it when you are ready for it, but let's say you're starting a journey today.
+
+513
+01:19:00.810 --> 01:19:02.820
+Siddhant - 100xEngineers: The focus should be to, like.
+
+514
+01:19:02.970 --> 01:19:19.729
+Siddhant - 100xEngineers: Once you have built a diagnose function, you go to Arav, you go to your target user, you take the inputs manually to them, from them, and you give the output back manually. Maybe you can do it via email, maybe you can do it via WhatsApp, message, text message, call, maybe Zoom call.
+
+515
+01:19:20.020 --> 01:19:32.849
+Siddhant - 100xEngineers: And once you take the input, you use your own function, and you replace the workflow description here, and then you see whether you're able to generate the right output. Use LLM, use AI to focus on the process here.
+
+516
+01:19:33.380 --> 01:19:48.899
+Siddhant - 100xEngineers: And that's the whole goal I would first focus, like, want you guys to focus on, because if you have built this, then everything else is just the way of how we can expose this function to the internet, and that could be used by the user interface or other machines.
+
+517
+01:19:48.900 --> 01:20:10.009
+Siddhant - 100xEngineers: And that we can deploy it on the servers, or maybe, like, anywhere else. So those things are, I would say, the plumbing, but this is the meat of it. This is where, like, we start doing it. I'll show you, like, a more detailed approach of this in the, like, upcoming part, but this is how I recommend you to think about it. Let's say…
+
+518
+01:20:10.010 --> 01:20:14.180
+Siddhant - 100xEngineers: After a point, you are happy with your process, whatever you have described here.
+
+519
+01:20:14.680 --> 01:20:16.949
+Siddhant - 100xEngineers: You are now getting the output.
+
+520
+01:20:16.970 --> 01:20:27.069
+Siddhant - 100xEngineers: Arav told you on WhatsApp that, hey, this is my workflow, then you posted that workflow here, you got the output back, and you're happy with it, and Arav is happy with it. That's what I would recommend.
+
+521
+01:20:27.070 --> 01:20:49.979
+Siddhant - 100xEngineers: not only when you are happy, when your users are happy with the output, then you go back and you say, okay, I'm gonna, like, now convert this into an API, which can talk to the UI, because this might have some sensitive information, so I'll keep it in my backend, and you build the API. The first thing is understanding that the API design, the excise what we did in the last practice set, that's why it's important, because
+
+522
+01:20:49.980 --> 01:20:53.910
+Siddhant - 100xEngineers: If you just, like, randomly think about which method and which endpoints you need.
+
+523
+01:20:53.910 --> 01:21:10.449
+Siddhant - 100xEngineers: you might not, like, do the justice to it, so I would recommend you to, like, have the same practice set done for your problem statement. With that, you'll have clarity on what endpoints you need, what inputs you need for those endpoints, and you'll implement all of those things just like this, and
+
+524
+01:21:10.450 --> 01:21:24.749
+Siddhant - 100xEngineers: Then, for each and every endpoint, whatever the function is supposed to do, you write that function, which hopefully by this point you've already written, and you just, like, connect it with that. Once you do it, this becomes your simple backend interface.
+
+525
+01:21:25.810 --> 01:21:28.860
+Siddhant - 100xEngineers: How we have done it, and how we translate this with the…
+
+526
+01:21:29.520 --> 01:21:34.340
+Siddhant - 100xEngineers: I would say the… the RF case is… let me…
+
+527
+01:21:46.500 --> 01:21:57.060
+Siddhant - 100xEngineers: So now we move to the same repository. You go to the C7 repository, but you click on the main.py file, and there's a reason why I called this main.py, because this, as I said, like, the main…
+
+528
+01:21:57.780 --> 01:21:59.620
+Siddhant - 100xEngineers: Part of our application.
+
+529
+01:21:59.730 --> 01:22:09.270
+Siddhant - 100xEngineers: Our poor business logic state, is here. So, if you see right now what is happening.
+
+530
+01:22:10.210 --> 01:22:12.430
+Siddhant - 100xEngineers: The diagnose function which we have written.
+
+531
+01:22:12.480 --> 01:22:31.559
+Siddhant - 100xEngineers: now we are exposing this via an API. So, we've kept everything here, like, you could also, like, keep it in a separate function and then call it, but here, just for simplicity, I've kept it the same function here. And what happens is that whenever somebody calls the slash diagnose endpoint.
+
+532
+01:22:32.670 --> 01:22:33.420
+Siddhant - 100xEngineers: it.
+
+533
+01:22:34.230 --> 01:22:43.250
+Siddhant - 100xEngineers: call this function diagnose, which takes a body as a dictionary, which is a Python data structure, which means key-value pairs, similar to what JSON does.
+
+534
+01:22:45.430 --> 01:22:47.180
+Siddhant - 100xEngineers: Diagnose takes the input.
+
+535
+01:22:47.530 --> 01:22:50.250
+Siddhant - 100xEngineers: And this input is the user content.
+
+536
+01:22:50.640 --> 01:22:51.640
+Siddhant - 100xEngineers: So…
+
+537
+01:22:52.820 --> 01:23:08.979
+Siddhant - 100xEngineers: it needs to understand what our workflow description is. Once it gets a workflow description, this is what we are sending from our front end. If you remember, this is what we sent from our app.frontend. We have our JSON here. This is what we are sending to the backend.
+
+538
+01:23:09.870 --> 01:23:16.160
+Siddhant - 100xEngineers: So this workflow description, we can extract Here, because we're assuming that
+
+539
+01:23:16.280 --> 01:23:18.639
+Siddhant - 100xEngineers: Whenever somebody will reach to this point.
+
+540
+01:23:28.020 --> 01:23:39.240
+Siddhant - 100xEngineers: we get the workflow description, and then this line number 18, this is where we do the completion. Now, this completion is the API call. If you remember what we did.
+
+541
+01:23:39.390 --> 01:23:40.370
+Siddhant - 100xEngineers: hair.
+
+542
+01:23:41.240 --> 01:23:53.420
+Siddhant - 100xEngineers: we wrote a curl command, which actually goes to the Grok cloud. We can do the same thing with Python, by the way, but Python has more easier way to do it, like, you don't need to manually, like, write all of these things.
+
+543
+01:23:53.420 --> 01:24:16.989
+Siddhant - 100xEngineers: developers have written all of these things down, so what you need is, like, things which are variable, which can change, like the model name, the message. These things usually don't change a lot, like, unless until, like, the content time would change, the authorization, you can pass the token key, but all of these things might not change. The URL also might not change all the time. So, the things which will change are
+
+544
+01:24:16.990 --> 01:24:21.040
+Siddhant - 100xEngineers: mostly the model, the key, and the user content. So what…
+
+545
+01:24:21.270 --> 01:24:27.610
+Siddhant - 100xEngineers: we have in Python is, like, a slightly more easier approach to do this That is,
+
+546
+01:24:27.770 --> 01:24:42.159
+Siddhant - 100xEngineers: We define the model using this function called completions, and the reason why we call it completion, because it actually calls the same API endpoint, that is the VUNChatCompletions API. And this means that it uses the
+
+547
+01:24:42.160 --> 01:24:51.699
+Siddhant - 100xEngineers: completions model from Grokloud. Completions model means that it completes a text. That's how the initial wording around LMs were, because they were…
+
+548
+01:24:51.740 --> 01:24:59.609
+Siddhant - 100xEngineers: you can see the autocomplete models, they've been used by that, so the EPA convention stayed through it.
+
+549
+01:25:02.190 --> 01:25:04.329
+Siddhant - 100xEngineers: We have our workflow here.
+
+550
+01:25:05.710 --> 01:25:07.190
+Siddhant - 100xEngineers: We define the model.
+
+551
+01:25:08.240 --> 01:25:20.210
+Siddhant - 100xEngineers: And a couple of more things which I have defined. This is the max tokens, and we learned more about this in detail, but as of now, the max token is the maximum number of inputs my model can generate.
+
+552
+01:25:20.750 --> 01:25:34.439
+Siddhant - 100xEngineers: you can ignore this for now, but I kept it so that I know if I share this, let's say, with somebody, they are generating the whole, let's say, plan, they'll not, like, waste the tokens, right?
+
+553
+01:25:34.540 --> 01:25:41.760
+Siddhant - 100xEngineers: if needed, they can, like, have a follow-up question to it, but it's just, like, me being slightly, I would say.
+
+554
+01:25:42.100 --> 01:25:57.440
+Siddhant - 100xEngineers: like, efficient here with my overall number of tokens, because I'm paying for each and every API call. There are, like, multiple best practices around, like, cost optimization, which I'll discuss later on, but right now, as I said, like, the focus is to build a minimal viable product first.
+
+555
+01:25:57.640 --> 01:25:59.599
+Siddhant - 100xEngineers: We discussed the model.
+
+556
+01:26:00.050 --> 01:26:19.419
+Siddhant - 100xEngineers: then the amount of tokens it can generate, and then the message part. This is the variable part. So, one more thing which we have not discussed yet is that every time you send a message to a large language model, just like what we have with ChatGPT here, let's say if I do it, when I say hi to ChatGPT,
+
+557
+01:26:20.030 --> 01:26:27.980
+Siddhant - 100xEngineers: this is not only thing which we are sending to ChatGPT, right? Which… which some of you might feel that
+
+558
+01:26:28.040 --> 01:26:41.099
+Siddhant - 100xEngineers: it looks like it, that we are only sending here, but there is also a system instruction, which I have written. So, if I open my ChatGPT personalization part, I think there are, now…
+
+559
+01:26:49.070 --> 01:26:57.069
+Siddhant - 100xEngineers: Yeah, this is a custom instruction. So, although right now, I've written just no m dash, because I hate m- by the way. So,
+
+560
+01:26:57.440 --> 01:27:15.900
+Siddhant - 100xEngineers: This is my custom instruction. So if I've written this, every time when I send hey, the custom instructions gets embedded into this request. That's also how the system prompts work. So one more thing here to understand, and this is what my response is, so this is what I call user's response.
+
+561
+01:27:15.970 --> 01:27:17.529
+Siddhant - 100xEngineers: This is what…
+
+562
+01:27:17.660 --> 01:27:34.310
+Siddhant - 100xEngineers: chat GPT assistance responses. So this is how we discriminate between these two things, because when we share it in API, it's not as good-looking, it's just, like, one plain text. So we need to, like, assign what is user, what is assistant. So this is… this becomes the assistant, the role assistant.
+
+563
+01:27:34.310 --> 01:27:38.450
+Siddhant - 100xEngineers: And the messages coming from ChatGPT will come under Role Assistant.
+
+564
+01:27:38.450 --> 01:28:00.839
+Siddhant - 100xEngineers: Messages coming from the user will come under the role user, and messages which are set as the custom instructions or system prompt which you have set as, on a, on a, like, a settings for this application, or for any application which overrides the behavior of ChatGPT, those goes into the system prompt. This is the role system. So these are the three roles.
+
+565
+01:28:00.840 --> 01:28:08.299
+Siddhant - 100xEngineers: Just to, like, Describe here, and so, we have role user.
+
+566
+01:28:09.580 --> 01:28:12.249
+Siddhant - 100xEngineers: Assistant, and we have system.
+
+567
+01:28:12.450 --> 01:28:27.219
+Siddhant - 100xEngineers: Now, this is important because, moving further, whenever you're building your own apps, you're connecting your ChatGPT, you need to know that what parts of the messages user is sending, what is the assistant generating, and what is there as part of system.
+
+568
+01:28:27.590 --> 01:28:29.939
+Siddhant - 100xEngineers: So, once you know this thing.
+
+569
+01:28:31.090 --> 01:28:43.399
+Siddhant - 100xEngineers: you can also then frame your entire content. So, the reason why this is role system, and I hope now you understand why having the role system makes sense, because we are doing a system prompt
+
+570
+01:28:43.500 --> 01:29:00.859
+Siddhant - 100xEngineers: or setting system prompt for the entire, like, workflow. You are a workflow diagnosis assistant. Analyze the described workflow, and respond in plain text with repeatable steps, automation opportunities, and a suggested MVP. This is what we are telling the large language model to do.
+
+571
+01:29:00.920 --> 01:29:19.899
+Siddhant - 100xEngineers: So after this, whenever a user types something, a student types something, it'll always make sure that this is the core job of it. So once we have written this message, this goes to the LLM 3.3 70 billion parameter, the Llama one. The last thing which we need is the user content, because without that, everything is just, like, static.
+
+572
+01:29:20.010 --> 01:29:22.860
+Siddhant - 100xEngineers: So, everything which we are getting from our body.
+
+573
+01:29:23.400 --> 01:29:30.729
+Siddhant - 100xEngineers: We first extract that, the workflow description, this is what we are sending, and we put this user content
+
+574
+01:29:32.100 --> 01:29:33.680
+Siddhant - 100xEngineers: With the role user.
+
+575
+01:29:34.070 --> 01:29:44.429
+Siddhant - 100xEngineers: Now, this is important, because you can't put this as system. If you put the same thing as system, then it won't give you the answer. It'll just accept whatever user is typing. So, whatever user is typing needs to go
+
+576
+01:29:44.430 --> 01:30:00.370
+Siddhant - 100xEngineers: under a separate key-value pair, where you need to mention the role user. Once you say these things, this is where you finish your message part, and you send this entire request. When you send this entire request, you get a response back, which response looks like exactly the same
+
+577
+01:30:00.380 --> 01:30:01.840
+Siddhant - 100xEngineers: thing.
+
+578
+01:30:03.150 --> 01:30:13.589
+Siddhant - 100xEngineers: Like, which I basically discussed here, I think, last time. So, the one which you saw here, which has, like, a lot of things apart from messages.
+
+579
+01:30:14.190 --> 01:30:24.690
+Siddhant - 100xEngineers: Now, we need to filter it. As you said, so we're gonna filter it. The choice is message.content, the same thing what we did here. So I think we have written the choice is zero message.content, so…
+
+580
+01:30:25.450 --> 01:30:32.970
+Siddhant - 100xEngineers: now we are getting the specific content that we need, and this becomes the output. So return statement is the output for this function.
+
+581
+01:30:32.970 --> 01:30:50.140
+Siddhant - 100xEngineers: which is connected to the post endpoint of slash diagnose. So it means that anyone who is using diagnose as an endpoint, sending this workflow description as the input, will give the output, which is going to be generated from the Llama 3.3 with this system prompt, and where we take the user input
+
+582
+01:30:50.150 --> 01:30:53.489
+Siddhant - 100xEngineers: From the user directly, and pass it here.
+
+583
+01:30:53.790 --> 01:30:59.229
+Siddhant - 100xEngineers: That's what our backend logic is as of now. So, if you have to, like, put it into the picture.
+
+584
+01:31:00.200 --> 01:31:04.390
+Siddhant - 100xEngineers: This is what our current Process looks like.
+
+585
+01:31:04.930 --> 01:31:06.070
+Siddhant - 100xEngineers: This whole thing.
+
+586
+01:31:08.090 --> 01:31:11.159
+Siddhant - 100xEngineers: Take the input, and this…
+
+587
+01:31:11.320 --> 01:31:31.319
+Siddhant - 100xEngineers: is a whole part. Now, you can argue that there is definitely, like, better ways to do it. I can, like, also spend more time and, like, build better function, better system prompts, and you can do all of these things, but this is the core of, like, what is converting my input into the output. Right now, the heavy lifting is done by the Llama.
+
+588
+01:31:31.820 --> 01:31:41.389
+Siddhant - 100xEngineers: And that's where, like, my, the API comes in. So now, let me test this API, and the easiest way to test this API is
+
+589
+01:31:41.550 --> 01:31:51.110
+Siddhant - 100xEngineers: First, make sure to download the repository you have. You open it in Cursor, so if you don't have Cursor, you can download it from the Cursor website, and
+
+590
+01:31:51.640 --> 01:32:02.950
+Siddhant - 100xEngineers: you can open it directly from the open section, or you can drag and drop it on the part. It should look like this. I'll close this test.py file right now. Don't need it.
+
+591
+01:32:03.370 --> 01:32:12.020
+Siddhant - 100xEngineers: And I'll go to the main.py file. So, for main.py file, This is my entire… Backend.
+
+592
+01:32:12.240 --> 01:32:26.530
+Siddhant - 100xEngineers: Now, you'll see, like, few more things here, along with the diagnose endpoint. One is on the slash get. Now, this is just a hello world for me, so that I know whenever somebody just gonna go to this backend.
+
+593
+01:32:26.820 --> 01:32:30.000
+Siddhant - 100xEngineers: The first thing which usually people see is the…
+
+594
+01:32:30.500 --> 01:32:38.189
+Siddhant - 100xEngineers: that this is a backend API, and if you don't have anything on slash, then it'll not render anything. So this is just to, like.
+
+595
+01:32:39.200 --> 01:32:49.009
+Siddhant - 100xEngineers: make sure that we have something when somebody goes to the home endpoint of it. Not necessary, but just a decoration, to be honest.
+
+596
+01:32:49.010 --> 01:33:01.610
+Siddhant - 100xEngineers: The second thing which you'll notice here is a fast API. This is the package, this is the framework which we are using to build these APIs. There are multiple ways to build APIs with Python. There are Django, there are, like, Flask and other things.
+
+597
+01:33:01.610 --> 01:33:04.189
+Siddhant - 100xEngineers: I use FastAPI, one of the most
+
+598
+01:33:04.330 --> 01:33:10.320
+Siddhant - 100xEngineers: I would say highly recommended and the most popular ways of building APIs in Python.
+
+599
+01:33:10.990 --> 01:33:13.869
+Siddhant - 100xEngineers: The other thing here is the clock, which is…
+
+600
+01:33:14.070 --> 01:33:20.580
+Siddhant - 100xEngineers: the same model that we have used, and we got the API keys from, so… This is…
+
+601
+01:33:20.860 --> 01:33:25.679
+Siddhant - 100xEngineers: there are 3 things which we need, the Grok, the Fast API, and
+
+602
+01:33:25.710 --> 01:33:38.419
+Siddhant - 100xEngineers: And just the Python. So, to be honest, this is the only thing what we have. And using these two things, everything what you see on the screen is, like, something which you guys can write from scratch without depending on anything out there.
+
+603
+01:33:38.420 --> 01:33:48.579
+Siddhant - 100xEngineers: Which also gives you a power, right? Because, yes, you can also do all of these things with, like, multiple other no-code tools, and you can write a prompt to Lavable, you can write a prompt to, like, anything, but…
+
+604
+01:33:48.580 --> 01:34:13.420
+Siddhant - 100xEngineers: there's a power to understand, like, power comes with an understanding of all of this, because now you can make changes, now you can understand if tomorrow anything goes wrong with your diagnosed endpoint, let's say your API is not working, let's say your backend is down, let's say the Llama is not giving the output which you wanted, you can now look at this, and you can try to understand where the problem is, and maybe you can debug with the AI. And that actually gives you the edge over
+
+605
+01:34:13.420 --> 01:34:18.080
+Siddhant - 100xEngineers: Or somebody who just does the VIP coding, who doesn't have the full understanding of what's happening.
+
+606
+01:34:19.860 --> 01:34:28.940
+Siddhant - 100xEngineers: what I'm gonna do is, I'm gonna show you, like, how to run this part locally, but before that, I'll just make sure my terminal is clean.
+
+607
+01:34:31.980 --> 01:34:32.810
+Siddhant - 100xEngineers: Okay.
+
+608
+01:34:33.760 --> 01:34:35.280
+Siddhant - 100xEngineers: It is…
+
+609
+01:34:39.900 --> 01:34:45.440
+Siddhant - 100xEngineers: So, two ways to run this application. One, You go to your terminal.
+
+610
+01:34:45.930 --> 01:34:56.240
+Siddhant - 100xEngineers: The way how I open Terminal on Mac is Ctrl, Shift, and the first key before the number icons, which is I call Tilde.
+
+611
+01:34:56.410 --> 01:35:03.440
+Siddhant - 100xEngineers: And, this is… Yubicon… Mean?
+
+612
+01:35:03.820 --> 01:35:05.480
+Siddhant - 100xEngineers: This is the app.
+
+613
+01:35:05.590 --> 01:35:15.690
+Siddhant - 100xEngineers: this main is the name of the file, and this app, hyphen hyphen reload, will make sure that whenever I'll make changes, the backend app will update.
+
+614
+01:35:16.040 --> 01:35:19.710
+Siddhant - 100xEngineers: everything is gonna be happening on locally. So, just to…
+
+615
+01:35:20.040 --> 01:35:24.139
+Siddhant - 100xEngineers: Bring the picture back, what we are doing.
+
+616
+01:35:24.250 --> 01:35:28.109
+Siddhant - 100xEngineers: We have just… finished the…
+
+617
+01:35:28.470 --> 01:35:39.820
+Siddhant - 100xEngineers: deployment of front-end. Now we build the backend, and how we build the backend is starting from the function. A function that can take the input, and it can generate some output back.
+
+618
+01:35:40.000 --> 01:35:54.459
+Siddhant - 100xEngineers: this is how I want all of you to think about it. This is the back-end code logic, and once you have figured out, like, how you're gonna write this function, which is usually gonna take some input, do some processing, and then generate the output, so your job is to, like, find
+
+619
+01:35:54.500 --> 01:36:02.590
+Siddhant - 100xEngineers: And understand how you can process this and generate the output. Once you have done that, the second part is, like, exposing
+
+620
+01:36:02.790 --> 01:36:04.770
+Siddhant - 100xEngineers: this function.
+
+621
+01:36:05.160 --> 01:36:10.380
+Siddhant - 100xEngineers: as an API, because we don't want to expose everything which is sitting on our file.
+
+622
+01:36:10.800 --> 01:36:13.649
+Siddhant - 100xEngineers: For that, we use FastAPI.
+
+623
+01:36:14.290 --> 01:36:18.479
+Siddhant - 100xEngineers: And, for fast APIs, we need endpoints.
+
+624
+01:36:19.030 --> 01:36:27.390
+Siddhant - 100xEngineers: This is the particular address, so every endpoint connects to your… functions.
+
+625
+01:36:27.630 --> 01:36:38.400
+Siddhant - 100xEngineers: This endpoint will execute that function. It takes the input from the user, generates the output, and this is how the fast endpoint, fast API endpoint work.
+
+626
+01:36:40.220 --> 01:36:42.669
+Siddhant - 100xEngineers: Now, what we are doing is we'll first test it
+
+627
+01:36:43.950 --> 01:36:56.639
+Siddhant - 100xEngineers: locally, and then I'll try to deploy it on cloud, and then you can do the same thing with me, and then finally we connect both of these things together. I'll also, like, test this part locally. So I'll do the both,
+
+628
+01:36:57.090 --> 01:37:01.920
+Siddhant - 100xEngineers: Front-end, back-end, but let me first test the backend part, because this is what we have done.
+
+629
+01:37:02.430 --> 01:37:04.540
+Siddhant - 100xEngineers: So I'll go this.
+
+630
+01:37:05.380 --> 01:37:10.519
+Siddhant - 100xEngineers: I'll write this command, actually, I'll remove this one, which is running previously.
+
+631
+01:37:11.120 --> 01:37:11.970
+Siddhant - 100xEngineers: Yes.
+
+632
+01:37:15.530 --> 01:37:16.210
+Siddhant - 100xEngineers: Okay.
+
+633
+01:37:17.360 --> 01:37:18.560
+Siddhant - 100xEngineers: I need to…
+
+634
+01:37:18.560 --> 01:37:37.640
+Siddhant - 100xEngineers: paste my Grok key. So, one more thing which I forgot, I think this is a discussion which we initially had. The discussion was about, should we use .env, should we use OS? Right now, I'm using OS-level exports, which means that I don't want you guys to think about, like, multiple files. I'm trying to, like, reduce the cognitive overload,
+
+635
+01:37:38.210 --> 01:37:43.489
+Siddhant - 100xEngineers: like, how much I can. So, the minimal set which I need for this entire app is
+
+636
+01:37:43.530 --> 01:38:01.129
+Siddhant - 100xEngineers: Just these two files, app and main. README is where I explain everything, and the requirements are the requirements for this project, which is, as you can guess, the FastAPI, Grok, and the Gradio. So, these are the things which we need. Yubicon is a specific,
+
+637
+01:38:01.830 --> 01:38:17.749
+Siddhant - 100xEngineers: command, which, or you can say the process, which helps you to run things locally, or, like, run the fast APIs and test fast APIs, that's the command which we are using. So, apart from these things, we don't need specifically a lot of those parts.
+
+638
+01:38:18.200 --> 01:38:20.230
+Siddhant - 100xEngineers: What I'll do is quickly…
+
+639
+01:38:20.330 --> 01:38:25.399
+Siddhant - 100xEngineers: start this server, and this is how we do it. We write the same command.
+
+640
+01:38:29.720 --> 01:38:36.289
+Siddhant - 100xEngineers: I think at this point, I have to, like, delete my Glock API key, which I'll anyways do that. But,
+
+641
+01:38:38.700 --> 01:38:46.220
+Siddhant - 100xEngineers: I can see my UBCON server is running on my local host, 127.0.0.1.
+
+642
+01:38:46.340 --> 01:38:59.049
+Siddhant - 100xEngineers: 8000. If I click on this, this is the… this is the address where my machine is, right now located, and I can access this from my local machine.
+
+643
+01:39:01.300 --> 01:39:04.810
+Siddhant - 100xEngineers: So let me open this… hair.
+
+644
+01:39:06.420 --> 01:39:12.360
+Siddhant - 100xEngineers: And the first thing which you will see is Hello Builder. The reason why you see Hello Builder here is, if you can guess.
+
+645
+01:39:12.740 --> 01:39:20.430
+Siddhant - 100xEngineers: Because we have written this return command, which is whenever somebody go to the slash. Now, slash is…
+
+646
+01:39:20.760 --> 01:39:30.240
+Siddhant - 100xEngineers: we have not mentioned any kind of endpoint. But let's say I want to go to a specific endpoint, and in this case, the endpoint is diagnosis, or diagnose.
+
+647
+01:39:31.350 --> 01:39:32.580
+Siddhant - 100xEngineers: Now, the thing is.
+
+648
+01:39:32.920 --> 01:39:45.169
+Siddhant - 100xEngineers: with browser, browsers can only make GET requests from the URL. If you want to make a post request, you need an environment, like curl, or maybe an app which can, like, help you do that.
+
+649
+01:39:46.420 --> 01:39:53.330
+Siddhant - 100xEngineers: with FastAPI, one interesting thing is it gives you that entire inbuilt.
+
+650
+01:39:53.390 --> 01:40:04.490
+Siddhant - 100xEngineers: application with each and every API. So, if you have built this, if you are following along with me, and hopefully you'll be able to, like, run this part. By the way, if somebody's following this
+
+651
+01:40:04.490 --> 01:40:15.450
+Siddhant - 100xEngineers: along with me, and you are facing any problem, you can just directly post it in the Discord, because I'll… might not debug it right now for you, but I'll… I'll definitely go through it, and
+
+652
+01:40:15.780 --> 01:40:17.959
+Siddhant - 100xEngineers: I see, like, one of the common
+
+653
+01:40:18.260 --> 01:40:28.699
+Siddhant - 100xEngineers: error which you can expect is the Grok API missing, which I also, like, got. So the command for that is, you need to write this, let me show you…
+
+654
+01:40:28.970 --> 01:40:29.920
+Siddhant - 100xEngineers: hair.
+
+655
+01:40:31.850 --> 01:40:44.039
+Siddhant - 100xEngineers: So, in the terminal, before writing this thing, you need to write the export command. Export Grok API key, and that's basically
+
+656
+01:40:48.160 --> 01:40:49.600
+Siddhant - 100xEngineers: Yeah, so this is…
+
+657
+01:40:52.650 --> 01:40:57.129
+Siddhant - 100xEngineers: This is a command you need to write, and this is, for,
+
+658
+01:40:57.480 --> 01:41:03.160
+Siddhant - 100xEngineers: Just make sure you change the API key here, and add your API key. So when you write this.
+
+659
+01:41:06.360 --> 01:41:08.420
+Siddhant - 100xEngineers: Right now, because we are using OS,
+
+660
+01:41:09.230 --> 01:41:12.200
+Siddhant - 100xEngineers: to take the API key, so it will…
+
+661
+01:41:12.300 --> 01:41:20.279
+Siddhant - 100xEngineers: take the API key directly from your environment, wherever you're running this command, the Yubicon command, just make sure before that you run the export
+
+662
+01:41:20.440 --> 01:41:33.969
+Siddhant - 100xEngineers: Grok API key, and that's how we're gonna use the Grok API key, and we run it on your local machine, but once you have this locally, like, running, you can go to slash docs, and when you have slash docs, this is where you can
+
+663
+01:41:34.330 --> 01:41:45.070
+Siddhant - 100xEngineers: test your APIs. The best way also to visualize the API, we have the slash one, which is nothing, but let's look at the diagnose part. Now, it gives me,
+
+664
+01:41:45.290 --> 01:42:05.149
+Siddhant - 100xEngineers: a visual format of, this is how my API looks like, to be honest. It has a request body, common language, the application JSON, which we are using, and then it gives me some output. Right now, I need to first send the body. I was telling you, right? In order for me to test this API, I need to send something. So, let me…
+
+665
+01:42:05.270 --> 01:42:08.780
+Siddhant - 100xEngineers: Let me send something which we have already written on our…
+
+666
+01:42:09.230 --> 01:42:19.060
+Siddhant - 100xEngineers: whiteboard, the URL that RF… or the input that RF will write. In this case, the input is this. So, let me copy this part.
+
+667
+01:42:19.640 --> 01:42:23.080
+Siddhant - 100xEngineers: And, what I'll do here is I'll…
+
+668
+01:42:25.280 --> 01:42:27.879
+Siddhant - 100xEngineers: change this, and I'll try it out, actually.
+
+669
+01:42:28.500 --> 01:42:31.929
+Siddhant - 100xEngineers: I'll click on try it out first, and then here.
+
+670
+01:42:32.930 --> 01:42:38.249
+Siddhant - 100xEngineers: I'll change this, and I'll write workflow under description.
+
+671
+01:42:38.590 --> 01:42:40.520
+Siddhant - 100xEngineers: Now, some of you can guess.
+
+672
+01:42:40.830 --> 01:42:42.340
+Siddhant - 100xEngineers: And if you can guess right.
+
+673
+01:42:42.620 --> 01:42:47.580
+Siddhant - 100xEngineers: I think, you'll be able to make the same call. But if you're not able to guess, you can let me know.
+
+674
+01:42:48.710 --> 01:42:51.059
+Siddhant - 100xEngineers: why I'm writing workflow under the description.
+
+675
+01:43:04.020 --> 01:43:17.369
+Siddhant - 100xEngineers: This workflow under description is coming because our API accepts this as a body, and this is what we have done for both our front-end as well as the backend. This is how we get the workflow description, and
+
+676
+01:43:21.410 --> 01:43:22.760
+Siddhant - 100xEngineers: app.frontend.
+
+677
+01:43:23.850 --> 01:43:30.160
+Siddhant - 100xEngineers: This is also how we are sending it. So this is workflow, and the description, and this is the message. So I want to, like.
+
+678
+01:43:30.440 --> 01:43:40.350
+Siddhant - 100xEngineers: replicate the exact same thing. If somebody's using it from a browser, the browser will send this request on my behalf, or on the user's behalf. And then I'll click on execute function.
+
+679
+01:43:40.650 --> 01:43:45.080
+Siddhant - 100xEngineers: Now, if I click on execute, this is the API which is going, and now you can see
+
+680
+01:43:45.850 --> 01:43:53.819
+Siddhant - 100xEngineers: the exact same thing, something which we have seen earlier, right? The curl command, where we have the URL,
+
+681
+01:43:54.040 --> 01:43:59.290
+Siddhant - 100xEngineers: Where this machine is located, What is the content type?
+
+682
+01:43:59.440 --> 01:44:02.029
+Siddhant - 100xEngineers: Common language? What is the input?
+
+683
+01:44:02.730 --> 01:44:22.289
+Siddhant - 100xEngineers: And let's see, this is the machine. It accepts… it's right now running on 127.0.0.1, which is my local address. You guys won't be able to access it because it's running on my machine. I have not exposed it to the internet yet, so… but you can, like, run the same command of UBCon, and you should be able to, like, run it locally.
+
+684
+01:44:22.290 --> 01:44:25.969
+Siddhant - 100xEngineers: And, the endpoint here is slash type now, so this is not…
+
+685
+01:44:25.970 --> 01:44:35.169
+Siddhant - 100xEngineers: like, a random URL. I have, like, specifically designed the slash diagnose in our backend, so that we should be able to
+
+686
+01:44:35.380 --> 01:44:46.770
+Siddhant - 100xEngineers: like, access a particular function that we have written, and this is the logic for that, like, whenever somebody writes slash diagnose, this specific FastAPI post command
+
+687
+01:44:46.770 --> 01:45:00.260
+Siddhant - 100xEngineers: will connect this with my function, which will take the input and call the Lama 3.3 70mm parameter model with these system prompts and the input, and then return the output back. That's what we are doing, and what you can see here. So…
+
+688
+01:45:00.430 --> 01:45:16.300
+Siddhant - 100xEngineers: the input is workflow description like this, and let's see the output. The output status code is 200, which means that everything went well, and this is the response body. So we got a response body, open Jira to check, we click too, so just to…
+
+689
+01:45:17.520 --> 01:45:27.680
+Siddhant - 100xEngineers: show you the input. Input was, hey, I opened Jira, this is my workflow description to check my ability to lose, then I'll check high priority tasks, I'll pick one, I create a report, and assign it to my manager on Slack.
+
+690
+01:45:27.820 --> 01:45:34.299
+Siddhant - 100xEngineers: And the llama gave us the response, which is, after analyzing this, it identified the repeatable steps.
+
+691
+01:45:34.460 --> 01:45:40.889
+Siddhant - 100xEngineers: all of them working well, everything what we expected, but now as an API format. So we just…
+
+692
+01:45:41.140 --> 01:45:49.270
+Siddhant - 100xEngineers: What demonstrated is how we took one function on our Python file and exposed it as an API, and this is the response we're getting.
+
+693
+01:45:49.450 --> 01:46:06.910
+Siddhant - 100xEngineers: This is also how I test APIs, and how you can test APIs locally without, like, installing any third-party software, or maybe doing a bunch of other stuff. You go… you start by first writing the business logic, the main function. Once you have written that, you've got the clarity, you do the…
+
+694
+01:46:07.150 --> 01:46:25.059
+Siddhant - 100xEngineers: service for… on behalf of your end users, you take the input manually initially, and then you test it out once you have clarity, you convert it into a fast API endpoint, you run the UBCON command, deploy it locally, and then test it. If it is working, then I will now
+
+695
+01:46:25.080 --> 01:46:30.960
+Siddhant - 100xEngineers: open my front-end app. So… what I will do is…
+
+696
+01:46:33.860 --> 01:46:39.759
+Siddhant - 100xEngineers: I'm gonna now run my frontend separately, so this is the app.frontend file, and for this.
+
+697
+01:46:43.460 --> 01:46:47.740
+Siddhant - 100xEngineers: So I'll just write the python command python app underscore frontend dot py.
+
+698
+01:46:48.470 --> 01:46:56.670
+Siddhant - 100xEngineers: And now, my front end is also running. So my front end is running on… Local host, 127.0.0.
+
+699
+01:46:57.440 --> 01:47:00.340
+Siddhant - 100xEngineers: on 7860 port.
+
+700
+01:47:00.560 --> 01:47:07.080
+Siddhant - 100xEngineers: And now this front end… is connected to my backend. And the way how we have connected it.
+
+701
+01:47:07.370 --> 01:47:08.960
+Siddhant - 100xEngineers: If you can see…
+
+702
+01:47:15.310 --> 01:47:20.219
+Siddhant - 100xEngineers: is via this backend URL, right? So, we, by default, take this URL,
+
+703
+01:47:20.220 --> 01:47:42.430
+Siddhant - 100xEngineers: like, 127.0.0800 slash diagnose. And slash diagnose is the specific endpoint, so directly connected with the slash diagnose, and you can also test this endpoint with our fast API, that whether it is working or not. This is the same request URL. So this needs to be same. This is the URL which our machine understands whenever you want to diagnose or you want to access the diagnose function.
+
+704
+01:47:42.560 --> 01:47:53.829
+Siddhant - 100xEngineers: So I use the same URL in my front-end program, and I use it to make the API call. And now let's test it, whether it works or not. So, I'll use the same
+
+705
+01:47:54.110 --> 01:48:03.350
+Siddhant - 100xEngineers: workflow, but in this time, I'll use it with my interface. So I'll open the Gradio, I'll paste this thing, and let's see if…
+
+706
+01:48:04.150 --> 01:48:06.690
+Siddhant - 100xEngineers: This work, it takes time, but it works.
+
+707
+01:48:08.090 --> 01:48:13.810
+Siddhant - 100xEngineers: So we have something which is coming from our large language model, which we just connected.
+
+708
+01:48:14.120 --> 01:48:30.380
+Siddhant - 100xEngineers: from our user interface to the API. So we have our message, we have our input, and the output, and all of this is happening and connecting via API. So you can also see on the other tab, these are the API requests it has made. It has made a diagnose.
+
+709
+01:48:30.570 --> 01:48:38.750
+Siddhant - 100xEngineers: docs, but majority diagnosed, and also made the OpenAI, From this part.
+
+710
+01:48:39.000 --> 01:48:45.410
+Siddhant - 100xEngineers: So you can, like, also diagnose what's happening with your live server. Now, all of this is great.
+
+711
+01:48:45.780 --> 01:48:49.750
+Siddhant - 100xEngineers: Like, awesome if you guys can, like, follow this…
+
+712
+01:48:49.880 --> 01:48:56.169
+Siddhant - 100xEngineers: along, and maybe you can, like, run this thing. Ideally, unless until you, I think.
+
+713
+01:48:56.170 --> 01:49:11.779
+Siddhant - 100xEngineers: you make, like, a huge change to the application code, you won't face majority of the bugs, because everything is, like, pre-written for you guys. It also acts as a template, and that's why I shared it as a repo, and shared it with a very simple
+
+714
+01:49:11.790 --> 01:49:17.220
+Siddhant - 100xEngineers: interface as well as with the API, so you use it as a template, and then you start building on top of it.
+
+715
+01:49:17.370 --> 01:49:39.309
+Siddhant - 100xEngineers: Now, definitely, it's not a complete template. As we proceed further in different lectures, we'll talk more about the data here, something which we have missed in this section, but I'll deliberately, like, avoid it talking about data and the data flow and the architectures, like, the way how we're gonna store it, the way how we're gonna, like, manage it. We'll talk about it, like, from tomorrow's lecture onward. But this in itself, like.
+
+716
+01:49:39.310 --> 01:49:45.979
+Siddhant - 100xEngineers: gives us… everything what we decided, we're gonna, like, do at the beginning of the lecture. We have our…
+
+717
+01:49:47.320 --> 01:49:56.419
+Siddhant - 100xEngineers: Python Gradio app. Let me actually put the screenshots directly so we have, some clarity that what we have built in the last,
+
+718
+01:49:57.660 --> 01:50:03.019
+Siddhant - 100xEngineers: Like, one of… So we have this workflow diagnoster, which we have
+
+719
+01:50:03.270 --> 01:50:06.530
+Siddhant - 100xEngineers: built, and I'm gonna, like, paste it here.
+
+720
+01:50:07.140 --> 01:50:11.630
+Siddhant - 100xEngineers: So this becomes our… Front-end.
+
+721
+01:50:12.150 --> 01:50:13.390
+Siddhant - 100xEngineers: That we have built.
+
+722
+01:50:13.520 --> 01:50:19.869
+Siddhant - 100xEngineers: Then we have our backend, which is our… back-end API of Workflow Diagnos.
+
+723
+01:50:24.080 --> 01:50:26.679
+Siddhant - 100xEngineers: This is what we built in the backend.
+
+724
+01:50:29.840 --> 01:50:31.969
+Siddhant - 100xEngineers: And we also have the LLM.
+
+725
+01:50:32.140 --> 01:50:36.070
+Siddhant - 100xEngineers: Although LM part is something which we have taken from
+
+726
+01:50:36.220 --> 01:50:39.529
+Siddhant - 100xEngineers: the Grok, but I'll… I'll still, like…
+
+727
+01:51:07.670 --> 01:51:11.109
+Siddhant - 100xEngineers: I'll select the exact Lava model, and this is the Grok.
+
+728
+01:51:11.760 --> 01:51:18.059
+Siddhant - 100xEngineers: Which we have for our… LLM. So with all… with this, we have…
+
+729
+01:51:19.090 --> 01:51:25.470
+Siddhant - 100xEngineers: Connected all our 3 different systems and 3 different pieces together to now form, like.
+
+730
+01:51:25.700 --> 01:51:33.609
+Siddhant - 100xEngineers: a mini full-stack application, which doesn't have storage right now, but it works, because it can take the ROB's input and then give some plan.
+
+731
+01:51:34.130 --> 01:51:49.839
+Siddhant - 100xEngineers: Which is a very good starting point, because we all started, like, last week itself, about understanding the interfaces. Now, before I wrap up the lecture, and I draw… I break it for the Q&A, I want to, like, share one last piece here, which is…
+
+732
+01:51:49.840 --> 01:51:55.459
+Siddhant - 100xEngineers: how we can take all of this and deploy it, because that's where, like, most people get stuck.
+
+733
+01:51:55.700 --> 01:52:08.139
+Siddhant - 100xEngineers: I'm sure, like, some of you might have already done this part, which I've shared today, or maybe some of you can't figure it out. There are multiple options to deploy things, by the way, on internet. So, as I said, like, you can buy your own machine.
+
+734
+01:52:08.140 --> 01:52:18.520
+Siddhant - 100xEngineers: And you can directly, like, host everything from there. But you can also rent someone's machine. There are some free services, like, people who are… who have, like.
+
+735
+01:52:18.870 --> 01:52:25.109
+Siddhant - 100xEngineers: extra capital. They are doing it as a freemium plan, where they give you the free machines.
+
+736
+01:52:25.200 --> 01:52:40.489
+Siddhant - 100xEngineers: one we have seen recently on Hugging Face, that's the initial part, which I told you to deploy. Now, I could deploy everything on Hugging Face as well, like, from the backend point of view, but Hugging Face is not built for
+
+737
+01:52:40.660 --> 01:52:42.139
+Siddhant - 100xEngineers: like, running…
+
+738
+01:52:42.250 --> 01:52:56.480
+Siddhant - 100xEngineers: actual backend workflows. It was actually, like, built for people like us who are learning, who are, like, figuring things out. We can deploy something like Radio, we can deploy some basic application, the interfaces, but
+
+739
+01:52:56.510 --> 01:53:04.699
+Siddhant - 100xEngineers: it's not exactly for something like maybe an API which Arav can use, or maybe Arav's friends can use. For that, there are, like, multiple services.
+
+740
+01:53:04.750 --> 01:53:08.709
+Siddhant - 100xEngineers: To deploy a backend securely, and which can scale over time.
+
+741
+01:53:09.370 --> 01:53:28.180
+Siddhant - 100xEngineers: this is where people come with services like AWS, GCP, which stands for Google Cloud Platform, Azure, which is from Microsoft, then you have DigitalOcean, and tons of other, but these are, like, you can say they're from the bigger companies, Amazon, Google, Azure. This is the…
+
+742
+01:53:29.070 --> 01:53:51.960
+Siddhant - 100xEngineers: environment, which is used by a lot of… a majority of the enterprises, if I have to say. This is the major cloud platforms in the world. The good thing is, like, a lot of these do offer you some free trials and free, tokens, or I can say, free hours, which is available. You need to, like, configure. The difficult part is that because these companies were also one of those companies who figured out the cloud
+
+743
+01:53:52.210 --> 01:53:57.520
+Siddhant - 100xEngineers: platform early on. They have a massive debt. They have a lot of…
+
+744
+01:53:57.870 --> 01:54:06.630
+Siddhant - 100xEngineers: I would say things which you need to learn on the platform, the learning curves is, like, much more steeper with all of these services, which also
+
+745
+01:54:06.630 --> 01:54:21.560
+Siddhant - 100xEngineers: is a reason why, like, people who know these things are… were in demand. I don't say, like, right now, still in demand, but there was… there used to be a time where there's… were certifications for people who can understand these platforms and deploy things, and that used to be the entire job.
+
+746
+01:54:21.560 --> 01:54:29.520
+Siddhant - 100xEngineers: known as DevOps engineer, and people who can, like, deploy things, or LLM Ops, or… or maybe, like, site reliability. So these are the things.
+
+747
+01:54:29.720 --> 01:54:31.360
+Siddhant - 100xEngineers: Now, as…
+
+748
+01:54:31.440 --> 01:54:45.480
+Siddhant - 100xEngineers: market emerged, we… and startups came into the market, and we realized that there's a problem here. Not everybody can understand and navigate this complex world. This is, like, a whole world in itself. So we need a very simple, one-click solution.
+
+749
+01:54:45.480 --> 01:54:56.180
+Siddhant - 100xEngineers: If we can do it. So, now you have, like, some options right now, which are basically one-click, which means that you can, like, as long as you have your codebase on GitHub.
+
+750
+01:54:56.180 --> 01:55:06.969
+Siddhant - 100xEngineers: all of this becomes, like, very easy, or one or few clicks, I won't say exactly one, but few clicks. And this is where services like Render comes in. There are services like Railways,
+
+751
+01:55:07.470 --> 01:55:13.650
+Siddhant - 100xEngineers: there is something which I use, and it's actually, like, quite interesting, I've been using it, it's called Koab.
+
+752
+01:55:14.320 --> 01:55:17.039
+Siddhant - 100xEngineers: And then, you have,
+
+753
+01:55:18.610 --> 01:55:34.110
+Siddhant - 100xEngineers: Heroku used to be, like, very popular back in the days, but I don't know, like, if people use Heroku right now, because they canceled their free subscription, but I used to use Heroku a lot back in the days. But we have different options. Now, these are… you can think of the abstraction slash wrapper of AWS.
+
+754
+01:55:34.110 --> 01:55:40.799
+Siddhant - 100xEngineers: Under the hood, Render, Railways, Koyab, these guys are also using the same cloud platforms, but they are just making…
+
+755
+01:55:40.840 --> 01:55:48.640
+Siddhant - 100xEngineers: the entire experience much more easier for people like us. So, I'll pick one here. I don't want to go through each and everything, but I'll…
+
+756
+01:55:48.640 --> 01:56:11.419
+Siddhant - 100xEngineers: pick Render. The reason why I picked Render is because it's free, everyone can use it, it gives you, like, a good starter plan, and you can deploy your APIs, and if your APIs needs to scale, or your backend needs to scale, you can also do auto-scaling, and you can move to the plan. It's cheap for $20 and $40 plans. You can cater to, like, up to, like, 10 thousands of people, and we have tried it. A lot of our students have tried it, so…
+
+757
+01:56:11.420 --> 01:56:30.690
+Siddhant - 100xEngineers: It's a good way to get started, not the ultimate destination, but something which is a stepping stone. Now, the question becomes, how do we take everything what we have done and deploy it on render? That, we can connect it with our Hugging Face, because now we are talking about deploying and product and connecting these two things. This is where our front-end lives.
+
+758
+01:56:31.050 --> 01:56:34.940
+Siddhant - 100xEngineers: And, now me to deploy this our backend.
+
+759
+01:56:35.260 --> 01:56:40.620
+Siddhant - 100xEngineers: So, the easiest way is… As I said, You need to take…
+
+760
+01:56:41.830 --> 01:56:46.920
+Siddhant - 100xEngineers: this repository. So, don't use my repository directly, you won't be able to do it, so you need to
+
+761
+01:56:47.080 --> 01:56:49.569
+Siddhant - 100xEngineers: clone this repository. So…
+
+762
+01:56:49.760 --> 01:57:07.739
+Siddhant - 100xEngineers: The easiest way is you can fork it by clicking on this button. Once you click on fork, it'll create a fork in your own account, and you can make changes to it directly. Or you can download this. The easier approach is you can download everything, and then you can, like, go to GitHub.
+
+763
+01:57:08.660 --> 01:57:11.020
+Siddhant - 100xEngineers: And you can click on this plus icon.
+
+764
+01:57:12.600 --> 01:57:14.309
+Siddhant - 100xEngineers: Click on New Repository.
+
+765
+01:57:14.680 --> 01:57:31.639
+Siddhant - 100xEngineers: And then you write the name, similar to what we did with Hugging Face Spaces. You write a whole name, you create a repository, and once you have the repository, you upload everything there, to that repository. So that way you make a clean history of it, you start it from scratch.
+
+766
+01:57:31.640 --> 01:57:35.319
+Siddhant - 100xEngineers: Once you have a repository here, so in this case, I already have it.
+
+767
+01:57:35.410 --> 01:57:36.739
+Siddhant - 100xEngineers: And you can build it.
+
+768
+01:57:36.870 --> 01:57:42.370
+Siddhant - 100xEngineers: By that. And you can iterate and upload all of these files in that repository.
+
+769
+01:57:43.040 --> 01:57:51.560
+Siddhant - 100xEngineers: Once you have this thing, this is the only prerequisite which I need. So I said, like, get up plays a very important role in a lot of other things which we don't see on a day-to-day basis.
+
+770
+01:57:51.570 --> 01:58:11.199
+Siddhant - 100xEngineers: Now I can take this and deploy it on render. So the easiest way for me is to go to Render, and you guys can follow along. Although I have deployed it already, so I won't be able to show you the exact process, but I'll walk you through the steps. So first, I need to log in, and as you can already see, this is how the render dashboard looks like.
+
+771
+01:58:12.360 --> 01:58:20.800
+Siddhant - 100xEngineers: I need to click on this plus icon. If I click on this plus icon, I have multiple options. I need to select the web service, make sure you select the web service here.
+
+772
+01:58:21.090 --> 01:58:39.350
+Siddhant - 100xEngineers: And here, it automatically fetched all the Git repository. Now, the reason why it's fetching the Git repository, because I logged into this platform via GitHub, so make sure when you're logging in to render, you log in via GitHub, and that's why the GitHub account is prerequisite for this kind of deployment process.
+
+773
+01:58:39.350 --> 01:58:51.140
+Siddhant - 100xEngineers: Which means you need to make sure that you already have a GitHub account. If you don't have it, create one, create a new repository, upload whatever changes you have done for your app, or maybe for the same app which we have done today, and then…
+
+774
+01:58:51.260 --> 01:59:02.839
+Siddhant - 100xEngineers: create an account from GitHub, which means when you log in, just choose, just to show you how the login also will look, this is the render. So…
+
+775
+01:59:03.000 --> 01:59:21.640
+Siddhant - 100xEngineers: when you log in here, it will ask you to select the account, or create the account, so just click on the GitHub, log in via GitHub, and it automatically gonna fetch all the repositories which are available there. So, in this case, I have already C7, which the MVP I'm building with the… actually.
+
+776
+01:59:21.940 --> 01:59:22.770
+Siddhant - 100xEngineers: Yeah.
+
+777
+01:59:24.530 --> 01:59:31.349
+Siddhant - 100xEngineers: So now it will ask me, okay, how you want to deploy this service. It looks like you are using Python, it detected already, so it…
+
+778
+01:59:31.600 --> 01:59:33.109
+Siddhant - 100xEngineers: Gave me all the things.
+
+779
+01:59:33.440 --> 01:59:45.380
+Siddhant - 100xEngineers: I have multiple branches here. I'll be deploying the API branch, that's what I did, because this is the branch which I'm working on. Now, in GitHub, there are concept of branch, which means you can create a copy of the same
+
+780
+01:59:45.740 --> 01:59:59.860
+Siddhant - 100xEngineers: project. In this case, I have 3 copies of this project, so I'll be using the API copy, and that's the branch here, so I'll select, make sure this is what I'm using. In your case, if you're doing it first time, by default, it will be main, so you don't need to change it.
+
+781
+02:00:03.600 --> 02:00:16.550
+Siddhant - 100xEngineers: I'll keep the Singapore, which is the nearest region for me. The build command, I'll keep the same thing. Now, this is where I need to use the same UBCON command, and I have mentioned it in the README file as well, where
+
+782
+02:00:17.020 --> 02:00:22.840
+Siddhant - 100xEngineers: We go back here, this is the README file for that project. If you scroll down at the end.
+
+783
+02:00:24.870 --> 02:00:42.179
+Siddhant - 100xEngineers: This is the command you need to copy. It's basically the deployment process of what we have done. Go to GitHub, create an account, push all the code, open render, create new web service, connect your repo, and then in the Python start command, copy this and paste it here.
+
+784
+02:00:42.180 --> 02:00:57.600
+Siddhant - 100xEngineers: So it will make sure that it will use a UBCON command to run the application, and that's where the main app comes in, right? So it will detect the main.app. Don't change the name of the files if you're using the same template. So, main.app is the file that it will run on this web service.
+
+785
+02:00:57.600 --> 02:01:17.480
+Siddhant - 100xEngineers: And here you can see there are different instance type. I will use the $0 plan, that's why I selected Render as a service, because it allows me to test my apps without paying anything. It gives me 512MB of RAM, 0.1 CPU, which goes off when there's no activity. I'm okay with that, because I'm still building this and not, like, selling this to anybody.
+
+786
+02:01:17.480 --> 02:01:41.199
+Siddhant - 100xEngineers: And that's also a good thing, because, like, when I'm ready, I can just go to the $7 starter month plan, which gives me a dedicated, like, CPU processor. And if I need more compute, I can go to, like, more and more. Although I won't recommend, like, going to the Pro Ultra, because if you are… if you're somebody who needs Pro Ultra, then you definitely need to check, like, other solutions and providers as well. But for a good starting point, I think these
+
+787
+02:01:41.200 --> 02:01:42.520
+Siddhant - 100xEngineers: The free one is, like.
+
+788
+02:01:42.550 --> 02:01:59.390
+Siddhant - 100xEngineers: at least for what we will be discussing and doing in these lectures, gonna be gonna be enough for you. And then, this is where the environment variables comes in, like, where people were discussing, okay, how we push the ENV files, or how we share something which is secret, right? So, anything which I don't want my…
+
+789
+02:01:59.540 --> 02:02:11.490
+Siddhant - 100xEngineers: users to see, or anyone on my internet. This is a more secure way of doing it, because I can't put everything which I have written in the plain text file, and if you observe that, this is also, I have not done it
+
+790
+02:02:12.050 --> 02:02:13.729
+Siddhant - 100xEngineers: Health, right?
+
+791
+02:02:14.700 --> 02:02:28.300
+Siddhant - 100xEngineers: So, everything in the main.pui file, it's taking it, the API key from the OS, and because it's already taking it from the OS, this method works really well. So what I do is I mention my Grok.
+
+792
+02:02:28.420 --> 02:02:32.400
+Siddhant - 100xEngineers: API key here, and then I paste my API key value.
+
+793
+02:02:32.550 --> 02:02:38.920
+Siddhant - 100xEngineers: And then I generate it, so… I think…
+
+794
+02:02:40.920 --> 02:02:44.680
+Siddhant - 100xEngineers: Yeah, this is… just make sure you write the exact same keyword here.
+
+795
+02:02:45.270 --> 02:02:47.109
+Siddhant - 100xEngineers: When you're writing this thing.
+
+796
+02:02:48.010 --> 02:03:05.559
+Siddhant - 100xEngineers: So, paste the Grok API key, your API key here, and then you click on Deploy App Service. That's the only thing which you need. Once you click on deploy app service, it'll take some time, but this is the exact things you need to put here in order for you to deploy it, and I'll show you the deployment process, because usually it takes some time, and
+
+797
+02:03:06.350 --> 02:03:07.760
+Siddhant - 100xEngineers: But this is…
+
+798
+02:03:08.080 --> 02:03:26.610
+Siddhant - 100xEngineers: I deployed, like, just before coming to this session, just to make sure that everything is working, up and running. So, it took some time, it deployed all those things, and you can see, like, how it is running the commands, and it installed all the packages, and then it gave me, on this URL, I have my API live.
+
+799
+02:03:26.610 --> 02:03:31.159
+Siddhant - 100xEngineers: So, as I said, like, the server had some inactivity, so it…
+
+800
+02:03:31.740 --> 02:03:51.730
+Siddhant - 100xEngineers: turned off that server, so you don't need to manage that entire thing also. You don't need to take a load that, hey, I need to turn off something and turn it on. It automatically turns it off when nobody's using it, and then whenever you try to use it, it's… it takes, like, 50 to 60 seconds of wake-up time, but that's the… that's the only con, right? And that's why it is free, so…
+
+801
+02:03:57.010 --> 02:04:12.899
+Siddhant - 100xEngineers: Okay, now it is done. So, actually, it took less than 10 to 15 seconds for me. And you can see, like, it is Hello Builder, because we have the slash command, and I can see the slash docs here as well. So this is now running everything what we have discussed, but on
+
+802
+02:04:13.020 --> 02:04:20.499
+Siddhant - 100xEngineers: an account which everyone can use. Like, although I won't recommend you to use it, but, I think before that, I'll…
+
+803
+02:04:21.050 --> 02:04:27.779
+Siddhant - 100xEngineers: I'll just quickly show you. This is the backend URL. Now I have a backend URL, which…
+
+804
+02:04:27.980 --> 02:04:35.619
+Siddhant - 100xEngineers: I can tell that, hey, my backend is running on this. Do you remember the whole discussion we did on the day one? Right? We need a machine.
+
+805
+02:04:35.850 --> 02:04:50.330
+Siddhant - 100xEngineers: And we… this machine needs a location and URL. Everything what we did in the last, like, this session of 2 hours, we gave this URL, and now we have a URL which we ourselves generated in this session. This is that URL.
+
+806
+02:04:50.490 --> 02:05:08.370
+Siddhant - 100xEngineers: And, we also have a way to now specifically target specific instructions and functions, so that is what we do with endpoints, and I hope now the endpoint exercise makes sense, what we did as a practice at 1, because all the endpoints can come here, so…
+
+807
+02:05:08.370 --> 02:05:15.880
+Siddhant - 100xEngineers: whenever somebody go to this URL and slash diagnose, it will actually go to the same, codebase, and
+
+808
+02:05:15.960 --> 02:05:23.909
+Siddhant - 100xEngineers: find this function and execute this function. And, that's basically what we have done. And now…
+
+809
+02:05:24.180 --> 02:05:27.009
+Siddhant - 100xEngineers: You guys have also deployed this
+
+810
+02:05:27.120 --> 02:05:30.450
+Siddhant - 100xEngineers: on, I would say.
+
+811
+02:05:33.080 --> 02:05:41.750
+Siddhant - 100xEngineers: the radio hugging Face Credit radio. So what I'll do is the last step is connecting these two things. So we have our backend URL.
+
+812
+02:05:42.040 --> 02:05:50.769
+Siddhant - 100xEngineers: Now, let me go to the Gradio… sorry, Hugging Face app. So this is where I'll find my existing spaces.
+
+813
+02:05:51.480 --> 02:05:53.619
+Siddhant - 100xEngineers: If you have already deployed it, you can…
+
+814
+02:05:56.850 --> 02:06:04.040
+Siddhant - 100xEngineers: You can find it in your profile. I think I have the test UI, this is what I was doing. And I have the same UI.
+
+815
+02:06:04.280 --> 02:06:12.389
+Siddhant - 100xEngineers: app.py, no other files, I'm not sharing any sensitive information. That's how I kept everything separate, using the same principles.
+
+816
+02:06:12.480 --> 02:06:26.720
+Siddhant - 100xEngineers: And, because I'm using the os.environment.get backend URL, it will automatically take the backend URL, and if backend URL is not available, then it falls back to this, and this is the whole logic which is telling. Now, what I need to connect this
+
+817
+02:06:27.300 --> 02:06:35.909
+Siddhant - 100xEngineers: entire app with my backend URL is A first the backend URL, which is… there already. I have it.
+
+818
+02:06:36.010 --> 02:06:37.420
+Siddhant - 100xEngineers: With me.
+
+819
+02:06:39.270 --> 02:06:40.459
+Siddhant - 100xEngineers: This is a one.
+
+820
+02:06:53.670 --> 02:07:08.500
+Siddhant - 100xEngineers: Yeah, sorry, this is the one. And, what I'll do is, I'll take this URL, and I'll try to connect it with my app. My app is running right now, and the way I'll connect it, because again, I don't want to expose it, so I'll go to the settings part, and here…
+
+821
+02:07:08.750 --> 02:07:13.260
+Siddhant - 100xEngineers: I will go to scroll down. So, just like you had apps and files.
+
+822
+02:07:13.480 --> 02:07:32.210
+Siddhant - 100xEngineers: Gradio, Hugging Face gives you these settings where you can change your hardware, you can change things like restart the space, and here you also have these variables, like, so you can either create a secret or a variable. The difference between secret and variable is a variable is public, which means, like.
+
+823
+02:07:32.210 --> 02:07:37.449
+Siddhant - 100xEngineers: It can be traced from the public application, but a secret cannot.
+
+824
+02:07:37.450 --> 02:07:53.759
+Siddhant - 100xEngineers: So secret is something which is, as the name says, is gonna be always secret. So if you are adding any keys, something which you don't want, even if you don't want the URL, I'm okay, like, if somebody takes a URL, but if you don't want the URL, then you paste this, the specific URL as a value here.
+
+825
+02:07:53.760 --> 02:07:55.510
+Siddhant - 100xEngineers: And just make sure you…
+
+826
+02:07:55.620 --> 02:08:02.840
+Siddhant - 100xEngineers: mention the endpoint, because we have connected only one function as of now, and here, the backend URL. Just use the exact same
+
+827
+02:08:03.260 --> 02:08:11.680
+Siddhant - 100xEngineers: key, and once you click on save, it will show something like this, the backend URL, and it has this
+
+828
+02:08:12.440 --> 02:08:13.870
+Siddhant - 100xEngineers: diagnose function.
+
+829
+02:08:14.150 --> 02:08:20.210
+Siddhant - 100xEngineers: the… as a backend input. Now, if I go back, and I see… the app.
+
+830
+02:08:21.370 --> 02:08:22.950
+Siddhant - 100xEngineers: Hopefully, it should work.
+
+831
+02:08:45.780 --> 02:08:52.920
+Siddhant - 100xEngineers: Okay, so I have something which is available with me, which I just built in the last 2 hours with all of you guys, live.
+
+832
+02:08:53.310 --> 02:09:01.609
+Siddhant - 100xEngineers: a UI running on RadioSpaces, which can take the input, what we decided in the discovery process of what we're gonna take from RF,
+
+833
+02:09:02.050 --> 02:09:18.079
+Siddhant - 100xEngineers: it is the front end, and the backend is running separately on a different service, different machine render. We have connected and deployed that backend to render, and we have connected it to Hugging Face Spaces, so we have now a full-fledged application running
+
+834
+02:09:18.090 --> 02:09:23.829
+Siddhant - 100xEngineers: up, and the first and foremost thing which I will do here is I'll go to my API keys.
+
+835
+02:09:23.920 --> 02:09:31.479
+Siddhant - 100xEngineers: And I will delete the C7 API key, because I just exposed it, so that you guys won't be able to, like, make more API calls.
+
+836
+02:09:32.320 --> 02:09:33.750
+Siddhant - 100xEngineers: I think I'll deploy this.
+
+837
+02:09:34.550 --> 02:09:35.750
+Siddhant - 100xEngineers: Remo espo.
+
+838
+02:09:36.100 --> 02:09:52.249
+Siddhant - 100xEngineers: So just make sure if you accidentally share keys with anyone, you can always come here and you can delete those keys. So right now, this app won't work, but I'll still share the URL of this app, because I just removed the API key. But you can check
+
+839
+02:09:52.580 --> 02:09:57.090
+Siddhant - 100xEngineers: The whole experience, and this is how… we go from…
+
+840
+02:09:57.570 --> 02:10:17.130
+Siddhant - 100xEngineers: idea to app, with all the principles that we have learned. I know it's a lot, and I've extended the time, but this is the end of the session. Everything what I described, what I have shared, is documented in this repository. What I would recommend you to do, follow the same process that we have done.
+
+841
+02:10:17.250 --> 02:10:23.330
+Siddhant - 100xEngineers: Starting from… this… But…
+
+842
+02:10:33.200 --> 02:10:44.889
+Siddhant - 100xEngineers: First, understand what is the user interface, build your interface, deploy it. Right now, you can use Gradio. I'll also upload the videos about Streamlit and how you can use the other options with Python.
+
+843
+02:10:44.910 --> 02:10:53.550
+Siddhant - 100xEngineers: Once you have done that, build the backend, and when I say backend, which means that the way how you process your inputs to generate the output, try to do it first.
+
+844
+02:10:53.680 --> 02:10:55.220
+Siddhant - 100xEngineers: get the…
+
+845
+02:10:55.440 --> 02:11:08.689
+Siddhant - 100xEngineers: processing figured out, do it manually, make sure you test it with your users and see the value you provide, the output you provide is actually helping them to solve the problem. Once you have done this, then expose it as an API,
+
+846
+02:11:08.690 --> 02:11:15.779
+Siddhant - 100xEngineers: Use FastAPI, create endpoints, test it locally, deploy it on Render, deploy it on Hugging Face Spaces.
+
+847
+02:11:15.870 --> 02:11:25.699
+Siddhant - 100xEngineers: For the front end, connect both of these things. You can use the secret or the variables in the settings tab, and that's how you have the whole thing ready.
+
+848
+02:11:27.820 --> 02:11:44.860
+Siddhant - 100xEngineers: You can also refer to the README notes. This is a clean notes of the whole build, and if you want to follow along step-by-step locally, and what each of these terms means, I've, like, mentioned all of these things with the explanation of the codebase. So…
+
+849
+02:11:45.490 --> 02:11:59.859
+Siddhant - 100xEngineers: This is the end of the session, and I hope you now got some clarity and something which you can take from this and start applying and start building. If you have any questions, you can stay back in the chat, you can let me know. If you don't have any questions, you can…
+
+850
+02:12:00.230 --> 02:12:04.339
+Siddhant - 100xEngineers: You can leave right now, and I'll just take some questions.
+
+851
+02:12:14.200 --> 02:12:20.450
+Siddhant - 100xEngineers: Yeah, I think, Danish, you got the answer, what does contribute means in GitHub, just like how we contribute.
+
+852
+02:12:20.570 --> 02:12:34.909
+Siddhant - 100xEngineers: to any article, to any piece, we can contribute to different codebases. Let's say if you find something interesting, or something which you find, like, a mistake in my README file, you can suggest me changes, and you can contribute to my README files.
+
+853
+02:12:35.070 --> 02:12:51.600
+Siddhant - 100xEngineers: So, that's what the contribution means, although I have not specifically mentioned you don't need the contributions right now. You'll take steps, like, things step by step. I shared the GitHub README before this session, that's why I recommended people who are new go through that.
+
+854
+02:12:55.220 --> 02:13:17.789
+Siddhant - 100xEngineers: I'll take one session about, like, GitHub in general, but first I wanted all of you to, like, go through it yourself manually, go through the material, and then we can maybe, like, take one, like, doubt-solving session, we can convert it into, like, GitHub one, if we have, like, enough number of people who are facing the problem there. But I think it should be, like, straightforward if you follow the guide, things which I uploaded.
+
+855
+02:13:18.860 --> 02:13:31.039
+Siddhant - 100xEngineers: Can GitHub get pulled automatically from the render? Good question. Right now, you can set the triggers, Yasir. So if I go to render, and if I show you, this is a part where
+
+856
+02:13:35.590 --> 02:13:44.369
+Siddhant - 100xEngineers: This is where the auto-deploy comes in. So, if you go to the advanced section, which I haven't opened yet, because I kept everything, default.
+
+857
+02:13:44.640 --> 02:14:06.820
+Siddhant - 100xEngineers: So, the auto-deploy function on render mentions here that when do you want to deploy, or when do you want render to automatically deploy your service. Right now, it is onCommit, and what onCommit means is that whenever I make any changes to the branch which is deployed, let's say if I'm working on the main branch here, so whenever I make changes to the main branch.
+
+858
+02:14:06.820 --> 02:14:13.699
+Siddhant - 100xEngineers: Which means I upload something, I make changes to the README, I make changes to the app underscore streamly dot py file.
+
+859
+02:14:14.190 --> 02:14:22.500
+Siddhant - 100xEngineers: Render will detect those changes, and it will deploy the changes onto that service. That is what it means when it says that it will use
+
+860
+02:14:22.650 --> 02:14:33.349
+Siddhant - 100xEngineers: the auto-deploy on commit. You can change it, you can turn it off, you can add more conditions to it, but by default, it deploys on the commit for the branch that you have mentioned.
+
+861
+02:14:48.920 --> 02:14:51.509
+Siddhant - 100xEngineers: Awesome. Back-end is connected to frontend.
+
+862
+02:14:51.680 --> 02:14:54.950
+Siddhant - 100xEngineers: I didn't get the context of this joke, but…
+
+863
+02:14:58.550 --> 02:15:00.969
+Siddhant - 100xEngineers: Yes, you can connect GitLab repo as well.
+
+864
+02:15:05.670 --> 02:15:23.360
+Siddhant - 100xEngineers: So, the reason why I shared the resources with all of you, Yasir and for everyone else, there is a difference between Git and GitHub, so the video will help you to understand that. These are two different things. Like, Git is the underlying technology, but GitHub and GitLab, these are the platforms, so…
+
+865
+02:15:23.800 --> 02:15:25.750
+Siddhant - 100xEngineers: Just think of it, like.
+
+866
+02:15:26.100 --> 02:15:42.749
+Siddhant - 100xEngineers: the large language model is the online technology, but Cloud Code or Cloud Code Co-work, these are the different products. So, that's the same analogy. So, yes, GitLab is another product which uses the Git as a technology. You can sign up on GitLab and connect everything there as well.
+
+867
+02:15:42.840 --> 02:15:49.540
+Siddhant - 100xEngineers: A lot of enterprise use GitLab. GitHub is a more consumer-focused and, like, more popular version.
+
+868
+02:15:50.500 --> 02:15:54.939
+Siddhant - 100xEngineers: What does folk mean? So, folk means a duplicate of the
+
+869
+02:15:56.160 --> 02:16:12.830
+Siddhant - 100xEngineers: the repository. So, if I want to create a duplicate of this repository, because right now you guys cannot deploy my repository, it is my code, I uploaded on my profile. So, if you want to deploy it, you need to first create a copy. So, just how you create a duplicate file, it's…
+
+870
+02:16:12.830 --> 02:16:20.029
+Siddhant - 100xEngineers: creates a fork. The thing about fork and why it is special here is because it keeps a clean connection that
+
+871
+02:16:20.220 --> 02:16:38.249
+Siddhant - 100xEngineers: anyone who is watching, you, they can tell that, hey, you have started working on Siddhan's repository, and you forked it from there. So that way, like, you can give attribution to me that, hey, whatever I built and learned, there's a guy who played a small role into it. So that's the whole…
+
+872
+02:16:38.450 --> 02:16:42.870
+Siddhant - 100xEngineers: reason why, like, Fork as a community on open source also works.
+
+873
+02:16:48.240 --> 02:17:12.869
+Siddhant - 100xEngineers: You can do virtual for front-end as well, if you are using JavaScript as technology. I'll come back to those things, and I'll also discuss about the advanced part of it, although I won't teach you guys each and every advanced front-end framework, because I don't think that is the most important thing right now, as given our time. I would focus more things on the applied AI LLMs and agents, rather than
+
+874
+02:17:12.900 --> 02:17:29.790
+Siddhant - 100xEngineers: teaching you guys about the front-end development. Although, if somebody is interested, if you want to learn, I can definitely recommend some courses, some specific, like, free resources on the internet, which you can definitely learn. I have taught HTML, CSS, JavaScript, I've
+
+875
+02:17:29.790 --> 02:17:37.780
+Siddhant - 100xEngineers: been a front-end developer, so I can recommend, like, things. In this case, the reason why I stick to Python throughout the module is because
+
+876
+02:17:37.780 --> 02:17:47.950
+Siddhant - 100xEngineers: It's easier to, like, use Python for full stack. When you're learning things, you have less Cognitive overload. JSS…
+
+877
+02:17:48.270 --> 02:17:58.759
+Siddhant - 100xEngineers: JS is a mistake, to be honest. Like, I… I've been writing and working with JavaScript from almost, like, 8 years right now, and I think, like, I still don't understand it.
+
+878
+02:17:58.900 --> 02:18:00.180
+Siddhant - 100xEngineers: And,
+
+879
+02:18:00.180 --> 02:18:20.570
+Siddhant - 100xEngineers: it's a reason, because it had a very, like, weird history. So, I can talk about it, like, maybe in a separate session altogether, like, by which language works for what kind of use cases, and when, like… So, I think this is just to answer Warren's question, is that right now, I won't prefer you to deploy anything on Vercel, because we have not used JS as a main language. I've been using Python, so…
+
+880
+02:18:20.570 --> 02:18:39.309
+Siddhant - 100xEngineers: Render works, railways work, Koya works. If you can figure out a way to, like, deploy Python code on Versal, which is gonna be slightly messy, because I've not done that, so maybe, I don't know, like, if they have added any new plugins recently, then you can go ahead, but these are services which at least I have tried, and I can… I can vouch for it.
+
+881
+02:18:39.870 --> 02:18:48.730
+Siddhant - 100xEngineers: Coeb is good for portfolio website. Coeb is also good for a lot of production-ready backend APIs. Some of my students are using CoAb in production.
+
+882
+02:18:52.420 --> 02:18:55.850
+Siddhant - 100xEngineers: Yeah, Amazon doesn't have the role for DevOps engineer.
+
+883
+02:18:57.290 --> 02:19:02.629
+Siddhant - 100xEngineers: How about going for something like soap? We'll touch upon Super Base exactly in the next week.
+
+884
+02:19:29.559 --> 02:19:33.129
+Siddhant - 100xEngineers: In a product-ready app, when to use cloud-based secret manager?
+
+885
+02:19:36.490 --> 02:19:41.489
+Siddhant - 100xEngineers: No, I didn't understand the question, because I think we are still using a secret manager on Render.
+
+886
+02:19:41.910 --> 02:19:49.599
+Siddhant - 100xEngineers: So, I don't see a difference here. Like, just like how we have, secrets here.
+
+887
+02:19:49.700 --> 02:19:51.290
+Siddhant - 100xEngineers: the environment files.
+
+888
+02:19:51.410 --> 02:19:55.100
+Siddhant - 100xEngineers: Like, there's the same thing which I'll use in the production as well.
+
+889
+02:19:56.000 --> 02:20:13.250
+Siddhant - 100xEngineers: The only thing which I'll change, maybe, is the local, work, and as we have, like, more and more API keys and things, I'll start putting it into a file, and that is where the concept of environment file comes in, which people call .env, and we refer it from that. So that's…
+
+890
+02:20:13.250 --> 02:20:16.759
+Siddhant - 100xEngineers: the… another way. So when you have, like, more number of secrets.
+
+891
+02:20:16.940 --> 02:20:22.889
+Siddhant - 100xEngineers: For one or two, I'll keep it just like this, but if you have more, then we can store everything in .env file.
+
+892
+02:20:29.880 --> 02:20:36.460
+Siddhant - 100xEngineers: How is API key created and provided to us by Grok? I think I showed the exact thing, Danishko. This is…
+
+893
+02:20:36.610 --> 02:20:41.810
+Siddhant - 100xEngineers: You go to Grok right now, grok.com slash keys.
+
+894
+02:20:42.500 --> 02:20:48.499
+Siddhant - 100xEngineers: This is the URL, click on the Create API key, write your name, and when you,
+
+895
+02:20:48.760 --> 02:20:59.029
+Siddhant - 100xEngineers: write the name, click on Submit, you will get the API key. And this API key looks like this, then you copy that API key, and then you can continue following all the steps.
+
+896
+02:21:11.040 --> 02:21:15.340
+Siddhant - 100xEngineers: It creates a signature. It creates a unique signature based on
+
+897
+02:21:15.930 --> 02:21:25.810
+Siddhant - 100xEngineers: your email, your account, so that it makes sure that whatever API key you're generating, it's unique to you, and then it keeps a track. At the end day, it's just like a…
+
+898
+02:21:27.440 --> 02:21:36.029
+Siddhant - 100xEngineers: text which is unique to your account, so that Rock will understand how much API calls you're making, so that it can bill you after the free tier.
+
+899
+02:21:47.540 --> 02:21:58.170
+Siddhant - 100xEngineers: Yeah, definitely. I think I'll help you to learn that, Yasir, but I also want 1,000 users before that. Like, I think I want, like, 500 users before that on your application.
+
+900
+02:21:58.600 --> 02:22:15.149
+Siddhant - 100xEngineers: If you have 500 or even 100 plus users on your application using it, and you can show it to me on analytics, I would be happy to sit down and, like, help you to, like, take this 2,000, maybe to, like, 10,000 to a million application. One more thing I just want to, like, clarify here is that
+
+901
+02:22:15.150 --> 02:22:32.590
+Siddhant - 100xEngineers: just to setting the… set the expectation as well, is that I can teach you a lot of things right now. I can teach you about the entirety of, like, deployment, engineering, and building all of these things, like, making it secure. But the thing is, we have to take our side, right? We have limited time. We also want to
+
+902
+02:22:32.590 --> 02:22:35.250
+Siddhant - 100xEngineers: Make sure we learn everything which is relevant.
+
+903
+02:22:36.010 --> 02:22:47.580
+Siddhant - 100xEngineers: if you go back to the verifier's Law, if you go back to the jagged edge of intelligence, I always, like, ask this question, like, whatever I'm teaching, what part of my curriculum will get
+
+904
+02:22:47.680 --> 02:22:56.279
+Siddhant - 100xEngineers: obsolete in the next one year. And I'll try to focus less on those parts, and focus more on the things which I know that only humans can do.
+
+905
+02:22:56.280 --> 02:23:15.929
+Siddhant - 100xEngineers: Because we don't have those verification checks inbuilt. So, yes, I can teach you here, sir, and I can teach, like, a lot of other people, like, what you guys are, like, mentioning in the chat, but I think there would be a point very soon, because these things are very easy to verify, and we'll have a way to, like, automate all these parts.
+
+906
+02:23:16.120 --> 02:23:35.469
+Siddhant - 100xEngineers: So rather, I would focus on getting the customers, and meanwhile, when we don't have that kind of automation available, I would be happy to provide and extend these services or, like, support to people who are actually dealing with that amount of users, because one thing which I learned in my career is that 90% of my project is killed because of
+
+907
+02:23:35.470 --> 02:23:40.419
+Siddhant - 100xEngineers: my over-engineering, because I over-optimized for, hey, I need to make sure that
+
+908
+02:23:40.660 --> 02:23:54.179
+Siddhant - 100xEngineers: I need to write everything in Rust, I need to write everything in C++ so that I can optimize the latency to submiseconds, so when I have, like, 1 million users on my application, they won't face any difficulty to browse this signup page.
+
+909
+02:23:54.410 --> 02:23:55.790
+Siddhant - 100xEngineers: And guess what?
+
+910
+02:23:56.270 --> 02:24:00.420
+Siddhant - 100xEngineers: In 99% of the time, I never had 1 million users.
+
+911
+02:24:00.560 --> 02:24:03.309
+Siddhant - 100xEngineers: And I just ended up, like, spending
+
+912
+02:24:03.400 --> 02:24:22.299
+Siddhant - 100xEngineers: 6 months and a whole lot of time, maybe 10, 20x of a time to optimizing things, which was never a problem for me. And it was more something which I had, like… it's just overthinking, translating to over-engineering, and that's what I… I believe, what most developers also face, right? So, I took a different approach.
+
+913
+02:24:22.300 --> 02:24:26.619
+Siddhant - 100xEngineers: lately, is that I'm only gonna solve problems progressively.
+
+914
+02:24:26.970 --> 02:24:28.499
+Siddhant - 100xEngineers: You don't need to…
+
+915
+02:24:28.700 --> 02:24:43.830
+Siddhant - 100xEngineers: make things complex just because you have seen something complicated which maybe appeals to you. There's always a reason for complexity. There's a reason why AWS looks like this. There's a reason why all the apps and things are
+
+916
+02:24:43.830 --> 02:24:57.009
+Siddhant - 100xEngineers: which are complicated, looks like that, because they have progressively solved the problems over time, and that is the result of what they have. If you try to replicate those states, and this is something which a lot of
+
+917
+02:24:57.010 --> 02:25:20.039
+Siddhant - 100xEngineers: teams in India do, like, I'm not blaming, like, one person, but, like, it's a culture, right? Like, we always copy the West, we always copy, okay, what the big tech companies are doing, and let's copy, like, how they're hiring, what kind of services they are using, what kind of, like, apps they are using, and, like, practices they are using. The thing is, it doesn't work like that. So that's where exactly the first principles comes in, right?
+
+918
+02:25:20.450 --> 02:25:31.599
+Siddhant - 100xEngineers: So, yeah, I think my takeaway here is that don't overthink and over-engineer for things which you don't have. If you have already, like, people, I think we can, like, go step by step, and we can solve problems.
+
+919
+02:25:40.520 --> 02:25:54.629
+Siddhant - 100xEngineers: Yeah, I think I… I can… I can definitely, help you if you are, like, facing that problem. But again, then it becomes, like, slightly beyond the scope of, like, what we are doing, right? Because if you are trying to optimize what you are doing in your job, then,
+
+920
+02:25:55.670 --> 02:26:17.720
+Siddhant - 100xEngineers: Yeah, it becomes, like, a slightly blurry line, right? I would rather want you to actually do something on your own, maybe, like, take things, and even if it is a part of your job or a part of something, what you're doing, we can, like, work on that together, and that would be, like, a better use of both of our time, rather than maybe just, like, me doing consulting on with you and, like, trying to help you to optimize the API calls.
+
+921
+02:26:17.790 --> 02:26:23.329
+Siddhant - 100xEngineers: So… but yeah, like, if you need, like, happy to, like, chat and see, like, if it makes sense.
+
+922
+02:26:25.250 --> 02:26:36.929
+Siddhant - 100xEngineers: Sharing an interesting place, which is unexplored by majority Google Apps Script. I use Apps Script for making web apps and Google Sheets as a backend DB. I have tried this architecture for basic steps for almost 2,000 users per month.
+
+923
+02:26:36.930 --> 02:26:47.619
+Siddhant - 100xEngineers: everything was held smooth. Apps Script provides simple deployment without any GCP hassle. Yes, I agree. Yeah, Appscripts are another great way. So, all of these are different alternatives
+
+924
+02:26:47.620 --> 02:26:55.159
+Siddhant - 100xEngineers: solutions, yeah, I think if somebody's interested, although I have not used Apps Script to that level, but yeah, I think…
+
+925
+02:26:55.850 --> 02:27:03.199
+Siddhant - 100xEngineers: It would be great if you can share this with the community. Anyone who is using it maybe can find it, helpful.
+
+926
+02:27:03.720 --> 02:27:06.260
+Siddhant - 100xEngineers: But thank you so much for sharing this, Hansh. It's great.
+
+927
+02:27:15.120 --> 02:27:17.449
+Siddhant - 100xEngineers: It's okay, I'll anyway send…
+
+928
+02:27:17.570 --> 02:27:28.159
+Siddhant - 100xEngineers: all the notes, and I just said, like, of this lecture, the post-read, so you don't need to, like, worry about taking down notes. So don't worry, Danish, I'll send you everything after the lecture.
+
+929
+02:27:28.520 --> 02:27:36.430
+Siddhant - 100xEngineers: For the Hugging Face exercise, only when I renamed app underscore frontend dot py to app.py, then it worked, else it gave there. Can you explain this?
+
+930
+02:27:36.620 --> 02:27:41.850
+Siddhant - 100xEngineers: Yes, Chris. So, the reason why it gave you the error is because
+
+931
+02:27:43.680 --> 02:27:47.980
+Siddhant - 100xEngineers: The way how Hugging Face works, It is deployed
+
+932
+02:27:48.620 --> 02:27:51.700
+Siddhant - 100xEngineers: It's someone else's machine. It's not your machine.
+
+933
+02:27:52.140 --> 02:28:09.979
+Siddhant - 100xEngineers: when I download everything on my local computer, this is basically my machine, I can name anything and I can write any command. And the way how I… if you have noticed how I ran, my Gradio command, the front-end command is python app underscore frontend.py. This is how I ran the command.
+
+934
+02:28:09.980 --> 02:28:14.270
+Siddhant - 100xEngineers: to run the local Gradio front-end file.
+
+935
+02:28:15.450 --> 02:28:21.959
+Siddhant - 100xEngineers: because this is my machine, I can access the terminal, I can write the command, I can do whatever I want.
+
+936
+02:28:22.310 --> 02:28:33.360
+Siddhant - 100xEngineers: the moment I put this code to Hugging Face Machine, which I don't control, the only thing which I control is what I can send, and I can send those things in this file.
+
+937
+02:28:33.890 --> 02:28:52.009
+Siddhant - 100xEngineers: I don't have access to the terminal right now. So what I need to do is I need to understand how Hugging Face actually, runs files. So by default, what they have written in their documentation is when you create the repository default, they run app.py file, which means
+
+938
+02:28:52.720 --> 02:28:59.720
+Siddhant - 100xEngineers: whenever you push something, Hugging Face Spaces runs command like this, Python.
+
+939
+02:29:00.040 --> 02:29:18.570
+Siddhant - 100xEngineers: space app.py. And the reason why they do it, because Hugging Face cannot guess the name of different files. People can name anything on their files, right? So they need, like, one standard. So what they recommend is that whatever you have, just paste it, or just upload it as app.py, because they write the command python
+
+940
+02:29:19.160 --> 02:29:24.990
+Siddhant - 100xEngineers: app.py file. I hope that's clear. This is why it was showing the error when you didn't use the same name.
+
+941
+02:29:59.650 --> 02:30:02.290
+Siddhant - 100xEngineers: Yeah, very good question. Mayur had this…
+
+942
+02:30:02.730 --> 02:30:05.010
+Siddhant - 100xEngineers: Like, what are the best practices to…
+
+943
+02:30:05.220 --> 02:30:11.469
+Siddhant - 100xEngineers: build APIs so that you minimize the cost of migration, or minimize the migration effort.
+
+944
+02:30:12.140 --> 02:30:19.289
+Siddhant - 100xEngineers: One of the key things in everything which I'm explaining is that we are taking the systems-first approach.
+
+945
+02:30:19.370 --> 02:30:21.840
+Siddhant - 100xEngineers: Where we are learning the principles, so…
+
+946
+02:30:21.840 --> 02:30:45.630
+Siddhant - 100xEngineers: even when I'm telling you that, hey, this is the repository, this is the code, you can always tie each and every concept that we have written in the code that we have built in the last 2 hours on this whiteboard. Like, you know exactly, that's why I pasted the pictures here. When I said front-ended, what is the front-end here? And when I said back-end, what is back-end APIs, what are the APIs, what is the LLM here? And we can also go one level deep here.
+
+947
+02:30:45.630 --> 02:30:57.210
+Siddhant - 100xEngineers: when I say the diagnose API, which API I'm referring to? These principles are not dependent on a platform or a particular language, which means that
+
+948
+02:30:57.570 --> 02:31:02.220
+Siddhant - 100xEngineers: If you understand writing the endpoints, And…
+
+949
+02:31:02.220 --> 02:31:25.270
+Siddhant - 100xEngineers: getting the right outputs and inputs, everything what we have done so far is platform agnostic. I can create a spec out of all of this. Spec means the specification of how I have developed the front end, how I have developed the APIs, and how I have connected this with LLMs, all of this in plain English language. And if you want, something which I recommend a lot is that whenever you do these kind of projects.
+
+950
+02:31:25.270 --> 02:31:30.510
+Siddhant - 100xEngineers: you ask LLM itself to… can you write a specification in English,
+
+951
+02:31:31.290 --> 02:31:33.550
+Siddhant - 100xEngineers: About everything that you have written.
+
+952
+02:31:33.950 --> 02:31:36.959
+Siddhant - 100xEngineers: And you keep that as an active thread.
+
+953
+02:31:37.160 --> 02:32:00.249
+Siddhant - 100xEngineers: Over time, you develop the application. So what happens is that the moment you want to now migrate to a different service, as long as you know the principles, which is also documented for each and every detail for what is the input for fun function, the output, what is the processing logic there, which is agnostic of the language, written in plain English language, it becomes easier, because now.
+
+954
+02:32:00.490 --> 02:32:10.829
+Siddhant - 100xEngineers: LLMs can read that spec, and they can apply and rewrite the code in different language. And this is what's happening in a lot of the enterprise migration work,
+
+955
+02:32:11.490 --> 02:32:26.650
+Siddhant - 100xEngineers: the place where it gets messy is where people don't have the documentation, the clear documentation. There are ambiguities in the codebases which LLMs cannot guess and predict. So the easy recommendation here is to keep writing specification, which means
+
+956
+02:32:26.650 --> 02:32:39.909
+Siddhant - 100xEngineers: everything what I'm explaining without using Python jargons, just keep writing it and mentioning the details of input-output, and keep an active file as a specification ready, so whenever you want to migrate, you can migrate from past APIs to any other language.
+
+957
+02:32:45.360 --> 02:32:55.600
+Siddhant - 100xEngineers: Yes, I recommended a couple of things, so I uploaded Tanishka on the LMS right now, those things. I think I shared it with the…
+
+958
+02:32:56.720 --> 02:33:19.299
+Siddhant - 100xEngineers: One thing which I recommend all of you to do is go through this after this, especially if you are new to programming. And second thing is go through the resources. I have a lot of resources, by the way, for this week, so just go through all of this. I have recorded a whole series of going from a simple app to also having a…
+
+959
+02:33:19.430 --> 02:33:23.070
+Siddhant - 100xEngineers: A file-based data storage in these videos.
+
+960
+02:33:23.070 --> 02:33:39.739
+Siddhant - 100xEngineers: So, especially the week 4 videos, so you can watch all these videos, where I took a problem statement from 100X, and we basically mapped it out, built a simple front-end, an API, and a backend, and also, like, used a simple file to store the information. So these are the…
+
+961
+02:33:39.830 --> 02:33:58.929
+Siddhant - 100xEngineers: 5 videos and five-part series for it. So, watch all of this, read the doc. If you still have any questions, let me know. If you finish all of these things, then happy to share more resources. But I think, yeah, I'll… I'll take a leave right now. I think I've extended the time, but thank you so much for people who are still here, and were…
+
+962
+02:33:59.040 --> 02:34:04.459
+Siddhant - 100xEngineers: like, still actively, like, working in Berlin. So, first of all, congratulations to people who
+
+963
+02:34:04.820 --> 02:34:21.440
+Siddhant - 100xEngineers: have, like, seen everything, and you guys have, like, built it. This is great. I'll see you tomorrow, we're gonna take our application, add more persistence to it, and we're gonna learn about the databases, and how we work around data. But until then, keep building, and I'll see you soon. Bye-bye, good night.
+

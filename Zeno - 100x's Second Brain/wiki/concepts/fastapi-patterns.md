@@ -2,7 +2,7 @@
 title: "FastAPI Patterns"
 type: concept
 tags: [fastapi, python, api, backend, 100x-cohort7]
-source_count: 2
+source_count: 3
 ---
 
 ## Definition
@@ -41,6 +41,56 @@ async def root():
 
 # Run: uvicorn main:app --reload
 ```
+
+### L06 Minimal Pattern (First Principles Entry)
+
+Before Pydantic and async, L06 introduced the simplest possible FastAPI backend — `body: dict`, OS-level env vars, Groq SDK:
+
+```python
+from fastapi import FastAPI
+from groq import Groq
+import os
+
+app = FastAPI()
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+
+@app.get("/")
+def root():
+    return {"message": "Hello Builder"}
+
+@app.post("/diagnose")
+def diagnose(body: dict):
+    workflow_description = body["workflow_description"]
+    completion = client.chat.completions.create(
+        model="llama-3.3-70b-versatile",
+        messages=[
+            {"role": "system", "content": "You are a workflow diagnosis assistant."},
+            {"role": "user", "content": workflow_description}
+        ],
+        max_tokens=1024
+    )
+    return {"result": completion.choices[0].message.content}
+```
+
+Key choices for L06:
+- `body: dict` instead of Pydantic BaseModel — intentional; reduces cognitive load for beginners
+- `os.environ.get("GROQ_API_KEY")` via `export GROQ_API_KEY=gsk_...` in terminal — no `.env` file needed locally
+- Plain `def` not `async def` — simplest path; upgrade to async when scaling LLM calls
+- Return plain `{"key": value}` dict — FastAPI converts to JSON automatically
+
+Pedagogy: function first → test manually → expose as API. Never wire up FastAPI before the core function works.
+
+### Message Roles — System / User / Assistant
+
+Every LLM API call uses a `messages` array with three roles:
+
+| Role | Purpose |
+|---|---|
+| `system` | Persistent instructions for the session; overrides model defaults; equivalent to ChatGPT's "Custom Instructions" |
+| `user` | The actual input from the human or upstream system |
+| `assistant` | Previous LLM responses; enables multi-turn conversation history |
+
+For the workflow diagnosis app: `system` sets the assistant's persona and constraints; `user` receives the Gradio chat input.
 
 ### Three Key Patterns
 
@@ -131,7 +181,7 @@ async def qualify_lead(data: LeadInput):
 
 ## Connections
 Related concepts: [[full-stack-llm-architecture]], [[domain-modeling]], [[production-genai-stack]], [[six-easy-pieces-philosophy]]
-Introduced by: [[100x-cohort7-module2-llm]]
+Introduced by: [[100x-cohort7-module2-llm]], [[100x-cohort7-module2-l04-l06]], [[100x-cohort7-module2-l07-l10]]
 
 ## Open Questions / Unknowns
 - When to use FastAPI vs Django? — FastAPI for API-first apps; Django when you need full ORM + admin panel out of the box.

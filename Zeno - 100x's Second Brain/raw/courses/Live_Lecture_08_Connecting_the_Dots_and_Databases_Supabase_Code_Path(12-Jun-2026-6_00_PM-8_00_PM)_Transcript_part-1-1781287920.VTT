@@ -1,0 +1,3650 @@
+WEBVTT
+
+1
+00:08:48.760 --> 00:08:51.600
+Audio shared by 100xEngineers: Looks like there's ain't no blood.
+
+2
+00:08:52.690 --> 00:08:55.910
+Audio shared by 100xEngineers: Back there's a crack in the heavens
+
+3
+00:08:56.640 --> 00:08:59.570
+Audio shared by 100xEngineers: Feels like my day could be turning.
+
+4
+00:09:01.430 --> 00:09:03.139
+Audio shared by 100xEngineers: I'm telling my luck's good.
+
+5
+00:09:03.440 --> 00:09:04.120
+Audio shared by 100xEngineers: Chang.
+
+6
+00:09:05.330 --> 00:09:06.639
+Audio shared by 100xEngineers: You can see me now.
+
+7
+00:09:08.840 --> 00:09:18.859
+Audio shared by 100xEngineers: I'll probably let you down But that's enough for me You got me beggin', baby.
+
+8
+00:09:23.060 --> 00:09:24.429
+Audio shared by 100xEngineers: Looks like a man.
+
+9
+00:09:36.810 --> 00:09:39.469
+100xEngineers: Hi, folks! Can you hear me? Can you see me?
+
+10
+00:09:41.130 --> 00:09:43.300
+100xEngineers: AI, Danish.
+
+11
+00:09:43.700 --> 00:09:45.339
+100xEngineers: Hi, Dave. Hi, Anj.
+
+12
+00:09:48.790 --> 00:09:49.830
+100xEngineers: Awesome.
+
+13
+00:09:51.880 --> 00:09:57.170
+100xEngineers: Cool, first of all, how are you guys feeling? How's the vibe right now?
+
+14
+00:09:57.960 --> 00:09:59.200
+100xEngineers: Good morning.
+
+15
+00:10:02.460 --> 00:10:03.920
+100xEngineers: 9x11.
+
+16
+00:10:04.510 --> 00:10:06.590
+100xEngineers: 9-11 is a very dangerous vibe.
+
+17
+00:10:08.300 --> 00:10:09.120
+100xEngineers: Yeah.
+
+18
+00:10:09.470 --> 00:10:12.110
+100xEngineers: But, awesome. That's great.
+
+19
+00:10:12.690 --> 00:10:14.000
+100xEngineers: Let me…
+
+20
+00:10:14.830 --> 00:10:21.869
+100xEngineers: set some agenda for today's session, and like, while you guys are writing about your VIP score.
+
+21
+00:10:22.120 --> 00:10:23.799
+100xEngineers: I do want to, like, set
+
+22
+00:10:24.240 --> 00:10:29.219
+100xEngineers: The agenda for what you're gonna do today, and also for the next week, as we are…
+
+23
+00:10:29.230 --> 00:10:30.860
+100xEngineers: We are about to finish…
+
+24
+00:10:30.860 --> 00:10:49.910
+100xEngineers: a major part of this journey, which is building full-stack application, and this is what we started, like, exactly, I think, 3 weeks ago. So this week is gonna be our fourth week, and by the end of, like, next week, you'll have all the elements, you will have all the principles with you to build a full-stack solution. Today is a very
+
+25
+00:10:50.290 --> 00:10:53.450
+100xEngineers: Key part of this entire thing, and it may just…
+
+26
+00:10:53.720 --> 00:10:56.739
+100xEngineers: put some pictures on the screen while I share.
+
+27
+00:10:56.950 --> 00:11:05.570
+100xEngineers: We started our journey from… Understanding what to build.
+
+28
+00:11:05.880 --> 00:11:08.390
+100xEngineers: Which I'll keep repeating.
+
+29
+00:11:08.530 --> 00:11:09.530
+100xEngineers: So that…
+
+30
+00:11:13.900 --> 00:11:15.410
+100xEngineers: from the Module 2.
+
+31
+00:11:16.000 --> 00:11:24.420
+100xEngineers: we understand how to go from, now, an observation to hypothesis, to build an MVP, to test that, validate that.
+
+32
+00:11:24.420 --> 00:11:40.339
+100xEngineers: And a lot of you have done that really well. I was going through, like, some of the submissions, really impressed by the effort. So now all of you have… at least the majority of people who have submitted the first assignment. They have clarity on what to build.
+
+33
+00:11:41.570 --> 00:11:55.350
+100xEngineers: The starting of the week two, this is what we've been discussing so far, like, understanding the right inputs, designing the right systems around it to give us the desired output. And the progress we have made so far, we basically
+
+34
+00:11:57.030 --> 00:11:59.859
+100xEngineers: We started our journey from this diagram. We…
+
+35
+00:11:59.990 --> 00:12:09.189
+100xEngineers: reverse-engineered what ChatGPT is doing in the backend. It takes some input, like the prompt, and it gives the output back.
+
+36
+00:12:10.020 --> 00:12:17.420
+100xEngineers: it has a user interface, which sits on my client machine, and I can talk to it, I can use it, and then I can…
+
+37
+00:12:18.010 --> 00:12:33.880
+100xEngineers: from the model, get the intelligence from ChatGBT's model, and then I can display it on my screen. All of this actually is done by not one single app, but multiple systems, small systems working together, and this is what we learned in the week one.
+
+38
+00:12:33.880 --> 00:12:46.389
+100xEngineers: Now, the interesting part is that we all have covered this major part, which we've been discussing, where we have built our first frontend. So, this was our last code track session.
+
+39
+00:13:00.030 --> 00:13:01.209
+100xEngineers: Sorry for that.
+
+40
+00:13:01.430 --> 00:13:03.969
+100xEngineers: Yeah, I think there's some glitch, but…
+
+41
+00:13:04.610 --> 00:13:11.919
+100xEngineers: So what I was saying, that we have discussed all of this, and we have built this in the last CodeTrack session, where we have a front-end ready right now.
+
+42
+00:13:12.030 --> 00:13:16.920
+100xEngineers: Although it's… doesn't look really fancy, but it does the job. It,
+
+43
+00:13:17.260 --> 00:13:34.800
+100xEngineers: as an API, which can connect this client machine to a backend, which we have deployed also on the last code track lecture, if you remember, this is where we did the render deployment. We took our code off Python, instead of doing everything locally, we
+
+44
+00:13:35.210 --> 00:13:43.749
+100xEngineers: deployed our front-end code to Hugging Face Spaces, and we deployed our backend APIs to Render, which is a cloud platform.
+
+45
+00:13:43.970 --> 00:14:01.890
+100xEngineers: And, we connected the LLM from the Grok Cloud. So these are two diff… actually three different services on the internet, talking to each other. And this is also done by our understanding of the second interface. What we… what we learned is the API. So we designed the APIs
+
+46
+00:14:01.890 --> 00:14:16.719
+100xEngineers: to connect our backend server to the LLM, and then LLM back to the backend and to the front end. This is the whole system we have. Then, we had a last session where we learned about domain modeling. I hope you guys had a good office hour activity this week.
+
+47
+00:14:16.760 --> 00:14:25.329
+100xEngineers: And, can we have a quick raise of hands? How many of you have finished your domain model? The domain model for the problem statement that you are building?
+
+48
+00:14:26.310 --> 00:14:28.780
+100xEngineers: For which you have submitted the assignment number 1.
+
+49
+00:14:30.290 --> 00:14:31.960
+100xEngineers: Can we have a quick raise of hand?
+
+50
+00:14:32.600 --> 00:14:37.679
+100xEngineers: I just wanna check how many of you are about to build your first,
+
+51
+00:14:37.970 --> 00:14:41.240
+100xEngineers: Full stack application by end of this week.
+
+52
+00:14:45.030 --> 00:14:54.079
+100xEngineers: This is the practice set, Shefali. So, we have discussed it in the last lecture, the link which I shared, the domain modeling link.
+
+53
+00:14:54.080 --> 00:15:08.829
+100xEngineers: Yeah, but… if you missed it, I would recommend you to maybe check the recordings or finish the practice set. The entire set is very self-explanatory, so the thing what you're supposed to do is… the link which I shared in the last lecture, which I was explaining was
+
+54
+00:15:08.840 --> 00:15:10.749
+100xEngineers: Also, the interactive slides.
+
+55
+00:15:10.970 --> 00:15:20.819
+100xEngineers: You perform the exercises there, and once you perform the exercises, you'll get the clarity of how to write domain model, which is how to identify the entities.
+
+56
+00:15:21.110 --> 00:15:29.220
+100xEngineers: attributes and relationships, and once you have enough clarity, then you do the same thing for your app, which is your assignment number one. That is the practice set which you have.
+
+57
+00:15:30.020 --> 00:15:45.740
+100xEngineers: The reason why I did this practice ad, and also shared it in the… with all the mentors who were conducting the office hours for you guys, so that you have clarity about how do you build it. And it's okay if you don't have it right now, because I would still recommend you to actually
+
+58
+00:15:45.860 --> 00:15:48.699
+100xEngineers: Do the exercise first, if you have not done already.
+
+59
+00:15:48.740 --> 00:15:52.999
+100xEngineers: But, as I said, the goal of all of this was to understand
+
+60
+00:15:53.000 --> 00:16:09.160
+100xEngineers: the shape of the data. So this was the shape we were discussing in the last lecture. Because if we cannot define the shape, if we can't point out that what kind of data we have, how it is related to each other, and what are the things we are storing, and how we define each and every entity.
+
+61
+00:16:09.160 --> 00:16:20.139
+100xEngineers: it won't make sense if we just throw and use a random solution for solving the data storage problem. So this was the whole part, and
+
+62
+00:16:20.150 --> 00:16:27.599
+100xEngineers: I hope, like, a lot of you were able to, like, understand at least the concepts, because if you have the concepts, clarity with you.
+
+63
+00:16:27.930 --> 00:16:33.400
+100xEngineers: what is an entity, what is an attribute, and what is a relationship? Everything today is gonna…
+
+64
+00:16:33.400 --> 00:16:52.540
+100xEngineers: be much more easier for you to understand, because I'm not introducing any new concept today. The goal is, whatever we learned in the last lecture, when we discussed the domain modeling and database design, we're gonna implement it, we're gonna convert this into code, we're gonna have our first backend up and running, and we're gonna connect it also in
+
+65
+00:16:52.870 --> 00:17:00.690
+100xEngineers: In the same project. So what we will be doing, we'll be picking this third piece, which is a missing piece so far, in our
+
+66
+00:17:02.760 --> 00:17:10.430
+100xEngineers: whiteboard diagram, and we're gonna build this out today. That's the whole agenda, and that's the whole goal. We're gonna do it
+
+67
+00:17:10.550 --> 00:17:26.380
+100xEngineers: For the Arabs application, this is what I'll be demonstrating throughout this lecture. You can apply the same principle, I'll share the exact GitHub repository, codebase, as well as the Super Base Guide, which is the database that I'll be using. So you can use that as a template and
+
+68
+00:17:26.500 --> 00:17:28.559
+100xEngineers: clone it for your app.
+
+69
+00:17:29.190 --> 00:17:32.990
+100xEngineers: I would say the app idea or the observation which you had.
+
+70
+00:17:34.750 --> 00:17:42.240
+100xEngineers: So that's… Primarily the goal, which is, like, how do we now make this entire application
+
+71
+00:17:42.690 --> 00:17:49.039
+100xEngineers: more persistent. We learn the concepts, we know how and what kind of things we store. Just to recall.
+
+72
+00:17:49.170 --> 00:17:54.260
+100xEngineers: One of the core concepts here is, we definitely need messages.
+
+73
+00:17:54.660 --> 00:18:00.349
+100xEngineers: Because Messages has, like, a lot of elements to it, and we need conversations.
+
+74
+00:18:00.940 --> 00:18:08.999
+100xEngineers: Because RF today is having one conversation, maybe tomorrow can have multiple conversations. Conversations can have multiple,
+
+75
+00:18:10.020 --> 00:18:15.380
+100xEngineers: messages, maybe more elements to it. And the last, but not the least, is the user.
+
+76
+00:18:15.560 --> 00:18:30.379
+100xEngineers: So, these are the three things which we have. I'll start with these two first, and then I'll come to the users, and we'll also learn a very interesting concept through the third entity today. Again, these are things which we discussed already, so I'm not gonna, like.
+
+77
+00:18:30.380 --> 00:18:43.169
+100xEngineers: repeat a lot of things. If you have some, I would say, clarity, happy to, like, share this as part of the post tree, and maybe we can discuss it in a doubt-solving session, but…
+
+78
+00:18:43.250 --> 00:19:02.640
+100xEngineers: Make sure you have clarity about your application. If you want to follow along after this lecture. For this one, you can take the example of Arav, and you can continue doing this. And hopefully, if you complete this for Arav, you would be able to build the same application and give it a storage element to, using the same concept.
+
+79
+00:19:05.140 --> 00:19:16.849
+100xEngineers: So, these are the 3 entities, which means, like, 3 tables. If you remember, this is how we discussed the 3 sheets. Shall we use ORM? No, not needed hunch for this. Again, like, as I said, right, the…
+
+80
+00:19:16.860 --> 00:19:26.920
+100xEngineers: Goal for all of these lectures is not to go with the tool-first approach, but rather principle-first approach, and there's a very strong reason behind it, because this is how
+
+81
+00:19:26.920 --> 00:19:46.350
+100xEngineers: I have seen the whole journey of, at least, like, the tech tech which I have built, and the tech which I have seen evolving, is that the moment we start the lecture, the concept, and even, like, somebody who is, like, recommending that, hey, are we gonna use XYZ tool, or should we build this with, let's say, A tool or B tool.
+
+82
+00:19:46.450 --> 00:19:56.010
+100xEngineers: is that your brain is trying to, again, focus on solution rather than thinking about problem. And this is a very intuition, like, which is, like, built
+
+83
+00:19:56.080 --> 00:20:08.910
+100xEngineers: throughout our subconscious, like, because this is how, like, society has programmed, I had a whole monologue rant in the last lecture, I think, with discussing this with some people, but the goal here is…
+
+84
+00:20:09.170 --> 00:20:31.890
+100xEngineers: The society has trained us to, like, just find quick answers, quick solutions, and what we want to do throughout these lectures and these conversations is that to reverse… reverse that pattern, right? Whenever… next time, it's okay if your mind thinks of that, hey, can we just quickly solve this problem with XYZ solution? Just try to be aware of that thought, and maybe try to, like, take a pause and see, like.
+
+85
+00:20:32.440 --> 00:20:43.269
+100xEngineers: can we spend more time on the problem first? Can we understand the details of the problems? And then we can derive the solutions from that, rather than just jumping onto the solution.
+
+86
+00:20:44.670 --> 00:20:52.620
+100xEngineers: One of the most important things which I learned from Richard Feynman, right, which is the Nobel Peace Prize winner for physics, and the guy who made physics accessible to everybody.
+
+87
+00:20:52.660 --> 00:21:03.969
+100xEngineers: clearly the greatest teacher of our generation. But I think this is the same principle I carry as well. Now, coming back to the questions, right, and yes, we will be using
+
+88
+00:21:03.970 --> 00:21:17.519
+100xEngineers: all of these things, what people have mentioned in the chat, we'll be using the MCPs, we'll be using the ORMs, but not today. And, I'll try to, like, discover the problems first and principles first, and then we all will derive things from there.
+
+89
+00:21:18.250 --> 00:21:32.639
+100xEngineers: Now, the thing which I need from all of you, I hope you got the agenda. Agenda is to build a data storage, and we're gonna finish our whiteboard as well as the application. There are some prerequisites to follow along, so let me just quickly…
+
+90
+00:21:34.460 --> 00:21:40.529
+100xEngineers: mention those. One is, you all need, as I mentioned in the last lecture, the GitHub account.
+
+91
+00:21:40.710 --> 00:21:45.400
+100xEngineers: And, you all need a… local…
+
+92
+00:21:49.150 --> 00:21:50.570
+100xEngineers: ID setup.
+
+93
+00:21:51.220 --> 00:21:59.490
+100xEngineers: Feel free to use Cursor, VS Code, if you have something specific which you are using, you can use that. If you're completely new to this, I would recommend Cursor.
+
+94
+00:22:00.240 --> 00:22:11.049
+100xEngineers: But if you are somebody who has already been using something for building apps locally, you can continue doing that. Anti-Gravity, VS Code, PyCharm, all of them are great.
+
+95
+00:22:11.900 --> 00:22:20.319
+100xEngineers: The second thing, the third thing is local ID setup also means that you have Python, and the Python Basics, which is the big winery.
+
+96
+00:22:22.320 --> 00:22:25.030
+100xEngineers: Plus the local installation.
+
+97
+00:22:25.740 --> 00:22:30.470
+100xEngineers: I also uploaded a whole sheet, which is a quick guide to…
+
+98
+00:22:30.470 --> 00:22:53.269
+100xEngineers: learn about code and Python and the way how I approach, and I recommend somebody who is a big nerd. So do check this out on LMS. I think I mentioned in the last lecture as well. These are the prerequisites for this session. There's one more prerequisite which I'm gonna, like, follow through and build along with you, but meanwhile, I'm talking and I'm discussing this. You guys can talk
+
+99
+00:22:53.270 --> 00:22:54.819
+100xEngineers: Sign up for this platform.
+
+100
+00:22:55.150 --> 00:22:58.339
+100xEngineers: But there's a catch for it. The catch for it that…
+
+101
+00:22:59.830 --> 00:23:02.670
+100xEngineers: This is the platform which we're gonna use.
+
+102
+00:23:02.680 --> 00:23:15.819
+100xEngineers: to store the information, that is the data storage. Now, again, I'm actually contradicting myself, I'm introducing tool, but the reason I'm introducing tool is not to explain something, but just to tell you that be ready, sign up for this right now.
+
+103
+00:23:15.820 --> 00:23:24.120
+100xEngineers: So that when we actually derive this, and when we learn that, why do we need this tool, you guys have everything ready. So these are the prerequisites.
+
+104
+00:23:24.380 --> 00:23:37.899
+100xEngineers: installation for you. For this part, which is a super waste, you don't need to do anything fancy. The only thing which you need to do is you need to go to this website and log in with your GitHub account. This is a very important part.
+
+105
+00:23:39.370 --> 00:23:45.499
+100xEngineers: Make sure, first, you have these things. You have your GitHub, which means you have installed GitHub.
+
+106
+00:23:45.650 --> 00:23:58.300
+100xEngineers: locally. If you have not, you can use local IDE. First, install cursor, and then you can ask Cursor or Cloud Code, if you are… if you prefer Cloud, in that, to set up the GitHub for you.
+
+107
+00:23:58.800 --> 00:24:12.040
+100xEngineers: you need to sign up for this platform, make sure you have basic concepts of Big Bangy and local installation of Python, and then go to Superbase, this is the website, and I'll share this link with everybody.
+
+108
+00:24:13.750 --> 00:24:29.659
+100xEngineers: just sign up for this, that's all. That's the only prerequisite right now. I'll explain the whole concept of what is this, how we're gonna use it, what all parts of this are gonna be relevant, and how do we connect this thing with our whole solution. But,
+
+109
+00:24:30.290 --> 00:24:50.069
+100xEngineers: Can we also, like, have this in chat? How many of you have already done these first three steps? The fourth is something which all of you will be doing right now, but how many of you are done with these first three steps? You have GitHub, you have signed up for GitHub, you have a local IDE set up, and you have a Python Big Binary.
+
+110
+00:24:50.600 --> 00:24:53.289
+100xEngineers: Awesome. All four are done. That's great.
+
+111
+00:24:53.800 --> 00:24:56.830
+100xEngineers: Just give me one sec, I'll… be bye.
+
+112
+00:25:11.360 --> 00:25:18.810
+100xEngineers: All done, that's great, that's great. If all done, then we will start with the lecture then.
+
+113
+00:25:35.260 --> 00:25:37.259
+100xEngineers: Okay, now is the time to first…
+
+114
+00:25:37.440 --> 00:25:40.790
+100xEngineers: understand and derive, as I said, the tool.
+
+115
+00:25:41.520 --> 00:25:46.630
+100xEngineers: let's evaluate a few solutions, because I hope, like, some of you have gone through the…
+
+116
+00:25:46.720 --> 00:26:00.330
+100xEngineers: videos which I have recorded, so you will have some clarity which I'm talking about, if you have not. I have uploaded a whole Level 2 full-stack series, where I've built a simple application
+
+117
+00:26:00.330 --> 00:26:17.679
+100xEngineers: using the OPT method and, like, finding a workflow, and then building it with Streamlit and FastAPI, which is the second part, or you can say another alternative to build user interfaces with Python. If you have already seen that, you might have some idea of this, but if you have not, then…
+
+118
+00:26:17.770 --> 00:26:22.080
+100xEngineers: Again, this is gonna be a test of… Your reasoning process.
+
+119
+00:26:23.750 --> 00:26:29.550
+100xEngineers: Let's start with the… Same step, how we did with our users.
+
+120
+00:26:30.660 --> 00:26:32.570
+100xEngineers: We'll understand two systems.
+
+121
+00:26:33.810 --> 00:26:41.279
+100xEngineers: In this case, can you identify… it's very evident, I know, but let's just declare, what are the two systems?
+
+122
+00:26:41.450 --> 00:26:47.939
+100xEngineers: So, which we need. We definitely know that we need data storage, so we need some kind of data storage system.
+
+123
+00:26:49.620 --> 00:26:51.579
+100xEngineers: And then we need a backend server.
+
+124
+00:26:54.200 --> 00:26:59.409
+100xEngineers: I'm just, like, explicitly mentioning it out, because this is what our focus is gonna be.
+
+125
+00:27:00.960 --> 00:27:22.379
+100xEngineers: Now, these two systems can be different. We were discussing last time that this could be a file, this could be a whole, whole-fledged system, this could be also a simple in-memory database, right, which is what we discussed as a Python variable, you can store information there, but the problem is that the moment you close your browser tab, or you close your computer, your RAM flushes out, and then you don't have anything.
+
+126
+00:27:22.850 --> 00:27:28.700
+100xEngineers: But you can still store the data in all of these formats, so… Data storage…
+
+127
+00:27:28.940 --> 00:27:33.420
+100xEngineers: in itself has variety. And this variety comes from
+
+128
+00:27:36.550 --> 00:27:44.460
+100xEngineers: In memory, this is your RAM cache. I would keep RAM for now, this is what we've been discussing. This is one type.
+
+129
+00:27:52.500 --> 00:27:54.970
+100xEngineers: Now, the second one is a file.
+
+130
+00:27:56.370 --> 00:28:15.909
+100xEngineers: In the Level 2 stack video, if you have seen the last video, this is… which also talks about the persistence, I have used a simple file, and this was a CSV file, which is comma-separated values. This is, like, how you export the Excel sheets and spreadsheets with comma separated as the column values.
+
+131
+00:28:17.370 --> 00:28:21.660
+100xEngineers: You can also have a text file, by the way. This is, like, another format.
+
+132
+00:28:23.760 --> 00:28:27.119
+100xEngineers: These are some of the things which we have available with us.
+
+133
+00:28:30.600 --> 00:28:37.269
+100xEngineers: Then we have our backend system. Now, if you remember, the backend that we have built is this API.
+
+134
+00:28:37.400 --> 00:28:43.430
+100xEngineers: which is connected to, the function that we have written for diagnose. If you remember the whole…
+
+135
+00:28:44.560 --> 00:28:47.850
+100xEngineers: Diagnosed part, and how we built the…
+
+136
+00:28:48.040 --> 00:29:03.470
+100xEngineers: business logic and expose this as an endpoint to the entire world. So, everything what we have written in that diagnose function is going to be executed by this API, and this is how the whole backend is working as of now. So it's essentially our app
+
+137
+00:29:04.290 --> 00:29:07.640
+100xEngineers: Which is exposed by FastAPI.
+
+138
+00:29:08.470 --> 00:29:14.570
+100xEngineers: And right now, the main business logic is sitting in the diagnose function. That's the whole backend we have.
+
+139
+00:29:15.430 --> 00:29:16.910
+100xEngineers: Which we have built for this.
+
+140
+00:29:17.200 --> 00:29:23.939
+100xEngineers: Now, the reason why I'm doing all of this is that you get clarity before you even start using a tool or thinking about a tool.
+
+141
+00:29:30.210 --> 00:29:32.199
+100xEngineers: Now, if I ask you guys one thing.
+
+142
+00:29:32.310 --> 00:29:36.980
+100xEngineers: You have two systems, data storage, And the backend.
+
+143
+00:29:38.990 --> 00:29:56.559
+100xEngineers: When we discussed about the in-memory, this is the same part of Python, so we don't have, like, two different systems, and we can, like, talk to Python variables with FastAPI without any problem. But when we have the second type of system, which is a file, this could be any file, like text file or CSV file.
+
+144
+00:29:56.560 --> 00:30:07.410
+100xEngineers: This is a whole different system, and the fast API is Python app, right? So this is also another, type of system. So what we are…
+
+145
+00:30:08.160 --> 00:30:16.539
+100xEngineers: now facing, as the same challenge, what we started this whole discussion with, is we have two different systems. One is the Python system.
+
+146
+00:30:16.900 --> 00:30:24.549
+100xEngineers: Which is running this FastAPI function, FastAPI server, that has Diagnose in it, and then we have another CSV file.
+
+147
+00:30:25.670 --> 00:30:38.770
+100xEngineers: Let's say for now, Arav is using a simple file. In that file, he can store the workflow analysis in the plan, and all the prompts. So the next time, whenever he close the browser, his app can read the data from the file.
+
+148
+00:30:39.910 --> 00:30:50.970
+100xEngineers: What do you think? What… is the… Or what could be the… interface.
+
+149
+00:30:51.310 --> 00:30:52.210
+100xEngineers: Here.
+
+150
+00:30:54.550 --> 00:30:56.230
+100xEngineers: For these two systems.
+
+151
+00:31:00.090 --> 00:31:06.989
+100xEngineers: A quick hint, we have already discussed this in the Lecture one. This is a recall exercise, a recall test as well.
+
+152
+00:31:08.550 --> 00:31:15.970
+100xEngineers: But everybody understands, right? Like, every time we have… this is how we started the whole discussion, like, what is the interface? Interface is…
+
+153
+00:31:16.330 --> 00:31:31.009
+100xEngineers: the boundary, the bridge, or the point of interaction where two separate systems, components, or entities meet and communicate, right? And this is what we've been discussing so far, like, how users communicate with machines, and we have user interfaces, and we had APIs, and everything else.
+
+154
+00:31:32.320 --> 00:31:34.840
+100xEngineers: At this point, we are, again.
+
+155
+00:31:34.960 --> 00:31:45.539
+100xEngineers: In the similar situation where we have two different systems, and they don't talk to each other in the same language, so we definitely need a boundary, a shared boundary, which we can use.
+
+156
+00:31:46.740 --> 00:32:01.409
+100xEngineers: Did not get the question. What is the interface? That's the question. Interface between a file and the backend. So, because we have two different systems, in this diagram, if you look at it, we have backend system and we have a data storage system. We are building data storage today.
+
+157
+00:32:01.830 --> 00:32:06.410
+100xEngineers: But data storage can be of two types. So far, that is what we have seen.
+
+158
+00:32:06.780 --> 00:32:15.970
+100xEngineers: If we are taking a file type of database, which means we are uploading a CSV file, that is a data storage. We are storing the messages, and then we have a backend application.
+
+159
+00:32:17.160 --> 00:32:20.189
+100xEngineers: How can we connect these two files? What is the interface for that?
+
+160
+00:32:26.770 --> 00:32:34.759
+100xEngineers: API. API is a great interface, but how can I teach a file system to learn about API?
+
+161
+00:32:37.520 --> 00:32:47.059
+100xEngineers: I can build an API for my CSV file as well. By the way, that's a smart way of thinking about it. The only thing is that then I have to write another Python code
+
+162
+00:32:47.320 --> 00:32:57.179
+100xEngineers: to actually build a fast API server, but then I'll be in the same position, let's say. But at some point, I need to find a connection here.
+
+163
+00:32:57.290 --> 00:33:03.829
+100xEngineers: So, when I say API, APIs is definitely the higher-level interface between any machine.
+
+164
+00:33:04.240 --> 00:33:05.100
+100xEngineers: But…
+
+165
+00:33:06.850 --> 00:33:19.150
+100xEngineers: as of now, files, if I open, like, a text file, that file doesn't speak any API, doesn't understand where is the URL of this file, what are the methods here. So we need something here.
+
+166
+00:33:38.760 --> 00:33:45.910
+100xEngineers: Awesome. This is the exactly right way to test your principles and your critical thinking, because
+
+167
+00:33:47.020 --> 00:33:57.229
+100xEngineers: the more you go into the depth of system design, the more you need to have these kind of conversations. Now, to give some answers and some hints as well here.
+
+168
+00:33:59.970 --> 00:34:04.540
+100xEngineers: this file… Exist on somewhere.
+
+169
+00:34:06.940 --> 00:34:09.090
+100xEngineers: Where does this file exist right now?
+
+170
+00:34:09.590 --> 00:34:26.600
+100xEngineers: let's say if I download a .csv file. By the way, I have a couple of CSV files in my download folder, because I do this a lot. So I was doing one webinar, so I have a whole CSV file of all the people who have submitted this entire thing in my webinar.
+
+171
+00:34:27.630 --> 00:34:32.610
+100xEngineers: Where is this file? Somewhere… In an operating system.
+
+172
+00:34:33.440 --> 00:34:37.730
+100xEngineers: Right now, these files are sitting in my Mac OS.
+
+173
+00:34:37.989 --> 00:34:46.519
+100xEngineers: If you are on Windows, then it might be sitting on your Windows operating system. If you are on Linux, then it would be in Linux. Based on wherever you are using
+
+174
+00:34:46.630 --> 00:34:51.139
+100xEngineers: your machine, these files will be staying there. Now, what about…
+
+175
+00:34:51.520 --> 00:35:05.350
+100xEngineers: someone else's machine, what about the render's machine? I'm using, let's say, Render to deploy my backend application. What kind of operating system render is using? Now, it's a very simple question you can ask, so…
+
+176
+00:35:05.580 --> 00:35:09.340
+100xEngineers: renders… dot com operating system.
+
+177
+00:35:13.790 --> 00:35:17.949
+100xEngineers: By the way, Render has, like, a lot of options to choose different,
+
+178
+00:35:18.450 --> 00:35:23.600
+100xEngineers: things. Most of the time, if you look at it, they are using…
+
+179
+00:35:28.960 --> 00:35:44.590
+100xEngineers: the Linux environment. This is what I'm thinking. And, you'll get a whole terminal, and this is very common with a lot of open source or free servers. Like, if you're using something different.
+
+180
+00:35:44.830 --> 00:35:58.759
+100xEngineers: that also, like, most likely that they're gonna use Linux. If you are using Hugging Face Spaces, Hugging Face Spaces also use Linux as the operating system. So the first thing we need to understand when we are discussing the boundary is the…
+
+181
+00:35:58.990 --> 00:36:00.460
+100xEngineers: operating system.
+
+182
+00:36:02.930 --> 00:36:26.420
+100xEngineers: Now, you'll get some clarity exactly in the next 5 to 10 minutes, like, why this discussion is important to the lecture which I'm taking right now, and why this has to come exactly before you start writing code and building things, is because if you don't have clarity that what kind of interface is helpful for your application, and what kind of systems you can use to evaluate your data storage needs.
+
+183
+00:36:26.450 --> 00:36:28.360
+100xEngineers: You will never be able to…
+
+184
+00:36:28.590 --> 00:36:44.810
+100xEngineers: build something which is more efficient. If I just today give you that, hey, from this point onwards, we're gonna use one tool. Let's say a file tool, or superbase tool, or XYZ tool, and this is the database tool. By default, your brain will start associating
+
+185
+00:36:44.910 --> 00:36:51.059
+100xEngineers: database as a concept with a tool that I'll introduce you. So I'm not doing that purposefully, but I'm trying to, like.
+
+186
+00:36:51.460 --> 00:36:55.809
+100xEngineers: Use the same principles to derive what we need.
+
+187
+00:36:55.810 --> 00:37:11.849
+100xEngineers: Operating system plays an important role here, because this is the system that allows us to read, write, and update files. On my operating system, I can download files, I can create new files, and operating system itself is
+
+188
+00:37:11.850 --> 00:37:17.299
+100xEngineers: A whole system which allows me to connect with different type of,
+
+189
+00:37:18.440 --> 00:37:27.990
+100xEngineers: things in my OS. The way how operating systems use files is known as file system.
+
+190
+00:37:29.040 --> 00:37:33.349
+100xEngineers: which is a subset of operating system managing for the file. Every…
+
+191
+00:37:33.510 --> 00:37:43.459
+100xEngineers: operating system, Linux, Mac, Windows has their own file system, which means they use files to write and delete it.
+
+192
+00:37:44.710 --> 00:37:47.489
+100xEngineers: On a network, if you are using it.
+
+193
+00:37:47.880 --> 00:37:53.889
+100xEngineers: we have something called FTP. This is called file transfer.
+
+194
+00:37:54.080 --> 00:37:55.130
+100xEngineers: Protocol.
+
+195
+00:37:56.610 --> 00:37:58.350
+100xEngineers: Which is very similar to…
+
+196
+00:37:58.500 --> 00:38:18.069
+100xEngineers: HTTP. If you remember the HTTP from our initial conversation, this is hypertext Transfer Protocol, which means the links on the internet. Earlier, the internet was just links, and we had, like, pages, and the protocol allowed us to connect different pages and build the internet.
+
+197
+00:38:18.070 --> 00:38:33.910
+100xEngineers: In a similar fashion, when we had discussions about, and the internet evolved from just text-based and link-based websites to file-based, when we had the era of YouTube and Reddit and, like, other things, we need…
+
+198
+00:38:34.210 --> 00:38:48.549
+100xEngineers: a sophisticated system which can transfer files over the internet. So, which is also derived from the same protocol. This is also a very good history lesson. Won't go too deep here, but if you are somebody who is interested.
+
+199
+00:38:48.590 --> 00:38:58.319
+100xEngineers: I would, recommend you to, like, read more about the history of FTB protocol and the file systems. It will help you to understand why today,
+
+200
+00:38:58.350 --> 00:39:23.170
+100xEngineers: file uploads and file compressions, these things matter more than, like, ever, because, like, this actually, like, plays an important role in a lot of system design, especially people who will be building systems around heavy file usage, heavy storage usage. I think we had some discussions in the last lecture as well, that how do we optimize those things? So it's a very core problem, and the solution is something which we have already, like.
+
+201
+00:39:23.170 --> 00:39:44.739
+100xEngineers: I would say solve in the operating system, which some of that is translated very well on internet, but some of them is not feasible, because, again, the first principles of internet makes the problem statement difficult, because we are sharing the information with different devices, we need to have security, we need to have, like,
+
+202
+00:39:44.740 --> 00:40:03.700
+100xEngineers: all the rules, which will make sure that, hey, nobody else can read or write files. And the same rules now is applicable when you use a new software called, let's say, OpenClaw, or maybe any open source agent, because these agents can open your file system, can give access to
+
+203
+00:40:03.700 --> 00:40:19.020
+100xEngineers: to anyone, to your file system as well. So, the reason why I'm also, like, sharing this information is because it becomes a very fundamental piece of us understanding that why learning the core foundations will not only help you to just
+
+204
+00:40:19.020 --> 00:40:33.099
+100xEngineers: grasp the concepts which people already, have learned, but also, how can you design something which is new? A lot of the students who, when I was teaching, like, open call to the last cohort.
+
+205
+00:40:33.160 --> 00:40:35.460
+100xEngineers: They had the same problem, is that
+
+206
+00:40:35.570 --> 00:40:56.980
+100xEngineers: everybody used a lot of systems and, like, agents like OpenTor. If you're not familiar with OpenTrump, just, like, giving a reference to one of the software projects. It's basically an open-source agent tool, which you can use to connect with your WhatsApp, and you can just, like, run your PC and give instructions and, like, run a lot of sophisticated things as well. It's a whole agent.
+
+207
+00:40:57.080 --> 00:41:12.140
+100xEngineers: Which you can… which you can do a lot of things. I built a, recorded a video as well on Maya on this as well. But the goal here is, is that if you don't understand how your file system works, how your operating system communicates with the file.
+
+208
+00:41:12.740 --> 00:41:24.200
+100xEngineers: You'll never be able to, like, understand the boundary of those kind of agents, boundaries of those kind of systems, because those systems always have those three layers, the three layers which we've been discussing.
+
+209
+00:41:24.910 --> 00:41:29.070
+100xEngineers: If you remember from our initial conversation.
+
+210
+00:41:29.260 --> 00:41:33.170
+100xEngineers: The deterministic part, the probabilistic part, and the human in the loop.
+
+211
+00:41:33.210 --> 00:41:55.099
+100xEngineers: probabilistic is easy to get, this is where the AI, the LMs work in. Deterministic is where most people don't have clarity, because nobody has, like, done… and most of the people have, like, not done the work of, like, understanding how file systems work. So file system falls into a deterministic part of it. And then human in the loop, which is obviously, the human evaluator who is, like, running this entire thing.
+
+212
+00:41:57.690 --> 00:42:01.560
+100xEngineers: This is also one of the core part of the…
+
+213
+00:42:02.970 --> 00:42:13.849
+100xEngineers: A lot of agents, how they store the information, because the things which you guys are learning right now is going to be directly applicable when you guys will build the memory system for your agents.
+
+214
+00:42:14.170 --> 00:42:36.369
+100xEngineers: if you see, and a common insight here is that every single memory which is written right now, including the LLM wiki, which is as a concept, I covered, it's one of my master classes, will share the recording with you guys, and also we'll conduct, like, this as part of my, memory lecture in detail, is where
+
+215
+00:42:37.760 --> 00:42:40.980
+100xEngineers: Where you build any kind of memory for LLM, for…
+
+216
+00:42:41.260 --> 00:42:47.329
+100xEngineers: Software deterministic part, probabilistic part, or the agentic part.
+
+217
+00:42:47.850 --> 00:43:03.949
+100xEngineers: the concept will remain the same. You all need to first understand the entities, relationships, and attributes, find what are the systems and what we are using, in this case, let's say the file system, or the backend, and what could be the interface here.
+
+218
+00:43:04.060 --> 00:43:13.589
+100xEngineers: In my case, the answer here is the file system, because that's what I'm using. If I am building it on my macOS, whether I'm building it for my
+
+219
+00:43:13.810 --> 00:43:15.350
+100xEngineers: I would say.
+
+220
+00:43:17.140 --> 00:43:21.430
+100xEngineers: Linux device or Windows device. But the question shifts, because
+
+221
+00:43:21.880 --> 00:43:26.309
+100xEngineers: This is a right answer only if everything is running on my local machine.
+
+222
+00:43:27.760 --> 00:43:33.220
+100xEngineers: if everything is running on my MacBook, then this is the right answer. But if I start putting this
+
+223
+00:43:33.220 --> 00:43:41.409
+100xEngineers: onto render, then the answer changes to FTP, because I need, like, a protocol which can not only just communicate with my file, but
+
+224
+00:43:41.410 --> 00:43:53.760
+100xEngineers: Because I can put this file tomorrow in a different folder, maybe in a different service, maybe, and then I want to connect it with Render, so I need to have, like, a FTP, which is a file transfer protocol, equivalent of HTTP.
+
+225
+00:43:57.110 --> 00:44:06.710
+100xEngineers: Now, there are some caveats to it. Now, let's discuss, like, what happens if RF use CSV file, and we have designed the interface here, let's say right now.
+
+226
+00:44:10.150 --> 00:44:17.379
+100xEngineers: FTP over the… Network or file system when we have the same, thing running on my machine.
+
+227
+00:44:22.450 --> 00:44:28.690
+100xEngineers: First and the foremost thing is the concept of our entities. So, if we have the entities like this.
+
+228
+00:44:29.990 --> 00:44:37.069
+100xEngineers: Which are related to each other. The user's related to the message, and each message is also related to the conversation.
+
+229
+00:44:38.280 --> 00:44:44.859
+100xEngineers: It's gonna be very hard for us to, first, keep all the CSVs.
+
+230
+00:44:45.960 --> 00:44:50.900
+100xEngineers: In a place where we can make sure that it's, it's, safe.
+
+231
+00:44:51.070 --> 00:45:10.389
+100xEngineers: Because if tomorrow Arav is using the application, and by mistake I gave my laptop to somebody who is, like, just learning something, and accidentally reads the file, Arav will lose everything without him being aware of it. So, it's very risky to put everything into one file, because you…
+
+232
+00:45:10.410 --> 00:45:27.470
+100xEngineers: You don't have the backup here. Now, the common question is that, or common answer is that we can create multiple clones of the files. What's the problem with that? The problem is, if you can create, let's say, 3 different files, like one user's file, message file, and conversation files.
+
+233
+00:45:27.530 --> 00:45:29.899
+100xEngineers: Now you have to sync all those files.
+
+234
+00:45:31.290 --> 00:45:48.280
+100xEngineers: This is the problem with backups and syncing, because let's say now RFI has created a new message, so you have to store this new message in all of the files. Let's say you are doing 3-file backup, or 2-file backup, or 5-file backup, so you have to store all the information there. And now there is…
+
+235
+00:45:48.510 --> 00:45:50.239
+100xEngineers: A possibility that
+
+236
+00:45:50.480 --> 00:45:56.399
+100xEngineers: If there is an error, which means, let's say when you are storing the plan in that file.
+
+237
+00:45:56.550 --> 00:45:59.950
+100xEngineers: Let's say your network is shaky.
+
+238
+00:46:00.090 --> 00:46:09.869
+100xEngineers: for some reason, it… this file didn't stay safe, and it, didn't store the information. And right after that, we started
+
+239
+00:46:10.110 --> 00:46:12.000
+100xEngineers: Like, moving to the next step.
+
+240
+00:46:12.050 --> 00:46:30.329
+100xEngineers: And we didn't get the feedback, whether the data is stored or not. How do we track those inconsistencies at what part of the file was not, I would say, updated because of the network request problems, or because of, like, any kind of inconsistencies and errors?
+
+241
+00:46:30.500 --> 00:46:45.680
+100xEngineers: And now you have 5 types, or 2 file systems, or like, sorry, 4 to 5 files across with you of multiple, entities, which are connected to each other. And if you see the problem will compound over time.
+
+242
+00:46:45.680 --> 00:46:52.020
+100xEngineers: And this is one of the core reasons why we recommend, at this point, this is my thought process, which I'm trying to, like.
+
+243
+00:46:52.430 --> 00:46:56.610
+100xEngineers: say out loud while I'm sharing this solution is that
+
+244
+00:46:57.360 --> 00:47:09.700
+100xEngineers: While something which might look very obvious for a use case like this won't be a really good solution, when you try to run a simulation for, like, a larger,
+
+245
+00:47:10.230 --> 00:47:27.670
+100xEngineers: I would say, like, a data problem. Because if you have only 3 things to store, definitely, like, one file can store all of these things. The problem comes in when you have… when you have to, like, deal with backup, and you have to deal with data inconsistencies, and also, like, making sure
+
+246
+00:47:27.710 --> 00:47:35.390
+100xEngineers: when somebody has a sensitive information, let's say Arav uploads something which is personal to him, or maybe, like, a…
+
+247
+00:47:35.740 --> 00:47:46.860
+100xEngineers: passport ID, or details, something which is linked to, Arabs, if those things will get leaked, or maybe will get, shared with, like.
+
+248
+00:47:47.250 --> 00:48:04.359
+100xEngineers: everybody might face, like, some serious problems. So how do we also ensure that those files will remain secure? These are some of the questions which a file system does not answer really well. And if we are solving a problem.
+
+249
+00:48:04.690 --> 00:48:08.370
+100xEngineers: which need solution for these things. A.
+
+250
+00:48:09.240 --> 00:48:11.330
+100xEngineers: Backup B.
+
+251
+00:48:11.890 --> 00:48:17.560
+100xEngineers: inconsistency and fault tolerance. And see, when you don't have
+
+252
+00:48:17.910 --> 00:48:29.829
+100xEngineers: the security, which means that I need to make sure, my data will remain private and secure, no matter whoever operates this application, whoever has built it.
+
+253
+00:48:31.620 --> 00:48:43.819
+100xEngineers: And that is exactly where we need to migrate, and we have to move from a new solution, from a file system. And this new solution is what we call database.
+
+254
+00:48:46.930 --> 00:48:48.210
+100xEngineers: One of the core…
+
+255
+00:48:49.910 --> 00:49:00.250
+100xEngineers: inside of me building databases and working with databases from the last 10 years is that database is not a fancy thing. It's just a file system with a guard.
+
+256
+00:49:02.640 --> 00:49:05.070
+100xEngineers: Like, if you have a really strong
+
+257
+00:49:05.430 --> 00:49:26.969
+100xEngineers: OS-level programming, or you are somebody who are really keen into, like, building your own operating system, you guys can design your own database really well. The only thing which you need is setting up really good guardrails around your files, which solve the same key principles, the same problems which I shared.
+
+258
+00:49:27.150 --> 00:49:31.660
+100xEngineers: Just to name those problems, this was… the backup?
+
+259
+00:49:41.200 --> 00:49:49.849
+100xEngineers: I'll call it a slightly fancy name. This is called atomicity, which is, like, keeping things consistent.
+
+260
+00:50:01.770 --> 00:50:04.090
+100xEngineers: security and privacy.
+
+261
+00:50:05.390 --> 00:50:08.579
+100xEngineers: Now, if you are somebody, as I said, like, who understands
+
+262
+00:50:08.710 --> 00:50:20.469
+100xEngineers: how can you, like, add these things into your file system, and you know how to write operating system-level code, which is the bash programming? Somebody who's curious, you can use that for the… for building all these things.
+
+263
+00:50:20.630 --> 00:50:35.979
+100xEngineers: You can actually use a file system, and you can write those cards, which can automatically create backups, and you can write automation scripts for that, you can make sure that those files has the atomicity, consistency, security, and privacy built in with those things.
+
+264
+00:50:35.980 --> 00:50:45.529
+100xEngineers: But the thing is, you don't need to do it right now, because this is the problem which 50 years ago, people have solved it by building databases, and that is exactly what database is today. And this…
+
+265
+00:50:46.000 --> 00:50:58.420
+100xEngineers: This thing which we discussed right now also gives you today a good, solid mental framework to choose between, like, three types of data storage systems, which is the in-memory, which we discussed in the last lecture.
+
+266
+00:50:58.640 --> 00:51:10.669
+100xEngineers: good for temporary storage, where I don't want to pay for these things, which are something I'm calculating, just to, like, have a temporary solution for me.
+
+267
+00:51:11.380 --> 00:51:24.070
+100xEngineers: if I want to, like, put up persistence, I could start using File, the easiest and cheapest way, because the only thing which I need to pay for File right now is the amount of storage it will take on my cloud, which is most…
+
+268
+00:51:24.070 --> 00:51:37.890
+100xEngineers: mostly, like, it's very cheap. The problem with files is that it doesn't have a backup, automatic backup schedule, doesn't have the consistency, atomicity, doesn't come with, like, built-in security, privacy policies, which follows your guardrails.
+
+269
+00:51:37.940 --> 00:51:48.300
+100xEngineers: But again, like, the thing is, this is… could be a solution for somebody who is building, as I said, like, I was building my internal automation tool for my sales team.
+
+270
+00:51:48.300 --> 00:52:05.069
+100xEngineers: And for me, like, having a CSV file system works great, because I don't have, let's say, different entities and relationships there. I only have, like, independent rows and columns, and I can just, like, continue filling that information, and I know that,
+
+271
+00:52:05.200 --> 00:52:07.560
+100xEngineers: Like, beyond a point,
+
+272
+00:52:07.820 --> 00:52:20.560
+100xEngineers: it will still be able to, like, fulfill all our requirements. And because the user was also the one single person in my team, the admin team, I didn't have to, like.
+
+273
+00:52:21.480 --> 00:52:40.539
+100xEngineers: find the exact use case, or, I would say build for all of those parts. So this could be true for you as well. Database, specific solution for databases doesn't always need to be an answer for data storage, as I'm trying to, like, again, root back into this, this, whole discussion.
+
+274
+00:52:41.430 --> 00:52:57.920
+100xEngineers: But I hope, like, this is clear, that when exactly you need databases, and what kind of problems it solves. There's a whole rule for it, and I'll also recommend it. It's something called ACET, which we have discussed in the last, I think, I saw somebody, like, mentioned it in the…
+
+275
+00:52:58.170 --> 00:53:01.500
+100xEngineers: Chat, but we haven't discussed this in detail.
+
+276
+00:53:01.650 --> 00:53:09.230
+100xEngineers: This is the… key principles, stands for atomicity, consistency, isolation, durability.
+
+277
+00:53:09.730 --> 00:53:16.450
+100xEngineers: These systems ensure that transactions either succeed completely or fail without leaving corrupted or partial data.
+
+278
+00:53:16.550 --> 00:53:26.689
+100xEngineers: The… the whole idea of asset databases came from banking transactions. Initially, like, transactions which were valuable, because you cannot, like, have…
+
+279
+00:53:26.840 --> 00:53:40.459
+100xEngineers: anything which is a partial payment. If I'm paying somebody, like, let's say, $10, it has to be, like, $10 deducted from my account to the person's account, or it would be, like, no deductions at all.
+
+280
+00:53:40.460 --> 00:53:49.140
+100xEngineers: I cannot have a partial payment, which means, like, $5 in my account and $5 in his account, if my goal was to send $10, or maybe, like, in between here.
+
+281
+00:53:49.140 --> 00:53:54.480
+100xEngineers: A lot of these terms, which you'll find on the internet, as well as the principles.
+
+282
+00:53:54.690 --> 00:54:01.179
+100xEngineers: not necessarily, I would say, important right now to build it, because this is something which, like.
+
+283
+00:54:01.280 --> 00:54:14.699
+100xEngineers: companies like Superbase and companies like Postgres, and a lot of other database providers have, like, used it, because when they were building their own database, these are things which they had to solve for. So that's basically, like, something which is good to have.
+
+284
+00:54:14.700 --> 00:54:23.500
+100xEngineers: a login share is maybe as a rabbit hole, you can go deep into it. If you're somebody who wants to build your own database, I have a lot of resources for that.
+
+285
+00:54:23.760 --> 00:54:29.850
+100xEngineers: But for people who don't want to build their own database, because you guys have more important problems to solve.
+
+286
+00:54:30.050 --> 00:54:34.630
+100xEngineers: We will be now going to select few database options.
+
+287
+00:54:34.810 --> 00:54:41.710
+100xEngineers: Now, this also, like, goes to… Another subset of decision-making problems.
+
+288
+00:54:43.840 --> 00:54:47.440
+100xEngineers: Today, I can… I can actually, like, go with…
+
+289
+00:54:53.700 --> 00:54:55.060
+100xEngineers: a structured…
+
+290
+00:54:56.240 --> 00:55:07.819
+100xEngineers: database, which means that where I can exactly map all these things, where I can map my entities, I can map my relationships, I can map my attributes.
+
+291
+00:55:07.940 --> 00:55:12.229
+100xEngineers: And this is a very structured way of storing the information.
+
+292
+00:55:12.610 --> 00:55:16.220
+100xEngineers: This is also known as, as I said, relational
+
+293
+00:55:20.360 --> 00:55:29.289
+100xEngineers: database, because it can actually represent the same relationship what you describe in your domain model.
+
+294
+00:55:31.090 --> 00:55:40.570
+100xEngineers: you can have this here. So this is, like, one part of, structured database, which is called… relational…
+
+295
+00:55:43.800 --> 00:55:50.050
+100xEngineers: DB. Now, there are another type of database, which is… Unstructured.
+
+296
+00:55:53.350 --> 00:56:03.930
+100xEngineers: Now, somebody will ask, and maybe you guys have already thoughts about it, if you have played around with unstructured database. First question is, why would somebody use an unstructured
+
+297
+00:56:03.930 --> 00:56:18.150
+100xEngineers: data storage system, because the goal of us, using database is we want a structured file system with, like, things that it cannot solve, the file systems cannot solve. The answer to this is.
+
+298
+00:56:18.560 --> 00:56:23.980
+100xEngineers: It depends on the… data, shape.
+
+299
+00:56:24.760 --> 00:56:35.439
+100xEngineers: and also the kind of, like, operations you need to do. So, one of my key principles, this is, like, this is a crash course, and I would say if I have to, like, compress again, my…
+
+300
+00:56:35.610 --> 00:56:42.010
+100xEngineers: learning of using different databases and selecting different databases, and I have to, like, share this with somebody that
+
+301
+00:56:42.170 --> 00:56:47.619
+100xEngineers: when you should choose structured versus unstructured. In one line, I will… I will tell that
+
+302
+00:56:51.020 --> 00:56:55.880
+100xEngineers: look at two things, read and write operations. Mostly, all database
+
+303
+00:56:56.760 --> 00:57:07.189
+100xEngineers: are about these two things. And this is a very careful, observation, and I hope, like, some of you will actually be able to implement this, because this sometimes, like, gives you…
+
+304
+00:57:08.310 --> 00:57:21.170
+100xEngineers: a better way to decide what is the right database for your solution. And the reason why I'm also doing this entire solutioning on the whiteboard is because I know exactly that if there are 100 people on this call.
+
+305
+00:57:21.400 --> 00:57:25.589
+100xEngineers: not everybody will have the, I would say.
+
+306
+00:57:25.620 --> 00:57:49.940
+100xEngineers: the same problem statement, and hence, you won't be able to, like, use the same solution for everything. Just because I'm teaching you something with one type of tool, doesn't mean that it's gonna be one-size-fits-all for everybody. It's gonna be, like, a most popular tool in the market, and something which majority of the people will use, but there will be always people who might have slightly different problem statements, and hence, you might need to find your own
+
+307
+00:57:50.350 --> 00:57:59.380
+100xEngineers: answer to that. This is the thinking behind it, and this is also the decision-making framework behind choosing the right type of data storage system for you.
+
+308
+00:57:59.380 --> 00:58:10.589
+100xEngineers: We're discussing about two types of databases, structured relational database, which can represent the entities and relationships in the way how we do it, and then we have unstructured. I didn't give the name of unstructured, but there are a lot of unstructured databases
+
+309
+00:58:10.590 --> 00:58:16.379
+100xEngineers: Commonly known as, like, NoSQL database, there are some key-value databases as well.
+
+310
+00:58:17.040 --> 00:58:22.400
+100xEngineers: Which means that they just store key and values, similar to what we have in JSON. There are…
+
+311
+00:58:22.590 --> 00:58:40.190
+100xEngineers: multiple other types of databases as well, Graph and things like that. So, a lot of those things. I'll come back to this term, but these are some of the examples of unstructured database. Now, the question becomes, how do we choose whether we need structured for our conversation or unstructured? I'll give you one example from Arabs.
+
+312
+00:58:40.190 --> 00:58:44.420
+100xEngineers: Whenever you have an entity relationship mapping and you see that, you can…
+
+313
+00:58:44.700 --> 00:58:54.839
+100xEngineers: put the ingestion into, whatever the data coming into the structured format. I would… I would, like, I would say.
+
+314
+00:58:55.080 --> 00:59:04.949
+100xEngineers: recommend most of you to go with the structured relational database whenever you can define your entities, attributes, and relationships clearly.
+
+315
+00:59:06.830 --> 00:59:18.080
+100xEngineers: there would be a time where you can still define all of those things clearly, but you might need to use the other type of database, and how would you choose it is based on the read and write. This is what I was…
+
+316
+00:59:18.210 --> 00:59:19.279
+100xEngineers: Coming to.
+
+317
+00:59:19.970 --> 00:59:23.779
+100xEngineers: Now, let's say, if I'm building this same solution.
+
+318
+00:59:24.850 --> 00:59:27.400
+100xEngineers: And RO is coming on the solution.
+
+319
+00:59:28.240 --> 00:59:32.569
+100xEngineers: And Arav is opening this app, let's say, 4 times a day.
+
+320
+00:59:32.760 --> 00:59:34.590
+100xEngineers: On an average, because…
+
+321
+00:59:34.800 --> 00:59:44.759
+100xEngineers: he's getting some ideas that, hey, this could be my workflow which I'm doing today, sending the email, so get me the plan of how I can do this. So let's say Arav is spending, like,
+
+322
+00:59:46.000 --> 01:00:04.229
+100xEngineers: or maybe, like, doing, 4… minimum four queries per day. It could be, like, in same session, could be, like, in multiple sessions. On an average, this is the number of messages Arab is sending from his side, and the plans generating from the LM side. So we have, like, total
+
+323
+01:00:04.480 --> 01:00:06.339
+100xEngineers: I would say 4 number of…
+
+324
+01:00:09.500 --> 01:00:13.720
+100xEngineers: rights to the… database.
+
+325
+01:00:14.950 --> 01:00:16.330
+100xEngineers: For user table.
+
+326
+01:00:16.930 --> 01:00:19.469
+100xEngineers: So, we have here multiple tables.
+
+327
+01:00:20.330 --> 01:00:23.699
+100xEngineers: Actually, like, for the user's message table.
+
+328
+01:00:27.290 --> 01:00:38.799
+100xEngineers: I'll be concise, I'll just say message for now, to avoid any confusion. Because in this case, user is same. So, for user table, it's gonna be one when Arav is signing up, and Arav is, like, opening the app.
+
+329
+01:00:39.230 --> 01:00:47.590
+100xEngineers: For messages, if he's coming and, or maybe typing 4 times, then the number of writes for messages is gonna be 4.
+
+330
+01:00:48.080 --> 01:00:56.889
+100xEngineers: Conversation is gonna be one, because so far it's the same conversation. Maybe he or she can open, let's say, multiple conversation threads, but let's say for now.
+
+331
+01:00:57.050 --> 01:00:59.090
+100xEngineers: He has been using the same one.
+
+332
+01:01:00.990 --> 01:01:08.010
+100xEngineers: Total number of writes for me, on an average, on a day-to-day usage is somewhere around, like, 4 to 5.
+
+333
+01:01:08.240 --> 01:01:09.920
+100xEngineers: Coming from the user end.
+
+334
+01:01:10.400 --> 01:01:15.349
+100xEngineers: Now, there would be some rights which is coming from the system, which is…
+
+335
+01:01:15.840 --> 01:01:31.140
+100xEngineers: generating this workflow. This generation comes from the Diagnose API, which uses Grok API, and I need to store this information in another message, but this message would be from the assistant side.
+
+336
+01:01:32.150 --> 01:01:33.989
+100xEngineers: If you remember, we had roles.
+
+337
+01:01:35.360 --> 01:01:43.810
+100xEngineers: So, assistant would also have the same number of messages, because if RF is typing 4 messages, our assistant needs to type the 4 ones.
+
+338
+01:01:43.940 --> 01:01:53.360
+100xEngineers: And, the conversations will remain same, because user will initiate the conversations. So total number of writes per day becomes 4 plus 4, 8.
+
+339
+01:01:54.780 --> 01:02:00.909
+100xEngineers: Why I'm doing this math is because this tells me a very important insight that, on an average.
+
+340
+01:02:01.180 --> 01:02:10.029
+100xEngineers: every given day, My application sees 8 write operations to my database.
+
+341
+01:02:10.310 --> 01:02:18.340
+100xEngineers: Now, whether it's in message, conversations, or other tables, you can do a calculation, you can do a breakdown, but this is the number of times I'm gonna write.
+
+342
+01:02:20.540 --> 01:02:24.240
+100xEngineers: And then we'll calculate the read. So this is the right one.
+
+343
+01:02:27.650 --> 01:02:31.370
+100xEngineers: Clearly, this. And then you'll calculate the read one.
+
+344
+01:02:32.080 --> 01:02:35.800
+100xEngineers: How many times somebody read all this information?
+
+345
+01:02:38.120 --> 01:02:40.020
+100xEngineers: Now, if you look at this data.
+
+346
+01:02:41.640 --> 01:02:46.259
+100xEngineers: It's only when RF is coming back and looking at the old messages.
+
+347
+01:02:46.570 --> 01:03:02.999
+100xEngineers: Now, you can see that maybe we can keep it open for Arav in the same tab, wherever he has been doing the conversation, just like what ChatGP does. Or we have conversations. So, whenever Arav clicks on one conversation, he or she will, let's say, do a one-read operation. So…
+
+348
+01:03:03.810 --> 01:03:06.900
+100xEngineers: One lead operation, definitely when we want to
+
+349
+01:03:07.230 --> 01:03:13.049
+100xEngineers: continue the conversation. And, if somebody's logging in first time.
+
+350
+01:03:13.260 --> 01:03:21.580
+100xEngineers: let's say Arab is building this application, so Arav needs his details as well, that how many API credits he has used, so…
+
+351
+01:03:21.990 --> 01:03:25.699
+100xEngineers: uses… Needs to be… have, like, a red.
+
+352
+01:03:27.380 --> 01:03:32.980
+100xEngineers: Which means that I need to at least first read who is using the application, that is the read number one.
+
+353
+01:03:33.870 --> 01:03:44.129
+100xEngineers: conversation, because if somebody's opening this app, and as you know, in order for us to fetch any information which is already there, if, let's say, Arav is coming second time on the application.
+
+354
+01:03:44.130 --> 01:03:56.469
+100xEngineers: We need to read the conversation to make sure that something is there on the screen. If there is no conversation, then we automatically start one. That is also one write and then one read operation.
+
+355
+01:03:56.800 --> 01:04:05.910
+100xEngineers: And then, if there are any previous messages which are already there, then those number of reads. Let's say 4 messages are already there at the end of the day.
+
+356
+01:04:06.370 --> 01:04:10.060
+100xEngineers: When Arav comes back, he can read the four times.
+
+357
+01:04:10.660 --> 01:04:20.279
+100xEngineers: In this particular case, we will see that mostly our read and write operations for given
+
+358
+01:04:20.390 --> 01:04:23.340
+100xEngineers: Application and the usage will remain
+
+359
+01:04:23.340 --> 01:04:43.850
+100xEngineers: mostly similar. In some cases, it can go, let's say, the write operation go, higher side on the operation. I just gave you one scenario as an example scenario. Doesn't need to be, like, exactly legit scenario, but just to understand that what is the dynamics between read and write? Now, why this entire thing is possible or, important is because
+
+360
+01:04:43.850 --> 01:04:45.809
+100xEngineers: It will tell me that
+
+361
+01:04:46.640 --> 01:04:55.809
+100xEngineers: what… what kind of data storage system I need when this thing scales. Let's say now we have not one user of RF, but we have, like.
+
+362
+01:04:56.060 --> 01:05:09.869
+100xEngineers: I'm doing this pilot with, let's say, another cohort, and that cohort has 100 people, and these 100 people are now doing the same thing, what Arab is doing. Now multiply everything by 100. Now, those are the number of reads and write operations I'm doing.
+
+363
+01:05:09.990 --> 01:05:23.489
+100xEngineers: And, let's say if I scale this even further, and I send it to my entire alumni community and people who have learned from me, those are, let's say, 50,000 plus people. Now, all these 50,000 people
+
+364
+01:05:23.580 --> 01:05:33.170
+100xEngineers: let's say on day one, when they got to know about, hey, somebody… I have built an application where you can get a whole plan for this, and they start, like, doing it on day one, they do…
+
+365
+01:05:33.260 --> 01:05:46.959
+100xEngineers: let's say all of these writes, let's say, on an average, they do 4 read and write. This is the amount of read and write operations I will be doing, or maybe I'll be experiencing in my application, which would be around
+
+366
+01:05:48.470 --> 01:05:51.410
+100xEngineers: Close to… this is…
+
+367
+01:05:58.420 --> 01:05:59.900
+100xEngineers: Somewhere around 200?
+
+368
+01:06:00.010 --> 01:06:02.550
+100xEngineers: 2 million, right, if I'm not wrong.
+
+369
+01:06:14.390 --> 01:06:17.160
+100xEngineers: This is close to 2 million read and write operation.
+
+370
+01:06:18.040 --> 01:06:34.520
+100xEngineers: Now, imagine you doing 2 million read a night operation on a file system. First of all, the file system, based on wherever you're using this file, if it is on one machine, whether it's render's machine, your machine, the RAM will not be able to support these many operations.
+
+371
+01:06:34.840 --> 01:06:38.660
+100xEngineers: And your application will crash immediately. The second thing is.
+
+372
+01:06:40.810 --> 01:06:59.699
+100xEngineers: when somebody's writing for this, and you have, let's say, bought a service, like a structured database service, in relational database, we have examples like Superbase, or Postgres. There are multiple ones, but let's say Superbase. And Superbase gives you these quotas, that how many people can do read and write operations.
+
+373
+01:06:59.800 --> 01:07:11.950
+100xEngineers: you calculate these, and you let Superbase know that, okay, I have these people coming, who's gonna do the read and write operations, because they're gonna send messages, and they're gonna read those messages.
+
+374
+01:07:12.150 --> 01:07:18.449
+100xEngineers: you can calculate the cost in advance. Very, very important lesson from this, because
+
+375
+01:07:19.190 --> 01:07:27.289
+100xEngineers: I can… I can show you, like, different examples of databases, and maybe I can show you the exact code right now, but…
+
+376
+01:07:27.290 --> 01:07:39.800
+100xEngineers: If you don't understand the dynamics of, like, how much this solution will cost you, you'll never be able to make the right decision that whether this thing is working for me, or it might work for me or not.
+
+377
+01:07:39.800 --> 01:07:52.800
+100xEngineers: Now, some of you can also, like, push back on this argument, is that, hey, nobody, actually needs 50,000 people on the day one who's working for them. And my rebuttal to that is that
+
+378
+01:07:53.180 --> 01:07:57.909
+100xEngineers: Yes, you're right, and that is exactly what everybody needs to know.
+
+379
+01:07:58.540 --> 01:08:03.560
+100xEngineers: How many users you are expecting in your first 10 days.
+
+380
+01:08:03.820 --> 01:08:06.399
+100xEngineers: First 30 days, first 100 days.
+
+381
+01:08:07.330 --> 01:08:10.050
+100xEngineers: And can you prepare for that?
+
+382
+01:08:10.070 --> 01:08:23.779
+100xEngineers: And it's completely fine, the same way how I was designing the… in the pre-recorded lecture series for my sales team, where I know that even on day 9, day… day 10, or even day 20, or day 30,
+
+383
+01:08:23.779 --> 01:08:31.679
+100xEngineers: number of users will remain the same, which is my admin team and the one person from my admin team, so I never need those many read and write operations.
+
+384
+01:08:31.790 --> 01:08:39.399
+100xEngineers: And I never also needed something which is actually gonna overlap with my data. For me, it was like a brain-dead
+
+385
+01:08:39.660 --> 01:09:04.609
+100xEngineers: solution that I'll go with a simplified storage system, because I'll save a lot of cost, and I don't need the complexity of what it comes with, maybe, let's say, managing a whole database, together. Now, over time, yes, I could maybe, like, let's say, add more things here and make it, like, database-friendly, but something which has worked really well, and you'll see, like, a lot of these applications going back
+
+386
+01:09:04.609 --> 01:09:13.009
+100xEngineers: back to the file systems as their key storage, as compared to having more surfacing databases, because the more complexity you add.
+
+387
+01:09:13.010 --> 01:09:30.940
+100xEngineers: That is also the amount of debt you pay to your code, and as well as to the maintenance cost. Whether you are maintaining this code, or whether your agent is maintaining your code, somebody has to pay for that extra context and extra complexity which is coming with this. So.
+
+388
+01:09:30.939 --> 01:09:40.400
+100xEngineers: Again, if this is something which you are thinking about efficiency, you need to also look at this part. Now, what about the conversation of unstructured thing, right, we are discussing?
+
+389
+01:09:41.200 --> 01:09:44.900
+100xEngineers: And as I said, there would be a point where you'll realize that
+
+390
+01:09:46.979 --> 01:09:52.969
+100xEngineers: Maybe in this case, the read and write operations were, like, almost similar.
+
+391
+01:09:53.270 --> 01:10:02.010
+100xEngineers: And I had relation between different entities. But let's say we are discussing a different solution. We are discussing a solution where
+
+392
+01:10:03.590 --> 01:10:17.619
+100xEngineers: Arav is not talking to a chat assistant, but Arav is talking to its friends, his friends, basically. And, maybe Arab is having a group chat. Maybe, let's say this is a WhatsApp, right?
+
+393
+01:10:19.570 --> 01:10:27.729
+100xEngineers: Or maybe a messenger application, where people are discussing things on a group, maybe a Discord server, right?
+
+394
+01:10:28.870 --> 01:10:34.869
+100xEngineers: In those cases, Yeah, especially, like, when you have high-volume chat.
+
+395
+01:10:35.360 --> 01:10:53.140
+100xEngineers: if you have seen, like, the live chats right now, and maybe live chats in any kind of, like, I would say event, which is, like, an online event, the number of reads, any kind of those chats, and even in a lot of high activity group, number of writes is, like, insanely high.
+
+396
+01:10:53.140 --> 01:10:58.909
+100xEngineers: Which means the number of people who are, like, directly sending the information,
+
+397
+01:10:59.360 --> 01:11:04.990
+100xEngineers: It's, like, it's insanely high, and that… that actually creates a lot of…
+
+398
+01:11:06.050 --> 01:11:13.169
+100xEngineers: load on the server, which means that now I need, like… I need to pay for those kind of things, and
+
+399
+01:11:14.580 --> 01:11:21.240
+100xEngineers: not every time. Let's say if I'm doing… actually, WhatsApp might not be the best example for this, but maybe the…
+
+400
+01:11:21.830 --> 01:11:25.519
+100xEngineers: the WhatsApp… Temporary chat could be a good example.
+
+401
+01:11:30.360 --> 01:11:35.630
+100xEngineers: Alive… Zoom session chat.
+
+402
+01:11:38.830 --> 01:11:57.340
+100xEngineers: a YouTube live chat. So anything which are not, I would say, permanent, right? And even if you look at the transcript of the chat, which we send, and you get it from Zoom, they are always gonna be in some type of, like, unstructured data, which means that
+
+403
+01:11:57.640 --> 01:12:02.350
+100xEngineers: maybe you guys can have, like, different things which you are sharing today. You have,
+
+404
+01:12:02.880 --> 01:12:22.000
+100xEngineers: a thought, you have a file, you have, maybe a whole video which you want to share, maybe you're sharing a song or transcript, but Zoom is not creating entities and attributes to each and every person's message, tied to your user's ID, and it's just giving me a plain text file of
+
+405
+01:12:22.150 --> 01:12:40.690
+100xEngineers: all the things and all the messages which are there. And the reason why Zoom is doing it, because the amount of processing Zoom or any kind of temporary chat which is there, they need to have, in order for them to, like, do all of these operations, if they end up building with relational database, which is
+
+406
+01:12:41.320 --> 01:12:42.749
+100xEngineers: Like this.
+
+407
+01:12:42.980 --> 01:12:47.090
+100xEngineers: Where something can be related to all of these things.
+
+408
+01:12:47.680 --> 01:12:50.520
+100xEngineers: It's gonna be much more higher, because
+
+409
+01:12:50.730 --> 01:12:53.269
+100xEngineers: The database, as I said, is…
+
+410
+01:12:53.890 --> 01:13:10.450
+100xEngineers: a fancy solution of, which comes with all these things as a feature, because file system doesn't solve those things. And because there are added features, there are added complexity to it, and you have to pay the maintenance cost and the overall cost to it.
+
+411
+01:13:10.720 --> 01:13:18.350
+100xEngineers: If you have, decided That, you are going with relational database for all of these things.
+
+412
+01:13:18.830 --> 01:13:36.139
+100xEngineers: Now, Superbase, or whatever database you're using, they will charge you for each and everything, and it will go beyond a certain point, where when you have, like, or when you're running a company like Zoom, where you have, like, millions of people using the live chat application, you cannot afford to, like.
+
+413
+01:13:36.350 --> 01:13:44.220
+100xEngineers: pay millions of dollars to Superbase when everything they chat is gonna be temporary. And that is another way to look at that why…
+
+414
+01:13:44.250 --> 01:14:03.259
+100xEngineers: having the understanding of, like, read and write helps, because this also directly impacts the cost, and you can take a decision like this, whether… whether do I need to, like, use this information, which will help me to derive something in future. Do I need this information of what I'm seeing on my chat on Zoom?
+
+415
+01:14:03.260 --> 01:14:11.739
+100xEngineers: to later connect, maybe, like, build a whole sophisticated, like, LMS system, or maybe, like, I would say intelligence system.
+
+416
+01:14:11.740 --> 01:14:19.960
+100xEngineers: If the answer is yes, then I might use a different database, but if the answer is no, if this chat is only temporary, and I just might look at it maybe for a reference.
+
+417
+01:14:20.680 --> 01:14:30.379
+100xEngineers: it's always gonna be write-heavy and read, light. So, whenever there's a case like this where you have, like, more number of writes and less number of reads.
+
+418
+01:14:31.120 --> 01:14:47.220
+100xEngineers: having an unstructured database is… is gonna be, like, much more cheaper, because you can throw the information in a bucket. Just, like, think of this, like, as a bucket, and let's say there's, like, hundreds of messages are coming in.
+
+419
+01:14:48.980 --> 01:14:52.189
+100xEngineers: And these are coming into this whole bucket.
+
+420
+01:14:53.370 --> 01:15:09.090
+100xEngineers: But do you need to see, like, how many messages somebody is reading out? And this is, like, after the Zoom chat is end, like, not… I'm not saying that when the Zoom chat is alive. Let's say once the Zoom session is over, how many people are actually gonna read those messages?
+
+421
+01:15:09.670 --> 01:15:19.020
+100xEngineers: And if the answer is gonna be, like, 0 or 1, or maybe, like, 2 or 3, maybe they're only the 100X team who is, like, reviewing the chat of this thing.
+
+422
+01:15:19.180 --> 01:15:22.939
+100xEngineers: It's clearly, like, not the best solution.
+
+423
+01:15:23.150 --> 01:15:36.669
+100xEngineers: To create a domain model for all these hundred messages, create entities, relationships, and attributes, put it into a superbase, and then just return the query for two people or one person.
+
+424
+01:15:36.970 --> 01:15:40.129
+100xEngineers: Or who will be, like, reading all of this maybe once…
+
+425
+01:15:40.310 --> 01:15:50.790
+100xEngineers: in their lifetime, just to, like, do a quick sanity check for it. It's just overkill at that point to have something like Superbase, something like Structured Relational Database.
+
+426
+01:15:50.790 --> 01:16:00.849
+100xEngineers: And that is also what you'll see in systems which are out there today. WhatsApp, temporary chats, live Zoom sessions, Instagram Live, all of those
+
+427
+01:16:00.910 --> 01:16:01.820
+100xEngineers: Apps.
+
+428
+01:16:01.970 --> 01:16:21.329
+100xEngineers: if you look and try to understand how they are built, they are not using any kind of structured database, because they don't want to pay the complexity cost there, as the number of reads is low, and the rights are higher. So they need, like, something which they can store, and this is something where we have things like key-value pair.
+
+429
+01:16:21.790 --> 01:16:37.710
+100xEngineers: which is JSON. If you remember, like, how JSON works, it's very easy, because I can just put, hey, Yasir has sent a message, and then Hunch has sent a message, so I just write the Yasir name and the value of the message, and that's all. So that's basically…
+
+430
+01:16:38.030 --> 01:17:02.030
+100xEngineers: what this entire thing is, is gonna basically, be helping me. And I can just use this part in a simple JSON file. Maybe I can store it, and if I need more security, I can find an unstructured database. There's a very famous, unstructured database, which is called MongoDB. I wouldn't call it unstructured, but it's like a NoSQL database.
+
+431
+01:17:02.200 --> 01:17:10.490
+100xEngineers: We won't cover this in the current cohort, because, as I said, like, my use case is not to build
+
+432
+01:17:10.490 --> 01:17:27.849
+100xEngineers: everything with this cohort when we are building, especially, like, the full-stack part, because there's tons of engineering problems we can solve together, but we are limiting it to the things that is gonna be most common to, like, majority number of people. And I know that, as I said in the beginning, there might be people who
+
+433
+01:17:27.880 --> 01:17:32.729
+100xEngineers: who won't use, let's say, the database which I am recommending today.
+
+434
+01:17:32.820 --> 01:17:35.209
+100xEngineers: When I begin this, this whole part.
+
+435
+01:17:35.480 --> 01:17:38.340
+100xEngineers: Which is, like, the relational database of superbase.
+
+436
+01:17:38.560 --> 01:17:43.879
+100xEngineers: So at least you guys have some clarity that how do you decide, and how will you come to the conclusion?
+
+437
+01:17:46.080 --> 01:18:00.569
+100xEngineers: Along with this, as I said, I don't want to, like, spend the whole time of this lecture into the decision-making part of it, as I also want to, like, progress to the next section. I will share a clear decision-making guide for all of you.
+
+438
+01:18:00.570 --> 01:18:19.340
+100xEngineers: whatever I have said so far, I've documented this thing, and also given, like, more examples with different type of structured, unstructured databases, which you can go through it after the lecture, and you can, like, use it whenever you are in that stage of your life where you're deciding that what kind of data storage solution you need. But,
+
+439
+01:18:19.340 --> 01:18:37.499
+100xEngineers: as of now, I'm gonna, like, park this discussion here, and we'll try to, like, now stick to one thing, which is based on Arav's problem statement, and I hope you got it, why I introduced this whole decision-making framework, and why now, today, Superbase actually makes sense for this application, because
+
+440
+01:18:37.500 --> 01:18:53.570
+100xEngineers: A, we need all these things. We need backup, we need atomicity, we need consistency, and we want security and privacy in our database. And we have a data system. When we design the shape of it, it is relational in nature, which means it's related to multiple entities, and it has those attributes which
+
+441
+01:18:53.570 --> 01:18:58.800
+100xEngineers: Need the relationship to be intact as it grows.
+
+442
+01:18:58.800 --> 01:19:02.360
+100xEngineers: So, in our case, it makes sense, and we're gonna go with Superbase.
+
+443
+01:19:02.360 --> 01:19:25.629
+100xEngineers: you can use multiple additional databases. I'm gonna go with Superbase because it's one of the most popular databases out there, which is also, I would say, a wrapper on top of Postgres, the same database that ChatGPT used to scale to 800-plus million users. Right now, I think they might be crossing a trillion users as well. So, that's the database which we'll be using, which is already tried and tested.
+
+444
+01:19:25.630 --> 01:19:27.649
+100xEngineers: Works majority of the time for
+
+445
+01:19:27.650 --> 01:19:41.250
+100xEngineers: most of the cases, but as I said, like, you don't need to go through the same tool. If you have, like, a different use case, you can also pick something else. As I said, I'll be sharing the guide, so you can follow the guide after this, but
+
+446
+01:19:41.520 --> 01:19:46.819
+100xEngineers: Now, let's come to the Superbase, and we'll start, like, implementing everything there.
+
+447
+01:19:46.940 --> 01:19:50.079
+100xEngineers: So, first and foremost thing, as I said.
+
+448
+01:19:50.550 --> 01:19:58.830
+100xEngineers: the thing after Super Base, what we need is… We need to create… A domain model.
+
+449
+01:19:59.830 --> 01:20:05.540
+100xEngineers: Which we already have, by the way. So I hope some of you who are,
+
+450
+01:20:18.870 --> 01:20:27.309
+100xEngineers: Just give me one sec. Okay, yeah. So, first thing, we need to create a domain model. The second thing here is we need to create a…
+
+451
+01:20:30.370 --> 01:20:33.170
+100xEngineers: Just give me one sec, I'm trying to…
+
+452
+01:20:51.220 --> 01:20:53.289
+100xEngineers: Okay, yeah, I got it.
+
+453
+01:20:53.850 --> 01:21:01.120
+100xEngineers: I was just trying to, like, make sure I'll write everything in the same order, which I'm gonna now show you after this.
+
+454
+01:21:01.590 --> 01:21:04.090
+100xEngineers: We're gonna first write the domain model.
+
+455
+01:21:04.320 --> 01:21:08.190
+100xEngineers: Your entities, attributes, relationships, all of those things there.
+
+456
+01:21:08.520 --> 01:21:11.600
+100xEngineers: In the second part, we need to write the interface.
+
+457
+01:21:13.610 --> 01:21:17.059
+100xEngineers: Now, we are back to the same part.
+
+458
+01:21:18.510 --> 01:21:24.600
+100xEngineers: We discussed with the CSV file, we need the interface of operating system, but the moment, as I said, Arv…
+
+459
+01:21:24.830 --> 01:21:26.539
+100xEngineers: System has changed.
+
+460
+01:21:26.860 --> 01:21:35.110
+100xEngineers: The other part is the same Python, but this time, it is Superbase, which is… A relational database.
+
+461
+01:21:35.810 --> 01:21:37.730
+100xEngineers: Now we can't use a file system.
+
+462
+01:21:37.950 --> 01:21:45.510
+100xEngineers: It's a fancy file system plus a lot of those things, and now we need to find an interface for this.
+
+463
+01:21:45.720 --> 01:21:49.690
+100xEngineers: Thankfully, this is also, like, a problem which,
+
+464
+01:21:50.880 --> 01:21:54.799
+100xEngineers: Actually, let me put it here so it will be easier.
+
+465
+01:21:59.350 --> 01:22:04.170
+100xEngineers: This system is Structured Relational Database, that is what you're using.
+
+466
+01:22:08.470 --> 01:22:10.610
+100xEngineers: In the same manner how we had
+
+467
+01:22:10.720 --> 01:22:16.980
+100xEngineers: APIs, which is playing as a language between two different systems to communicate.
+
+468
+01:22:16.980 --> 01:22:31.749
+100xEngineers: We also need a language here. Now, you can call it an API definitely is one of the interface, but a specific type of interface for APIs, which basically allows us to communicate between Superbase and a Python app, is…
+
+469
+01:22:32.040 --> 01:22:33.959
+100xEngineers: what we called SQL.
+
+470
+01:22:34.110 --> 01:22:40.900
+100xEngineers: And the form… full form of SQL is… Structured query language.
+
+471
+01:22:41.620 --> 01:22:46.690
+100xEngineers: Now, it's a very special type of language, because this, as I said, the job of the interface
+
+472
+01:22:46.850 --> 01:22:51.339
+100xEngineers: Is to communicate and help two different systems
+
+473
+01:22:51.730 --> 01:22:54.819
+100xEngineers: Meet each other and communicate with each other.
+
+474
+01:22:55.060 --> 01:22:57.200
+100xEngineers: SQL solves that same problem.
+
+475
+01:22:57.990 --> 01:23:17.120
+100xEngineers: SQL solves that same problem, where Subabase, which is a relational structured database system, doesn't understand Python really well, because tomorrow someone can build the same thing and connect SuperBase with a lovable application, which is gonna be using JavaScript, or it could be, like, Java, it could be anything else.
+
+476
+01:23:17.120 --> 01:23:19.770
+100xEngineers: So, there would be, like, multiple options for this.
+
+477
+01:23:19.770 --> 01:23:21.700
+100xEngineers: Right now, we are using Python.
+
+478
+01:23:22.390 --> 01:23:26.010
+100xEngineers: SQL solves that problem of
+
+479
+01:23:26.590 --> 01:23:34.939
+100xEngineers: querying the information from this database. Just like what we have, file system, which can help you read, write, and search in the file.
+
+480
+01:23:35.480 --> 01:23:56.060
+100xEngineers: We use structured query language to read, write, insert, and do all the operations within the database. And this is the common interface and common language understood by all the popular, language providers. And even if you don't have a language provider, and this is where I'm coming to, I think Hansh has mentioned this in the beginning, something called ORM.
+
+481
+01:23:56.060 --> 01:24:04.359
+100xEngineers: These are some fancy solutions, right? Which, if your database doesn't have that support, or maybe you want a support which
+
+482
+01:24:04.360 --> 01:24:10.729
+100xEngineers: Which can, like, abstract out the nitty details of connecting with database.
+
+483
+01:24:10.740 --> 01:24:14.859
+100xEngineers: updating those things. So this is the abstraction layer, which means
+
+484
+01:24:15.290 --> 01:24:17.259
+100xEngineers: If you have heard this term.
+
+485
+01:24:17.480 --> 01:24:27.550
+100xEngineers: not needed, by the way, for this particular discussion, I just… I'm using it, answering it, because Ancha mentioned it in the beginning, and some people have also, like, spoke about this.
+
+486
+01:24:27.660 --> 01:24:33.910
+100xEngineers: There could be a, let's say, a system which might not understand the specific version of
+
+487
+01:24:34.240 --> 01:24:44.190
+100xEngineers: SQL language that Superbase is using right now. Or maybe you want more efficient way to connect with multiple backends, so that I don't need to always
+
+488
+01:24:44.190 --> 01:24:56.740
+100xEngineers: depend on, let's say, one type of functions, and I can build a common abstraction, which is like a bridge. When I say abstraction, just think of it like a bridge. It means that my superbase can talk to this
+
+489
+01:24:57.310 --> 01:25:11.280
+100xEngineers: particular server, and then this can talk to multiple other servers, which is… which could be Java, which could be Python, and it can do all those operations, but it's gonna be language agnostic.
+
+490
+01:25:12.640 --> 01:25:19.079
+100xEngineers: So, there are, there are solutions for it. Now, very, very surprisingly, because we are using Superbase.
+
+491
+01:25:19.540 --> 01:25:25.160
+100xEngineers: And Superbase, right now, it's becoming, like, a whole… I would say the…
+
+492
+01:25:25.990 --> 01:25:41.870
+100xEngineers: the backend infrastructure. It also comes with its own inbuilt ORM solution. That is also why I'll be choosing Superbase for this, and this is how it works. So right now, we're gonna use Superbase.
+
+493
+01:25:42.840 --> 01:25:44.309
+100xEngineers: as one bridge.
+
+494
+01:25:44.460 --> 01:25:52.019
+100xEngineers: And by default, Superbase can connect to any language, any SDK. It is a majority of the SDKs which I am aware of out.
+
+495
+01:25:53.070 --> 01:25:54.800
+100xEngineers: In the backend, it uses…
+
+496
+01:25:58.730 --> 01:26:16.309
+100xEngineers: an SQL database with a relational database, it's known as Postgres SQL, which is the database on top of which Superbase has built. Superbase has built a whole orchestration layer. You can think of the database abstraction layer, which is a bridge so that anyone can connect
+
+497
+01:26:16.570 --> 01:26:36.070
+100xEngineers: with the Postgres. They don't need to deploy it on cloud, they don't need to, like, manage 10 different things about database, which earlier they need to, because if you use a raw version of the database, you can download it Postgres, by the way, this is the raw version which Service uses, but you have to build that whole ORM interface in between, which can
+
+498
+01:26:36.140 --> 01:26:48.110
+100xEngineers: become, like, a bridge for multiple other apps and programs, but that's also, like, the problem which Subap is solving for us right now, and we… we don't need to, like, do it as of now.
+
+499
+01:26:59.730 --> 01:27:06.600
+100xEngineers: Coming back to the… number of steps which we are doing. The interface, we just decide.
+
+500
+01:27:06.890 --> 01:27:26.720
+100xEngineers: This is the SQL. So, we'll be writing SQL, and I'll be showing you some ways to communicate with your database, because you already have a database, which you built here. So, you'll be, like, understanding the interface. Once you have the understanding of interface, then you actually connect
+
+501
+01:27:27.020 --> 01:27:33.620
+100xEngineers: this… interface with, two systems.
+
+502
+01:27:36.410 --> 01:27:41.129
+100xEngineers: And the two systems which we have right now is the Fast API.
+
+503
+01:27:41.580 --> 01:27:42.740
+100xEngineers: Python app.
+
+504
+01:27:51.830 --> 01:27:53.240
+100xEngineers: and SuperVase.
+
+505
+01:27:54.490 --> 01:27:56.860
+100xEngineers: So we use SQL to connect these two things.
+
+506
+01:28:05.990 --> 01:28:13.350
+100xEngineers: Then finally, we will… Update the business logic.
+
+507
+01:28:14.460 --> 01:28:21.500
+100xEngineers: Now, this business logic is… is what we have written in the function. If you remember that, Diff.
+
+508
+01:28:21.800 --> 01:28:23.380
+100xEngineers: Diagnose function.
+
+509
+01:28:23.470 --> 01:28:47.420
+100xEngineers: which is connected and exposed via the diagnose endpoint. So we'll make change to this function, because now we need to store the information. And so far, we were not storing it anywhere, but we just built a domain model. We have now interface that can connect our FastAPI backend with Superbase and can store information. So we need to now reflect that here. So every time Arav writes the command, and
+
+510
+01:28:47.420 --> 01:28:51.000
+100xEngineers: The diagnose function, diagnose the workflow, and builds a plan.
+
+511
+01:28:51.950 --> 01:28:54.070
+100xEngineers: Before sharing this with Arav.
+
+512
+01:28:54.390 --> 01:29:03.360
+100xEngineers: an hour of, like, getting it, we'll store it in the superbase, in the database, and we'll make the change here in our business function, or the business logic.
+
+513
+01:29:08.700 --> 01:29:11.640
+100xEngineers: Once we read all of these things, then…
+
+514
+01:29:13.440 --> 01:29:22.810
+100xEngineers: whenever the next time RO is coming back, that's basically the second part of this, is, deed.
+
+515
+01:29:23.140 --> 01:29:25.550
+100xEngineers: from the database.
+
+516
+01:29:25.790 --> 01:29:38.229
+100xEngineers: So whenever RF is coming from the next time on the same application, and before we do any operation, we'll just return database and see if there is anything exists in this database, we render those things back. So if you follow these
+
+517
+01:29:38.230 --> 01:29:47.280
+100xEngineers: five steps. We can directly integrate the concepts that we have just learned right now, and what we have built in the last lecture.
+
+518
+01:29:47.360 --> 01:29:49.159
+100xEngineers: In order for me to do it.
+
+519
+01:29:49.320 --> 01:29:55.370
+100xEngineers: in a much more structured manner, what I have done is, I'll show you the…
+
+520
+01:29:55.740 --> 01:30:04.169
+100xEngineers: a repository. This is the same repository, by the way, which, if you remember, the last time we built it, and we deployed it on
+
+521
+01:30:06.230 --> 01:30:07.290
+100xEngineers: render.
+
+522
+01:30:09.380 --> 01:30:13.880
+100xEngineers: So, this was a MVP application, so it's…
+
+523
+01:30:17.760 --> 01:30:19.410
+100xEngineers: Something which we deployed.
+
+524
+01:30:19.820 --> 01:30:25.460
+100xEngineers: on… on render, and we have the test UI. So I've already, like, checked this time. Let me…
+
+525
+01:30:27.740 --> 01:30:29.350
+100xEngineers: Let me first refresh this.
+
+526
+01:30:29.940 --> 01:30:33.389
+100xEngineers: Let me start the render server.
+
+527
+01:30:33.890 --> 01:30:34.960
+100xEngineers: Let's see if…
+
+528
+01:30:44.110 --> 01:30:50.180
+100xEngineers: So one thing which I'll do here, and which I'll also recommend you guys to do, is that
+
+529
+01:30:51.030 --> 01:30:53.250
+100xEngineers: I have kept this branch.
+
+530
+01:30:53.450 --> 01:31:12.009
+100xEngineers: which is gonna be deployed on render on autocommit. So anytime I push things to the API branch, it commits, and it deploys it on the render itself. So whenever I'm creating new changes to my GitHub project, I try to create a new branch. In this case.
+
+531
+01:31:12.010 --> 01:31:21.910
+100xEngineers: I wanted to add database, so what I did, I created a new branch. Branch is a copy of your project. Just think of a local copy.
+
+532
+01:31:21.940 --> 01:31:23.240
+100xEngineers: Of your project.
+
+533
+01:31:24.740 --> 01:31:30.930
+100xEngineers: So I can keep making changes on database branch, and when this branch is ready, I can…
+
+534
+01:31:31.160 --> 01:31:40.320
+100xEngineers: Take all these changes, And… merge these changes into the API. This is also known as the
+
+535
+01:31:40.360 --> 01:31:50.179
+100xEngineers: merge request or pull request concept, where you take data, or take changes from one copy and merge it to the other copy. That's the most easiest
+
+536
+01:31:50.210 --> 01:32:07.130
+100xEngineers: explanation in the GitHub language. But what I'm trying to, like, do here with this is… is that we are trying to, like, keep one environment, which is currently live, and you can see this is on the render. And if I go to slash talks right now.
+
+537
+01:32:07.280 --> 01:32:23.069
+100xEngineers: you'll see I have now 3, endpoints, like, diagnose something which we already had. The only difference between this diagnose and versus the older diagnose is that this one actually stores the information, and it is connected to the Subabase account.
+
+538
+01:32:23.440 --> 01:32:30.190
+100xEngineers: So, as I said, like, the step number one for all of you when you are starting this, you need to log into Superbase.
+
+539
+01:32:30.510 --> 01:32:33.330
+100xEngineers: And I'll walk you through now the step-by-step process.
+
+540
+01:32:33.460 --> 01:32:34.460
+100xEngineers: So…
+
+541
+01:32:40.280 --> 01:32:45.619
+100xEngineers: Okay, I'm already on my projects page. This is my project section page.
+
+542
+01:32:45.770 --> 01:32:53.830
+100xEngineers: If you are doing it for the first time, there would be no project for you, so you need to create a new project. If you've already signed up.
+
+543
+01:32:54.080 --> 01:32:57.390
+100xEngineers: Click on the new project section. You need to…
+
+544
+01:32:57.750 --> 01:33:04.139
+100xEngineers: create an organization if you don't have already. I have, like, multiple organizations I've created, so…
+
+545
+01:33:04.680 --> 01:33:08.900
+100xEngineers: And I have a lot of apps which are running on different organizations, by the way.
+
+546
+01:33:14.550 --> 01:33:15.380
+100xEngineers: Yeah.
+
+547
+01:33:22.120 --> 01:33:23.980
+100xEngineers: Let me show you with a different account.
+
+548
+01:33:29.110 --> 01:33:30.750
+100xEngineers: So we'll sign in here.
+
+549
+01:33:31.040 --> 01:33:37.509
+100xEngineers: And, I would recommend you to, like, sign with GitHub, because it'll be easier for you to…
+
+550
+01:33:37.840 --> 01:33:42.700
+100xEngineers: do the whole process. Let's see if I can…
+
+551
+01:34:05.690 --> 01:34:11.210
+100xEngineers: Okay, I signed up on a fresh account. Ideally, you should see this kind of page.
+
+552
+01:34:11.780 --> 01:34:14.909
+100xEngineers: We'll create a new organization, and we'll keep…
+
+553
+01:34:15.250 --> 01:34:27.590
+100xEngineers: like, type personal, I'm gonna use a free plan. The best part about Superbase is that it gives you, like, enough number of read and write operations, which you can use for any kind of MVP application. I've tested it with over a thousand plus
+
+554
+01:34:27.740 --> 01:34:45.730
+100xEngineers: read and write at, like, concurrently, so it works really well. Up until the 10,000 users, it has a great tendency to work well. Beyond that, the free plan doesn't support, and it starts, like, throwing some issues, mostly, like.
+
+555
+01:34:45.730 --> 01:35:03.109
+100xEngineers: failing to, like, register things sometimes. But I think if you have 10,000 plus users, and you're using an application like this, then definitely you have something which is worth monetizing, or worth maybe, like, converting into something much bigger. So then you can go with the $25 plan, and that's also the easier way to, like, scale this thing.
+
+556
+01:35:03.390 --> 01:35:17.189
+100xEngineers: We… quick story, we actually, like, implemented our first WhatsApp-based application, which was used by over 1 million people, on the $599, plan. So, which was… which was, like.
+
+557
+01:35:17.540 --> 01:35:35.980
+100xEngineers: crazy for us, because before that, it used to take a whole, like, engineering department to build something and, like, scale to a million users, but now we can just, like, pay $600 and, like, we have, like, a whole database solution out of the shelf, ready with us. So we've tested this entire application, like, this particular
+
+558
+01:35:35.980 --> 01:35:51.159
+100xEngineers: tool to… to an extent where I can confidently vouch that it can work, like, at a scale of 0 to 10 people, as well as to up to a million users. When I create the organization, it will ask me to create a project right now.
+
+559
+01:35:51.240 --> 01:36:03.740
+100xEngineers: Now, this is the part which is optional, but I would recommend you, if you already have a project… so when I had the MBB project, so I corrected already the GitHub account, but if you don't have it right now, you can…
+
+560
+01:36:04.100 --> 01:36:07.979
+100xEngineers: Scroll down, select the region. Now, region is…
+
+561
+01:36:09.520 --> 01:36:16.340
+100xEngineers: something which is the machine and the address of the machine. If you remember, we've been discussing this a lot.
+
+562
+01:36:16.630 --> 01:36:35.229
+100xEngineers: everything what you see on these whiteboards, these are the actual systems which are running somewhere on the world, right? The data storage right now, if you are going with Superbase, is gonna be running somewhere in an actual facility in a data center. So, the Superbase is now asking me that, where do you want that
+
+563
+01:36:35.230 --> 01:36:55.469
+100xEngineers: to be. Ideally, where my most number of users are. If most of my users are in America, I would prefer it in the America region, if they are in Europe. I am in Asia right now, so I would prefer it in Asia. You can also, like, have a specific region here, but for now, like, I would go with the Asia-Pacific only, the general region.
+
+564
+01:37:05.570 --> 01:37:10.530
+100xEngineers: Now, I'll talk about the RLS in the next movement, but for now, we'll keep it, like, unchecked.
+
+565
+01:37:10.940 --> 01:37:15.170
+100xEngineers: And I'll create a new project, but these are the only things which I'm doing.
+
+566
+01:37:15.270 --> 01:37:20.860
+100xEngineers: Just adding the project, name, and a password.
+
+567
+01:37:21.940 --> 01:37:24.289
+100xEngineers: For now, I'll just generate a new password.
+
+568
+01:37:24.720 --> 01:37:28.019
+100xEngineers: And I create a new project. And when I create a new project.
+
+569
+01:37:28.690 --> 01:37:37.149
+100xEngineers: This is ideally the screen which all of you should be able to see, and this is the first database you guys have built.
+
+570
+01:37:37.410 --> 01:37:45.360
+100xEngineers: It's now running on Asia-Pacific region, deployed somewhere. It has already,
+
+571
+01:37:45.700 --> 01:37:50.240
+100xEngineers: the SQL support end also has the whole…
+
+572
+01:37:50.370 --> 01:37:55.139
+100xEngineers: system, which I'm gonna reveal and show you, like, step by step, but…
+
+573
+01:37:55.270 --> 01:37:57.180
+100xEngineers: This is something which we have…
+
+574
+01:37:58.050 --> 01:38:06.039
+100xEngineers: Click deployed. And now you can use it either on your local machine, or you can also use it on the cloud version. Right now, it's running on the cloud.
+
+575
+01:38:06.270 --> 01:38:23.999
+100xEngineers: So, Superbase is also open source, by the way. So, somebody who is working with an enterprise, who is thinking that, hey, can I use my sensitive information in Superbase? Yes, you can. You can take a clone of their open source version, and you can self-host it on your company's cloud. That way, you won't,
+
+576
+01:38:24.600 --> 01:38:35.199
+100xEngineers: you won't have to, like, share data with any third-party vendor or any third-party software, which is also, like, another good way to, I would say, like, use and find a solution so that
+
+577
+01:38:35.570 --> 01:38:55.739
+100xEngineers: if tomorrow you might want to, say, move to a private cloud or a private server, you can actually do the self-hosting, which means you can take the entire project and put it onto your machine, if needed. That's the option which is also available there. But this is the SuperBase part, and we have
+
+578
+01:39:01.190 --> 01:39:10.480
+100xEngineers: now we have a superbase up and running, so we have all the prerequisites. I'll start at the domain model first, and in this domain model, I'll come back to…
+
+579
+01:39:10.970 --> 01:39:13.010
+100xEngineers: My project again.
+
+580
+01:39:13.340 --> 01:39:28.009
+100xEngineers: And this project, I'll go to the database, you will find all the links in the database section. I'll share the GitHub repository once again, but if you already have this from the last lecture, you can… you can just change the branch. Go to the database branch, and
+
+581
+01:39:28.840 --> 01:39:33.260
+100xEngineers: You can also see the commit history here. So, the way how…
+
+582
+01:39:33.600 --> 01:39:35.640
+100xEngineers: Like, I was doing all the commits.
+
+583
+01:39:36.520 --> 01:39:51.870
+100xEngineers: I was trying to, like, put it step by step, in the same order, the order which I have discussed with you here. The domain model, the interface, and then connecting these two, the interface with two systems, and updating the logic, and then reading from database.
+
+584
+01:39:51.960 --> 01:39:56.930
+100xEngineers: These are the same number of steps which I have done in the commits. So, step number one.
+
+585
+01:39:57.230 --> 01:39:59.290
+100xEngineers: After setting up the superbase.
+
+586
+01:39:59.610 --> 01:40:03.490
+100xEngineers: Is… We need to write a domain model.
+
+587
+01:40:03.730 --> 01:40:16.200
+100xEngineers: This is the markdown format. Now, it doesn't mean that you always need to, like, do it in the Markdown. Even if you have it in your text file, in your doc file, maybe in your pen and paper.
+
+588
+01:40:16.400 --> 01:40:21.520
+100xEngineers: it works, but you need to have that clear, markdown file. So…
+
+589
+01:40:21.810 --> 01:40:31.670
+100xEngineers: In this case, you can see the attributes and the entities. The entity here is, one, the conversation, another one is the message, and the third one is,
+
+590
+01:40:33.080 --> 01:40:39.619
+100xEngineers: I think the third one is not there, it's just users. Yeah, it's basically mentioned, but it's not explicitly mentioned here.
+
+591
+01:40:46.230 --> 01:40:49.510
+100xEngineers: Conversations have the attributes, like, title.
+
+592
+01:40:49.930 --> 01:40:57.450
+100xEngineers: which is a short label. The user ID, which is which user started this conversation.
+
+593
+01:40:58.560 --> 01:41:14.320
+100xEngineers: And, created at, at what time this conversation is created at? Message, which is, again, simple, straightforward. By the way, all of this is something which we have discussed on the whiteboard, nothing new which I'm discussing here. These are the same
+
+594
+01:41:16.970 --> 01:41:33.020
+100xEngineers: things like the messages, conversation, and users, and we just have that attributes. The reason why I'm showing you is this is a step-by-step process which I followed. So, after writing this, the entities and attributes, one thing which I'll get clarity is that what kind of
+
+595
+01:41:34.080 --> 01:41:39.800
+100xEngineers: columns I need to have, and what kind of messages I need to have. You can also do it with sheets.
+
+596
+01:41:39.800 --> 01:41:54.460
+100xEngineers: if you're somebody who is coming to the code site first time, it's easier to, like, do this same analysis with CSV sheets, or I would say any kind of Google Sheets, where you do the same exercise, you write the table name here, like.
+
+597
+01:41:54.460 --> 01:41:55.779
+100xEngineers: Let's see messages.
+
+598
+01:41:55.940 --> 01:41:58.819
+100xEngineers: And you write all the columns, and you run your own…
+
+599
+01:41:58.960 --> 01:42:01.460
+100xEngineers: simulation here. Now, once you are…
+
+600
+01:42:01.780 --> 01:42:10.840
+100xEngineers: comfortable once you have, like, identified, okay, what is the, number of tables I have, and the entities I have.
+
+601
+01:42:11.360 --> 01:42:13.529
+100xEngineers: The next step is…
+
+602
+01:42:17.610 --> 01:42:20.569
+100xEngineers: Directly take this and,
+
+603
+01:42:20.980 --> 01:42:28.750
+100xEngineers: reflect back in the database what you have. So, let's say right now we have two columns, and those two columns have
+
+604
+01:42:28.900 --> 01:42:36.970
+100xEngineers: Sorry, those two tables have these, these entities, these attributes, like, content, type, created at.
+
+605
+01:42:42.870 --> 01:42:44.720
+100xEngineers: I'll go to the Super Base.
+
+606
+01:42:45.870 --> 01:42:48.989
+100xEngineers: Actually, not this one, but the one which I just created.
+
+607
+01:42:49.730 --> 01:42:58.949
+100xEngineers: And I'll go to the table editor. So if you go to this section, now you need to come back, people who are following along, you need to come back to the table editor side.
+
+608
+01:42:59.420 --> 01:43:03.790
+100xEngineers: And this section… You can see a Create Table button.
+
+609
+01:43:05.020 --> 01:43:09.320
+100xEngineers: So first, create the… Superbase account.
+
+610
+01:43:09.420 --> 01:43:25.789
+100xEngineers: create a new project, go to the left sidebar, and click on Table Editor, then click on Create a Table button. This is a GUI method, which will allow you to build the same table that you have built on your
+
+611
+01:43:26.010 --> 01:43:32.450
+100xEngineers: sheet, but now in a database. So I'll mention the name, Conversations.
+
+612
+01:43:36.050 --> 01:43:39.540
+100xEngineers: I can write description, but not necessary, and
+
+613
+01:43:41.260 --> 01:43:56.259
+100xEngineers: I'll keep everything checked by default, but I'll come to the columns here, and you can see, like, I already have ID, which is set to primary, and primary here defines the primary key. Now, this is where the concept of domain modeling is
+
+614
+01:43:57.030 --> 01:44:09.270
+100xEngineers: connecting here. We have created that, which is a timestamp. Now I can add one more column, which is maybe, let's say, the title. Let me actually see what was the exact attribute that we have used.
+
+615
+01:44:09.480 --> 01:44:20.630
+100xEngineers: We have used the attribute for conversation as the title, so I'll be using title as… another…
+
+616
+01:44:23.730 --> 01:44:29.430
+100xEngineers: column name, and I need to define The type of it.
+
+617
+01:44:30.030 --> 01:44:47.940
+100xEngineers: Do you remember what we discussed in the FastAPI? We have to, like, understand the type of input and output, both of them, so that we know what kind of data we are storing. This also tells us the shape of the data. So, title is gonna be around, it's gonna be a text
+
+618
+01:44:48.000 --> 01:44:57.519
+100xEngineers: So, variable length text character. We have multiple options here, you can see, and this is, like, the whole… the database design language, DDL.
+
+619
+01:44:57.910 --> 01:45:10.330
+100xEngineers: comes in, where earlier, it used to be, like, specifically driven by only SQL code, but now you have options like a table editor, which you can edit and create your own tables.
+
+620
+01:45:10.330 --> 01:45:21.240
+100xEngineers: which, behind the scenes, actually write SQL to do all of those things, because that's the interface, but you can have, like, all your column name here, and once you have written the type.
+
+621
+01:45:21.300 --> 01:45:29.239
+100xEngineers: Let's say you are… here, then I'm gonna, like, have only these… these… 3 for now, and…
+
+622
+01:45:29.490 --> 01:45:37.789
+100xEngineers: I don't have any on another table right now, so I'll not be mentioning foreign key, but I'll soon do that, so I'll save this first.
+
+623
+01:45:41.450 --> 01:45:53.400
+100xEngineers: And now you will be able to see a table in front of my, screen. And let me create another table here. So I'll click on this plus icon, and then this time I'll create a messages table.
+
+624
+01:45:53.730 --> 01:45:58.990
+100xEngineers: And this table will have… Another column.
+
+625
+01:45:59.180 --> 01:46:12.280
+100xEngineers: this should have something called the conversation ID, and this is becoming the foreign key. Now, if you remember the concept of foreign key from our discussion, this is the key which helps us to
+
+626
+01:46:12.650 --> 01:46:13.330
+100xEngineers: God.
+
+627
+01:46:13.610 --> 01:46:25.909
+100xEngineers: connect two tables. So if you remember, we had one conversation ID, which tells that how this table of message is connected to the conversation. That is the same thing which we are now gonna apply in the Superbase
+
+628
+01:46:25.910 --> 01:46:37.349
+100xEngineers: tables. So we have already the conversations table which we built. Now we're gonna have the messages table, and the way how I'm gonna connect these two tables is using the conversation ID. So…
+
+629
+01:46:58.590 --> 01:47:12.589
+100xEngineers: there's a better UI here, which I'm gonna use instead of, like, guessing the exact name. If you type this link, this is a small link icon after this column, and you select this, table.
+
+630
+01:47:12.590 --> 01:47:27.120
+100xEngineers: Select a table to reference, and you will be able to see all the tables which you already have created. You don't need to manually, like, find specific column name. So, after I selected the conversation table we have created just now.
+
+631
+01:47:27.250 --> 01:47:32.949
+100xEngineers: This is the public message, a public.messages, to…
+
+632
+01:47:33.810 --> 01:47:52.250
+100xEngineers: public.conversations, which means it's saying that this is how it's gonna be connected, and you will define the relationships here. You can add one more column, you can define the type of the columns, you can mention all the actions, like, what will happen if somebody remove all those things. For now, I'll just, like.
+
+633
+01:47:52.300 --> 01:47:57.480
+100xEngineers: keep it minimal, I just want to connect my messages to conversation with the ID.
+
+634
+01:47:57.770 --> 01:48:03.719
+100xEngineers: So, this is how I'm gonna define the relationship here. And the moment I do it.
+
+635
+01:48:03.860 --> 01:48:14.149
+100xEngineers: you can see the foreign keys here. Actually, then I need to remove it from here. And this foreign key is related to the conversations table in the same tab.
+
+636
+01:48:14.540 --> 01:48:39.509
+100xEngineers: That's how we implement the concept of foreign key in the SuperBase database. Now, some of you might be wondering that everything what I'm trying to say is not very visual, and it's completely fine if you don't get it as of now. But the moment you start connecting this database with your application, everything will make sense, and every data point which we have designed in the same way will actually reflect in these tables.
+
+637
+01:48:39.510 --> 01:48:47.179
+100xEngineers: And that's how you can connect the dots. So, as of now, I'll just, like, keep it there for now, and click on save.
+
+638
+01:48:47.320 --> 01:48:49.819
+100xEngineers: And, actually…
+
+639
+01:49:06.730 --> 01:49:14.250
+100xEngineers: Let me see if I can do this… Oh, it's user ID, right?
+
+640
+01:49:16.530 --> 01:49:18.360
+100xEngineers: Yeah, I need user ID as well.
+
+641
+01:49:18.850 --> 01:49:20.839
+100xEngineers: But for that, I need a user table.
+
+642
+01:49:20.990 --> 01:49:21.830
+100xEngineers: So…
+
+643
+01:49:44.370 --> 01:49:50.900
+100xEngineers: Okay, I forgot to add the ID there, that was a problem, but… I think we can't…
+
+644
+01:49:51.430 --> 01:49:53.260
+100xEngineers: changed here, it was…
+
+645
+01:49:59.940 --> 01:50:02.480
+100xEngineers: when I clicked on the foreign key.
+
+646
+01:50:03.530 --> 01:50:17.590
+100xEngineers: I made sure that last time I didn't add the ID, so I need to add the ID for both of these, which is the foreign key column. What I'm trying to describe is, what is that one column in both the tables? In this… in this table, it is,
+
+647
+01:50:17.810 --> 01:50:32.140
+100xEngineers: the conversation ID, and in this table, it's the ID of that table. So, I'm defining these things here. I can also add one more ID here, which is…
+
+648
+01:50:34.220 --> 01:50:36.770
+100xEngineers: Conversation ID.
+
+649
+01:50:37.350 --> 01:50:50.940
+100xEngineers: And… I'll keep it… int8, because this is the ID format, and now I can actually…
+
+650
+01:50:51.140 --> 01:50:53.300
+100xEngineers: create this conversation ID.
+
+651
+01:50:53.650 --> 01:50:59.119
+100xEngineers: which will become my foreign key. So now you have the exact same logic, which…
+
+652
+01:50:59.340 --> 01:51:01.240
+100xEngineers: We were trying to implement.
+
+653
+01:51:01.490 --> 01:51:04.310
+100xEngineers: So now I've added the conversation…
+
+654
+01:51:04.480 --> 01:51:14.750
+100xEngineers: ID. Every time someone creates a message, that message needs to have the conversation ID, and this conversation ID is linked to the conversations we have.
+
+655
+01:51:18.920 --> 01:51:28.469
+100xEngineers: Let me show you a picture where everything has a data populated to it, so that it will make sense to you. That will also, like, help you to take
+
+656
+01:51:35.000 --> 01:51:37.120
+100xEngineers: Now, once you connect these things.
+
+657
+01:51:37.330 --> 01:51:40.040
+100xEngineers: The third part is, like.
+
+658
+01:51:40.870 --> 01:51:48.810
+100xEngineers: having a fast API in Python server with Superbase. For this part, We have,
+
+659
+01:51:56.820 --> 01:51:58.289
+100xEngineers: Step number 3.
+
+660
+01:51:59.400 --> 01:52:16.230
+100xEngineers: So the thing which I have done with step number 2, you can also do with the SQL query command, and if you want to know more about it, I will share the exact queries with you, but majority of the time, you will be able to use it from the Superbase dashboard.
+
+661
+01:52:16.230 --> 01:52:22.540
+100xEngineers: I would prefer something like this. This is another practice set which I could recommend. This is called,
+
+662
+01:52:23.720 --> 01:52:28.809
+100xEngineers: the big binary… SQL course, so…
+
+663
+01:52:29.520 --> 01:52:33.859
+100xEngineers: If you are somebody completely new to SQL, and a lot of those
+
+664
+01:52:34.130 --> 01:52:46.739
+100xEngineers: things which… which are, like, gonna be helpful when you start building your own database, or maybe, like, connecting a database which is not Superbase, because that might not have the same features. But the underlying technology
+
+665
+01:52:46.740 --> 01:53:03.440
+100xEngineers: And the interfaces remain same. So that's also, like, a key principle here behind everything. If you learn SQL, you will be able to use and navigate any kind of structured database, whether it's, like, Superbase, Postgres, MySQL, there's, like, tons of other options. So I would recommend this, and I'll
+
+666
+01:53:03.550 --> 01:53:14.629
+100xEngineers: paste it in the LMS as well. This has 65 chapters, but it will help you to go through each and every part of the language, starting from select, which is
+
+667
+01:53:15.090 --> 01:53:24.399
+100xEngineers: just like how you read on the internet using the GET API. If you want to read something from a database record,
+
+668
+01:53:29.050 --> 01:53:33.190
+100xEngineers: Select is the option there, so select star.
+
+669
+01:53:49.400 --> 01:53:50.750
+100xEngineers: Yes.
+
+670
+01:53:51.870 --> 01:53:53.710
+100xEngineers: By the boots.
+
+671
+01:54:14.690 --> 01:54:19.390
+100xEngineers: So what I'll do, I'll basically first share it, I think right now it's loading for me.
+
+672
+01:54:19.490 --> 01:54:22.589
+100xEngineers: But once, you'll go through it, you'll be able to, like.
+
+673
+01:54:22.590 --> 01:54:39.629
+100xEngineers: have a full understanding of all the SQL statements, and I would recommend some of you to do that if you're completely new, because you'll have the understanding of it, and tomorrow, if you move away from Supervis, you still have the principles with you, and you can… you can continue building on top of that.
+
+674
+01:54:40.830 --> 01:54:42.230
+100xEngineers: Coming back to it.
+
+675
+01:54:42.470 --> 01:54:48.850
+100xEngineers: the… The solution which we have used is, right now.
+
+676
+01:54:51.330 --> 01:55:10.949
+100xEngineers: we have added the conversations and messages table, and now these two tables needs to be deflected back in our codebase. So this is a step number three, which is connecting the FastAPI to Superbase. These are two systems which are now going to be connected with our interface. Because Superbase, as I said, sits
+
+677
+01:55:11.220 --> 01:55:21.320
+100xEngineers: as a bridge, you don't need to build your own ORM, you don't need to, like, build that common layer, to talk to the raw database. It gives you all the…
+
+678
+01:55:21.320 --> 01:55:39.819
+100xEngineers: functions and, things packaged in a way so that you can just use Superbase. So, first thing, you need to install Superbase. Pipe install Superbase is one of the commands to install Superbase package in your Python project. By the way, all of these commands are gonna be written here, I'll share the details with you.
+
+679
+01:55:40.270 --> 01:55:51.530
+100xEngineers: Right after this, something which you need is, you need to create the Superbase database, and we all have done that right now. So in my case, if I go back and I'll…
+
+680
+01:55:51.930 --> 01:55:54.909
+100xEngineers: I'll show you the database.
+
+681
+01:55:56.270 --> 01:56:01.499
+100xEngineers: Actually, in this one, the API keys, and
+
+682
+01:56:02.830 --> 01:56:11.190
+100xEngineers: This is the… the API key here. There are two types of API keys, by the way, in Superbase, the secrets and the publishable key.
+
+683
+01:56:11.230 --> 01:56:21.929
+100xEngineers: This is a key which you should not allow anyone to access, because this has the privilege to access your entire project and all the functions. It can read, write.
+
+684
+01:56:21.970 --> 01:56:36.019
+100xEngineers: and make changes to the entire database. So, make sure that you don't share this with anyone. This is the key we exactly to put in the backend. The second thing which you also need here is…
+
+685
+01:56:46.800 --> 01:56:49.639
+100xEngineers: is this database URL. One other thing which…
+
+686
+01:56:50.530 --> 01:56:58.339
+100xEngineers: Now, Superbase does really well. As I said, it creates a bridge, so Superbase already created the API.
+
+687
+01:56:58.340 --> 01:57:11.279
+100xEngineers: the exact same API that we have been building and learning, so it has created the whole endpoint to access my database. Just like how you guys have created the conversation message table, now anyone can
+
+688
+01:57:11.650 --> 01:57:30.300
+100xEngineers: actually talk to these tables via these data APIs that is built by Superbase itself. So I can create new tables, I can read new tables, I can delete, and I can update all of those information using this API which Superbase has built. And this is also, like, another way
+
+689
+01:57:30.500 --> 01:57:50.000
+100xEngineers: how you can directly, like, use this. Most people, actually end up using Superbase directly from their front end, although I would not recommend it, but, if you're using it, let's say this is one of the ways how you can do it. You can use the Superbase URL, and you can just, like.
+
+690
+01:57:50.580 --> 01:57:54.069
+100xEngineers: then make, I think there's a whole…
+
+691
+01:57:55.370 --> 01:58:11.690
+100xEngineers: documentation which I'll actually send to you guys. This is the REST API docs from the Superbase, which will tell you exactly how to use it. I'll give you the most specific thing in what you need right now, in order for you to, like, connect with Superbase.
+
+692
+01:58:12.470 --> 01:58:14.420
+100xEngineers: the…
+
+693
+01:58:14.590 --> 01:58:31.050
+100xEngineers: the URL, which is this URL, the Superbase, because this is where the API is live. And the second thing is the API key, which you can go to the settings section, and you can go to the API key section. This is the secret key. Once you have these two things.
+
+694
+01:58:33.640 --> 01:58:35.210
+100xEngineers: You can come back here.
+
+695
+01:58:35.430 --> 01:58:37.970
+100xEngineers: And, you can…
+
+696
+01:59:10.010 --> 01:59:27.719
+100xEngineers: you can export the Superbase URL and the Superbase service role key, the thing which we discussed, the secret key and the URL key. Now, these are the only two things which you need in order for you to connect the entire database with your backend, and with this.
+
+697
+01:59:27.720 --> 01:59:31.860
+100xEngineers: exact step. You guys can… No.
+
+698
+01:59:32.610 --> 01:59:34.940
+100xEngineers: Finish this part, which means
+
+699
+01:59:35.440 --> 01:59:47.080
+100xEngineers: you will use the SQL as an interface. The backend will use the Superbase APIs, which is gonna be underlying
+
+700
+01:59:54.230 --> 02:00:00.529
+100xEngineers: which is a wrapper and a bridge on top of the SQL itself, and it's gonna be using a superbase
+
+701
+02:00:01.430 --> 02:00:02.400
+100xEngineers: Which is…
+
+702
+02:00:06.850 --> 02:00:09.269
+100xEngineers: Postgres SQL database.
+
+703
+02:00:09.520 --> 02:00:11.740
+100xEngineers: And in this database, you will have
+
+704
+02:00:12.300 --> 02:00:20.200
+100xEngineers: All your tables, your foreign key, your primary key, your conversations, your messages, and all of those things.
+
+705
+02:00:21.120 --> 02:00:28.549
+100xEngineers: And once you create the superbase, you connect your domain model, you create these two tables, you add the foreign key.
+
+706
+02:00:28.720 --> 02:00:31.730
+100xEngineers: Exactly, step-by-step, just like what we saw.
+
+707
+02:00:32.150 --> 02:00:37.930
+100xEngineers: You get the URL and the API key, and you add those things. Where do you add this?
+
+708
+02:00:38.730 --> 02:00:39.980
+100xEngineers: Indy…
+
+709
+02:00:42.320 --> 02:00:50.159
+100xEngineers: main.py file. This is the file which is used for our backend deployment, and once you deploy this file.
+
+710
+02:00:50.340 --> 02:00:52.119
+100xEngineers: You add the superbase.
+
+711
+02:00:53.960 --> 02:01:01.660
+100xEngineers: library, pip installs bubase, and then you add these two things. This is how you connect the two system backend and these web base here.
+
+712
+02:01:01.790 --> 02:01:16.459
+100xEngineers: this is the job which is… you need to do to… in order for you to download and connect this. By the way, as I said, like, all these commits are, like, very, precise as per the steps, so whenever you have a problem, maybe you are
+
+713
+02:01:16.460 --> 02:01:25.900
+100xEngineers: creating a template for your next project, you can refer to these steps, as it is. So I've written, like, the exact things which you need. You can
+
+714
+02:01:26.060 --> 02:01:45.270
+100xEngineers: clone these .env file, and replace these keys, replace your Grok API key with Grok, replace the Superbase URL and the service role key, and these are changes you need to make. Once you make these changes, you can run this file, and it will connect the backend and the database.
+
+715
+02:01:45.670 --> 02:01:49.840
+100xEngineers: Now, after this, as I said, we need to now have
+
+716
+02:01:51.000 --> 02:01:54.799
+100xEngineers: the step which we discussed. Let me come back to that.
+
+717
+02:01:57.080 --> 02:02:07.710
+100xEngineers: We have connected the interface with two systems. Now we need to update the business logic, because just connecting doesn't make sense. You have to tell when and what needs to be stored.
+
+718
+02:02:07.860 --> 02:02:13.280
+100xEngineers: in the backend, so… This is a part of the step number 4.
+
+719
+02:02:14.100 --> 02:02:18.579
+100xEngineers: we'll update the diagnose function. So, first thing we'll do is…
+
+720
+02:02:19.840 --> 02:02:23.449
+100xEngineers: This diagnose function will change, and…
+
+721
+02:02:25.350 --> 02:02:41.350
+100xEngineers: We'll still take the user content, the workflow description which we are getting from the API request, but this time, instead of directly giving the response and sending it to the LLM and then getting it back, we are
+
+722
+02:02:41.430 --> 02:02:58.870
+100xEngineers: wrapping the memory layer around it. So we open the conversation, and because now we know that conversation is part of our domain model. So, just focus on this part, and I think this is exact the point in the lecture where everything, what we've been discussing from last.
+
+723
+02:02:58.870 --> 02:03:07.720
+100xEngineers: two sessions will connect here. Because the domain model we selected, conversation, this is the point where it will get
+
+724
+02:03:08.040 --> 02:03:10.520
+100xEngineers: called. So we will use…
+
+725
+02:03:11.080 --> 02:03:20.740
+100xEngineers: superbase.table, and we already have conversations. This is what we created manually by going to that superbase editor.
+
+726
+02:03:20.740 --> 02:03:34.700
+100xEngineers: And this is the method. This is .insert, it's a specific method which will help you to insert new information in this table. The information which we will be storing is exactly what
+
+727
+02:03:34.700 --> 02:03:38.380
+100xEngineers: We have defined, in, in this part.
+
+728
+02:03:38.900 --> 02:03:43.360
+100xEngineers: And if you remember, what we defined was… the conversation…
+
+729
+02:03:48.630 --> 02:03:58.539
+100xEngineers: title, ID, and there would be also, messages around it, so we'll have to add the message ID as well, but the…
+
+730
+02:04:00.230 --> 02:04:14.759
+100xEngineers: the title, which is the user content, and it will execute those things until… right now, because we don't have anything else. The only thing which is required is the title. Created at…
+
+731
+02:04:14.970 --> 02:04:25.019
+100xEngineers: it will automatically be fetched by the Superbase. Whatever time this record is created, it will take the time and store it, and then ID is auto-generated. So we don't need to, like.
+
+732
+02:04:25.020 --> 02:04:48.969
+100xEngineers: Add all those things. What this command is doing is just taking the first 60 characters from the user's content. When somebody's sending us the workflow description, then Arab is writing that, hey, I am writing this for Jira, this is what ChatGBT sometimes does, where it takes the first 50-60 characters of your chat, and then, like, creates a headline. Right now, it does, like, a better job, because summarize as well. You can do a summarization, but…
+
+733
+02:04:49.140 --> 02:05:02.990
+100xEngineers: As of now, I kept it just 60… first 60 characters, so that we know the headline of the conversation. You can also, like, change it, but this is, again, a simple title, which will help us to, like.
+
+734
+02:05:03.210 --> 02:05:06.340
+100xEngineers: Identify the conversation, and
+
+735
+02:05:08.080 --> 02:05:26.959
+100xEngineers: then we'll execute this. So.execute will execute this query under the hood. It's actually getting translated into SQL, which is the common interface between backend and the database, and it'll execute that query to make changes to the file system that Superbase has created in their machine, and make changes to those
+
+736
+02:05:26.990 --> 02:05:34.540
+100xEngineers: sheets and those columns, but with added security and the features that I have discussed with you.
+
+737
+02:05:35.160 --> 02:05:42.600
+100xEngineers: Now, after this, we have to also store the messages, because this is the key information that we'll be storing.
+
+738
+02:05:43.140 --> 02:05:47.550
+100xEngineers: If you remember, we had two entities.
+
+739
+02:05:47.880 --> 02:05:50.229
+100xEngineers: And now we also need to attach risks.
+
+740
+02:05:50.330 --> 02:06:01.640
+100xEngineers: message to the conversation ID. This is what the foreign key attribution we did here. So, if you see, remember here, the conversation ID, which is connected to the conversation.
+
+741
+02:06:02.760 --> 02:06:11.180
+100xEngineers: we need to fetch this part. And the way how we're gonna fetch it is, in the previous command, when we executed this.
+
+742
+02:06:11.310 --> 02:06:19.890
+100xEngineers: And when the… Superbase has created or inserted this Particular row in my table.
+
+743
+02:06:20.090 --> 02:06:22.440
+100xEngineers: It will return something back.
+
+744
+02:06:22.610 --> 02:06:35.300
+100xEngineers: And I can fetch all the data, and I can find the ID from it, and I can store this ID locally in the Python variable. This is where the in-memory data storage is helping me. And because I don't want to store this
+
+745
+02:06:35.300 --> 02:06:44.549
+100xEngineers: like, forever, everywhere. This is only temporary information, which I need, because the next message which I'll be storing is gonna be there, so I'll keep it
+
+746
+02:06:44.670 --> 02:06:52.820
+100xEngineers: in my Python variable, and right after this, I'm gonna take this conversation ID, use it to
+
+747
+02:06:54.380 --> 02:06:56.320
+100xEngineers: Add it in the messages table.
+
+748
+02:06:56.610 --> 02:07:02.070
+100xEngineers: Mention the role, because this is important. Messages can be from two types or two people.
+
+749
+02:07:02.150 --> 02:07:19.469
+100xEngineers: one from the assistant, one from the user. This message is from user, because we are taking the workflow description from the diagnosed response, which is the same thing that we did in the last session. But now, we are taking this and putting it into Superbase messages table, and we are inserting the conversation ID.
+
+750
+02:07:19.470 --> 02:07:23.350
+100xEngineers: The user and the user content, this is the exact content which we got.
+
+751
+02:07:23.350 --> 02:07:34.389
+100xEngineers: This is the exact, line which we will add, and then everything else will go as per the plan. We'll call the Grok API, Grok will do the
+
+752
+02:07:34.390 --> 02:07:57.359
+100xEngineers: plan generation will store the plan, and last thing is the plan, which is the assistant message. So we do the same thing, but the role will change to assistant, and this time, the content will change to the message we got from the plan. So this way, we are storing both the plan, which is coming from the Grok API, as well as something what user has mentioned. Now we have captured all the data points.
+
+753
+02:07:57.360 --> 02:08:07.519
+100xEngineers: Based on our domain model, we have connected and used the relationships between conversation and messages, and we have also connected it while we are inserting the data back.
+
+754
+02:08:07.590 --> 02:08:14.700
+100xEngineers: And this is all it takes for us to connect these two things, implement it, and finally.
+
+755
+02:08:15.730 --> 02:08:21.250
+100xEngineers: Update our business logic, which also marks, the…
+
+756
+02:08:22.030 --> 02:08:37.820
+100xEngineers: completion of step number four. Now, the final step is reading from the database, because this is where we have, like, done the heavy lifting, and the final step is whatever we have in the database, we're gonna read that. Now, reading is, as I said, like, very straightforward.
+
+757
+02:08:38.290 --> 02:08:44.160
+100xEngineers: One other thing which… which you can do here is… this is step number 5, reading the history back.
+
+758
+02:08:45.760 --> 02:08:55.530
+100xEngineers: Whenever somebody is opening a conversation. So, first thing, concept of API, because we are reading, then we have to use the GET method.
+
+759
+02:08:55.750 --> 02:09:09.959
+100xEngineers: GET method will allow us and tell our FastAPI backend that somebody wants to read the information, and what kind of information they want to read is gonna be specified with the endpoint and the content from this endpoint.
+
+760
+02:09:09.960 --> 02:09:28.080
+100xEngineers: I want to read the conversation, which has a specific conversation ID that needs to be there in my database, because if the conversation ID is not there, I can't read the messages, and I need to, like, read the messages from that conversation. This is the endpoint for the GET message, and how we're gonna read from the superbase is…
+
+761
+02:09:28.440 --> 02:09:39.799
+100xEngineers: Using the same superbase function, superbase.tableMessage, mention the table name, this could be whatever table you have written, conversations or message, in this case, it is message, because we want to read a specific message.
+
+762
+02:09:39.800 --> 02:09:52.370
+100xEngineers: And we can select the message. So this is what I was telling you, right? In Big Binary, if you saw the select method, the excite which I was trying to show you, which was not getting loaded for some reason, but if you go to BigBinary right now.
+
+763
+02:09:52.580 --> 02:10:01.109
+100xEngineers: The select star is the primary command in SQL, which will help you to read the content from the existing database.
+
+764
+02:10:01.750 --> 02:10:15.109
+100xEngineers: In this case, Subabase also, like, gives you the same functionality, as I said, but in form of Python functions, so you don't need to remember the SQL as a language. As long as you understand the structure. You need to define what
+
+765
+02:10:15.900 --> 02:10:34.989
+100xEngineers: attributes of messages you want to read, because we have multiple things. We have role, we have content, we have created ad. You can either fetch only content, you can either fetch only role, or you can only fetch create ad. We need all three, because we need to know who sent what, so that we can display the messages either on the left side.
+
+766
+02:10:34.990 --> 02:10:50.140
+100xEngineers: Because right side, we show the user message, left side, we show the assistant message. So we need to understand the role. We need the content, definitely, of the message, and created ad, so that we can show maybe a timestamp that what time this message was sent.
+
+767
+02:10:50.400 --> 02:11:01.040
+100xEngineers: is, again, optional, not needed. Now, the thing is, this is where the… The part of… R…
+
+768
+02:11:01.160 --> 02:11:04.740
+100xEngineers: Reading information is coming in, because we are… we are…
+
+769
+02:11:04.840 --> 02:11:14.009
+100xEngineers: restricting, because we can read all the messages. Like, if you type this command, select role content and created ad from
+
+770
+02:11:14.250 --> 02:11:21.679
+100xEngineers: the entire table of messages. All the entries in these messages will, be back from the Superbase. But…
+
+771
+02:11:21.870 --> 02:11:31.139
+100xEngineers: We want to only read the specific type of conversation. Maybe this is a conversation which Arav has created for the first time. So…
+
+772
+02:11:31.910 --> 02:11:34.899
+100xEngineers: The conversion ID will help us to, now.
+
+773
+02:11:39.180 --> 02:11:40.889
+100xEngineers: Sort those things.
+
+774
+02:11:40.890 --> 02:11:59.439
+100xEngineers: So that we would be able to only see the conversation, the messages from specific conversation IDs. So this is also a way to filter down the number of messages, and this is, like, one of the ways how you read the database. Now, with this, you have finished, like, almost all the steps of
+
+775
+02:11:59.560 --> 02:12:03.919
+100xEngineers: What we have discussed, understanding, building the domain model.
+
+776
+02:12:04.670 --> 02:12:18.509
+100xEngineers: learning this underlying interface, SQL, although I didn't teach SQL specifically today, because that is a beyond of, like, the scope of the lecture, what I have, but I would recommend you to take the pig binary
+
+777
+02:12:20.770 --> 02:12:25.150
+100xEngineers: SQL, exercise, so that you would be able to, like.
+
+778
+02:12:25.190 --> 02:12:41.089
+100xEngineers: get the first principle understanding, which will also make you agnostic, agnostic builder of any tool. So tomorrow, if you use any other tool apart from Superbase, you'll still be able to, like, apply the same principles. But in this case, we use Superbase, so…
+
+779
+02:12:41.090 --> 02:12:55.440
+100xEngineers: we saw the interface of Superbase is, like, much more easier and smoother, even for non-coders. That's why, like, we have picked it, because people from code, no code, and engineers, like, they all can collaborate on the one project, and they can, like, build it.
+
+780
+02:12:55.470 --> 02:13:12.760
+100xEngineers: So, Superbase, by the way, supports SQL commands as well, so if you're somebody who is already an SQL builder, or maybe you write SQL, so the only difference is now, instead of doing TableWriter, you go to Escalator and you start writing commands here, and whatever command you will write, let's say select star, and
+
+781
+02:13:14.900 --> 02:13:19.590
+100xEngineers: So those commands… from conversations.
+
+782
+02:13:20.600 --> 02:13:27.549
+100xEngineers: So this is, like, the command which you can write, and right now, I won't have any,
+
+783
+02:13:28.640 --> 02:13:31.070
+100xEngineers: Actually, conversations, my bad.
+
+784
+02:13:36.200 --> 02:13:46.980
+100xEngineers: But right now, I don't have any items here. If I have any kind of item, then it will basically return the rate of for that. If I want to create anything, I can also do that. So, both
+
+785
+02:13:46.980 --> 02:14:09.529
+100xEngineers: like, somebody who's writing SQL, they can also collaborate and build things. It's really helpful for agents, specifically, because agents are really good at writing code, and they understand SQL really well. So they use Superbase from the escalator, but humans can use the GUI as well, and you can both work on this together. So that's something which marks as a part of this SQL
+
+786
+02:14:10.360 --> 02:14:16.320
+100xEngineers: being an interface. In our case, we also use the UI of the SuperVase to
+
+787
+02:14:16.460 --> 02:14:32.349
+100xEngineers: to create and represent the domain model in the superbase table. We also saw how we can add the foreign key element and the primary key, how we can add attributes, how we can create table, and then how to connect this
+
+788
+02:14:33.510 --> 02:14:41.390
+100xEngineers: Superbase interface, in our case, we are using Superbase APIs to pass… to fast API Python, and with our database.
+
+789
+02:14:41.830 --> 02:15:01.630
+100xEngineers: For this specifically, we saw you can install SuperBase by a Python package, pip install SuperBase, and you can… you need to add two things, which is your Superbase URL, which you can find in your settings tab, and the secret key. Two things. You need to create it and put it into your .env file.
+
+790
+02:15:04.320 --> 02:15:27.240
+100xEngineers: Fourth part, you need to update the business logic. This is the last step, the exact point and exact data which you need to capture from your application logic. We capture the conversation ID, conversation itself. We gave the title of the conversation, the first 60 characters of the message, and then we added the message, which now uses the conversation as the conversation ID, using
+
+791
+02:15:27.270 --> 02:15:29.719
+100xEngineers: These two links, and then…
+
+792
+02:15:29.810 --> 02:15:35.480
+100xEngineers: Adding all of this, along with the plan that is generated from the clock itself.
+
+793
+02:15:35.480 --> 02:16:00.219
+100xEngineers: And once we have all of these things, we insert this data back to the database, and then we read the data by using the select command, and you mention all the attributes to this. This is primarily what you'll be using, multiple times, whenever you build and apply any kind of database. Agnostic of any solution, as I said, because today we use Superbase, I use the interface Superbase. Tomorrow, if you're using File System, you can apply the same thing with File System, you can
+
+794
+02:16:00.220 --> 02:16:09.960
+100xEngineers: Also, the same thing with NoSQL, structured, unstructured. So the process is agnostic, but the principles will remain the same.
+
+795
+02:16:10.130 --> 02:16:23.239
+100xEngineers: Now, the last part of this is something which I'll show you before I break this lecture, is the full application which we have right now. You can access it, and this is the database for
+
+796
+02:16:24.660 --> 02:16:33.960
+100xEngineers: For that. So I converted my C7 MBP, if you remember this one. I think I might need to just refresh it one more time. So…
+
+797
+02:16:42.809 --> 02:16:44.409
+100xEngineers: So this is the…
+
+798
+02:16:44.680 --> 02:16:53.529
+100xEngineers: UI app. If you remember, this is where we left the last code lecture, and then we did the Superbase.
+
+799
+02:16:53.530 --> 02:17:06.590
+100xEngineers: We added, like, a bunch of… I added, like, a bunch of extra steps after this, but you can all track the information. The first 5 steps are the most crucial one, to have the same functionality, where you can connect the last
+
+800
+02:17:06.629 --> 02:17:19.230
+100xEngineers: data storage part. If you do all these, five steps, adding the domain model, this is the SQL schema conversations, which we did from the GUI, but you can also do it from the SQL side, so…
+
+801
+02:17:19.230 --> 02:17:20.959
+100xEngineers: Then we added this…
+
+802
+02:17:20.959 --> 02:17:42.139
+100xEngineers: FastAPI with Superbase, we added the service role key and the URL, then we added the make change to diagnose function, we added the extract the specific inputs, put it back, then reading the data from the conversation. If you do all these five steps, you should be able to add database directly in your application, and I'll quickly show you, like.
+
+803
+02:17:42.540 --> 02:17:44.470
+100xEngineers: How it looks like.
+
+804
+02:17:44.830 --> 02:17:49.599
+100xEngineers: As of now, it's, completely empty. So, you can see
+
+805
+02:17:49.719 --> 02:17:53.019
+100xEngineers: I have made the conversation table.
+
+806
+02:17:53.530 --> 02:17:57.609
+100xEngineers: The title, the creator ad, the user ID. These are the four fields.
+
+807
+02:17:57.730 --> 02:18:05.280
+100xEngineers: In messages, we have ID, conversation, role, and content. These are the four columns for the messages.
+
+808
+02:18:05.570 --> 02:18:20.760
+100xEngineers: The only difference this time with the application that we are running is that it can connect to our backend, and our backend, as you can see, is already running. So, let me… let me type something, and let me see if I can…
+
+809
+02:18:21.059 --> 02:18:22.839
+100xEngineers: Test it live right now.
+
+810
+02:18:23.219 --> 02:18:27.569
+100xEngineers: So we have the input. I'll try to keep this input here.
+
+811
+02:18:27.910 --> 02:18:29.820
+100xEngineers: And I'll…
+
+812
+02:18:41.879 --> 02:19:00.310
+100xEngineers: So we got the plan back. This is what Arav is writing about his workflow. It got a plan, exactly working what we expect it to be. It made an API call, so we can see also in our Python backend that there are… let me see if I can find some…
+
+813
+02:19:00.950 --> 02:19:02.090
+100xEngineers: logs…
+
+814
+02:19:03.450 --> 02:19:19.089
+100xEngineers: So I saw this is the post endpoint, somebody called exactly at this time, which is… I called from the Hugging Face API, and I got the response back. And, let me now see and just confirm. This is my C7 MVP.
+
+815
+02:19:19.790 --> 02:19:26.790
+100xEngineers: And you can see already, I have two entries on my database, especially the messages.
+
+816
+02:19:26.809 --> 02:19:38.829
+100xEngineers: It tells me that these two are assistant and user, two type of messages it stored, and I can see the content value. This is the plan assistant gave. This is the content which user has given.
+
+817
+02:19:38.830 --> 02:19:50.509
+100xEngineers: With all the timestamps, and also marking the conversation ID. If I look at the conversation, I have only one entry, which makes sense because I only opened one conversation at this time. So…
+
+818
+02:19:51.090 --> 02:19:57.299
+100xEngineers: Our data is reflecting and getting stored in database. We have just connected it, and
+
+819
+02:19:57.440 --> 02:20:00.519
+100xEngineers: Now, we also can see this…
+
+820
+02:20:00.790 --> 02:20:06.380
+100xEngineers: Whole picture that we initially painted in the beginning of this whole series.
+
+821
+02:20:06.800 --> 02:20:12.629
+100xEngineers: where we try to understand how an application like ChatGPT or any LLM-based application works.
+
+822
+02:20:12.760 --> 02:20:24.359
+100xEngineers: It has the whole architecture. And today, we connected the last piece, which was the data storage. So I'll maybe take a final screenshot of this one.
+
+823
+02:20:25.920 --> 02:20:26.900
+100xEngineers: So…
+
+824
+02:20:30.030 --> 02:20:36.570
+100xEngineers: This is our… final piece, which I'll connect it… to here.
+
+825
+02:20:41.720 --> 02:20:48.309
+100xEngineers: Now, this is… the database, and with all these steps.
+
+826
+02:21:05.650 --> 02:21:16.059
+100xEngineers: Now, at this point, you can do a lot more things here. What I'm gonna do is I'm gonna take a pause on this, so I don't wanna extend it, like, more.
+
+827
+02:21:16.620 --> 02:21:23.280
+100xEngineers: everything what we have discussed. I will share two guides with all of you. One is the first part, which we discussed, which is
+
+828
+02:21:23.280 --> 02:21:39.200
+100xEngineers: Primarily, I would… I would argue that is the more important part that we discussed in the beginning, rather than the second half of the lecture, which is more on the practical and instructional, where I'm just, like, giving you the instructions, and you can follow these instructions and, like, follow the code.
+
+829
+02:21:39.200 --> 02:21:50.090
+100xEngineers: But the first half is, like, how do you make a decision? So I'll share a guide for this one, and then the second half, I have already documented each and every piece, that… how I built
+
+830
+02:21:50.250 --> 02:21:51.779
+100xEngineers: All of these things.
+
+831
+02:21:51.780 --> 02:22:16.319
+100xEngineers: The UI part, I've already shown it here on the lecture live. If you want to go and read each and every line of code, this is, as I said, the step-by-step commit process, and the five-step process which I showed you on the whiteboard is documented here, and what exactly the change and the specific code base you need to write is gonna be always there. So you can take this as a template, take it as a reference.
+
+832
+02:22:16.320 --> 02:22:33.800
+100xEngineers: And you can start continuing and applying this to your application. That's basically one of the practice sets which I'll release, and I would recommend you to, like, perform the same five steps onto your application, and see if you can, like, add a database by, by the next week.
+
+833
+02:22:34.110 --> 02:22:52.679
+100xEngineers: Next week, we'll have an interesting set of things which I'm gonna be planning for you, some activities. We are doing a hackathon planning, so be prepared. Until then, if you don't have any questions, this is the end of the session, you can take a leave. I'll talk to you tomorrow. If you have any questions, you can
+
+834
+02:22:52.680 --> 02:22:56.430
+100xEngineers: Let me know in the chat. I'll be answering a few questions.
+
+835
+02:22:58.850 --> 02:23:07.929
+100xEngineers: For a second message, can we create the conversation table again? The reason is that the conversation ID should remain the same, we just need to get the ID.
+
+836
+02:23:19.710 --> 02:23:30.589
+100xEngineers: we don't need to create a second message, again for this CRC, like, second conversation table. What I can do is I can show you the process one more time.
+
+837
+02:23:33.210 --> 02:23:36.720
+100xEngineers: This… So, we have, like, two messages…
+
+838
+02:23:37.220 --> 02:23:43.579
+100xEngineers: Both of the messages are gonna be related to the conversations table. Let's say if I have,
+
+839
+02:23:43.740 --> 02:23:47.760
+100xEngineers: like, one more conversation here. I'm gonna, like…
+
+840
+02:23:49.490 --> 02:24:01.720
+100xEngineers: refresh this part, and I'm gonna have, like, a second conversation. Hey, this is… Second… Workflow.
+
+841
+02:24:03.020 --> 02:24:08.409
+100xEngineers: I opened my… Email, write, and…
+
+842
+02:24:13.780 --> 02:24:15.340
+100xEngineers: Team, and then…
+
+843
+02:24:24.670 --> 02:24:26.639
+100xEngineers: The second message which I'm writing.
+
+844
+02:24:26.840 --> 02:24:34.480
+100xEngineers: This time, I got a response, and if he's… Refresh the data.
+
+845
+02:24:35.620 --> 02:24:37.620
+100xEngineers: You will see that, right now.
+
+846
+02:24:37.730 --> 02:24:47.960
+100xEngineers: We are having the same conversation, which is gonna be used for this message, because by default, we have
+
+847
+02:24:48.080 --> 02:24:53.489
+100xEngineers: only used one single conversation ID when we are building this
+
+848
+02:24:53.940 --> 02:24:57.370
+100xEngineers: business logic. So, if you remember the step number…
+
+849
+02:24:58.940 --> 02:25:02.980
+100xEngineers: 4, where we add the database in a business logic.
+
+850
+02:25:03.540 --> 02:25:08.290
+100xEngineers: And specifically here, the line number's, 59.
+
+851
+02:25:10.320 --> 02:25:15.990
+100xEngineers: We are opening a conversation here, and we are… basically, like.
+
+852
+02:25:16.120 --> 02:25:20.399
+100xEngineers: Sending the data here, and if conversation already exists.
+
+853
+02:25:20.610 --> 02:25:28.090
+100xEngineers: then it takes the data back and, like, use the same ID. So…
+
+854
+02:25:28.790 --> 02:25:36.699
+100xEngineers: One other thing which we can do, and which is not done on this codebase, is that you can create a message history.
+
+855
+02:25:37.040 --> 02:25:38.419
+100xEngineers: And you can…
+
+856
+02:25:39.120 --> 02:25:55.809
+100xEngineers: ask Arav to maybe, like, open new conversations, similar to how ChatGPT does it right now. So, one thing which I would recommend you, and this is, again, like, a part of the extended practice set, which I would recommend, every time when I open ChatGPT,
+
+857
+02:25:57.450 --> 02:26:09.599
+100xEngineers: And if I, let's say, click on this, and if I refresh the page… So right now, our app is kind of simulating the same behavior, like, which is a refreshing of the same conversation page.
+
+858
+02:26:09.800 --> 02:26:29.080
+100xEngineers: Our frontend didn't show the previous message because we haven't, like, added the functionality in the front end, but the data is there. So what we need… two things is, one, we need to get, which means we should be able to, do the last part, where we get all the information from our existing messages.
+
+859
+02:26:29.120 --> 02:26:32.680
+100xEngineers: And then we store it, and then we represent it here.
+
+860
+02:26:32.730 --> 02:26:43.269
+100xEngineers: And next time, you can use the same conversation and, continue with this chat, which will look, like, exactly same, just like how you talk to ChatGPT, like, when you have
+
+861
+02:26:43.440 --> 02:27:00.369
+100xEngineers: one message, and then you refresh it back. So these are two things which are not implemented in the codebase, so just pointing this out, and something which is very easy to build. If you're not able to figure this part out, I would share the solutions as part of the next
+
+862
+02:27:00.590 --> 02:27:05.040
+100xEngineers: practice set, or the officer activity, which you guys will be doing, where…
+
+863
+02:27:05.090 --> 02:27:22.089
+100xEngineers: will create one single thread. But before that, I would recommend you to actually try this out, because the more you start reading the code, the more you start, like, making changes to it, the more intuitive it will become. Don't want to give the answers right now, so… but yeah, I hope, like, this part is clear.
+
+864
+02:27:29.200 --> 02:27:33.360
+100xEngineers: Yes, we did not use the existing ID, that was on purpose, so that
+
+865
+02:27:33.900 --> 02:27:41.800
+100xEngineers: you guys can continue on the same codebase, and like, add those missing features. The more you add, the more…
+
+866
+02:27:42.290 --> 02:28:00.869
+100xEngineers: understanding you will build, and hopefully you'll be able to have, like, a solid functionality built with this. Meanwhile, even if you're struggling to it, as I said to Yasir, I'll share the solutions by the end of, like, next week, so you can, like, you can basically, like, continue from that.
+
+867
+02:28:02.460 --> 02:28:22.410
+100xEngineers: As an application grows, we will likely end up with dozens or even hundreds of tables at the time. Creating and maintaining all tables manually doesn't seem scalable and feasible. How do teams typically manage database schemas creation and evolution? Do they rely on visual modeling tools, schema migration frameworks, code-first approach, or a combination of these?
+
+868
+02:28:22.410 --> 02:28:26.050
+100xEngineers: Good question. Actually, it's a combination of all of these, Mayur.
+
+869
+02:28:27.490 --> 02:28:30.570
+100xEngineers: Initially, when you're designing the schema like this.
+
+870
+02:28:30.800 --> 02:28:53.820
+100xEngineers: and you have clarity, you are the one person, you can use the visual editor, you can start the process there, but over time, things will evolve, as you said. And how I personally do it, if I give you, like, my current workflow, is that I design the domain model for the app which I'm trying to build. Once I have clarity on the domain model, I…
+
+871
+02:28:54.150 --> 02:29:19.030
+100xEngineers: ask my agent to write the schema for it. I… I'm lazy to write all the things manually by myself, but I can do that as well, but usually I try to tell my agent that, hey, this is a domain model, convert this into an SQL code, which I can run on the escalator for Superbase, and it writes that code, I run, and I… it creates all these things.
+
+872
+02:29:19.030 --> 02:29:24.450
+100xEngineers: In fact, like, this was also, like, done by, using the same method, by…
+
+873
+02:29:24.560 --> 02:29:26.670
+100xEngineers: writing the SQL command for it.
+
+874
+02:29:27.420 --> 02:29:31.190
+100xEngineers: Which makes it easier, because I don't need to, like.
+
+875
+02:29:31.770 --> 02:29:41.029
+100xEngineers: spend my time into doing something which is repetitive. Because I know, like, just clicking those boxes and, like, adding the names is something which is not…
+
+876
+02:29:41.090 --> 02:29:52.890
+100xEngineers: worth my time as of now. Rather, I would be thinking more about the domain models and the entities. So that is one way of how I use it. But just to answer your question, it is a combination of all these things.
+
+877
+02:29:53.300 --> 02:30:01.710
+100xEngineers: in production-ready codebases, people do use SQL heavily for these things. If you talk about, like, the enterprise scale.
+
+878
+02:30:01.950 --> 02:30:08.590
+100xEngineers: in those cases, like, SQL becomes, like, quite standard and quite frequent for all those things.
+
+879
+02:30:08.710 --> 02:30:15.190
+100xEngineers: So, it's basically, like, as I said, like, a combination of this plus code-based approach,
+
+880
+02:30:17.260 --> 02:30:22.809
+100xEngineers: There are jobs who are, like, or people who are maintaining this.
+
+881
+02:30:23.200 --> 02:30:29.079
+100xEngineers: Entire system, like, data engineers, database admins, and
+
+882
+02:30:29.080 --> 02:30:50.169
+100xEngineers: like, a lot of, like, data analysts also, like, works very closely on these things, so their primary job is to just maintain the database and, help the team to evolve the needs, and evolve those things. There are migrations checks here, which we will talk more about it in the upcoming session.
+
+883
+02:31:46.850 --> 02:31:52.940
+100xEngineers: Yeah, yeah, yeah, Sir, I think you should definitely do that. In fact, I would also encourage more people to
+
+884
+02:31:53.080 --> 02:32:04.229
+100xEngineers: check out this, entire codebase, because the more you use, the more things you will find here. This is, as I said, just the implementation of five steps, but there are things which are beyond this.
+
+885
+02:32:04.460 --> 02:32:17.020
+100xEngineers: And, I will share the solutions by the end of next week, but before that, this week, I would recommend you to actually go through this, try to implement these five steps, what we discussed today, and
+
+886
+02:32:17.290 --> 02:32:23.900
+100xEngineers: see what are the things which are still missing. One thing which I also recommend giving you as a hint is that
+
+887
+02:32:26.200 --> 02:32:36.119
+100xEngineers: The entity which we initially discussed, the user entity, is right now missing, which also leads to the whole authentication part.
+
+888
+02:32:36.120 --> 02:32:52.190
+100xEngineers: That we have not yet implemented. So I'll be implementing it in the next lecture, where we actually build… build and finish this entire module with Arab, which is gonna be my MVP building. We will have, like, the final session there.
+
+889
+02:32:52.420 --> 02:32:53.230
+100xEngineers: Oh.
+
+890
+02:32:53.410 --> 02:33:06.539
+100xEngineers: But before that, I would recommend you to actually build your own MBB, because it's easy to, like, watch me build something and, like, then, like, copy it and do it. But the more you try to do it yourself, you'll try to find those problems.
+
+891
+02:33:06.540 --> 02:33:19.070
+100xEngineers: And I think the more productive discussion we can do, maybe in the doubt-solving sessions and in those office hours as well. But I would recommend you to maybe, like, try it out this week, and let us know if you have any questions.
+
+892
+02:33:27.920 --> 02:33:35.980
+100xEngineers: Yeah, Chris, you can also import, UIs. Actually, you don't need to import UIs, by the way. One thing which I have not shown yet is that
+
+893
+02:33:36.100 --> 02:33:46.079
+100xEngineers: If you go to the database section, you can already see the ER diagram in a visualized manner. So, you open any complicated,
+
+894
+02:33:46.130 --> 02:33:47.460
+100xEngineers: software.
+
+895
+02:33:47.480 --> 02:34:06.400
+100xEngineers: or maybe you want to, like, have any kind of visualization tool, I would recommend you to check this out as well first. This is a schema visualization… visualizer on Superbase itself, so you can select a database section. This will help you to visualize the entities, attributes, and the relationship between them.
+
+896
+02:34:06.400 --> 02:34:21.859
+100xEngineers: And how they're connected. So if you see that the message table is connected with the conversation ID, and I can exactly see that this is also the exact replica of what we did on the whiteboard, and also what we've written here.
+
+897
+02:34:21.860 --> 02:34:33.659
+100xEngineers: So that's also, like, works pretty well if somebody who is trying to understand it visually, and maybe they want to know it, I think this is a great way. But yes, you can also use some third-party tools, if that helps you.
+
+898
+02:34:33.660 --> 02:34:35.559
+100xEngineers: But this is another one which we have.
+
+899
+02:34:37.350 --> 02:34:38.640
+100xEngineers: Awesome.
+
+900
+02:34:39.650 --> 02:34:46.330
+100xEngineers: Cool, guys, I think, then that's all. I… I know, like, today's session was more like,
+
+901
+02:34:48.030 --> 02:34:58.159
+100xEngineers: typical one, which is… I'll be… I have, like, a lot of instructions to share, and I have a lot of things to, I would say, walk about, and this is why I believe that
+
+902
+02:34:58.700 --> 02:35:20.270
+100xEngineers: I would try to minimize these kind of sessions, although I love sharing the information and sharing the exact step-by-step methods, but I would rather spend my time and your time into building something together, into, like, having the conversation together. So, what I would recommend you from this point onward is that this is the MVP for me, this is the MVP for you guys.
+
+903
+02:35:20.270 --> 02:35:21.840
+100xEngineers: After the next week.
+
+904
+02:35:21.990 --> 02:35:30.580
+100xEngineers: we're gonna, like, finish the MVP, and we're gonna have more of these same sessions, what I have did today, but the role will be reversed.
+
+905
+02:35:30.800 --> 02:35:44.730
+100xEngineers: Where you guys will be sharing your screen, and we'll be building things live. Maybe we do it in the breakout rooms, or maybe we do it… maybe if, like, we have, like, a topic which everybody is trying to, like, solve together. One person can share their screen.
+
+906
+02:35:44.790 --> 02:35:50.769
+100xEngineers: And there, my job is just to, like, observe you and maybe ask you questions. So that is the plan.
+
+907
+02:35:50.770 --> 02:36:12.479
+100xEngineers: after we finish our first MV, because I know that if I start doing it today, not everybody would have the same context, and some people will feel overwhelmed. So this is… until this point, as I said, I'll be, this and the next week, I'll be, like, sharing some instructional-based videos and instruction-based lecture, but after that, be prepared, and that's why I keep repeating it
+
+908
+02:36:12.540 --> 02:36:25.190
+100xEngineers: try to, like, add things to this codebase, try to perform these practice sets more, because the next both modules, the LLM Deep Dive, what we're gonna do as a sub-part of the second half of this module, as well as the agents module, is gonna be very…
+
+909
+02:36:25.360 --> 02:36:46.029
+100xEngineers: hands-on, and it's gonna be, like, led by all the people who will be joining live. So, the quality of the lecture will also depend on, then, how you guys will perform. But if you don't have that practice with you, then most of you will end up just, like, figuring things out on those sessions. So I would say that take this as a session where you can
+
+910
+02:36:46.090 --> 02:37:01.299
+100xEngineers: follow the instructions, but try to build something by yourself next week. We'll finish the entire chain, you know, like, have our MVP ready, and until then, I'll see you soon. We have an interesting workshop tomorrow, by the way, which is…
+
+911
+02:37:01.300 --> 02:37:10.450
+100xEngineers: like, an independent workshop that I have planned for a very specific reason that I'll share tomorrow. But until then, goodbye, and
+
+912
+02:37:11.230 --> 02:37:12.480
+100xEngineers: I'll see you tomorrow.
+

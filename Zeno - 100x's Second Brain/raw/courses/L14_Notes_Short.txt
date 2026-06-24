@@ -1,0 +1,114 @@
+LECTURE 14 — HEYGEN & ELEVENLABS: AI CONTENT CLONE PIPELINE
+100xEngineers | 25 Apr 2026 | Instructor: Pranay Prajapati
+
+---
+
+MODULE CONTEXT
+Final session of Diffusion Module. Tool overview session — lighter, no ComfyUI/FreePik.
+How the 100x team (Sridev, Varun) posts content without being on camera: HeyGen + ElevenLabs.
+
+---
+
+AI NEWS (Underreported, High Impact)
+- Tesla Optimus Gen 3: deployed in Tesla factories doing logistics/packing/sorting. Walking intelligent robot, not just robotic arms.
+- Meta × CoreWeave: Meta using CoreWeave's GPU infra for AI workloads. Pattern: big tech outsourcing compute.
+- Google AI Hypercomputer: TPU-based, built for agentic AI era. LLM inference costs continue dropping.
+- Adobe: releasing enterprise AI agent platform. Every major company now betting on agentic AI.
+- DeepSeek V4: open source, strong benchmarks, beats Claude Opus in some areas (CodeForce). Too large to run locally. Cloud cost ≈ Claude.
+- Other releases: Kling 3.0 4K, GPT Image 2, GPT 5.5, Claude Opus 4.7, GLM 5.1.
+- Best model for agentic loops: GPT-5.5 (closed), GLM 5.1 (open/code). No single winner.
+
+---
+
+CAPSTONE PROJECT (Solo, Pick ONE of 7, Due ~May 5–9)
+Submission: LMS. Include output file + 1–2 min Loom screen recording explaining your process.
+
+1. Two-Character Flux LoRA — generate one image with two separately trained LoRAs without feature merging. Build a specific workflow.
+2. Artistic Style LoRA — pick a style (Van Gogh, Cyberpunk, Ghibli, etc.), train Flux LoRA on 5+ images, evaluate style reproduction.
+3. AI Influencer × 7 Wonders — character sheet + 7 iPhone-style photos of same character at 7 wonders. Clothing/appearance consistency is the eval.
+4. Indian Perfume UGC Ad — 30-sec video. Indian man, Indian interior, authentic accent. Deliverable: script + final video.
+5. Dance Motion Transfer (Wan Animate) — take a reference dance video, replace dancer with yourself using Wan Animate (not Kling). Eval: motion quality + ComfyUI understanding.
+6. Cinematic Product Ad (FreePik) — 30-sec ad for protein bar, perfume, or clothing. Storyboard + final video.
+7. Narrative Short Film — story-driven (social good theme). Logline + scene breakdown + final film. Eval: storytelling + technical execution.
+
+Pick ComfyUI problems (1,2,5) for depth. FreePik problems (3,4,6,7) for speed.
+Evaluation: ~50–75% = pass. No hard cutoff.
+
+---
+
+ELEVENLABS
+
+Voice clone types:
+- Voice Design: describe vocal characteristics in text → generates a new unique voice
+- Instant Clone: upload short audio, quick clone
+- Professional Clone: upload 2+ hours of varied speech → most accurate, near-identical
+
+Creating speech with clone:
+- Model: Multilingual V2 (most used by 100x team). 11V3 is more expressive but less preferred.
+- Speed: reduce from fast for natural pace
+- Stability: 50% default. Higher = more variability in unfamiliar word pronunciation.
+- Similarity: 70–75%. 100% breaks output.
+- Style Exaggeration: 35–40. Higher = over-dramatization.
+
+Multilingual output: paste any language text → model speaks it in your cloned voice. Works for Spanish, Russian, Japanese, etc.
+
+Voice Changer: upload any video → replaces audio with your cloned voice. Doesn't change accent, just voice texture. Used by creators adding their voice to AI-generated Kling/CDance clips.
+
+Sound Effects: prompt + duration → generates 4 variations. ~10 credits/second.
+Music: 11 Labs charges ~1500–1600 credits/min. Not great. Use Suno instead.
+Flows: node-based workflow builder, similar to FreePik Spaces.
+11 Agents: LLM-based, covered in next module.
+
+Open source voice alternatives: FITTS, Chatterbox, Index TTS.
+
+Custom voice without copyright issues: use Voice Design, describe characteristics (don't name the celebrity), generate a new voice with those traits.
+
+---
+
+HEYGEN
+
+What it does: records you → trains an AI avatar → avatar can speak any script.
+
+Avatar training requirements:
+- Record 2–5 minutes of yourself speaking to camera
+- Maintain constant eye contact, no hands in front of face
+- Upload via Avatars → Clone a Real Person → Upload → Create Avatar
+
+Avatar model versions:
+- Avatar 3: fixes lip sync only, preserves original footage expression/hands. Best when training footage isn't perfect.
+- Avatar 4: downgrade.
+- Avatar 5: better overall but can distort expressions if training wasn't clean.
+
+Full pipeline (what the 100x team actually does):
+1. Write script
+2. Generate audio in ElevenLabs with cloned voice → download file
+3. HeyGen → your avatar → Add Script → Upload (the downloaded audio)
+4. Don't select a voice in HeyGen — it uses your uploaded audio as-is
+5. Select Avatar 3 or 5, set resolution 1080, landscape/portrait
+6. Submit → download output → hand to human editor
+
+AI Studio in HeyGen: adds timeline editor, B-roll support, media library. Sridev uses this.
+
+Human editor is still required. AI generates the A-roll; editor adds B-rolls, cuts, effects in After Effects + Premiere Pro.
+
+Avatar Shorts: HeyGen's short-form video feature, similar to CDance. New.
+
+---
+
+AI CONTENT COMPANY STACK (How AVTV / 100x team works)
+Script (human) → A-roll (HeyGen + ElevenLabs) → B-roll (FreePik Spaces) → Edit (After Effects + Premiere Pro) → Music (Suno)
+
+AI handles execution. Human handles creative direction and editing.
+You cannot fully automate a YouTube channel — idea, structure, perspective are still human.
+UGC services are high demand. You can sell FreePik outputs commercially with Premium Plus.
+100x-provided credits are non-commercial.
+
+AI content detection: Google SynthID watermarks AI content. Clients: be upfront. For ads, detection is fine — viewers don't see it.
+
+---
+
+UPCOMING
+Next module: LLMs (Siddhanth takes over). 11 Agents + PipeCat covered there.
+Discord doubt-solving session: Mon or Tue (announcement coming).
+ComfyUI deployment masterclass: scheduled, watch LMS.
+LTX 2.3 ComfyUI workflows: Pranay will record and share.

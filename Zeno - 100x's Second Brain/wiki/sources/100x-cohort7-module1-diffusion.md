@@ -1,5 +1,5 @@
 ---
-title: "100x Engineers Cohort 7 — Module 1 Early Lectures (L01–L04, L07)"
+title: "100x Engineers Cohort 7 — Module 1 Early Lectures (L01–L04, L07) [Module complete: L01–L14]"
 type: source
 source_type: course_notes
 author: "Sridev, Pranay (100x Engineers)"
@@ -63,6 +63,8 @@ This page covers: orientation, GenAI history (L01-L02), diffusion mechanics (L03
 | L10 | [[100x-l10-branding-marketing-freepik-spaces]] |
 | L11 | [[100x-l11-ai-influencer-ugc-product-ads]] |
 | L12 | [[100x-l12-filmmaking-storyboarding-interpolations]] |
+| L13 | [[100x-l13-freepik-3d-motion-upscaling]] |
+| L14 | [[100x-l14-heygen-elevenlabs-content-pipeline]] |
 
 ## Concepts Introduced
 [[diffusion-models]], [[generative-ai-history]], [[comfyui]], [[lora-training]], [[flux-model]], [[vibe-coding]], [[opt-framework]], [[replicate-deployment]]

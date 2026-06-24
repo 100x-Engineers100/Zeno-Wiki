@@ -233,9 +233,187 @@ Module 1 concept pages with new individual lecture sources: 8 pages updated
 New concept pages created this session: comfyui-vs-proprietary, freepik-platform, freepik-spaces-workflows, ai-influencer-pipeline, ai-filmmaking-workflow, cinematic-shot-node, inpainting-workflow (7 total)
 New source pages created this session: L05, L06, L08, L09, L10, L11, L12 (7 total)
 
+## [2026-04-30] ingest | 100x L13+L14 (Diffusion Module final) + L18–22 (LLM Fine-tuning)
+Source files: raw/courses/L13_Notes_Short.txt, L14_Notes_Short.txt, L18_22_Notes_Detailed_C6.txt
+
+### Module 1 — L13 + L14 (Diffusion Module complete)
+Created: wiki/sources/100x-l13-freepik-3d-motion-upscaling.md — 3D Scenes/Gaussian Splat, Motion Control, Upscaling, Kling 4K, GPT Image 2
+Created: wiki/sources/100x-l14-heygen-elevenlabs-content-pipeline.md — HeyGen+ElevenLabs pipeline, AI content stack, AI news summary
+Created: wiki/concepts/gaussian-splat-3d-scenes.md — 3D Scenes feature, spatial reference, character placement workflow, camera controls
+Created: wiki/concepts/image-upscaling-ai.md — Precision vs Creative (Magnific), Topaz for video, workflow timing rule
+Created: wiki/concepts/motion-control-video.md — Kling Motion Control, real actor motion transfer, CDance 2.0 comparison
+Created: wiki/concepts/voice-cloning.md — ElevenLabs 3 clone types, key settings, multilingual, Voice Changer, open-source alts
+Created: wiki/concepts/ai-avatar-system.md — HeyGen avatar training, Avatar 3 vs 5, full production pipeline
+Created: wiki/concepts/ai-content-pipeline.md — AVTV complete stack: Script→HeyGen+ElevenLabs→FreePik Spaces→Edit→Suno
+Created: wiki/entities/pranay.md — Diffusion Module instructor, Module 1 L01–L14
+Created: wiki/entities/heygen.md — AI avatar platform
+Created: wiki/entities/elevenlabs.md — Voice cloning platform
+Updated: wiki/concepts/freepik-platform.md — source_count 2→4; added 3D Scenes, Upscaling, Motion Control, Kling 4K, GPT Image 2, Audio sections
+Updated: wiki/sources/100x-cohort7-module1-diffusion.md — added L13 + L14 to individual source table; Module 1 now complete (L01–L14)
+
+### Module 2 Extension — L18–22 (LLM Fine-tuning)
+Created: wiki/sources/100x-l18-22-llm-finetuning.md — all 5 lectures: fine-tuning levers, SFT techniques, data prep, hyperparameters, eval, Siddhant master framework + MCP Generative UI
+Created: wiki/concepts/llm-fine-tuning.md — 5-lever escalation, when right/wrong, training lifecycle (pre-train/SFT/alignment), cost model
+Created: wiki/concepts/sft-techniques.md — Full fine-tuning, LoRA (~2%), QLoRA (4-bit); VRAM table; base model selection
+Created: wiki/concepts/fine-tuning-data-prep.md — 4 pillars, 5-step recipe, JSON annotation format, Distilabel
+Created: wiki/concepts/fine-tuning-hyperparameters.md — all hyperparams, Axolotl YAML reference, log reading guide
+Created: wiki/concepts/llm-evaluation-methods.md — 4 eval methods, rubric design, human-verified eval loop, LLM-judge biases
+Created: wiki/entities/axolotl.md — YAML-based fine-tuning framework
+Created: wiki/entities/llama-factory.md — GUI-based fine-tuning, Windows-friendly
+
+### Synthesis Pages
+Created: wiki/synthesis/diffusion-module-complete-stack.md — Full Module 1 (L08–L14) production pipeline synthesis
+Created: wiki/synthesis/llm-customization-master-framework.md — context vs behaviour framework, fine-tuning decision tree, RAG vs fine-tune, MCP Generative UI synthesis
+
+### Concept Page Updates
+Updated: wiki/concepts/mcp-model-context-protocol.md — source_count 2→3; added Linux Foundation governance, Generative UI (Ajax moment), Tool Search Tool, Programmatic Tool Calling details, MCP vs CLI debate
+Updated: wiki/concepts/llm-as-judge.md — source_count 1→2; added fine-tuning eval loop context, known biases in fine-tuning eval, link to new llm-evaluation-methods
+Updated: wiki/concepts/lora-training.md — source_count 2→3; added LLM LoRA section (rank/alpha conventions, portability, ~2% params, tools)
+Updated: wiki/concepts/programmatic-tool-calling.md — source_count 1→2; added L22 recursive architecture detail, Claude Skills mechanism
+Updated: wiki/sources/100x-cohort7-module2-llm.md — added Fine-Tuning Extension section (L18–22 summary)
+Updated: wiki/index.md — all new source/concept/entity/synthesis pages added
+
 ## [2026-04-21] update | Post-ingest audit — stale data cleanup
 Fixed 9 issues found by audit across concept and source pages:
 - concepts/controlnet.md: removed old module1 from Introduced by (L05 only)
 - concepts/ip-adapter.md: removed old module1 from Introduced by (L05 only); added face consistency warning (LoRA required for 1:1 accuracy, per L05)
 - concepts/video-generation-models.md: renamed stale "Advanced video workflows (Lecture 12)" header → "Advanced WAN/Hunyuan techniques (from L07)"; added L10/L11/L12 to Introduced by
 - sources/100x-cohort7-module1-diffusion.md: updated Summary to only describe L01-L04+L07 scope; removed LoRA training bullet (L06, not in this page); removed Replicate deployment bullet (L14, not in this page)
+
+## [2026-06-24] update | Source file split — module2-llm refactored for scalability
+Problem: 100x-cohort7-module2-llm.md was becoming too long (9 lectures remaining = ~700+ lines projected).
+Fix: Split into 4 files — overview + 3 lecture-group detail pages.
+Updated: wiki/sources/100x-cohort7-module2-llm.md — stripped to module overview only (summary, lecture table, key ideas, entity/concept links)
+Created: wiki/sources/100x-cohort7-module2-l01-l03.md — full L01/L02/L03 detail (moved from overview)
+Stub entries added to index: 100x-cohort7-module2-l04-l06 and 100x-cohort7-module2-l07-l10 (pending ingest)
+Updated: wiki/index.md — 4 entries replacing 1
+
+## [2026-06-24] update | Entity rename: EOS Labs → AEOS Labs (Vishal correction)
+Correct name confirmed: AEOS Labs (not EOS Labs / AOS Labs as appeared in transcripts).
+Created: wiki/entities/aeos-labs.md — canonical page with corrected name throughout
+Updated: wiki/entities/eos-labs.md — now redirect stub pointing to [[aeos-labs]]
+Updated 6 files: wiki/entities/100x-engineers.md, wiki/concepts/fde-forward-deployed-engineer.md, wiki/concepts/production-genai-stack.md, wiki/sources/100x-cohort7-module2-l01-l03.md, wiki/sources/100x-cohort7-module2-llm.md, wiki/index.md
+Added: CLAUDE.md §10 Known Entity Name Corrections — future sessions will use AEOS Labs automatically
+
+## [2026-06-24] ingest | 100x Cohort 7 Module 2 (C7) — L01, L02, L03 live transcripts
+Source files: raw/courses/Live_Lecture_01-_Orientation__Idea_to_App_Workshop_Combined(...).VTT, Live_Lecture_02_-_State_of_AI_2026_Combined(...).VTT, Live_Lecture_03_-_The_First_Interface_Combined(...).VTT
+Note: C7 is a complete curriculum redesign. Old C6 content (17 lectures: Gradio/FastAPI/Supabase/RAG/MCP) deleted and replaced.
+
+### Pages rewritten
+Updated: wiki/sources/100x-cohort7-module2-llm.md — FULL REWRITE. Deleted all C6 content. New C7 content: module summary, lecture table (L01–L10), L01/L02/L03 full sections.
+
+### New concept pages
+Created: wiki/concepts/idea2app-v2.md — IDEA2App V2 / Scientific Discovery Method: 5-step hypothesis, MOM Test simulation, 21-day manual MVP, Discovery to MVP Coach skill
+Created: wiki/concepts/ai-adoption-gap.md — GenAI Value Paradox (McKinsey 80/80), AI Transformation Gap Index, intelligence race → systems race shift
+Created: wiki/concepts/fde-forward-deployed-engineer.md — FDE role: domain expertise × AI system design; 4 skills (workflow diagnosis, self-improving systems, evals, guardrails)
+Created: wiki/concepts/interface-types.md — Interface definition from first principles; UI vs frontend vs API; LLM as SafeTensor files; meme as highest-compression interface
+
+### New entity pages
+Created: wiki/entities/eos-labs.md — AOS/EOS Labs (Tejas + Varun + Pranay); Amazon Prime/Netflix/Ogilvy contracts; FDE model case study
+
+### Updated existing pages
+Updated: wiki/concepts/opt-framework.md — added C7 extension: OPT Coach skill, FDE workflow diagnosis connection
+Updated: wiki/concepts/deterministic-vs-generative-separation.md — source_count 2→3, added 100x-cohort7-module2-llm to Introduced by, added interface-types to Connections
+Updated: wiki/entities/siddhant.md — updated C7 module descriptions, added Discovery to MVP Coach skill credit
+Updated: wiki/index.md — module2-llm entry updated; new Module 2 C7 concept section added (4 entries); eos-labs entity added
+
+### Contradiction flagged
+> [!warning] C7 curriculum is NOT a continuation of C6 — it is a complete redesign. The old source page described 17 C6 lectures (Gradio/FastAPI/Supabase/RAG/MCP). C7 L01–L03 have entirely different content (product methodology, FDE role, interface fundamentals). The 100x-cohort7-module2-llm source page has been completely rewritten to reflect C7 content only.
+
+## [2026-06-24] ingest | 100x Cohort 7 Module 2 — L04, L05, L06
+Source: raw/courses/ (3 VTT transcripts: L04 Working with UI Code Path, L05 Intro to API The Second Interface, L06 Building APIs with FastAPIs Code Path)
+
+### New source pages
+Created: wiki/sources/100x-cohort7-module2-l04-l06.md — L04 (Gradio UI, HF Spaces deploy), L05 (HTTP/API from first principles, JSON, HTTP methods, Groq Cloud), L06 (FastAPI backend, messages roles, uvicorn, local dev, cloud deploy)
+
+### New concept pages
+Created: wiki/concepts/gradio-framework.md — gr.Interface vs gr.ChatInterface; streaming; HF Spaces deploy pattern; frontend-backend split
+Created: wiki/concepts/http-rest-api.md — HTTP from first principles; URL+method+JSON+response; GET/POST/PUT/DELETE; CRUD; API keys; JSON
+
+### Updated source pages
+Updated: wiki/sources/100x-cohort7-module2-llm.md — filled in L04-L06 Concepts Introduced (was "pending ingest")
+
+### Updated concept pages
+Updated: wiki/concepts/fastapi-patterns.md — source_count 2→3; added l04-l06 to Introduced by
+Updated: wiki/concepts/interface-types.md — source_count 1→2; added l04-l06 to Introduced by
+
+### Updated index
+Updated: wiki/index.md — l04-l06 entry description updated; gradio-framework and http-rest-api entries added under Module 2 concepts; interface-types description updated
+
+## [2026-06-24] ingest | 100x Cohort 7 Module 2 — L07, L08, L10
+Source: raw/courses/ (3 VTT transcripts: L07 Introduction to Databases and Domain Modeling, L08 Connecting the Dots + Databases + Supabase Code Path, L10 Live MVP Build + Deploy Code Path)
+Note: L09 not recorded/released — absent from curriculum.
+
+### New source pages
+Created: wiki/sources/100x-cohort7-module2-l07-l10.md — L07 (amnesia problem, ACID, domain modeling, CRUD test, PKs/FKs), L08 (relational vs NoSQL, Supabase setup, SQL interface, FastAPI+Supabase connection), L10 (function-first approach, golden I/O pairs, eval-first design, Render deploy, Gradio frontend, Supabase Auth, unit economics, hackathon announcement)
+
+### New concept pages
+Created: wiki/concepts/database-fundamentals.md — amnesia problem, storage hierarchy (RAM/file/DB), ACID guarantees, relational vs NoSQL decision heuristic, read/write ratio analysis
+Created: wiki/concepts/eval-first-design.md — golden I/O pairs, eval rubric via LLM-as-judge, spec-driven dev (CLAUDE.md plan-review mode), multi-model eval strategy
+Created: wiki/concepts/mvp-build-cycle.md — function-first sequence, FastAPI endpoint, Render Web Service deploy, Gradio/HF Spaces frontend, auth + rate limiting, unit economics
+
+### New entity pages
+Created: wiki/entities/supabase.md — managed PostgreSQL + Auth + REST API; open source; 50K MAU free; RLS; PII masking; alternatives (Clerk)
+
+### Updated concept pages
+Updated: wiki/concepts/domain-modeling.md — source_count 1→2; added CRUD test table for entity vs attribute; added database-fundamentals + supabase to Connections; added l07-l10 to Introduced by
+
+### Updated source pages
+Updated: wiki/sources/100x-cohort7-module2-llm.md — filled in L07–L10 Concepts Introduced (was "pending ingest")
+
+### Updated index
+Updated: wiki/index.md — l07-l10 entry description updated; 3 new concept entries added; supabase entity description updated
+
+## [2026-06-24] lint | Full wiki audit post-Module-2 ingest
+
+### Check 1 — Stale concept pages
+Updated: wiki/concepts/fastapi-patterns.md — added L06 Minimal Pattern section (dict body, OS env vars, Groq SDK, message roles); added l07-l10 to Introduced by
+Updated: wiki/concepts/interface-types.md — added Interface Selection Decision Framework (L04 form-vs-chat table); source_count 2→3; added l01-l03 to Introduced by
+
+### Check 2 — Orphan pages
+Fixed: wiki/persona.md — was unreferenced; added to wiki/index.md under Navigation section
+No true orphans found in concepts/entities/synthesis directories.
+
+### Check 3 — source_count accuracy
+Fixed (systematic gap: module2-llm overview added to Concepts Introduced after detail pages existed without backfilling):
+- wiki/concepts/idea2app-v2.md: 1→2; added l01-l03 to Introduced by
+- wiki/concepts/ai-adoption-gap.md: 1→2; added l01-l03 to Introduced by
+- wiki/concepts/fde-forward-deployed-engineer.md: 1→2; added l01-l03 to Introduced by
+- wiki/concepts/gradio-framework.md: 1→2; added module2-llm to Introduced by
+- wiki/concepts/http-rest-api.md: 1→2; added module2-llm to Introduced by
+- wiki/concepts/database-fundamentals.md: 1→2; added module2-llm to Introduced by
+- wiki/concepts/eval-first-design.md: 1→2; added module2-llm to Introduced by
+- wiki/concepts/mvp-build-cycle.md: 1→2; added module2-llm to Introduced by
+- wiki/concepts/opt-framework.md: 2→3; added l01-l03 to Introduced by
+- wiki/concepts/deterministic-vs-generative-separation.md: 3→5; added l01-l03 and l07-l10 to Introduced by
+- wiki/concepts/llm-as-judge.md: 2→4; added module2-llm and l07-l10 to Introduced by
+
+### Check 4 — Outdated/conflicting claims
+Fixed: wiki/sources/100x-cohort7-module2-l01-l03.md — "EOS/AOS Labs as case study" → "AEOS Labs as case study"
+Fixed: wiki/concepts/fde-forward-deployed-engineer.md — "EOS/AOS Labs counter-example:" → "AEOS Labs counter-example:"; "chose EOS because" → "chose AEOS Labs because"
+No C6 curriculum framing found in concept pages (C7 rewrite already handled in prior sessions).
+No contradictions found beyond the Supabase warning already present in l07-l10 source page.
+
+### Check 5 — Missing concept pages
+Created: wiki/entities/groq-cloud.md — Groq Cloud inference platform; mentioned in l04-l06 and l07-l10 without entity page
+
+### Check 6 — Index completeness
+Removed phantom entries (in index, no file):
+- [[prompt-engineering]] (AI/ML section)
+- [[ai-chief-of-staff-pattern]] (Knowledge Management section)
+- [[llm-application-architecture]] (Architecture & Systems section)
+- [[anthropic]] (Companies/Programs section)
+- [[obsidian]] (Tools section)
+- [[n8n]] (Tools section)
+Removed duplicates:
+- [[vibe-coding]] second entry (Knowledge Management; canonical is Module 2 Full-Stack LLM)
+- [[inpainting-workflow]] second entry (duplicate in Module 1 Diffusion section)
+Added: [[groq-cloud]] under Tools
+Added: [[persona]] under Navigation
+
+### Summary
+Pages updated: 16 (12 source_count fixes + 2 stale content + 2 EOS Labs)
+Pages created: 1 (groq-cloud entity)
+Index entries removed: 8 (6 phantoms + 2 duplicates)
+Index entries added: 2 (groq-cloud + persona)
+Open contradictions for Vishal's judgment: none (Supabase-vs-NoSQL contradiction already documented in l07-l10 source page)

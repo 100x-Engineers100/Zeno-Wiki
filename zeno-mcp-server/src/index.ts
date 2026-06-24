@@ -808,6 +808,135 @@ export default {
       }
     }
 
+    // ── Internal endpoint: POST /internal/roadmap-context ────────────────────
+    // Server-to-server only. Auth via shared secret — no OAuth required.
+    if (url.pathname === "/internal/roadmap-context" && request.method === "POST") {
+      // Rate limit by caller IP (same limiter as /mcp)
+      const ip = request.headers.get("CF-Connecting-IP") ?? "unknown";
+      const { success: rlOk } = await env.MCP_RATE_LIMITER.limit({ key: ip });
+      if (!rlOk) {
+        return withSecurityHeaders(new Response(
+          JSON.stringify({ error: "Too many requests." }),
+          { status: 429, headers: { "Content-Type": "application/json", "Retry-After": "60" } }
+        ));
+      }
+
+      // Auth check
+      const secret = request.headers.get("Authorization")?.replace("Bearer ", "");
+      if (!secret || secret !== env.ZENO_INTERNAL_SECRET) {
+        return withSecurityHeaders(new Response(
+          JSON.stringify({ error: "Unauthorized" }),
+          { status: 401, headers: { "Content-Type": "application/json" } }
+        ));
+      }
+
+      // Body validation
+      let body: { goal: string; background: string; weak_areas: string[]; timeframe_months: number };
+      try {
+        body = await request.json() as typeof body;
+      } catch {
+        return withSecurityHeaders(new Response(
+          JSON.stringify({ error: "Invalid JSON body" }),
+          { status: 400, headers: { "Content-Type": "application/json" } }
+        ));
+      }
+      if (!body.goal || typeof body.goal !== "string" || body.goal.length > 500) {
+        return withSecurityHeaders(new Response(
+          JSON.stringify({ error: "Invalid request: goal required, max 500 chars" }),
+          { status: 400, headers: { "Content-Type": "application/json" } }
+        ));
+      }
+
+      // Term expansion for common AI topics
+      const EXPANSIONS: Record<string, string[]> = {
+        "rag": ["retrieval", "augmented", "vector", "embedding", "chunk"],
+        "agent": ["agents", "agentic", "tool", "function", "autonomy"],
+        "llm": ["language model", "transformer", "gpt", "claude", "prompt"],
+        "mcp": ["model context protocol", "context protocol"],
+        "diffusion": ["stable diffusion", "comfyui", "lora", "flux", "latent"],
+        "vibe": ["lovable", "cursor", "replit", "no-code", "ship"],
+      };
+
+      // Cache check (1hr TTL) — hash of goal + sorted weak_areas
+      const cacheKey = `__rc_cache__${btoa(`${body.goal.slice(0, 60)}|${[...(body.weak_areas ?? [])].sort().join(",")}`).slice(0, 32)}`;
+      const cached = await env.ZENO_WIKI.get(cacheKey);
+      if (cached) {
+        return withSecurityHeaders(new Response(cached, { headers: { "Content-Type": "application/json" } }));
+      }
+
+      // Fetch index + overview + all pages in parallel
+      const [index, overview, listed] = await Promise.all([
+        env.ZENO_WIKI.get("__index__"),
+        env.ZENO_WIKI.get("__overview__"),
+        env.ZENO_WIKI.list(),
+      ]);
+
+      // Parallel page reads (no sequential await in loop)
+      const nonSpecial = listed.keys.filter(k => !k.name.startsWith("__"));
+      const pages = await Promise.all(
+        nonSpecial.map(k => env.ZENO_WIKI.get(k.name).then(md => ({ key: k.name, md })))
+      );
+
+      // Build expanded search terms
+      const baseTerms = [body.goal, ...(body.weak_areas ?? [])]
+        .flatMap(s => s.toLowerCase().replace(/[^a-z0-9\s]/g, "").split(/\s+/))
+        .filter(w => w.length > 2);
+      const expandedTerms = new Set(baseTerms);
+      for (const t of baseTerms) {
+        const extras = EXPANSIONS[t];
+        if (extras) extras.forEach(e => expandedTerms.add(e));
+      }
+      const searchTerms = [...expandedTerms];
+
+      // Sync scan — all pages already loaded
+      const allMatches: Map<string, { count: number; excerpts: string[] }> = new Map();
+      for (const { key, md } of pages) {
+        if (!md) continue;
+        const lower = md.toLowerCase();
+        let matchCount = 0;
+        const excerpts: string[] = [];
+        for (const term of searchTerms) {
+          const idx = lower.indexOf(term);
+          if (idx !== -1) {
+            matchCount++;
+            const start = Math.max(0, idx - 100);
+            excerpts.push(md.slice(start, idx + term.length + 400).replace(/\n/g, " ").trim());
+          }
+        }
+        if (matchCount > 0) {
+          allMatches.set(key, { count: matchCount, excerpts: excerpts.slice(0, 2) });
+        }
+      }
+
+      const sorted = [...allMatches.entries()].sort((a, b) => b[1].count - a[1].count);
+
+      const evidence = sorted.map(([key, data]) => {
+        const title = key.split("/").pop()?.replace(/-/g, " ") ?? key;
+        return {
+          key,
+          title,
+          excerpt: data.excerpts.join(" ... ").slice(0, 1500),
+          matched_terms: searchTerms.filter(t =>
+            data.excerpts.some(e => e.toLowerCase().includes(t))
+          ),
+        };
+      });
+
+      const result = {
+        overview: overview?.slice(0, 2000) ?? "",
+        index: index?.slice(0, 3000) ?? "",
+        evidence,
+        meta: { queries: searchTerms, result_count: evidence.length },
+      };
+
+      // Cache result for 1hr
+      ctx.waitUntil(
+        env.ZENO_WIKI.put(cacheKey, JSON.stringify(result), { expirationTtl: 3600 })
+      );
+
+      return withSecurityHeaders(Response.json(result));
+    }
+
     const response = await oauthProvider.fetch(request, env, ctx);
     return withSecurityHeaders(response);
   },

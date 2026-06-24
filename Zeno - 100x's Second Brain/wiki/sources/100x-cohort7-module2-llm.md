@@ -1,77 +1,64 @@
 ---
-title: "100x Engineers Cohort 7 — Module 2: Full Stack LLM Development"
+title: "100x Engineers Cohort 7 — Module 2: Full-Stack LLM Development"
 type: source
 source_type: course_notes
-author: "Siddhant, Sridev (100x Engineers)"
-date: 2026-03-13
-raw_path: raw/courses/Data_Doc_main.txt
-tags: [ai, llm, full-stack, api, rag, mcp, 100x-cohort7, fastapi, supabase]
+author: "Siddhant (100x Engineers)"
+date: 2026-05-16
+raw_path: raw/courses/
+tags: [ai, llm, full-stack, api, rag, mcp, 100x-cohort7, fastapi, supabase, interfaces, product-building]
 ---
 
 ## Summary
 
-Module 2 covers full-stack LLM development across 17 lectures, taught primarily by Siddhant (CTO, 2 prior exits). It spans the full stack from UI building (Gradio) through APIs (FastAPI), databases (Supabase), prompt engineering, tool/function calling, MCP, RAG (three levels), memory, and GenAI application architecture.
+Module 2 teaches full-stack LLM development to build real, deployable AI-powered systems. The cohort runs May–September 2026. Unlike C6, this iteration is redesigned around the **AI adoption gap** — the observation that frontier models are only ~20% utilized, and the real opportunity is in closing that gap, not building AI wrappers.
 
-The module teaches how to build real, deployable LLM-powered systems — not just chatbots. The thread running through it is the OPT framework: automating one-prompt-tasks incrementally to compound productivity over time (10% per month → 60% more productive in 6 months).
+The pedagogical anchor is domain expertise + AI system design, not tool fluency. The module is structured around the concept of becoming a **Forward Deployed Engineer (FDE)** — someone who can diagnose workflows, build self-improving AI systems, encode domain judgment as evals, and design guardrails.
 
-First principles thinking is the pedagogical foundation: understanding WHY before HOW. Experience first (build it before being taught how it works), then understanding.
+The lecture sequence moves from product thinking (L01–L02) → interface fundamentals (L03) → building the interfaces in code (L04–L10).
 
-## Key Ideas
+## Lecture Table
 
-- **OPT framework (One Prompt Task)**: Identify tasks that can be automated with a single AI prompt. The building block of LLM automation. Entry point: UI → API → Backend → LLM → Response.
-- **Why APIs matter**: Solve the limitations of standalone apps — no reusability, no integration, no scalability. APIs are the communication protocol between components.
-- **FastAPI**: Python framework for building REST APIs. Uses Pydantic for data validation, decorators for endpoints, Uvicorn for serving. The standard for Python LLM backends.
-- **Supabase (SQL)**: Cloud PostgreSQL for LLM app data. Part of the "connecting the dots" lecture — how data persists across LLM interactions.
-- **Gradio**: Python library for building UI components. Used as frontend for LLM apps. Limitation: tightly coupled to backend — no reusability or integration.
-- **Vibe Coding**: AI-assisted code generation. Takes you to MVP. Engineering fundamentals needed for scaling beyond. Claude Code is specifically taught in this module.
-- **Prompt Engineering**: The craft of getting reliable outputs from LLMs. Includes system prompts, few-shot examples, chain-of-thought, output formatting.
-- **LLM Wrappers**: Building abstraction layers around LLM APIs for reuse across applications.
-- **Function/Tool Calling**: LLMs can call external functions/tools. Foundation for agentic behavior. MCP standardizes this.
-- **MCP (Model Context Protocol)**: Stateless protocol for LLM-tool integration. Analogous to HTTP for web. Defines how agents and systems should interact. Not a state manager — state is the application layer's responsibility.
-- **RAG (Retrieval-Augmented Generation)**: Three levels of RAG taught. Augmenting LLM context with retrieved documents. Covered in theory and practice with real builds.
-- **Memory RAG**: Advanced technique for persistent memory across LLM interactions. Addresses the session-amnesia problem.
-- **GenAI Application Architecture**: How to design and architect production LLM systems. Monolith vs. microservice decisions for AI apps.
-- **Compound automation effect**: 10% productivity gain per month compounds to 60%+ in 6 months. Sustainable only through incremental, not wholesale, automation.
-- **Security from day one**: Parameterized queries, auth layers, no hardcoded secrets. Not an afterthought.
-- **Student success examples**: VP at SOTI (39% productivity increase), Design Lead at Apple (automated majority of work), Fani BCom non-tech (now works as AI generalist at startup).
+| # | Title | Date | Track | Detail Page |
+|---|-------|------|-------|-------------|
+| L01 | Orientation: Idea to App Workshop | 2026-05-16 | Combined | [[100x-cohort7-module2-l01-l03]] |
+| L02 | State of AI 2026 | 2026-05-22 | Combined | [[100x-cohort7-module2-l01-l03]] |
+| L03 | The First Interface | 2026-05-23 | Combined | [[100x-cohort7-module2-l01-l03]] |
+| L04 | Working with UI (Code Path) | 2026-05-29 | Code Path | [[100x-cohort7-module2-l04-l06]] |
+| L05 | Intro to API: The Second Interface | 2026-05-30 | Combined | [[100x-cohort7-module2-l04-l06]] |
+| L06 | Building APIs with FastAPI | 2026-06-05 | Code Path | [[100x-cohort7-module2-l04-l06]] |
+| L07 | Introduction to Databases and Domain Modeling | 2026-06-06 | Combined | [[100x-cohort7-module2-l07-l10]] |
+| L08 | Connecting the Dots: Databases + Supabase | 2026-06-12 | Code Path | [[100x-cohort7-module2-l07-l10]] |
+| L09 | Not available — skip | — | — | — |
+| L10 | Live MVP Build & Deploy | 2026-06-19 | Code Path | [[100x-cohort7-module2-l07-l10]] |
 
-## Key Lectures
-| # | Title |
-|---|-------|
-| L1 | Orientation Introduction to Full Stack |
-| L2 | UI Building Practical with Gradio |
-| L3 | Introduction to APIs |
-| L4 | Building APIs with FastAPI |
-| L5 | Introduction to Databases & Domain Modeling, ERD |
-| L6 | Connecting the Dots & Supabase (SQL) (Practical) |
-| L7 | Introduction to AI-Powered Development (VibeCode) |
-| L8 | MVP Building Workshop |
-| L9 | Introduction to LLMs & Prompt Engineering |
-| L10 | Prompt Engineering & Building LLM Wrappers |
-| L11 | Function, Tool Calling and Intro to MCP |
-| L12 | Function, Tool Calling and MCPs (Practical) |
-| L13 | Introduction to Retrieval-Augmented Generation (RAG) — Theory |
-| L14 | Building RAG Apps with Three Levels (Practical) |
-| L15 | Advanced RAG Techniques |
-| L16 | Memory RAG Techniques |
-| L17 | Building and Architecting GenAI Applications |
+## Key Ideas (Module 2 Overall)
 
-## Notable Quotes / Moments
-
-> "Vibe coding takes you to MVP. Scaling beyond MVP requires understanding engineering fundamentals." — Sridev
-
-> "By consistently automating small portions of your workflow, you create a compound effect: Month 1: 10% more productive, Month 6: 60% more productive."
+- AI 2026 = systems race, not intelligence race
+- The opportunity is closing the 80% adoption gap, not building AI wrappers
+- FDE role: domain expertise × AI system design = the new high-value profile
+- Interface thinking = the foundational mental model for building anything; UI → API → Backend → LLM
+- Code is no longer a moat; specific knowledge + validated problem + proof is the moat
+- Don't build before you've validated (IDEA2App V2 / scientific discovery method)
+- "Whoever controls the meme layer controls attention, framing, emotional momentum" — Siddhant on interfaces
 
 ## Concepts Introduced
-[[opt-framework]], [[retrieval-augmented-generation]], [[mcp-model-context-protocol]], [[prompt-engineering]], [[fastapi]], [[ai-memory-architecture]], [[vibe-coding]], [[llm-application-architecture]]
+
+### L01–L03
+[[idea2app-v2]], [[ai-adoption-gap]], [[fde-forward-deployed-engineer]], [[interface-types]], [[opt-framework]], [[deterministic-vs-generative-separation]]
+
+### L04–L06
+[[gradio-framework]], [[http-rest-api]], [[interface-types]], [[fastapi-patterns]]
+
+### L07–L10
+[[database-fundamentals]], [[domain-modeling]], [[supabase]], [[eval-first-design]], [[mvp-build-cycle]], [[llm-as-judge]], [[deterministic-vs-generative-separation]], [[fastapi-patterns]]
 
 ## Entities Mentioned
-[[siddhant]], [[sridev]], [[100x-engineers]], [[100x-cohort7]], [[supabase]], [[gradio]]
+[[siddhant]], [[sridev]], [[aeos-labs]], [[100x-engineers]]
 
 ## Contradictions / Tensions
-None.
+> [!warning] Contradiction: C7 is a complete curriculum redesign vs C6. Old C6 content (17 lectures: Gradio/FastAPI/Supabase/RAG/MCP) was deleted. C7 restructures around product methodology + FDE framing before touching any code. The "OPT framework" acronym persists but meaning changed: C6 = "One Prompt Task"; C7 = Operating Model → Processes → Tasks.
 
 ## Open Questions
-- What are the three levels of RAG taught? (naive, advanced, agentic?)
-- How does memory RAG technically work in their implementation?
-- What does the GenAI application architecture framework look like?
+- What exactly does the no-code track build in L04 while code track builds UI?
+- How does the 21-day MVP plan connect to the technical stack built in L04–L10?
+- L09 is missing — what was it supposed to cover?
